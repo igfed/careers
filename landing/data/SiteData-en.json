@@ -1,0 +1,165 @@
+{ "more" : {
+	"slides" : [
+			{
+				"slideId": "1",
+				"img": "/external/app/tribal/images/TriggsFamily-CREDIT_Lionel_Trudel.jpg",
+				"link" : "http://investorsgroup.com/more/en/2015/10/family-affair/",
+				"title" : "Do more with your day",				
+				"excerpt": "Want to get more done in your workday? Try out these productivity tips",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "2",
+				"img": "/external/app/tribal/images/MORE_04-16_IQ-illustration.jpg",
+				"link" : "http://investorsgroup.com/more/en/2016/04/what-you-need-to-know-about-negative-rates/",
+				"title" : "The 411 on Negative or Sub-Zero rates",				
+				"excerpt": "Wondering what everyone’s talking about when they reference sub-zero rates? You’re not …",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "3",
+				"img": "/external/app/tribal/images/Sig-Lives-Kathy-Knowles-1-1.jpg",
+				"link" : "http://investorsgroup.com/more/en/2015/04/leading-significant-lives/",
+				"title" : "Leading Significant Lives",				
+				"excerpt": "These four Canadians exemplify a life well lived, but all are just regular folks like you.",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "4",
+				"img": "/external/app/tribal/images/Fresh-start-hockey-Haiti.jpg",
+				"link" : "http://investorsgroup.com/more/en/2015/04/the-next-step/",
+				"title" : "The Next Step",				
+				"excerpt": "World Vision Canada’s founder is set to retire, but he doesn’t plan on taking it easy.",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "5",
+				"img": "/external/app/tribal/images/Places-to-visit-yoga-Jamaica-GoldenEye.jpg",
+				"link" : "http://investorsgroup.com/more/en/2014/10/5-retirement-retreats/",
+				"title" : "5 Retirement Retreats",
+				"excerpt": "For those looking to see the world and give back at the same time, consider these must-see…",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "6",
+				"img": "/external/app/tribal/images/Ireland-Travels-Colcannon-on-Burren-FULL.jpg",
+				"link" : "http://investorsgroup.com/more/en/2014/04/tasty-trails/",
+				"title" : "Tasty Trails",				
+				"excerpt": "Ireland’s never been known for its food, but one small community is putting the country…",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "7",
+				"img": "/external/app/tribal/images/Compact-Cruising-gray-whale-calf.jpg",
+				"link" : "http://investorsgroup.com/more/en/2013/10/compact-cruising/",
+				"title" : "Compact Cruising",
+				"excerpt": "Not keen on a brand name cruise? Then set sail on a small, luxury boat.",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "8",
+				"img": "/external/app/tribal/images/HERO_CREDIT-Courtesy_Four-Season-Nevis.jpg",
+				"link" : "http://investorsgroup.com/more/en/2015/10/the-best-golf-courses-in-the-world/",
+				"title" : "The Best Golf Courses in the World",				
+				"excerpt": "Want to go on a sporting adventure this year? Then hit the fairways at these five locales.",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "9",
+				"img": "/external/app/tribal/images/Career-strategies-sabbatical-vigg.jpg",
+				"link" : "http://investorsgroup.com/more/en/2015/04/take-a-sabbatical/",
+				"title" : "Take a Sabbatical?",				
+				"excerpt": "Feeling burnt out? Consider taking a few months off work.",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "10",
+				"img": "/external/app/tribal/images/Career-strategies-no-glasses.jpg",
+				"link" : "http://investorsgroup.com/more/en/2014/04/get-on-board/",
+				"title" : "Get on Board",				
+				"excerpt": "Looking to expand your network and use your experience in a different way? Consider…",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "11",
+				"img": "/external/app/tribal/images/Career-strategies-retirement_vig.jpg",
+				"link" : "http://investorsgroup.com/more/en/2014/10/ready-for-retirement/",
+				"title" : "Ready for Retirement?",				
+				"excerpt": "Saying so long to work might be the biggest career move you make. How can you decide when…",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "12",
+				"img": "/external/app/tribal/images/Work-Cut-Email-Clutter.jpg",
+				"link" : "http://investorsgroup.com/more/en/2016/04/cut-the-email-clutter/",
+				"title" : "Cut the Email Clutter",				
+				"excerpt": "Most of us spend too much time reading and answering emails every day. Here’s how to…",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "13",
+				"img": "/external/app/tribal/images/Family_First-CREDIT_Illustration_by_Vigg.jpg",
+				"link" : "http://investorsgroup.com/more/en/2015/10/family-finances-first/",
+				"title" : "Family Finances First",				
+				"excerpt": "High-net-worth individuals may have money, but insurance is still the best protection…",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "14",
+				"img": "/external/app/tribal/images/Life-Perfect-House.jpg",
+				"link" : "http://investorsgroup.com/more/en/2016/04/finding-the-right-size-for-your-house/",
+				"title" : "Finding the “Right” Size for Your House",				
+				"excerpt": "Bigger is not always better. New research shows that people are happier in houses that...",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "15",
+				"img": "/external/app/tribal/images/The-payoff-legacy-flt.jpg",
+				"link" : "http://investorsgroup.com/more/en/2015/04/leaving-a-legacy/",
+				"title" : "Leaving a Legacy",				
+				"excerpt": "What are you going to leave to the next generation? Here are some things to keep in mind.",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "16",
+				"img": "/external/app/tribal/images/lead-a-fuller-life.jpg",
+				"link" : "http://investorsgroup.com/more/en/2015/04/lead-a-fuller-life/",
+				"title" : "Lead a Fuller Life",				
+				"excerpt": "Make the most of your days on this planet. How? By doing these 25 things.",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "17",
+				"img": "/external/app/tribal/images/Retirement_Income-CREDIT_Illustration_by_Vigg.jpg",
+				"link" : "http://investorsgroup.com/more/en/2015/10/retirement-keep-income-coming-2/",
+				"title" : "Retirement: Keep Income Coming",				
+				"excerpt": "Your money doesn’t have to dry up after you stop working. Here are some suggestions on...",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "18",
+				"img": "/external/app/tribal/images/The-payoff-Nest-Egg.jpg",
+				"link" : "http://investorsgroup.com/more/en/2014/10/retiring-with-rrifs/",
+				"title" : "Retiring with RRIFs",				
+				"excerpt": "It won’t be long before you have to convert your RRSP into a registered retirement...",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "19",
+				"img": "/external/app/tribal/images/QA-hourglass-flipped.jpg",
+				"link" : "http://investorsgroup.com/more/en/2014/04/cash-control/",
+				"title" : "Cash Control",				
+				"excerpt": "If you don’t want your offspring to spend your inheritance all at once, consider...",
+				"cta" : "Learn more"
+			},
+			{
+				"slideId": "20",
+				"img": "/external/app/tribal/images/rrsp-enough.jpg",
+				"link" : "http://investorsgroup.com/more/en/2016/04/retirement-are-rrsps-enough/",
+				"title" : "Retirement. Are RRSPs Enough?",				
+				"excerpt": "A comprehensive plan considers all aspects of your life. Watch the video below to...",
+				"cta" : "Learn more"
+			}
+		]
+}
+}

@@ -1,0 +1,483 @@
+[
+  {
+    "mortgageProductId": 1,
+    "providerId": 1,
+    "mortgageTypeId": 1,
+    "mortgageTermInMonths": 6,
+    "mortgageTermClosed": 0,
+    "mortgageProductShortEnglishName": "6 Month Open",
+    "mortgageProductShortFrenchName": "6 mois ouvert",
+    "mortgageProductEnglishName": "6 Month Open",
+    "mortgageProductFrenchName": "6 mois ouvert",
+    "mortgageTypeVO": {
+      "mortgageTypeId": 1,
+      "mortgageTypeName": "Fixed",
+      "mortgageTypeFrenchName": "Fixe"
+    },
+    "ratesProviderVO": {
+      "providerId": 1,
+      "providerEnglishName": "Investors Group Trust Co.",
+      "providerfrenchName": "Compagnie de Fiducie Groupe Investors Leée",
+      "providerMarketingChannelId": 1,
+      "marketingChannelVO": {
+        "marketingChannelId": 1,
+        "marketingChannelEnglishName": "IGFS",
+        "marketingChannelFrenchName": "SFGI"
+      }
+    },
+    "mortgageRateVO": {
+      "mortgageRateId": 29,
+      "mortgageProductId": 1,
+      "mortgageRateEffectiveDate": "2015/05/21",
+      "mortgageBaseRate": 6.50000,
+      "mortgageBaseRateEffectiveDate": null,
+      "mortgageOngoingAdjRate": null,
+      "mortgageAPRRate": null,
+      "mortgageRollOverMonths": null
+    }
+  },
+  {
+    "mortgageProductId": 2,
+    "providerId": 1,
+    "mortgageTypeId": 1,
+    "mortgageTermInMonths": 6,
+    "mortgageTermClosed": 1,
+    "mortgageProductShortEnglishName": "6 Month Closed",
+    "mortgageProductShortFrenchName": "6 mois fermé",
+    "mortgageProductEnglishName": "6 Month Closed",
+    "mortgageProductFrenchName": "6 mois fermé",
+    "mortgageTypeVO": {
+      "mortgageTypeId": 1,
+      "mortgageTypeName": "Fixed",
+      "mortgageTypeFrenchName": "Fixe"
+    },
+    "ratesProviderVO": {
+      "providerId": 1,
+      "providerEnglishName": "Investors Group Trust Co.",
+      "providerfrenchName": "Compagnie de Fiducie Groupe Investors Leée",
+      "providerMarketingChannelId": 1,
+      "marketingChannelVO": {
+        "marketingChannelId": 1,
+        "marketingChannelEnglishName": "IGFS",
+        "marketingChannelFrenchName": "SFGI"
+      }
+    },
+    "mortgageRateVO": {
+      "mortgageRateId": 32,
+      "mortgageProductId": 2,
+      "mortgageRateEffectiveDate": "2015/05/21",
+      "mortgageBaseRate": 4.20000,
+      "mortgageBaseRateEffectiveDate": null,
+      "mortgageOngoingAdjRate": null,
+      "mortgageAPRRate": null,
+      "mortgageRollOverMonths": null
+    }
+  },
+  {
+    "mortgageProductId": 3,
+    "providerId": 1,
+    "mortgageTypeId": 1,
+    "mortgageTermInMonths": 12,
+    "mortgageTermClosed": 0,
+    "mortgageProductShortEnglishName": "12 Month Open",
+    "mortgageProductShortFrenchName": "12 mois ouvert",
+    "mortgageProductEnglishName": "12 Month Open",
+    "mortgageProductFrenchName": "12 mois ouvert",
+    "mortgageTypeVO": {
+      "mortgageTypeId": 1,
+      "mortgageTypeName": "Fixed",
+      "mortgageTypeFrenchName": "Fixe"
+    },
+    "ratesProviderVO": {
+      "providerId": 1,
+      "providerEnglishName": "Investors Group Trust Co.",
+      "providerfrenchName": "Compagnie de Fiducie Groupe Investors Leée",
+      "providerMarketingChannelId": 1,
+      "marketingChannelVO": {
+        "marketingChannelId": 1,
+        "marketingChannelEnglishName": "IGFS",
+        "marketingChannelFrenchName": "SFGI"
+      }
+    },
+    "mortgageRateVO": {
+      "mortgageRateId": 30,
+      "mortgageProductId": 3,
+      "mortgageRateEffectiveDate": "2015/05/21",
+      "mortgageBaseRate": 6.30000,
+      "mortgageBaseRateEffectiveDate": null,
+      "mortgageOngoingAdjRate": null,
+      "mortgageAPRRate": null,
+      "mortgageRollOverMonths": null
+    }
+  },
+  {
+    "mortgageProductId": 4,
+    "providerId": 1,
+    "mortgageTypeId": 1,
+    "mortgageTermInMonths": 12,
+    "mortgageTermClosed": 1,
+    "mortgageProductShortEnglishName": "12 Month Closed",
+    "mortgageProductShortFrenchName": "12 mois fermé",
+    "mortgageProductEnglishName": "12 Month Closed",
+    "mortgageProductFrenchName": "12 mois fermé",
+    "mortgageTypeVO": {
+      "mortgageTypeId": 1,
+      "mortgageTypeName": "Fixed",
+      "mortgageTypeFrenchName": "Fixe"
+    },
+    "ratesProviderVO": {
+      "providerId": 1,
+      "providerEnglishName": "Investors Group Trust Co.",
+      "providerfrenchName": "Compagnie de Fiducie Groupe Investors Leée",
+      "providerMarketingChannelId": 1,
+      "marketingChannelVO": {
+        "marketingChannelId": 1,
+        "marketingChannelEnglishName": "IGFS",
+        "marketingChannelFrenchName": "SFGI"
+      }
+    },
+    "mortgageRateVO": {
+      "mortgageRateId": 33,
+      "mortgageProductId": 4,
+      "mortgageRateEffectiveDate": "2015/05/21",
+      "mortgageBaseRate": 3.14000,
+      "mortgageBaseRateEffectiveDate": null,
+      "mortgageOngoingAdjRate": null,
+      "mortgageAPRRate": null,
+      "mortgageRollOverMonths": null
+    }
+  },
+  {
+    "mortgageProductId": 5,
+    "providerId": 1,
+    "mortgageTypeId": 1,
+    "mortgageTermInMonths": 24,
+    "mortgageTermClosed": 1,
+    "mortgageProductShortEnglishName": "24 Month Closed",
+    "mortgageProductShortFrenchName": "24 mois fermé",
+    "mortgageProductEnglishName": "24 Month Closed",
+    "mortgageProductFrenchName": "24 mois fermé",
+    "mortgageTypeVO": {
+      "mortgageTypeId": 1,
+      "mortgageTypeName": "Fixed",
+      "mortgageTypeFrenchName": "Fixe"
+    },
+    "ratesProviderVO": {
+      "providerId": 1,
+      "providerEnglishName": "Investors Group Trust Co.",
+      "providerfrenchName": "Compagnie de Fiducie Groupe Investors Leée",
+      "providerMarketingChannelId": 1,
+      "marketingChannelVO": {
+        "marketingChannelId": 1,
+        "marketingChannelEnglishName": "IGFS",
+        "marketingChannelFrenchName": "SFGI"
+      }
+    },
+    "mortgageRateVO": {
+      "mortgageRateId": 31,
+      "mortgageProductId": 5,
+      "mortgageRateEffectiveDate": "2015/05/21",
+      "mortgageBaseRate": 3.09000,
+      "mortgageBaseRateEffectiveDate": null,
+      "mortgageOngoingAdjRate": null,
+      "mortgageAPRRate": null,
+      "mortgageRollOverMonths": null
+    }
+  },
+  {
+    "mortgageProductId": 6,
+    "providerId": 1,
+    "mortgageTypeId": 1,
+    "mortgageTermInMonths": 36,
+    "mortgageTermClosed": 1,
+    "mortgageProductShortEnglishName": "36 Month Closed",
+    "mortgageProductShortFrenchName": "36 mois fermé",
+    "mortgageProductEnglishName": "36 Month Closed",
+    "mortgageProductFrenchName": "36 mois fermé",
+    "mortgageTypeVO": {
+      "mortgageTypeId": 1,
+      "mortgageTypeName": "Fixed",
+      "mortgageTypeFrenchName": "Fixe"
+    },
+    "ratesProviderVO": {
+      "providerId": 1,
+      "providerEnglishName": "Investors Group Trust Co.",
+      "providerfrenchName": "Compagnie de Fiducie Groupe Investors Leée",
+      "providerMarketingChannelId": 1,
+      "marketingChannelVO": {
+        "marketingChannelId": 1,
+        "marketingChannelEnglishName": "IGFS",
+        "marketingChannelFrenchName": "SFGI"
+      }
+    },
+    "mortgageRateVO": {
+      "mortgageRateId": 35,
+      "mortgageProductId": 6,
+      "mortgageRateEffectiveDate": "2015/05/22",
+      "mortgageBaseRate": 3.39000,
+      "mortgageBaseRateEffectiveDate": null,
+      "mortgageOngoingAdjRate": null,
+      "mortgageAPRRate": null,
+      "mortgageRollOverMonths": null
+    }
+  },
+  {
+    "mortgageProductId": 7,
+    "providerId": 1,
+    "mortgageTypeId": 1,
+    "mortgageTermInMonths": 48,
+    "mortgageTermClosed": 1,
+    "mortgageProductShortEnglishName": "48 Month Closed",
+    "mortgageProductShortFrenchName": "48 mois fermé",
+    "mortgageProductEnglishName": "48 Month Closed",
+    "mortgageProductFrenchName": "48 mois fermé",
+    "mortgageTypeVO": {
+      "mortgageTypeId": 1,
+      "mortgageTypeName": "Fixed",
+      "mortgageTypeFrenchName": "Fixe"
+    },
+    "ratesProviderVO": {
+      "providerId": 1,
+      "providerEnglishName": "Investors Group Trust Co.",
+      "providerfrenchName": "Compagnie de Fiducie Groupe Investors Leée",
+      "providerMarketingChannelId": 1,
+      "marketingChannelVO": {
+        "marketingChannelId": 1,
+        "marketingChannelEnglishName": "IGFS",
+        "marketingChannelFrenchName": "SFGI"
+      }
+    },
+    "mortgageRateVO": {
+      "mortgageRateId": 34,
+      "mortgageProductId": 7,
+      "mortgageRateEffectiveDate": "2015/05/22",
+      "mortgageBaseRate": 3.89000,
+      "mortgageBaseRateEffectiveDate": null,
+      "mortgageOngoingAdjRate": null,
+      "mortgageAPRRate": null,
+      "mortgageRollOverMonths": null
+    }
+  },
+  {
+    "mortgageProductId": 8,
+    "providerId": 1,
+    "mortgageTypeId": 1,
+    "mortgageTermInMonths": 60,
+    "mortgageTermClosed": 1,
+    "mortgageProductShortEnglishName": "60 Month Closed",
+    "mortgageProductShortFrenchName": "60 mois fermé",
+    "mortgageProductEnglishName": "60 Month Closed",
+    "mortgageProductFrenchName": "60 mois fermé",
+    "mortgageTypeVO": {
+      "mortgageTypeId": 1,
+      "mortgageTypeName": "Fixed",
+      "mortgageTypeFrenchName": "Fixe"
+    },
+    "ratesProviderVO": {
+      "providerId": 1,
+      "providerEnglishName": "Investors Group Trust Co.",
+      "providerfrenchName": "Compagnie de Fiducie Groupe Investors Leée",
+      "providerMarketingChannelId": 1,
+      "marketingChannelVO": {
+        "marketingChannelId": 1,
+        "marketingChannelEnglishName": "IGFS",
+        "marketingChannelFrenchName": "SFGI"
+      }
+    },
+    "mortgageRateVO": {
+      "mortgageRateId": 36,
+      "mortgageProductId": 8,
+      "mortgageRateEffectiveDate": "2015/05/22",
+      "mortgageBaseRate": 4.74000,
+      "mortgageBaseRateEffectiveDate": null,
+      "mortgageOngoingAdjRate": null,
+      "mortgageAPRRate": null,
+      "mortgageRollOverMonths": null
+    }
+  },
+  {
+    "mortgageProductId": 9,
+    "providerId": 1,
+    "mortgageTypeId": 1,
+    "mortgageTermInMonths": 84,
+    "mortgageTermClosed": 1,
+    "mortgageProductShortEnglishName": "84 Month Closed",
+    "mortgageProductShortFrenchName": "84 mois fermé",
+    "mortgageProductEnglishName": "84 Month Closed",
+    "mortgageProductFrenchName": "84 mois fermé",
+    "mortgageTypeVO": {
+      "mortgageTypeId": 1,
+      "mortgageTypeName": "Fixed",
+      "mortgageTypeFrenchName": "Fixe"
+    },
+    "ratesProviderVO": {
+      "providerId": 1,
+      "providerEnglishName": "Investors Group Trust Co.",
+      "providerfrenchName": "Compagnie de Fiducie Groupe Investors Leée",
+      "providerMarketingChannelId": 1,
+      "marketingChannelVO": {
+        "marketingChannelId": 1,
+        "marketingChannelEnglishName": "IGFS",
+        "marketingChannelFrenchName": "SFGI"
+      }
+    },
+    "mortgageRateVO": {
+      "mortgageRateId": 37,
+      "mortgageProductId": 9,
+      "mortgageRateEffectiveDate": "2015/05/21",
+      "mortgageBaseRate": 6.50000,
+      "mortgageBaseRateEffectiveDate": null,
+      "mortgageOngoingAdjRate": null,
+      "mortgageAPRRate": null,
+      "mortgageRollOverMonths": null
+    }
+  },
+  {
+    "mortgageProductId": 10,
+    "providerId": 1,
+    "mortgageTypeId": 1,
+    "mortgageTermInMonths": 120,
+    "mortgageTermClosed": 1,
+    "mortgageProductShortEnglishName": "120 Month Closed",
+    "mortgageProductShortFrenchName": "120 mois fermé",
+    "mortgageProductEnglishName": "120 Month Closed",
+    "mortgageProductFrenchName": "120 mois fermé",
+    "mortgageTypeVO": {
+      "mortgageTypeId": 1,
+      "mortgageTypeName": "Fixed",
+      "mortgageTypeFrenchName": "Fixe"
+    },
+    "ratesProviderVO": {
+      "providerId": 1,
+      "providerEnglishName": "Investors Group Trust Co.",
+      "providerfrenchName": "Compagnie de Fiducie Groupe Investors Leée",
+      "providerMarketingChannelId": 1,
+      "marketingChannelVO": {
+        "marketingChannelId": 1,
+        "marketingChannelEnglishName": "IGFS",
+        "marketingChannelFrenchName": "SFGI"
+      }
+    },
+    "mortgageRateVO": {
+      "mortgageRateId": 38,
+      "mortgageProductId": 10,
+      "mortgageRateEffectiveDate": "2015/05/21",
+      "mortgageBaseRate": 6.75000,
+      "mortgageBaseRateEffectiveDate": null,
+      "mortgageOngoingAdjRate": null,
+      "mortgageAPRRate": null,
+      "mortgageRollOverMonths": null
+    }
+  },
+  {
+    "mortgageProductId": 11,
+    "providerId": 1,
+    "mortgageTypeId": 2,
+    "mortgageTermInMonths": 60,
+    "mortgageTermClosed": 1,
+    "mortgageProductShortEnglishName": "60 Month Closed",
+    "mortgageProductShortFrenchName": "60 mois fermé",
+    "mortgageProductEnglishName": "60 Month Closed",
+    "mortgageProductFrenchName": "60 mois fermé",
+    "mortgageTypeVO": {
+      "mortgageTypeId": 2,
+      "mortgageTypeName": "Variable",
+      "mortgageTypeFrenchName": "Variable"
+    },
+    "ratesProviderVO": {
+      "providerId": 1,
+      "providerEnglishName": "Investors Group Trust Co.",
+      "providerfrenchName": "Compagnie de Fiducie Groupe Investors Leée",
+      "providerMarketingChannelId": 1,
+      "marketingChannelVO": {
+        "marketingChannelId": 1,
+        "marketingChannelEnglishName": "IGFS",
+        "marketingChannelFrenchName": "SFGI"
+      }
+    },
+    "mortgageRateVO": {
+      "mortgageRateId": 40,
+      "mortgageProductId": 11,
+      "mortgageRateEffectiveDate": "2015/07/16",
+      "mortgageBaseRate": 2.70000,
+      "mortgageBaseRateEffectiveDate": "2015/07/16",
+      "mortgageOngoingAdjRate": 0.00000,
+      "mortgageAPRRate": 2.71300,
+      "mortgageRollOverMonths": null
+    }
+  },
+  {
+    "mortgageProductId": 12,
+    "providerId": 1,
+    "mortgageTypeId": 3,
+    "mortgageTermInMonths": 60,
+    "mortgageTermClosed": 1,
+    "mortgageProductShortEnglishName": "60 Month Closed ARAP",
+    "mortgageProductShortFrenchName": "60 mois fermé ARAP",
+    "mortgageProductEnglishName": "60 Month Closed - ARAP (1 month rollover period)",
+    "mortgageProductFrenchName": "60 mois fermé - ARAP (période de taux révisable de 1 mois)",
+    "mortgageTypeVO": {
+      "mortgageTypeId": 3,
+      "mortgageTypeName": "ARAP",
+      "mortgageTypeFrenchName": "ARAP"
+    },
+    "ratesProviderVO": {
+      "providerId": 1,
+      "providerEnglishName": "Investors Group Trust Co.",
+      "providerfrenchName": "Compagnie de Fiducie Groupe Investors Leée",
+      "providerMarketingChannelId": 1,
+      "marketingChannelVO": {
+        "marketingChannelId": 1,
+        "marketingChannelEnglishName": "IGFS",
+        "marketingChannelFrenchName": "SFGI"
+      }
+    },
+    "mortgageRateVO": {
+      "mortgageRateId": 41,
+      "mortgageProductId": 12,
+      "mortgageRateEffectiveDate": "2015/07/16",
+      "mortgageBaseRate": 2.70000,
+      "mortgageBaseRateEffectiveDate": "2015/07/16",
+      "mortgageOngoingAdjRate": 0.00000,
+      "mortgageAPRRate": 2.69300,
+      "mortgageRollOverMonths": 1
+    }
+  },
+  {
+    "mortgageProductId": 13,
+    "providerId": 1,
+    "mortgageTypeId": 4,
+    "mortgageTermInMonths": 60,
+    "mortgageTermClosed": 1,
+    "mortgageProductShortEnglishName": "60 Month Closed L&R",
+    "mortgageProductShortFrenchName": "60 mois fermé PHMTF",
+    "mortgageProductEnglishName": "60 Month Closed - Lock and Roll (6 month rollover period)",
+    "mortgageProductFrenchName": "60 mois fermé - Prêt hypothécaire multi-taux fermé (période de taux révisable de 6 mois)",
+    "mortgageTypeVO": {
+      "mortgageTypeId": 4,
+      "mortgageTypeName": "Lock And Roll",
+      "mortgageTypeFrenchName": "PHMTF"
+    },
+    "ratesProviderVO": {
+      "providerId": 1,
+      "providerEnglishName": "Investors Group Trust Co.",
+      "providerfrenchName": "Compagnie de Fiducie Groupe Investors Leée",
+      "providerMarketingChannelId": 1,
+      "marketingChannelVO": {
+        "marketingChannelId": 1,
+        "marketingChannelEnglishName": "IGFS",
+        "marketingChannelFrenchName": "SFGI"
+      }
+    },
+    "mortgageRateVO": {
+      "mortgageRateId": 28,
+      "mortgageProductId": 13,
+      "mortgageRateEffectiveDate": "2015/04/10",
+      "mortgageBaseRate": 4.20000,
+      "mortgageBaseRateEffectiveDate": "2015/04/10",
+      "mortgageOngoingAdjRate": -0.50000,
+      "mortgageAPRRate": 3.68400,
+      "mortgageRollOverMonths": 6
+    }
+  }
+]

@@ -1,0 +1,166 @@
+{
+	"more" : {
+		"slides" : [
+				{
+					"slideId": "1",
+					"img": "/external/app/tribal/images/TriggsFamily-CREDIT_Lionel_Trudel.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2015/10/une-affaire-de-famille/",
+					"title" : "Une affaire de famille",				
+					"excerpt": "Le cofondateur du vignoble Jackson-Triggs compte travailler toute sa vie, mais il veut...",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "2",
+					"img": "/external/app/tribal/images/MORE_04-16_IQ-illustration.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2016/04/ce-que-vous-devez-savoir-sur-les-taux-dinteret-negatifs/",
+					"title" : "Les taux d’intérêt négatifs",				
+					"excerpt": "Vous vous demandez ce qu’on entend par taux d’intérêt négatifs ? Vous n’êtes pas seul…",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "3",
+					"img": "/external/app/tribal/images/Sig-Lives-Kathy-Knowles-1-1.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2015/04/donner-un-sens-a-sa-vie/",
+					"title" : "Donner un sens à sa vie",				
+					"excerpt": "Ces Canadiens offrent des exemples de vies bien remplies, même s’ils sont des citoyens...",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "4",
+					"img": "/external/app/tribal/images/Fresh-start-hockey-Haiti.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2015/04/la-prochaine-etape/",
+					"title" : "La prochaine étape",				
+					"excerpt": "Le fondateur de Vision Mondiale Canada est prêt pour la retraite. Mais il ne prévoit pas...",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "5",
+					"img": "/external/app/tribal/images/Places-to-visit-yoga-Jamaica-GoldenEye.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2014/10/5-voyages-pour-la-retraite-2/",
+					"title" : "5 voyages pour la retraite",
+					"excerpt": "Des destinations de choix pour voir le monde tout en faisant du bénévolat.",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "6",
+					"img": "/external/app/tribal/images/Ireland-Travels-Colcannon-on-Burren-FULL.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2014/04/la-route-des-delices/",
+					"title" : "La Route des délices",				
+					"excerpt": "En Irlande, dans la région du Burren, une petite communauté élève l’île d’émeraude…",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "7",
+					"img": "/external/app/tribal/images/Compact-Cruising-gray-whale-calf.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2013/10/il-etait-un-petit-navire/",
+					"title" : "Il était un petit navire",
+					"excerpt": "Pas envie d’une croisière sur un paquebot géant ? Larguez plutôt les amarres et voguez sur un...",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "8",
+					"img": "/external/app/tribal/images/HERO_CREDIT-Courtesy_Four-Season-Nevis.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2015/10/les-meilleurs-terrains-de-golf-du-monde/",
+					"title" : "Les meilleurs terrains de golf du monde",				
+					"excerpt": "Envie de faire une escapade sportive cette année ? Essayez les parcours de ces cinq golfs…",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "9",
+					"img": "/external/app/tribal/images/Career-strategies-sabbatical-vigg.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2015/04/une-annee-a-soi/",
+					"title" : "Une année à soi",				
+					"excerpt": "Prenez quelques mois de congé.",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "10",
+					"img": "/external/app/tribal/images/Career-strategies-no-glasses.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2014/04/donner-au-suivant/",
+					"title" : "Donner au suivant",				
+					"excerpt": "Devenir membre d’un conseil d’administration permet d’étendre son réseau professionnel...",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "11",
+					"img": "/external/app/tribal/images/Career-strategies-retirement_vig.jpg",
+					"link" : "http://www.investorsgroup.com/plus/fr/2014/10/pret-pour-la-retraite/",
+					"title" : "Prêt pour la retraite ?",				
+					"excerpt": "Dire adieu au monde du travail est une étape transitoire cruciale dans une carrière.",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "12",
+					"img": "/external/app/tribal/images/Work-Cut-Email-Clutter.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2016/04/organisez-vos-courriels/",
+					"title" : "Organisez vos courriels",				
+					"excerpt": "La plupart d’entre nous passent trop de temps chaque jour à lire et à répondre à des courriels. Voici…",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "13",
+					"img": "/external/app/tribal/images/Family_First-CREDIT_Illustration_by_Vigg.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2015/10/les-finances-familiales-avant-tout/",
+					"title" : "Les finances familiales avant tout !",				
+					"excerpt": "Même si on a mis beaucoup d’argent de côté, une assurance constitue encore la meilleure...",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "14",
+					"img": "/external/app/tribal/images/Life-Perfect-House.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2016/04/choisir-une-maison-de-la-bonne-taille/",
+					"title" : "Choisir une maison de la bonne dimension",				
+					"excerpt": "Voir grand n’est pas nécessairement gagnant. De récentes recherches démontrent que...",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "15",
+					"img": "/external/app/tribal/images/The-payoff-legacy-flt.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2015/04/laisser-un-heritage/",
+					"title" : "Laisser un héritage",				
+					"excerpt": "Qu’allez-vous léguer à la génération suivante ? Voici des conseils à prendre en compte...",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "16",
+					"img": "/external/app/tribal/images/lead-a-fuller-life.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2015/04/menez-une-vie-epanouie/",
+					"title" : "Menez une vie épanouie",				
+					"excerpt": "Comment tirer le meilleur parti du temps qui nous est donné ? Essayez ces 25 idées.",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "17",
+					"img": "/external/app/tribal/images/Retirement_Income-CREDIT_Illustration_by_Vigg.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2015/10/retraite-continuez-de-recevoir-un-salaire/",
+					"title" : "Retraite : continuez de recevoir un salaire",				
+					"excerpt": "Ce n’est pas parce que vous prenez votre retraite que les entrées d’argent doivent cesser...",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "18",
+					"img": "/external/app/tribal/images/The-payoff-Nest-Egg.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2014/10/comprendre-le-ferr/",
+					"title" : "Comprendre le FERR",				
+					"excerpt": "Il vous faudra bientôt transférer vos REER dans un fonds enregistré de revenu retraite.",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "19",
+					"img": "/external/app/tribal/images/QA-hourglass-flipped.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2014/04/un-heritage-controle/",
+					"title" : "Un héritage contrôlé",				
+					"excerpt": "Pour éviter que vos enfants dilapident votre héritage, constituez une fiducie testamentaire.",
+					"cta" : "d’autres récits"
+				},
+				{
+					"slideId": "20",
+					"img": "/external/app/tribal/images/rrsp-enough.jpg",
+					"link" : "http://investorsgroup.com/plus/fr/2016/04/la-retraite-des-reer-est-ce-suffisant/",
+					"title" : "La retraite. Des REER, est-ce suffisant ?",				
+					"excerpt": "Une retraite bien orchestrée couvre tous les aspects de votre vie. Regardez la vidéo...",
+					"cta" : "d’autres récits"
+				}
+			]
+	}
+}
