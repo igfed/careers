@@ -338,7 +338,7 @@ body.IGv2 {
 									    background-position: 75% center;
 									}
 
-									@media #{$xlarge-only} {
+									@media #{$xlarge-up} {
 									    background-size: 100% 100%;
 									    background-position: center center;
 									}
@@ -410,7 +410,7 @@ body.IGv2 {
 												width: 15%;
 											}
 
-											@media #{$xlarge-only} {
+											@media #{$xlarge-up} {
 	    										left: 8.6%;
 												width: 15%;
 											}
@@ -426,7 +426,7 @@ body.IGv2 {
 										    	width: 23%;
 											}
 
-											@media #{$xlarge-only} {
+											@media #{$xlarge-up} {
 	    										left: 24.75%;
 										    	width: 23%;
 											}
@@ -442,7 +442,7 @@ body.IGv2 {
 										    	width: 12%;
 											}
 
-											@media #{$xlarge-only} {
+											@media #{$xlarge-up} {
 	    										left: 34.4%;
 	    										width: 12%;
 											}
@@ -457,7 +457,7 @@ body.IGv2 {
 										    	left: 45%;
 											}
 
-											@media #{$xlarge-only} {
+											@media #{$xlarge-up} {
 										    	left: 47.1%;
 											}
 										}
@@ -481,7 +481,7 @@ body.IGv2 {
 										    	width: 16%;
 											}
 
-											@media #{$xlarge-only} {
+											@media #{$xlarge-up} {
 										    	left: 83.3%;
 										    	width: 17%;
 											}
@@ -574,7 +574,7 @@ body.IGv2 {
 	    							padding: 0;
 	    							z-index: 40;
 
-									@media #{$xlarge-only} {
+									@media #{$xlarge-up} {
 									    left: 5.1rem;
 									    top: 7rem;
 									}
@@ -729,7 +729,7 @@ body.IGv2 {
 								    left: auto;
 								    right: 2rem;
 
-									@media #{$xlarge-only} {
+									@media #{$xlarge-up} {
 									    left: auto;
 									    right: 5.1rem;
 									}

@@ -742,7 +742,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     background-position: 75% center;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 75em) and (max-width: 89.9375em) {
+@media screen and (min-width: 40em) and (min-width: 75em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide::before {
     background-size: 100% 100%;
     background-position: center center;
@@ -801,7 +801,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     width: 15%;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 75em) and (max-width: 89.9375em) {
+@media screen and (min-width: 40em) and (min-width: 75em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(1), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(1) {
     left: 8.6%;
     width: 15%;
@@ -820,7 +820,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     width: 23%;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 75em) and (max-width: 89.9375em) {
+@media screen and (min-width: 40em) and (min-width: 75em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(2), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(2) {
     left: 24.75%;
     width: 23%;
@@ -839,7 +839,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     width: 12%;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 75em) and (max-width: 89.9375em) {
+@media screen and (min-width: 40em) and (min-width: 75em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(3), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(3) {
     left: 34.4%;
     width: 12%;
@@ -857,7 +857,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     left: 45%;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 75em) and (max-width: 89.9375em) {
+@media screen and (min-width: 40em) and (min-width: 75em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(4), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(4) {
     left: 47.1%;
   }
@@ -884,7 +884,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     width: 16%;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 75em) and (max-width: 89.9375em) {
+@media screen and (min-width: 40em) and (min-width: 75em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(5), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(5) {
     left: 83.3%;
     width: 17%;
@@ -981,7 +981,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     z-index: 40;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 75em) and (max-width: 89.9375em) {
+@media screen and (min-width: 40em) and (min-width: 75em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-subject, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-subject {
     left: 5.1rem;
     top: 7rem;
@@ -1118,7 +1118,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     right: 2rem;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 75em) and (max-width: 89.9375em) {
+@media screen and (min-width: 40em) and (min-width: 75em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-subject {
     left: auto;
     right: 5.1rem;
