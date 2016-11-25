@@ -437,7 +437,7 @@ body.IGv2[data-areaid="careers"] .section.area-l2 .tp_04a {
 body.IGv2[data-areaid="careers"] .section.intro-l2 {
   background-image: none;
   background-color: #7ec4b9;
-  height: 53.7rem;
+  height: 57.3rem;
 }
 body.IGv2[data-areaid="careers"] .section.intro-l2 > div {
   max-width: 120rem;
@@ -450,7 +450,7 @@ body.IGv2[data-areaid="careers"] .section.intro-l2 > div {
   }
 }
 body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap {
-  top: 53%;
+  top: 56.25%;
 }
 @media screen and (max-width: 39.9375em) {
   body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap {
@@ -480,7 +480,7 @@ body.IGv2[data-areaid="careers"] .section.section-edge {
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.section-edge {
-    padding-top: 7.8rem;
+    padding-top: 11.6rem;
     padding-bottom: 12rem;
   }
 }
@@ -491,6 +491,25 @@ body.IGv2[data-areaid="careers"] .section.section-edge > div:first-child .tp_05a
   body.IGv2[data-areaid="careers"] .section.section-edge > div:first-child .tp_05a {
     margin-bottom: .5rem;
   }
+}
+@media screen and (min-width: 40em) {
+  body.IGv2[data-areaid="careers"] .section.our-business h3 {
+    padding-bottom: 4rem;
+  }
+}
+@media screen and (min-width: 40em) {
+  body.IGv2[data-areaid="careers"] .section.our-business .feature-grid {
+    margin-top: 0.2rem;
+  }
+}
+@media screen and (min-width: 40em) {
+  body.IGv2[data-areaid="careers"] .section.our-business + .section.area-l2 {
+    padding-top: 6.1rem;
+    padding-bottom: 9.9rem;
+  }
+}
+body.IGv2[data-areaid="careers"] .section.our-business + .section.area-l2 > div.row:not(.width-limited) {
+  max-width: 120rem;
 }
 body.IGv2[data-areaid="careers"] .section .feature-grid {
   margin-bottom: -2rem;
@@ -528,6 +547,7 @@ body.IGv2[data-areaid="careers"] .section .feature-grid .columns p.tp_09a.sticky
 @media screen and (max-width: 39.9375em) {
   body.IGv2[data-areaid="careers"] .section .feature-grid.feature-grid-small-collapse {
     margin-bottom: 1.1rem;
+    display: block;
   }
 }
 body.IGv2[data-areaid="careers"] .section .feature-grid.feature-grid-small-collapse .columns {
@@ -691,19 +711,17 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider ul.slick-dots li butto
 }
 body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
   max-width: none;
-  padding: 4.1rem 3.7rem 9.2rem;
   position: relative;
+}
+@media screen and (max-width: 39.9375em) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
+    padding: 4.1rem 3.7rem 9.2rem;
+  }
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
-    padding: 8.9rem 7rem 10.4rem;
     height: 76.4rem;
     min-height: 76.4rem;
-  }
-}
-@media screen and (min-width: 75em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
-    padding: 8.9rem 13.4rem 10.4rem;
   }
 }
 @media screen and (min-width: 40em) {
@@ -727,7 +745,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     position: absolute;
     z-index: 10;
     transform: translateY(100%) scaleY(0);
-    transition: transform ease-out .5s;
+    transition: transform ease-out .333s;
   }
 }
 @media screen and (min-width: 40em) and (min-width: 40em) and (max-width: 63.9375em) {
@@ -746,6 +764,19 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide::before {
     background-size: 100% 100%;
     background-position: center center;
+  }
+}
+@media screen and (min-width: 40em) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide h3.tp_05a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide h3.tp_05a {
+    margin: 0;
+    position: relative;
+    top: -8rem;
+    z-index: 30;
+  }
+}
+@media screen and (min-width: 40em) and (min-width: 64em) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide h3.tp_05a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide h3.tp_05a {
+    top: -5rem;
   }
 }
 @media screen and (min-width: 40em) {
@@ -771,7 +802,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row > .columns, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row > .columns {
     margin-top: 0;
     opacity: 0;
-    transition: opacity ease-out .75s .75s;
+    transition: opacity ease-out .5s .5s;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row > .columns:nth-child(2), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row > .columns:nth-child(2) {
     order: 3;
@@ -787,7 +818,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     height: 8rem;
     width: 8rem;
     opacity: 0;
-    transition: opacity ease-out .75s;
+    transition: opacity ease-out .5s;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(1), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(1) {
     width: 20%;
@@ -1031,10 +1062,10 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     margin: 0;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-metrics .tp_11a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-metrics .tp_11a {
-    font-size: 19rem;
+    font-size: 16rem;
     line-height: 15.5rem;
     letter-spacing: -.7rem;
-    margin: 0 0 -.4rem -1.5rem;
+    margin: -1.9rem 0 1.5rem -1.5rem;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-metrics .profile-counter, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-metrics .profile-counter {
     position: absolute;
@@ -1276,8 +1307,31 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.vi
   padding-left: 1.1rem;
   padding-right: 1.1rem;
 }
+@media screen and (min-width: 40em) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns {
+    padding-left: 8.1rem;
+    padding-right: 8.1rem;
+  }
+}
+@media screen and (min-width: 75em) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns {
+    padding-left: 14.5rem;
+    padding-right: 14.5rem;
+  }
+}
+@media screen and (min-width: 40em) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns:first-child {
+    padding-top: 8.9rem;
+  }
+}
+@media screen and (min-width: 40em) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns:last-child {
+    padding-bottom: 10.4rem;
+  }
+}
 body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns .row .columns {
   text-align: left;
+  padding: 0 1.1rem 0;
 }
 @media screen and (min-width: 64em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns .row .columns {
@@ -1287,11 +1341,11 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.vi
 }
 body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns .row .columns .video-container {
   width: 100%;
-  padding-bottom: 60%;
   position: relative;
   margin-bottom: 1.9rem;
   margin-top: 1.6rem;
   background-color: black;
+  overflow: hidden;
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns .row .columns .video-container {
@@ -1306,6 +1360,21 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.vi
   left: 0;
   position: absolute;
 }
+body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns .row .columns .video-container .video-container-responsive {
+  height: 0;
+  margin: auto;
+  padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns .row .columns .video-container .BrightcoveExperience {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
 body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns .row .columns .header {
   margin-bottom: .6rem;
 }
@@ -1316,6 +1385,7 @@ body.IGv2[data-areaid="careers"] .section .social {
   text-align: right;
   color: white;
   letter-spacing: 1px;
+  visibility: hidden;
 }
 body.IGv2[data-areaid="careers"] .section .outline-btn {
   padding-bottom: 1.1rem;
@@ -1331,7 +1401,7 @@ body.IGv2[data-areaid="careers"] .section .outline-btn.dominant::after, body.IGv
   display: none;
 }
 body.IGv2[data-areaid="careers"] .section .outline-btn.dominant:hover {
-  background-color: white;
+  background-color: transparent;
   color: #0D263C;
 }
 @media screen and (max-width: 39.9375em) {
@@ -1425,7 +1495,7 @@ body.IGv2[data-areaid="careers"] .section .illustration.edge-placeholder {
   background-image: url("/landing/images/L2-highlights/HL--mortgage-C.png");
 }
 body.IGv2[data-areaid="careers"] .section .illustration.profile-1-placeholder {
-  background-image: url("/landing/images/careers/girish-agrawal.jpg");
+  background-image: url("/landing/images/careers/amy-guenther.jpg");
 }
 body.IGv2[data-areaid="careers"] .section .illustration.profile-2-placeholder {
   background-image: url("/landing/images/careers/girish-agrawal.jpg");
@@ -1545,6 +1615,9 @@ body.IGv2[data-areaid="careers"] .section.next-step {
     padding-top: 7.8rem;
     padding-bottom: 7rem;
   }
+}
+body.IGv2[data-areaid="careers"] .section.next-step > div.row:not(.width-limited) {
+  max-width: 120rem;
 }
 body.IGv2[data-areaid="careers"] .section.next-step > div:first-child .tp_05a {
   margin-bottom: 3.9rem;
@@ -1692,6 +1765,12 @@ body.IGv2[data-areaid="careers"] .close-button {
   top: 3.8rem;
   font-family: "Helvetica Neue",​Helvetica,​Roboto,​Arial,​sans-serif;
 }
+body.IGv2[data-areaid="careers"] .close-button:hover {
+  background-color: #0D263C;
+}
+body.IGv2[data-areaid="careers"] .close-button:hover span {
+  color: white;
+}
 body.IGv2[data-areaid="careers"] .close-button span {
   color: #000;
   font-size: 4rem;
@@ -1704,7 +1783,7 @@ body.IGv2[data-areaid="careers"] .close-button span {
   }
 }
 body.IGv2[data-areaid="careers"] #edge-overlay-content {
-  padding-top: 12.3rem;
+  padding-top: 14.3rem;
   position: relative;
 }
 @media screen and (max-width: 39.9375em) {
@@ -1734,6 +1813,7 @@ body.IGv2[data-areaid="careers"] #edge-overlay-content .carousel-next {
   top: auto;
   padding: 1.1rem 5.3rem 1rem 1.9rem;
   z-index: 99;
+  width: 26.5rem;
 }
 @media screen and (max-width: 39.9375em) {
   body.IGv2[data-areaid="careers"] #edge-overlay-content .carousel-next {
@@ -1747,6 +1827,7 @@ body.IGv2[data-areaid="careers"] #edge-overlay-content .carousel-next span {
 }
 body.IGv2[data-areaid="careers"] #edge-overlay-content .carousel-next .underline-link {
   letter-spacing: 1px;
+  color: #fff;
 }
 body.IGv2[data-areaid="careers"] #edge-overlay-content .carousel-next img {
   height: 2rem;
@@ -1806,6 +1887,7 @@ body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline .row .
   width: 100%;
   max-width: 100%;
   white-space: normal;
+  margin-top: 2rem;
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline .row .columns[class*="content-"] .outline-btn {
@@ -1839,7 +1921,7 @@ body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline .row .
     letter-spacing: 1px;
   }
   body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline .row .tp_09a {
-    margin-bottom: 3.3rem;
+    margin-bottom: 3.9rem;
   }
   body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline .row .tp_08a {
     font-size: 2.4rem;
@@ -1855,6 +1937,22 @@ body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline .row .
 }
 body.IGv2[data-areaid="careers"] #edge-overlay-content .slick-dots, body.IGv2[data-areaid="careers"] #edge-overlay-content .slick-prev, body.IGv2[data-areaid="careers"] #edge-overlay-content .slick-next {
   display: none !important;
+}
+body.IGv2[data-areaid="careers"] .columns.medium-4 {
+  flex: 49%;
+}
+@media screen and (min-width: 40em) {
+  body.IGv2[data-areaid="careers"] .columns.medium-4 {
+    flex: 30%;
+  }
+}
+@media screen and (max-width: 39.9375em) {
+  body.IGv2[data-areaid="careers"] .columns.small-6 {
+    flex: 49%;
+  }
+}
+body.IGv2[data-areaid="careers"] .reveal-overlay {
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=careers.css.map */

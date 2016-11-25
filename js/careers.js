@@ -94,6 +94,7 @@
     'use strict';
 
     var gui,
+        video,
         overlay;
 
     init();
@@ -101,6 +102,7 @@
     function init() {
         overlay = new OverlayModule();
         gui = new GuiModule(overlay);
+        video = new VideoModule();
     }
 
     //-----
@@ -243,7 +245,7 @@
 
         function handleSlideChange(event, slick, currentSlide) {
             var nextSlide = (currentSlide + 1) % ($('.slick-slide:not(.slick-cloned)').length - 1),
-                nextTitle = $($('[data-slick-index=' + nextSlide + '] .columns:first-child p').get(0)).html(),
+                nextTitle = $($overlaySlider.find('[data-slick-index=' + nextSlide + '] .columns:first-child p').get(0)).html(),
                 newHash = 'our-' + $overlaySlider
                     .find('[data-slick-index=' + currentSlide + ']')
                     .attr('class')
@@ -292,7 +294,7 @@
 
         function initSlider(target, options) {
             var defaults = {
-                    speed: 1200,
+                    speed: 750,
                     dots: true,
                     slidesToShow: 2,
                     slidesToScroll: 2,
@@ -334,8 +336,7 @@
                 $profileSliderVideoSectionHolder.find('.video-slide .row')
                     .append($profileSlider.find('.video-subsection'));
                 $profileSlider.find('.video-slide').remove();
-                $profileSlider.find('> .row:first-child')
-                    .after($profileSliderVideoSectionHolder.find('.video-slide'));
+                $profileSlider.append($profileSliderVideoSectionHolder.find('.video-slide'));
             }
 
             initProfileSlider();
@@ -453,6 +454,55 @@
                 });
                 $overlay.addClass('full');
             }
+        }
+    }
+
+    function VideoModule() {
+        var player,
+            APIModules,
+            videoPlayer,
+            experienceModule,
+            $resizeWrapper = $('.video-container-responsive'),
+            $spinner = $('.video-spinner-container'),
+            $placeholder = $('.js-video-play'),
+            $playAnchor = $('.js-video-play-btn');
+
+        init();
+
+        function init() {
+            window.onTemplateLoad = onTemplateLoad;
+            window.onTemplateReady = onTemplateReady;
+        }
+
+        //-----
+
+        function handleResize() {
+            if (player.getModule(APIModules.EXPERIENCE).experience.type == "html"){
+                var resizeWidth = resizeWrapper.innerWidth();
+                var resizeHeight = resizeWrapper.innerHeight();
+                player.getModule(APIModules.EXPERIENCE).setSize(resizeWidth, resizeHeight)
+            }
+        }
+
+        function onTemplateLoad(experienceID) {
+            player = brightcove.api.getExperience(experienceID);
+            APIModules = brightcove.api.modules.APIModules;
+        }
+
+        function onTemplateReady(evt) {
+            $spinner.hide();
+            $placeholder.show();
+            $playAnchor.on('click', playVideo)
+            $(window).on('resize', handleResize);
+            window.brightcove.createExperiences();
+        }
+
+        function playVideo(event) {
+            event.preventDefault ? event.preventDefault() : (event.returnValue = false);
+            $placeholder.hide();
+            videoPlayer = player.getModule(APIModules.VIDEO_PLAYER);
+            experienceModule = player.getModule(APIModules.EXPERIENCE);
+            videoPlayer.play();
         }
     }
 })();

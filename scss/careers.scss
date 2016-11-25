@@ -25,7 +25,7 @@ body.IGv2 {
 			&.intro-l2 {
 				background-image: none;
 				background-color: #7ec4b9;
-				height: 53.7rem;
+				height: 57.3rem;
 
 				> div {
 					max-width: 120rem;
@@ -38,7 +38,7 @@ body.IGv2 {
 				}
 
 				.copy-wrap {
-					top: 53%;
+					top: 56.25%;
 
 					@media #{$small-only} {
 						top: 55%;
@@ -68,7 +68,7 @@ body.IGv2 {
 				background-color: #f1f7f7;
 
 				@media #{$medium-up} {
-					padding-top: 7.8rem;
+					padding-top: 11.6rem;
 					padding-bottom: 12rem;
 				}
 
@@ -79,6 +79,31 @@ body.IGv2 {
 						@media #{$medium-up} {
 							margin-bottom: .5rem;
 						}
+					}
+				}
+			}
+
+			&.our-business {
+				h3 {
+					@media #{$medium-up} {
+						padding-bottom: 4rem;
+					}
+				}
+
+				.feature-grid {
+					@media #{$medium-up} {
+						margin-top: 0.2rem;
+					}
+				}
+
+				+ .section.area-l2 {
+					@media #{$medium-up} {
+						padding-top: 6.1rem;
+						padding-bottom: 9.9rem;
+					}
+
+					> div.row:not(.width-limited) {
+						max-width: 120rem;
 					}
 				}
 			}
@@ -120,6 +145,7 @@ body.IGv2 {
 				&.feature-grid-small-collapse {
 					@media #{$small-only} {
 						margin-bottom: 1.1rem;
+						display: block;
 					}
 
 					.columns {
@@ -290,21 +316,20 @@ body.IGv2 {
 				.slick-track {
 					> .row {
 						max-width: none;
-						padding: 4.1rem 3.7rem 9.2rem;
 						position: relative;
 
+						@media #{$small-only} {
+							padding: 4.1rem 3.7rem 9.2rem;
+						}
+
 						@media #{$medium-up} {
-							padding: 8.9rem 7rem 10.4rem;
 							height: 76.4rem;
 							min-height: 76.4rem;
 						}
 
-						@media #{$xlarge-up} {
-							padding: 8.9rem 13.4rem 10.4rem;
-						}
-
 						@media #{$medium-up} {
 							&.profile-1-slide, &.profile-2-slide {
+
 								&::after {
 									background-image: url(/landing/images/careers/grey-edge-background.png);
 									background-repeat: no-repeat;
@@ -326,7 +351,7 @@ body.IGv2 {
 									position: absolute;
 									z-index: 10;
 									transform: translateY(100%) scaleY(0);
-									transition: transform ease-out .5s;
+									transition: transform ease-out .333s;
 
 									@media #{$medium-only} {
 									    background-position: 26% center;
@@ -341,6 +366,17 @@ body.IGv2 {
 									@media #{$xlarge-up} {
 									    background-size: 100% 100%;
 									    background-position: center center;
+									}
+								}
+
+								h3.tp_05a {
+								    margin: 0;
+								    position: relative;
+								    top: -8rem;
+								    z-index: 30;
+
+									@media #{$large-up} {
+							    		top: -5rem;
 									}
 								}
 
@@ -379,7 +415,7 @@ body.IGv2 {
 										> .columns {
 											margin-top: 0;
 											opacity: 0;
-											transition: opacity ease-out .75s .75s;
+											transition: opacity ease-out .5s .5s;
 
 											&:nth-child(2) {
 												order: 3;
@@ -397,7 +433,7 @@ body.IGv2 {
 											height: 8rem;
 											width: 8rem;
 											opacity: 0;
-											transition: opacity ease-out .75s;
+											transition: opacity ease-out .5s;
 										}
 
 										&:nth-child(1) {
@@ -626,10 +662,10 @@ body.IGv2 {
 									}
 
 									.tp_11a {
-										font-size: 19rem;
+										font-size: 16rem;
 										line-height: 15.5rem;
 										letter-spacing: -.7rem;
-										margin: 0 0 -.4rem -1.5rem;
+										margin: -1.9rem 0 1.5rem -1.5rem;
 									}
 
 									.profile-counter {
@@ -917,9 +953,32 @@ body.IGv2 {
 								padding-left: 1.1rem;
 								padding-right: 1.1rem;
 
+								@media #{$medium-up} {
+									padding-left: 8.1rem;
+									padding-right: 8.1rem;
+								}
+
+								@media #{$xlarge-up} {
+									padding-left: 14.5rem;
+									padding-right: 14.5rem;
+								}
+
+								&:first-child {
+									@media #{$medium-up} {
+										padding-top: 8.9rem;
+									}
+								}
+
+								&:last-child {
+									@media #{$medium-up} {
+										padding-bottom: 10.4rem;
+									}
+								}
+
 								.row {
 									.columns {
 										text-align: left;
+										padding: 0 1.1rem 0;
 
 										@media #{$large-up} {
 											padding-left: 2.9375rem;
@@ -928,11 +987,11 @@ body.IGv2 {
 
 										.video-container {
 											width: 100%;
-											padding-bottom: 60%;
 											position: relative;
 											margin-bottom: 1.9rem;
 											margin-top: 1.6rem;
 											background-color: black;
+											overflow: hidden;
 
 											@media #{$medium-up} {
 												margin-top: 6.8rem;
@@ -945,6 +1004,23 @@ body.IGv2 {
 												top: 0;
 												left: 0;
 												position: absolute;
+											}
+
+											.video-container-responsive {
+											    height: 0;
+											    margin: auto;
+											    padding-bottom: 56.25%;
+											    position: relative;
+											    width: 100%;
+											    z-index: 1;
+											}
+
+											.BrightcoveExperience {
+											    height: 100%;
+											    left: 0;
+											    position: absolute;
+											    top: 0;
+											    width: 100%;
 											}
 										}
 
@@ -966,6 +1042,7 @@ body.IGv2 {
 				text-align: right;
 				color: white;
 				letter-spacing: 1px;
+				visibility: hidden;
 			}
 
 			.outline-btn {
@@ -983,7 +1060,7 @@ body.IGv2 {
 					}
 
 					&:hover {
-						background-color: white;
+						background-color: transparent;
 						color: $igBlack;
 					}
 
@@ -1096,7 +1173,7 @@ body.IGv2 {
 			    }
 
 			    &.profile-1-placeholder {
-  					background-image: url("/landing/images/careers/girish-agrawal.jpg");
+  					background-image: url("/landing/images/careers/amy-guenther.jpg");
 			    }
 
 			    &.profile-2-placeholder {
@@ -1238,6 +1315,10 @@ body.IGv2 {
 				}
 
 				> div {
+					&.row:not(.width-limited) {
+						max-width: 120rem;
+					}
+
 					&:first-child {
 						.tp_05a {
 							margin-bottom: 3.9rem;
@@ -1423,6 +1504,14 @@ body.IGv2 {
 	    	top: 3.8rem;
 		    font-family: "Helvetica Neue",​Helvetica,​Roboto,​Arial,​sans-serif;
 
+		    &:hover {
+		    	background-color: $igBlack;
+
+		    	span {
+		    		color: white;
+		    	}
+		    }
+
 			span {
 			    color: #000;
 			    font-size: 4rem;
@@ -1436,7 +1525,7 @@ body.IGv2 {
 		}
 
 		#edge-overlay-content {
-			padding-top: 12.3rem;
+			padding-top: 14.3rem;
 			position: relative;
 
 			@media #{$small-only} {
@@ -1465,6 +1554,7 @@ body.IGv2 {
 			    top: auto;
 			    padding: 1.1rem 5.3rem 1rem 1.9rem;
 			    z-index: 99;
+			    width: 26.5rem;
 
 				@media #{$small-only} {
 				    display: none;
@@ -1478,6 +1568,7 @@ body.IGv2 {
 
 			    .underline-link {
 			    	letter-spacing: 1px;
+			    	color: #fff;
 			    }
 
 			    img {
@@ -1549,6 +1640,7 @@ body.IGv2 {
 								width: 100%;
 								max-width: 100%;
 								white-space: normal;
+								margin-top: 2rem;
 
 								@media #{$medium-up} {
 									margin-top: 1rem;
@@ -1591,7 +1683,7 @@ body.IGv2 {
 						}
 
 						.tp_09a {
-							margin-bottom: 3.3rem;
+							margin-bottom: 3.9rem;
 						}
 
 						.tp_08a {
@@ -1614,6 +1706,23 @@ body.IGv2 {
 			.slick-dots, .slick-prev, .slick-next {
 				display: none !important;
 			}
+		}
+
+		.columns.medium-4 {
+			@media #{$medium-up} {
+				flex: 30%;
+			}
+			flex: 49%;
+		}
+
+		.columns.small-6 {
+			@media #{$small-only} {
+				flex: 49%;
+			}
+		}
+
+		.reveal-overlay {
+			overflow: hidden;
 		}
 	}
 }
