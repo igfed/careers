@@ -38,7 +38,7 @@ body.IGv2 {
 				}
 
 				.copy-wrap {
-					top: 56.25%;
+					top: 60.85%;
 
 					@media #{$small-only} {
 						top: 55%;
@@ -1723,6 +1723,41 @@ body.IGv2 {
 
 		.reveal-overlay {
 			overflow: hidden;
+		}
+
+		.info-toggle-content {
+			height: 0;
+            overflow: hidden;
+            transition: height .5s ease 0s;
+		}
+
+		.info-toggle-trigger {
+			position: relative;
+
+			.fa-chevron-down {
+				position: absolute;
+			    font-size: 2rem;
+			    transform: rotate(0deg) translateY(-50%);
+			    margin-top: 1.3rem;
+				right: 1.6rem;
+				top: 13px;
+		        transition: transform .5s ease 0s, margin-top .5s ease 0s;
+
+				@media #{$medium-up} {
+					display: none;
+				}
+			}
+		}
+
+		.active {
+			@media #{$small-only} {
+				.info-toggle-trigger {
+					.fa.fa-chevron-down {
+			    		transform: rotate(-180deg);
+			    		margin-top: .7rem;
+					}
+				}
+			}
 		}
 	}
 }

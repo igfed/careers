@@ -1,4 +1,61 @@
 (function ($) {
+
+    $.fn.infoToggle = function() {
+        this.each(function() {
+            var $reveal = $(this),
+                $revealContent = $reveal.find('.info-toggle-content'),
+                $revealTrigger = $reveal.find('.info-toggle-trigger'),
+                fixedHeight = false,
+                setAria = $reveal.attr('info-toggle-aria') === 'true';
+
+            init();
+
+            function init() {
+                $revealTrigger.on('click', handleRevealToggle);
+                $(window).on('resize', resizeHandler);
+
+                setRevealContentHeight();
+            }
+
+            //-----
+
+            function handleRevealToggle() {
+                setRevealContentHeight();
+                $reveal.toggleClass('active');
+                window.setTimeout(setRevealContentHeight);
+            }
+
+            function resizeHandler() {
+                if (fixedHeight) {
+                    $revealContent.css({height: 'auto'});
+                }
+            }
+
+            function setRevealContentHeight() {
+                var finalHeight;
+
+                if ($reveal.hasClass('active')) {
+                    finalHeight = $revealContent[0].scrollHeight;
+                    fixedHeight = true;
+                } else {
+                    finalHeight = 0;
+                    fixedHeight = false;
+                }
+                $revealContent.css({height: finalHeight});
+
+                if (setAria) {
+                    $revealContent.attr('aria-hidden', !fixedHeight);
+                }
+            }
+        });
+
+        return this;
+    };
+
+}(jQuery));
+
+
+(function ($) {
     'use strict';
 
     $.fn.circleAnimation = function(maxValue) {
@@ -108,7 +165,7 @@
     //-----
 
     function GuiModule(overlayReference) {
-    	var multiTabToggleSelector = '[class*="toggle-"]',
+    	var multiTabToggleSelector = '[class*="toggle-"]:not(.info-toggle)',
             multiTabContentSelector = '[class*="content-"]',
             multiTabSelector = '.multi-tab-outline',
             $edgeOverlayLocation = $('#edge-overlay-content'),
@@ -125,6 +182,7 @@
         init();
 
         function init() {
+            $(document).foundation();
 		    addMultiTabToggleHandlers();
             $('.block-link').blockLink();
             $overlaySlider = $('.our-business-slider');
@@ -144,6 +202,11 @@
             handleWindowSizing(true);
             $(window).on('scroll', delayedHandleWindowScroll);
             handleWindowScrolling();
+
+            $('.info-toggle, .info-toggle').infoToggle();
+            $('.top-bar + .screen').on('click', function() {
+                $('a[data-toggle]').trigger('click');
+            });
         }
 
         //-----
