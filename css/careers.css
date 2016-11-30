@@ -496,19 +496,19 @@ header .logo {
 @media screen and (min-width: 40em) {
   header .logo {
     position: absolute;
-    left: 0;
-    width: 4rem;
-    height: 3rem;
+    width: 4.2rem;
+    height: 3.2rem;
     top: 50%;
     transform: translateY(-50%);
+    left: -.2rem;
   }
   header .logo + .tp_09a {
     color: white;
-    font-size: 2.2rem;
-    margin-left: 5rem;
+    font-size: 2.6rem;
+    margin-left: 2.2rem;
     text-transform: none;
     line-height: 2.8rem;
-    padding: 1.7rem 2.75rem;
+    padding: 1.9rem 2rem 1.9rem 2.75rem;
     display: block;
   }
 }
@@ -531,18 +531,87 @@ header .logo {
   header .top-bar > div ul.menu li {
     float: left;
   }
+  header .top-bar > div ul.menu li {
+    position: relative;
+    margin-left: 0;
+  }
+  header .top-bar > div ul.menu li::before {
+    border-left: 0.1rem solid #c1cbd0;
+    content: "";
+    height: 45%;
+    left: -0.05rem;
+    position: absolute;
+    top: 27.5%;
+  }
+  header .top-bar > div ul.menu li::before {
+    border-color: #394454;
+    top: 31%;
+  }
+  header .top-bar > div ul.menu li:nth-child(2)::before {
+    display: none;
+  }
   header .top-bar > div ul.menu li.secondary-menu-item {
     float: right;
+    position: relative;
+    right: -2.75rem;
   }
-  header .top-bar > div ul.menu a:not(.logo-holder) {
-    padding: 1.7rem 2.75rem;
+  header .top-bar > div ul.menu li.secondary-menu-item a {
+    font-family: "whitney_bookregular";
+    font-size: 1.4rem;
+    text-transform: none;
+    line-height: 2rem;
+    padding: 2.6rem 2.75rem 2.3rem;
+    background-color: transparent;
+  }
+  header .top-bar > div ul.menu li.secondary-menu-item a .fa-share-alt {
+    float: left;
+    margin-right: .8rem;
+    font-size: 1.5rem;
+    margin-top: .3rem;
+  }
+  header .top-bar > div ul.menu li.secondary-menu-item ul {
+    z-index: 10;
+    background-color: #12273b;
+  }
+  header .top-bar > div ul.menu li.secondary-menu-item ul li {
+    display: block;
+    width: 100%;
+  }
+  header .top-bar > div ul.menu li.secondary-menu-item ul li:first-child {
+    border-top: 3px solid #0ed59a;
+    padding-top: 2rem;
+  }
+  header .top-bar > div ul.menu li.secondary-menu-item ul li:last-child {
+    padding-bottom: 2rem;
+  }
+  header .top-bar > div ul.menu li.secondary-menu-item ul li a {
+    padding: 1rem;
+    font-family: "whitney_scmedium";
+    font-size: 1.2rem;
+    text-transform: lowercase;
+    text-align: center;
+  }
+  header .top-bar > div ul.menu li.secondary-menu-item ul li a:hover::after {
+    display: none;
+  }
+  header .top-bar > div ul.menu li.secondary-menu-item ul li a .fa {
+    font-size: 1.8rem;
+  }
+  header .top-bar > div ul.menu li.secondary-menu-item + .secondary-menu-item::before {
+    display: none;
+  }
+  header .top-bar > div ul.menu a {
+    padding: 2.5rem 2.75rem 2.4rem;
     font-size: 2rem;
     letter-spacing: 0;
     color: white;
   }
-  header .top-bar > div ul.menu a:not(.logo-holder).active, header .top-bar > div ul.menu a:not(.logo-holder):hover {
+  header .top-bar > div ul.menu a.active, header .top-bar > div ul.menu a:hover {
     text-decoration: none;
     color: #0ed59a;
+  }
+  header .top-bar > div ul.menu .logo-holder a {
+    padding: 0;
   }
   header .top-bar > div ul.menu.active a {
     color: #0ed59a;
