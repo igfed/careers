@@ -550,6 +550,14 @@ header .logo {
   header .top-bar > div ul.menu li:nth-child(2)::before {
     display: none;
   }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   header .top-bar > div ul.menu li.secondary-menu-item {
     float: right;
     position: relative;
@@ -560,7 +568,7 @@ header .logo {
     font-size: 1.4rem;
     text-transform: none;
     line-height: 2rem;
-    padding: 2.6rem 2.75rem 2.3rem;
+    padding: 2.6rem 3rem 2.3rem;
     background-color: transparent;
   }
   header .top-bar > div ul.menu li.secondary-menu-item a .fa-share-alt {
@@ -569,9 +577,23 @@ header .logo {
     font-size: 1.5rem;
     margin-top: .3rem;
   }
+  header .top-bar > div ul.menu li.secondary-menu-item a:hover + ul {
+    height: auto !important;
+    animation-duration: .5s;
+    animation-name: fade-in;
+  }
   header .top-bar > div ul.menu li.secondary-menu-item ul {
     z-index: 10;
     background-color: #12273b;
+    margin-top: -5px;
+    border-bottom-left-radius: .4rem;
+    border-bottom-right-radius: .4rem;
+    box-shadow: 0px 1px 2px 1px rgba(13, 38, 60, 0.5);
+  }
+  header .top-bar > div ul.menu li.secondary-menu-item ul:hover {
+    height: auto !important;
+    animation-duration: .5s;
+    animation-name: fade-in;
   }
   header .top-bar > div ul.menu li.secondary-menu-item ul li {
     display: block;
@@ -579,23 +601,24 @@ header .logo {
   }
   header .top-bar > div ul.menu li.secondary-menu-item ul li:first-child {
     border-top: 3px solid #0ed59a;
-    padding-top: 2rem;
+    padding-top: .7rem;
   }
   header .top-bar > div ul.menu li.secondary-menu-item ul li:last-child {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
   header .top-bar > div ul.menu li.secondary-menu-item ul li a {
-    padding: 1rem;
+    padding: 1.3rem 3.2rem 1.3rem 0;
     font-family: "whitney_scmedium";
     font-size: 1.2rem;
     text-transform: lowercase;
-    text-align: center;
+    text-align: right;
   }
   header .top-bar > div ul.menu li.secondary-menu-item ul li a:hover::after {
     display: none;
   }
   header .top-bar > div ul.menu li.secondary-menu-item ul li a .fa {
     font-size: 1.8rem;
+    margin-right: .7rem;
   }
   header .top-bar > div ul.menu li.secondary-menu-item + .secondary-menu-item::before {
     display: none;
@@ -660,7 +683,6 @@ header .logo {
     display: block;
     margin: 0 -1.4rem;
     padding: 0 2.6rem 2.2rem;
-    border-bottom: 2px solid #fff;
   }
   header .top-bar > div.row > div span {
     display: block;
