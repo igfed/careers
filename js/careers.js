@@ -1,7 +1,7 @@
 (function ($) {
 
-    $.fn.infoToggle = function() {
-        this.each(function() {
+    $.fn.infoToggle = function () {
+        this.each(function () {
             var $reveal = $(this),
                 $revealContent = $reveal.find('.info-toggle-content'),
                 $revealTrigger = $reveal.find('.info-toggle-trigger'),
@@ -58,8 +58,8 @@
 (function ($) {
     'use strict';
 
-    $.fn.circleAnimation = function(maxValue) {
-        this.each(function() {
+    $.fn.circleAnimation = function (maxValue) {
+        this.each(function () {
             var canvas = this,
                 $canvas = $(this),
                 context,
@@ -77,7 +77,6 @@
             }
 
             context = canvas.getContext('2d');
-            context
             context.strokeStyle = '#0d263c';
             context.fillStyle = '#e5e8e8';
             // context.shadowOffsetX = 0;
@@ -86,7 +85,7 @@
             // context.shadowColor = '#656565';
 
             $canvas.attr('circle-animation-id', delegateID);
-            $('body').delegate('[circle-animation-id=' + delegateID + ']', 'startAnimate', function() {
+            $('body').delegate('[circle-animation-id=' + delegateID + ']', 'startAnimate', function () {
                 curPerc = 0;
                 animate();
             });
@@ -124,8 +123,8 @@
 (function ($) {
     'use strict';
 
-    $.fn.blockLink = function() {
-        this.each(function() {
+    $.fn.blockLink = function () {
+        this.each(function () {
             var $blockLink = $(this),
                 destination = $blockLink.find('a').attr('href');
 
@@ -147,7 +146,7 @@
 
 }(jQuery));
 
-(function() {
+(function () {
     'use strict';
 
     var gui,
@@ -165,7 +164,7 @@
     //-----
 
     function GuiModule(overlayReference) {
-    	var multiTabToggleSelector = '[class*="toggle-"]:not(.info-toggle)',
+        var multiTabToggleSelector = '[class*="toggle-"]:not(.info-toggle)',
             multiTabContentSelector = '[class*="content-"]',
             multiTabSelector = '.multi-tab-outline',
             $edgeOverlayLocation = $('#edge-overlay-content'),
@@ -183,14 +182,14 @@
 
         function init() {
             $(document).foundation();
-		    addMultiTabToggleHandlers();
+            addMultiTabToggleHandlers();
             $('.block-link').blockLink();
             $overlaySlider = $('.our-business-slider');
-            $('#edge-overlay-content').find('.carousel-next').on('click', function(event) {
+            $('#edge-overlay-content').find('.carousel-next').on('click', function (event) {
                 event.preventDefault();
                 $overlaySlider.slick('slickNext');
             });
-            $('.profile-counter').each(function() {
+            $('.profile-counter').each(function () {
                 var $this = $(this);
 
                 $this.find('canvas').circleAnimation(parseInt($this.find('p').html()));
@@ -204,7 +203,7 @@
             handleWindowScrolling();
 
             $('.info-toggle, .info-toggle').infoToggle();
-            $('.top-bar + .screen').on('click', function() {
+            $('.top-bar + .screen').on('click', function () {
                 $('a[data-toggle]').trigger('click');
             });
         }
@@ -212,7 +211,7 @@
         //-----
 
         function addMultiTabToggleHandlers() {
-            $('body').delegate(multiTabToggleSelector, 'click', function() {
+            $('body').delegate(multiTabToggleSelector, 'click', function () {
                 var $this = $(this),
                     toggleBase = $this.attr('class').match(/toggle-(\S*)?($|\s)/)[1],
                     $container = $this.parents(multiTabSelector);
@@ -310,9 +309,9 @@
             var nextSlide = (currentSlide + 1) % ($('.slick-slide:not(.slick-cloned)').length - 1),
                 nextTitle = $($overlaySlider.find('[data-slick-index=' + nextSlide + '] .columns:first-child p').get(0)).html(),
                 newHash = 'our-' + $overlaySlider
-                    .find('[data-slick-index=' + currentSlide + ']')
-                    .attr('class')
-                    .match(/(edge-\S*)/)[1];
+                        .find('[data-slick-index=' + currentSlide + ']')
+                        .attr('class')
+                        .match(/(edge-\S*)/)[1];
 
             $('#modalOverlay .carousel-next a').html(nextTitle);
             location.hash = newHash;
@@ -348,8 +347,8 @@
                 dots: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                prevArrow: '<span type="button" class="carousel-prev"><img src="/landing/images/Arrow-MainArticle-Carousel-' + (isResponsiveState ? 'Black' : 'Green') + '-L.svg"></span>',
-                nextArrow: '<span type="button" class="carousel-next"><img src="/landing/images/Arrow-MainArticle-Carousel-' + (isResponsiveState ? 'Black' : 'Green') + '-R.svg"></span>'
+                prevArrow: '<span type="button" class="carousel-prev"><img src="../landing/images/Arrow-MainArticle-Carousel-' + (isResponsiveState ? 'Black' : 'Green') + '-L.svg"></span>',
+                nextArrow: '<span type="button" class="carousel-next"><img src="../landing/images/Arrow-MainArticle-Carousel-' + (isResponsiveState ? 'Black' : 'Green') + '-R.svg"></span>'
             });
             animateProfileSlider();
             $profileSlider.on('afterChange', animateProfileSlider);
@@ -357,22 +356,22 @@
 
         function initSlider(target, options) {
             var defaults = {
-                    speed: 750,
-                    dots: true,
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    infinite: true,
-                    responsive: [
-                        {
-                            breakpoint: 768,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1,
-                                infinite: true
-                            }
+                speed: 750,
+                dots: true,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true
                         }
-                    ]
-                };
+                    }
+                ]
+            };
 
             target.slick($.extend(defaults, options));
         }
@@ -389,7 +388,7 @@
                     .append($profileSlider.find('.video-slide'));
                 $videos = $profileSliderVideoSectionHolder.find('.video-subsection');
                 $tempPartsHolder.append($videos);
-                $videos.each(function() {
+                $videos.each(function () {
                     var $container = $profileSliderVideoSectionHolder.find('.video-slide').clone();
 
                     $container.find('.row').append($(this));
@@ -540,7 +539,7 @@
         //-----
 
         function handleResize() {
-            if (player.getModule(APIModules.EXPERIENCE).experience.type == "html"){
+            if (player.getModule(APIModules.EXPERIENCE).experience.type == "html") {
                 var resizeWidth = resizeWrapper.innerWidth();
                 var resizeHeight = resizeWrapper.innerHeight();
                 player.getModule(APIModules.EXPERIENCE).setSize(resizeWidth, resizeHeight)

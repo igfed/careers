@@ -134,7 +134,7 @@
   line-height: 10.0rem;
   color: #0D263C;
   text-transform: lowercase;
-  text-shadow: 1px 1px #818c91,2px 2px #818c91,3px 3px #818c91,4px 4px #818c91,5px 5px #818c91,6px 6px #818c91;
+  text-shadow: 1px 1px #818c91, 2px 2px #818c91, 3px 3px #818c91, 4px 4px #818c91, 5px 5px #818c91, 6px 6px #818c91;
 }
 
 .ux-font--primary-button, .tp_20a {
@@ -322,7 +322,7 @@ select, input, .ux-font--input, .tp_24a {
   }
 
   .ux-font--section-title, .tp_05a {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     line-height: 2.8rem;
   }
 
@@ -359,7 +359,7 @@ select, input, .ux-font--input, .tp_24a {
   .ux-font--number-callout, .tp_11a {
     font-size: 14.5rem;
     line-height: 15.5rem;
-    text-shadow: 1px 1px #818c91,2px 2px #818c91,3px 3px #818c91,4px 4px #818c91,5px 5px #818c91,6px 6px #818c91;
+    text-shadow: 1px 1px #818c91, 2px 2px #818c91, 3px 3px #818c91, 4px 4px #818c91, 5px 5px #818c91, 6px 6px #818c91;
   }
 
   .ux-font--primary-button, .tp_20a {
@@ -489,7 +489,7 @@ header .logo {
   text-indent: 9999em;
   overflow: hidden;
   background-size: contain;
-  background-image: url(/landing/images/careers/Logo_small.png);
+  background-image: url("../landing/images/careers/Logo_small.png");
   background-repeat: no-repeat;
   text-indent: -99999px;
 }
@@ -874,7 +874,7 @@ body.IGv2[data-areaid="careers"] .section.section-edge {
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.section-edge {
-    padding-top: 11.6rem;
+    padding-top: 8rem;
     padding-bottom: 12rem;
   }
 }
@@ -898,7 +898,7 @@ body.IGv2[data-areaid="careers"] .section.section-edge > div:first-child .tp_05a
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.our-business + .section.area-l2 {
-    padding-top: 6.1rem;
+    padding-top: 5rem;
     padding-bottom: 9.9rem;
   }
 }
@@ -924,7 +924,7 @@ body.IGv2[data-areaid="careers"] .section .feature-grid .columns {
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section .feature-grid .columns {
     padding-bottom: 2.2rem;
-    margin-top: 7.3rem;
+    margin-top: 4.5rem;
   }
 }
 @media screen and (min-width: 64em) {
@@ -1008,7 +1008,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider {
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider {
-    background-image: url(/landing/images/careers/green-paint-background.jpg);
+    background-image: url("../landing/images/careers/green-paint-background.jpg");
     background-position: center center;
     background-size: cover;
   }
@@ -1120,7 +1120,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide::after, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide::after {
-    background-image: url(/landing/images/careers/grey-edge-background.png);
+    background-image: url("../landing/images/careers/grey-edge-background.png");
     background-repeat: no-repeat;
     content: "";
     width: 48rem;
@@ -1129,7 +1129,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     position: absolute;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide::before {
-    background-image: url(/landing/images/careers/timeline-foreground.png);
+    background-image: url("../landing/images/careers/timeline-foreground.png");
     background-repeat: no-repeat;
     content: "";
     width: 100%;
@@ -1348,7 +1348,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-header h3::after, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-header h3::after {
-    background-image: url(/landing/images/careers/blades.png);
+    background-image: url("../landing/images/careers/blades.png");
     background-repeat: no-repeat;
     content: "";
     width: 24.5rem;
@@ -1665,7 +1665,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     margin-bottom: .1rem;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-subject p.tp_05a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-subject p.tp_05a {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     line-height: 2rem;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data {
@@ -1880,19 +1880,19 @@ body.IGv2[data-areaid="careers"] .section .illustration.medium {
   }
 }
 body.IGv2[data-areaid="careers"] .section .illustration.outline-advisor {
-  background-image: url("/landing/images/L2-highlights/HL--mortgage-A.png");
+  background-image: url("../landing/images/L2-highlights/HL--mortgage-A.png");
 }
 body.IGv2[data-areaid="careers"] .section .illustration.outline-team {
-  background-image: url("/landing/images/L2-highlights/HL--mortgage-B.png");
+  background-image: url("../landing/images/L2-highlights/HL--mortgage-B.png");
 }
 body.IGv2[data-areaid="careers"] .section .illustration.edge-placeholder {
-  background-image: url("/landing/images/L2-highlights/HL--mortgage-C.png");
+  background-image: url("../landing/images/L2-highlights/HL--mortgage-C.png");
 }
 body.IGv2[data-areaid="careers"] .section .illustration.profile-1-placeholder {
-  background-image: url("/landing/images/careers/amy-guenther.jpg");
+  background-image: url("../landing/images/careers/amy-guenther.jpg");
 }
 body.IGv2[data-areaid="careers"] .section .illustration.profile-2-placeholder {
-  background-image: url("/landing/images/careers/girish-agrawal.jpg");
+  background-image: url("../landing/images/careers/girish-agrawal.jpg");
 }
 body.IGv2[data-areaid="careers"] .section.multi-tab-outline, body.IGv2[data-areaid="careers"] .section .multi-tab-outline {
   background-color: white;
@@ -2085,7 +2085,7 @@ body.IGv2[data-areaid="careers"] .section.next-step .outline-btn + .outline-btn 
     width: auto;
   }
   body.IGv2[data-areaid="careers"] .section.next-step [class*="content-"] > div .tp_05a {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     margin-top: .4rem;
   }
   body.IGv2[data-areaid="careers"] .section.next-step [class*="content-"] > div .tp_05a + .outline-btn {
@@ -2157,7 +2157,7 @@ body.IGv2[data-areaid="careers"] .close-button {
   position: absolute;
   right: 2rem;
   top: 3.8rem;
-  font-family: "Helvetica Neue",​Helvetica,​Roboto,​Arial,​sans-serif;
+  font-family: "Helvetica Neue", ΓÇïHelvetica, ΓÇïRoboto, ΓÇïArial, ΓÇïsans-serif;
 }
 body.IGv2[data-areaid="careers"] .close-button:hover {
   background-color: #0D263C;
@@ -2168,7 +2168,7 @@ body.IGv2[data-areaid="careers"] .close-button:hover span {
 body.IGv2[data-areaid="careers"] .close-button span {
   color: #000;
   font-size: 4rem;
-  line-height: 1.8rem;
+  line-height: 4rem;
 }
 @media screen and (min-width: 64em) {
   body.IGv2[data-areaid="careers"] .close-button {
@@ -2203,7 +2203,7 @@ body.IGv2[data-areaid="careers"] #edge-overlay-content .carousel-next {
   bottom: 2rem;
   color: white;
   position: fixed;
-  right: 0;
+  right: 15px;
   top: auto;
   padding: 1.1rem 5.3rem 1rem 1.9rem;
   z-index: 99;
