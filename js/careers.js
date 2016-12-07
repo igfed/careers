@@ -165,7 +165,7 @@
     //-----
 
     function GuiModule(overlayReference) {
-    	var multiTabToggleSelector = '[class*="toggle-"]:not(.info-toggle)',
+    	var multiTabToggleSelector = '[class*="toggle-"]:not([class*="info-toggle"])',
             multiTabContentSelector = '[class*="content-"]',
             multiTabSelector = '.multi-tab-outline',
             $edgeOverlayLocation = $('#edge-overlay-content'),
@@ -203,7 +203,7 @@
             $(window).on('scroll', delayedHandleWindowScroll);
             handleWindowScrolling();
 
-            $('.info-toggle, .info-toggle').infoToggle();
+            $('.info-toggle').infoToggle();
             $('.top-bar + .screen').on('click', function() {
                 $('a[data-toggle]').trigger('click');
             });
@@ -225,6 +225,9 @@
         }
 
         function animateProfileSlider() {
+            var $profilePanels,
+                profilePanelHeight = 0;
+
             if (scrolledToView) {
                 $profileSlider.find('.slick-slide').removeClass('slick-complete');
                 $profileSlider.find('.slick-active').addClass('slick-complete');
@@ -236,6 +239,21 @@
                     .find('.slick-complete')
                     .find('.profile-counter canvas')
                     .trigger('startAnimate');
+                if ($profileSlider.find('.slick-active').is('[class*=profile-]') || isResponsiveState) {
+                    $profileSlider.addClass('contrast-arrow');
+                } else {
+                    $profileSlider.removeClass('contrast-arrow');
+                }
+                $profilePanels = $profileSlider.find('.profile-1-slide, .profile-2-slide');
+                $profilePanels.css({height: 'auto'});
+                $profilePanels.each(function (){
+                    var current = $(this).outerHeight();
+
+                    if (current > profilePanelHeight) {
+                        profilePanelHeight = current;
+                    }
+                });
+                $profilePanels.css({height: profilePanelHeight});
             }
         }
 
@@ -295,6 +313,7 @@
                 overlayContent = $('#modalOverlay > div');
 
             $overlaySlider.slick('unslick');
+            $overlaySlider.off('afterChange');
             $('.overlay-repository').append(overlayContent);
             if ("pushState" in history)
                 history.pushState("", document.title, location.pathname + location.search);
@@ -348,8 +367,8 @@
                 dots: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                prevArrow: '<span type="button" class="carousel-prev"><img src="/landing/images/Arrow-MainArticle-Carousel-' + (isResponsiveState ? 'Black' : 'Green') + '-L.svg"></span>',
-                nextArrow: '<span type="button" class="carousel-next"><img src="/landing/images/Arrow-MainArticle-Carousel-' + (isResponsiveState ? 'Black' : 'Green') + '-R.svg"></span>'
+                prevArrow: '<span type="button" class="carousel-prev ' + (isResponsiveState ? 'contrast-arrow' : '') + '"><img src="/landing/images/Arrow-MainArticle-Carousel-Green-L.svg"><img class="contrast-arrow" src="/landing/images/Arrow-MainArticle-Carousel-Black-L.svg"></span>',
+                nextArrow: '<span type="button" class="carousel-next ' + (isResponsiveState ? 'contrast-arrow' : '') + '"><img src="/landing/images/Arrow-MainArticle-Carousel-Green-R.svg"><img class="contrast-arrow" src="/landing/images/Arrow-MainArticle-Carousel-Black-R.svg"></span>'
             });
             animateProfileSlider();
             $profileSlider.on('afterChange', animateProfileSlider);
@@ -455,6 +474,7 @@
 
         function handleOverlayOpen(event) {
             isOpenFlag = true;
+            $('body').addClass('is-reveal-open');
             $overlay.find('*').foundation();
             if (currentInstance.open) {
                 currentInstance.open(event);
