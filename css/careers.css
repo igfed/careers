@@ -416,7 +416,7 @@ select, input, .ux-font--input, .tp_24a {
 }
 header {
   margin-bottom: 0;
-  background-color: #12273b;
+  background-color: #0D263C;
 }
 header .row:not(.width-limited) {
   max-width: 120rem;
@@ -512,11 +512,86 @@ header .logo {
     display: block;
   }
 }
+header .utility-bar {
+  background-color: #091a2a;
+  height: 30px;
+  color: #fff;
+}
+header .utility-bar .menu {
+  height: 30px;
+  margin-top: -20px;
+  max-width: 120rem;
+  padding-right: 20px;
+}
+header .utility-bar .menu .secondary-menu-item {
+  float: right;
+  position: relative;
+}
+header .utility-bar .menu .secondary-menu-item.info-toggle a {
+  border-right: 1px solid #293a44;
+}
+header .utility-bar .menu .secondary-menu-item a {
+  font-family: "whitney_bookregular";
+  font-size: 1.4rem;
+  text-transform: none;
+  line-height: 2rem;
+  padding: 2.6rem 2rem 2.3rem;
+  background-color: transparent;
+  height: 30px;
+}
+header .utility-bar .menu .secondary-menu-item a .fa-share-alt {
+  float: left;
+  margin-right: .8rem;
+  font-size: 1.5rem;
+  margin-top: .3rem;
+}
+header .utility-bar .menu .secondary-menu-item .share-toggle-content.active {
+  transform: translate(0, -7px);
+}
+header .utility-bar .menu .secondary-menu-item ul {
+  height: 25px !important;
+  z-index: 10;
+  background-color: #091a2a;
+  position: absolute;
+  right: 0;
+  width: 280px;
+  transition: 0.25s all ease-in;
+  transform: translate(0, -40px);
+}
+header .utility-bar .menu .secondary-menu-item ul li {
+  float: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+header .utility-bar .menu .secondary-menu-item ul li a {
+  padding: 0 5px;
+  font-family: "whitney_scmedium";
+  font-size: 1.2rem;
+  text-transform: lowercase;
+  text-align: right;
+  border-right: none !important;
+}
+header .utility-bar .menu .secondary-menu-item ul li a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+header .utility-bar .menu .secondary-menu-item ul li a .fa {
+  font-size: 1.8rem;
+  margin-right: .7rem;
+}
 @media screen and (min-width: 40em) {
   header .top-bar {
     float: none;
     padding: 0;
     background-color: transparent;
+  }
+  header .top-bar .columns + .columns:last-child {
+    width: auto !important;
+  }
+  header .top-bar .small-2 {
+    margin-left: 20px;
   }
   header .top-bar > div {
     margin: auto;
@@ -529,6 +604,7 @@ header .logo {
     background-color: transparent;
   }
   header .top-bar > div ul.menu li {
+    border: 0 !important;
     float: left;
   }
   header .top-bar > div ul.menu li {
@@ -544,7 +620,7 @@ header .logo {
     top: 27.5%;
   }
   header .top-bar > div ul.menu li::before {
-    border-color: #394454;
+    border-color: #0d263c;
     top: 31%;
   }
   header .top-bar > div ul.menu li:nth-child(2)::before {
@@ -561,7 +637,7 @@ header .logo {
   header .top-bar > div ul.menu li.secondary-menu-item {
     float: right;
     position: relative;
-    right: -2.75rem;
+    right: 0;
   }
   header .top-bar > div ul.menu li.secondary-menu-item a {
     font-family: "whitney_bookregular";
@@ -628,10 +704,27 @@ header .logo {
     font-size: 2rem;
     letter-spacing: 0;
     color: white;
+    transition: 0.5s border ease-in;
   }
-  header .top-bar > div ul.menu a.active, header .top-bar > div ul.menu a:hover {
+  header .top-bar > div ul.menu a:after {
+    content: "";
+    height: 3px;
+    background: #fff;
+    padding: 0 15%;
+    position: absolute;
+    bottom: 10px;
+    left: 15%;
+    width: 70%;
+    transition: transform 0.3s ease;
+    transform: translate(0, 13px);
+  }
+  header .top-bar > div ul.menu a.active {
     text-decoration: none;
     color: #0ed59a;
+  }
+  header .top-bar > div ul.menu a:hover:after {
+    position: absolute;
+    transform: translate(0, 10px);
   }
   header .top-bar > div ul.menu .logo-holder a {
     padding: 0;
@@ -910,7 +1003,7 @@ body.IGv2[data-areaid="careers"] .section.section-edge > div:first-child .tp_05a
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.our-business h3 {
-    padding-bottom: 4rem;
+    padding-bottom: 1.5rem;
   }
 }
 @media screen and (min-width: 40em) {
@@ -920,7 +1013,7 @@ body.IGv2[data-areaid="careers"] .section.section-edge > div:first-child .tp_05a
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.our-business + .section.area-l2 {
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 9.9rem;
   }
 }
@@ -1901,20 +1994,44 @@ body.IGv2[data-areaid="careers"] .section .illustration.medium {
     height: 14rem;
   }
 }
-body.IGv2[data-areaid="careers"] .section .illustration.outline-advisor {
-  background-image: url("../landing/images/L2-highlights/HL--mortgage-A.png");
+body.IGv2[data-areaid="careers"] .section .illustration.financial-advisor {
+  background: url("../landing/images/icons/careers_ouradvisors_compass_icon.png") no-repeat;
+  background-size: 100%;
 }
-body.IGv2[data-areaid="careers"] .section .illustration.outline-team {
-  background-image: url("../landing/images/L2-highlights/HL--mortgage-B.png");
+body.IGv2[data-areaid="careers"] .section .illustration.employee {
+  background: url("../landing/images/icons/careers_ourpeople_pindrop_icon.png") no-repeat;
+  background-size: 100%;
 }
-body.IGv2[data-areaid="careers"] .section .illustration.edge-placeholder {
-  background-image: url("../landing/images/L2-highlights/HL--mortgage-C.png");
+body.IGv2[data-areaid="careers"] .section .illustration.training {
+  background: url("../landing/images/icons/careers_trainingmentorship_2carabiner_icon.png") no-repeat;
+  background-size: 100%;
+}
+body.IGv2[data-areaid="careers"] .section .illustration.career {
+  background: url("../landing/images/icons/careers_careerprogression_pick_icon.png") no-repeat;
+  background-size: 100%;
+}
+body.IGv2[data-areaid="careers"] .section .illustration.diverse {
+  background: url("../landing/images/icons/careers_diversework_ring_icon.png") no-repeat;
+  background-size: 100%;
+}
+body.IGv2[data-areaid="careers"] .section .illustration.network {
+  background: url("../landing/images/icons/careers_powerfulnetwork_carabiner_icon.png") no-repeat;
+  background-size: 100%;
+}
+body.IGv2[data-areaid="careers"] .section .illustration.national {
+  background: url("../landing/images/icons/careers_ouradvisors_natfootprint_boots_icon.png") no-repeat;
+  background-size: 100%;
+}
+body.IGv2[data-areaid="careers"] .section .illustration.community {
+  background: url("../landing/images/icons/careers_community_mapleleaf_icon.png") no-repeat;
+  background-size: 100%;
 }
 body.IGv2[data-areaid="careers"] .section .illustration.profile-1-placeholder {
   background-image: url("../landing/images/careers/amy-guenther.jpg");
 }
 body.IGv2[data-areaid="careers"] .section .illustration.profile-2-placeholder {
-  background-image: url("../landing/images/careers/girish-agrawal.jpg");
+  background: url("../landing/images/careers/girish-agrawal.jpg") no-repeat;
+  background-size: 100%;
 }
 body.IGv2[data-areaid="careers"] .section.multi-tab-outline, body.IGv2[data-areaid="careers"] .section .multi-tab-outline {
   background-color: white;

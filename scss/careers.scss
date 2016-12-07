@@ -86,7 +86,7 @@ body.IGv2 {
       &.our-business {
         h3 {
           @media #{$medium-up} {
-            padding-bottom: 4rem;
+            padding-bottom: 1.5rem;
           }
         }
 
@@ -98,7 +98,7 @@ body.IGv2 {
 
         + .section.area-l2 {
           @media #{$medium-up} {
-            padding-top: 5rem;
+            padding-top: 3rem;
             padding-bottom: 9.9rem;
           }
 
@@ -1160,16 +1160,44 @@ body.IGv2 {
           }
         }
 
-        &.outline-advisor {
-          background-image: url('../landing/images/L2-highlights/HL--mortgage-A.png');
+        &.financial-advisor {
+          background: url('../landing/images/icons/careers_ouradvisors_compass_icon.png') no-repeat;
+          background-size: 100%;
         }
 
-        &.outline-team {
-          background-image: url('../landing/images/L2-highlights/HL--mortgage-B.png');
+        &.employee {
+          background: url('../landing/images/icons/careers_ourpeople_pindrop_icon.png') no-repeat;
+          background-size: 100%;
         }
 
-        &.edge-placeholder {
-          background-image: url('../landing/images/L2-highlights/HL--mortgage-C.png');
+        &.training {
+          background: url('../landing/images/icons/careers_trainingmentorship_2carabiner_icon.png') no-repeat;
+          background-size: 100%;
+        }
+
+        &.career {
+          background: url('../landing/images/icons/careers_careerprogression_pick_icon.png') no-repeat;
+          background-size: 100%;
+        }
+
+        &.diverse {
+          background: url('../landing/images/icons/careers_diversework_ring_icon.png') no-repeat;
+          background-size: 100%;
+        }
+
+        &.network {
+          background: url('../landing/images/icons/careers_powerfulnetwork_carabiner_icon.png') no-repeat;
+          background-size: 100%;
+        }
+
+        &.national {
+          background: url('../landing/images/icons/careers_ouradvisors_natfootprint_boots_icon.png') no-repeat;
+          background-size: 100%;
+        }
+
+        &.community {
+          background: url('../landing/images/icons/careers_community_mapleleaf_icon.png') no-repeat;
+          background-size: 100%;
         }
 
         &.profile-1-placeholder {
@@ -1177,7 +1205,8 @@ body.IGv2 {
         }
 
         &.profile-2-placeholder {
-          background-image: url('../landing/images/careers/girish-agrawal.jpg');
+          background: url('../landing/images/careers/girish-agrawal.jpg') no-repeat;
+          background-size: 100%;
         }
       }
 

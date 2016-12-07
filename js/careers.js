@@ -206,6 +206,12 @@
             $('.top-bar + .screen').on('click', function() {
                 $('a[data-toggle]').trigger('click');
             });
+
+            // Not pretty - just adding quick and dirty share link action
+            $('.share-toggle-trigger').on('click', function() {
+                $('.share-toggle-content').addClass('active');
+
+            });
         }
 
         //-----
