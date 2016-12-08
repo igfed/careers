@@ -1001,6 +1001,9 @@ body.IGv2[data-areaid="careers"] .section.section-edge > div:first-child .tp_05a
     margin-bottom: .5rem;
   }
 }
+body.IGv2[data-areaid="careers"] .section .mt-80 {
+  margin-top: 80px !important;
+}
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.our-business h3 {
     padding-bottom: 1.5rem;
@@ -1018,7 +1021,7 @@ body.IGv2[data-areaid="careers"] .section.section-edge > div:first-child .tp_05a
   }
 }
 body.IGv2[data-areaid="careers"] .section.our-business + .section.area-l2 > div.row:not(.width-limited) {
-  max-width: 120rem;
+  max-width: 114rem;
 }
 body.IGv2[data-areaid="careers"] .section .feature-grid {
   margin-bottom: -2rem;
