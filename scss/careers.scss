@@ -5,6 +5,10 @@ body.IGv2 {
         padding: 3.9rem 2rem;
       }
 
+      &.our-business {
+        padding-bottom: 3.2rem !important;
+      }
+
       &.area-l2 {
         background-color: white;
 
@@ -85,6 +89,14 @@ body.IGv2 {
 
       .mt-80 {
         margin-top: 80px !important;
+      }
+
+      .mt-30 {
+        margin-top: 30px !important;
+      }
+
+      .mb-0 {
+        margin-bottom: 0 !important
       }
 
       &.our-business {
@@ -221,16 +233,14 @@ body.IGv2 {
         background-color: #e5e8e8;
 
         @media #{$medium-up} {
-          background-image: url('../landing/images/careers/green-paint-background.jpg');
-          background-position: center center;
-          background-size: cover;
+          background-color: #7ec4b9;
         }
 
         .carousel-prev, .carousel-next {
           top: 16rem;
 
           @media #{$medium-up} {
-            top: 50%;
+            top: 43%;
             transform: translateY(-50%);
           }
 
@@ -275,7 +285,7 @@ body.IGv2 {
           transform: translateX(-50%);
 
           @media #{$medium-up} {
-            bottom: 4.3rem;
+            bottom: 2.3rem;
           }
 
           li {
@@ -289,13 +299,12 @@ body.IGv2 {
                 background-color: $igBlack;
 
                 @media #{$medium-up} {
-                  background-color: $igGreen;
+                  background-color: #3b666f;
                 }
               }
             }
 
             button {
-              background-color: #a7a6a4;
               border-radius: 50%;
               padding: 0;
               margin: 0 1rem;
@@ -307,8 +316,9 @@ body.IGv2 {
 
               @media #{$medium-up} {
                 margin: 0 .5rem;
-                border: none;
-                background-color: #a7a6a4;
+                border: 2px solid #3b666f;
+                width: 1.4rem;
+                height: 1.4rem;
               }
 
               &::before {
@@ -429,16 +439,16 @@ body.IGv2 {
                     }
 
                     &::before {
-                      position: absolute;
-                      top: -8.2rem;
-                      left: -4.9rem;
-                      content: "";
-                      background-color: $igBlack;
-                      border-radius: 50%;
-                      height: 8rem;
-                      width: 8rem;
-                      opacity: 0;
-                      transition: opacity ease-out .5s;
+                      //position: absolute;
+                      //top: -8.2rem;
+                      //left: -4.9rem;
+                      //content: "";
+                      //background-color: $igBlack;
+                      //border-radius: 50%;
+                      //height: 8rem;
+                      //width: 8rem;
+                      //opacity: 0;
+                      //transition: opacity ease-out .5s;
                     }
 
                     &:nth-child(1) {
@@ -555,21 +565,21 @@ body.IGv2 {
                       width: 30rem;
                     }
 
-                    &::after {
-                      background-image: url('../landing/images/careers/blades.png');
-                      background-repeat: no-repeat;
-                      content: "";
-                      width: 24.5rem;
-                      height: 3.9rem;
-                      bottom: -4.7rem;
-                      right: -1rem;
-                      position: absolute;
-                      display: none;
-
-                      @media #{$large-up} {
-                        display: block;
-                      }
-                    }
+                    //&::after {
+                    //  background-image: url('../landing/images/careers/blades.png');
+                    //  background-repeat: no-repeat;
+                    //  content: "";
+                    //  width: 24.5rem;
+                    //  height: 3.9rem;
+                    //  bottom: -4.7rem;
+                    //  right: -1rem;
+                    //  position: absolute;
+                    //  display: none;
+                    //
+                    //  @media #{$large-up} {
+                    //    display: block;
+                    //  }
+                    //}
                   }
 
                   ul {
@@ -608,7 +618,7 @@ body.IGv2 {
 
                 .profile-subject {
                   position: absolute;
-                  margin: 0;
+                  margin-top: -20px;
                   left: 2rem;
                   top: 2rem;
                   width: auto;
@@ -658,12 +668,15 @@ body.IGv2 {
                   z-index: 30;
                   width: auto;
                   right: 6.4rem;
-                  top: 17.8rem;
+                  top: 6.4rem;
                   text-align: center;
 
                   .tp_05a {
                     letter-spacing: 0;
-                    margin: 0;
+                    /* margin: 0; */
+                    width: 70%;
+                    margin-left: 15%;
+                    line-height: 1.1;
                   }
 
                   .tp_11a {
@@ -729,6 +742,7 @@ body.IGv2 {
                     text-align: left;
                     left: 36.5rem;
                     right: auto;
+                    max-width: 260px;
 
                     &::after {
                       transform: scaleX(-1);
@@ -767,16 +781,17 @@ body.IGv2 {
                 }
 
                 .profile-subject {
+                  margin-top: -20px;
                   left: auto;
                   right: 2rem;
 
                   @media #{$xlarge-up} {
                     left: auto;
-                    right: 5.1rem;
+                    right: 5rem;
                   }
 
                   .illustration {
-                    left: 14rem;
+                    left: 11rem;
 
                     @media #{$medium-only} {
                       left: auto;
@@ -805,6 +820,7 @@ body.IGv2 {
                 }
 
                 .profile-metrics {
+                  top: 6.4rem;
                   left: 6.4rem;
                   right: auto;
 
@@ -1166,51 +1182,52 @@ body.IGv2 {
         }
 
         &.financial-advisor {
-          background: url('../landing/images/icons/careers_ouradvisors_compass_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_ouradvisors_compass_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.employee {
-          background: url('../landing/images/icons/careers_ourpeople_pindrop_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_ourpeople_pindrop_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.training {
-          background: url('../landing/images/icons/careers_trainingmentorship_2carabiner_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_trainingmentorship_2carabiner_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.career {
-          background: url('../landing/images/icons/careers_careerprogression_pick_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_careerprogression_pick_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.diverse {
-          background: url('../landing/images/icons/careers_diversework_ring_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_diversework_ring_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.network {
-          background: url('../landing/images/icons/careers_powerfulnetwork_carabiner_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_powerfulnetwork_carabiner_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.national {
-          background: url('../landing/images/icons/careers_ouradvisors_natfootprint_boots_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_ouradvisors_natfootprint_boots_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.community {
-          background: url('../landing/images/icons/careers_community_mapleleaf_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_community_mapleleaf_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.profile-1-placeholder {
-          background-image: url('../landing/images/careers/amy-guenther.jpg');
+          left: 0.75rem;
+          background-image: url('../landing/images/careers/amy-guenther.png');
         }
 
         &.profile-2-placeholder {
-          background: url('../landing/images/careers/girish-agrawal.jpg') no-repeat;
+          background: url('../landing/images/careers/girish-agrawal.png') no-repeat;
           background-size: 100%;
         }
       }
@@ -1609,7 +1626,7 @@ body.IGv2 {
           height: 2rem;
           position: absolute;
           right: 1.2rem;
-          top: 50%;
+          top: 43%;
           transform: translateY(-50%);
         }
       }
