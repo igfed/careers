@@ -474,7 +474,7 @@ header .logo {
   position: absolute;
   width: 120px;
   height: 35px;
-  top: 2px;
+  top: 3px;
   right: 30px;
   width: 120px;
   height: 35px;
@@ -483,7 +483,7 @@ header .logo {
   header .logo {
     position: absolute;
     left: 10px;
-    top: 15px;
+    top: 17px;
   }
 }
 header .utility-bar {
@@ -522,13 +522,20 @@ header .utility-bar .menu .secondary-menu-item a .fa-share-alt {
 header .utility-bar .menu .secondary-menu-item .share-toggle-content.active {
   transform: translate(0, -7px);
 }
+header .utility-bar .menu .secondary-menu-item .share-toggle-close {
+  padding-left: 15px;
+}
+header .utility-bar .menu .secondary-menu-item .share-toggle-close .fa-times-circle-o {
+  font-size: 2.7rem;
+  font-weight: normal;
+}
 header .utility-bar .menu .secondary-menu-item ul {
   height: 25px !important;
   z-index: 10;
   background-color: #091a2a;
   position: absolute;
   right: 1px;
-  width: 280px;
+  width: 330px;
   transition: 0.25s all ease-in;
   transform: translate(0, -40px);
 }
@@ -1181,6 +1188,19 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider ul.slick-dots li butto
 body.IGv2[data-areaid="careers"] .section.profiles-slider ul.slick-dots li button::before {
   content: "";
 }
+@media (max-width: 1439px) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .profile-data-1, body.IGv2[data-areaid="careers"] .section.profiles-slider .profile-data-2 {
+    text-align: center;
+  }
+}
+@media (min-width: 640px) and (max-width: 1439px) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .profile-data-1 .tp_27a, body.IGv2[data-areaid="careers"] .section.profiles-slider .profile-data-2 .tp_27a {
+    padding: 0 25%;
+  }
+}
+body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track .row.last {
+  margin-bottom: 60px;
+}
 body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
   max-width: none;
   position: relative;
@@ -1190,13 +1210,26 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     padding: 4.1rem 3.7rem 9.2rem;
   }
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 75em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
-    height: 76.4rem;
-    min-height: 76.4rem;
+    height: 680px !important;
+    min-height: 680px !important;
   }
 }
-@media screen and (min-width: 40em) {
+@media (min-width: 640px) and (max-width: 1439px) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row .profile-subject > * {
+    text-align: center !important;
+  }
+}
+@media (min-width: 1440px) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide::before {
+    background-image: url("../landing/images/careers/timeline-foreground-1.png");
+    background-repeat: no-repeat;
+  }
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide::before {
+    background-image: url("../landing/images/careers/timeline-foreground-2.png");
+    background-repeat: no-repeat;
+  }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide::after, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide::after {
     background-image: url("../landing/images/careers/grey-edge-background.png");
     background-repeat: no-repeat;
@@ -1207,11 +1240,9 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     position: absolute;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide::before {
-    background-image: url("../landing/images/careers/timeline-foreground.png");
-    background-repeat: no-repeat;
     content: "";
     width: 100%;
-    height: 43.7rem;
+    height: 680px;
     bottom: 0;
     left: 0;
     position: absolute;
@@ -1220,38 +1251,22 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     transition: transform ease-out .333s;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 40em) and (max-width: 63.9375em) {
+@media (min-width: 1440px) and (min-width: 1440px) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide::before {
-    background-position: 26% center;
-    background-size: 129.5% 100%;
-  }
-}
-@media screen and (min-width: 40em) and (min-width: 64em) and (max-width: 74.9375em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide::before {
-    background-size: 108% 100%;
-    background-position: 75% center;
-  }
-}
-@media screen and (min-width: 40em) and (min-width: 75em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide::before {
-    background-size: 100% 100%;
+    background-size: 1440px 680px;
     background-position: center center;
   }
 }
-@media screen and (min-width: 40em) {
+@media (min-width: 1440px) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide h3.tp_05a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide h3.tp_05a {
     margin: 0;
     position: relative;
-    top: -8rem;
+    top: 4rem;
     z-index: 30;
   }
-}
-@media screen and (min-width: 40em) and (min-width: 64em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide h3.tp_05a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide h3.tp_05a {
-    top: -5rem;
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .tp_05a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .tp_05a {
+    line-height: 1.2;
   }
-}
-@media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide.slick-complete::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide.slick-complete::before {
     transform: translateY(0%) scaleY(1);
   }
@@ -1259,143 +1274,126 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     float: none;
     position: static;
   }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide.slick-complete .profile-data .row > .columns, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide.slick-complete .profile-data .row > .columns {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide.slick-complete .profile-data-1 .row > .columns, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide.slick-complete .profile-data-2 .row > .columns, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide.slick-complete .profile-data-1 .row > .columns, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide.slick-complete .profile-data-2 .row > .columns {
     opacity: 1;
   }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide.slick-complete .profile-data .row::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide.slick-complete .profile-data .row::before {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide.slick-complete .profile-data-1 .row::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide.slick-complete .profile-data-2 .row::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide.slick-complete .profile-data-1 .row::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide.slick-complete .profile-data-2 .row::before {
     opacity: 1;
   }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 {
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+@media screen and (min-width: 1440px) and (min-width: 75em) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 {
+    max-width: 1440px;
+    height: 680px;
+  }
+}
+@media (min-width: 1440px) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 .row, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 .row {
     position: absolute;
-    display: flex;
-    flex-wrap: wrap;
     z-index: 20;
   }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row > .columns, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row > .columns {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 .row > .columns, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 .row > .columns {
     margin-top: 0;
     opacity: 0;
     transition: opacity ease-out .5s .5s;
   }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row > .columns:nth-child(2), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row > .columns:nth-child(2) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 .row > .columns:nth-child(2), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 .row > .columns:nth-child(2) {
     order: 3;
     margin-top: .5rem;
   }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(1), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(1) {
-    width: 20%;
-    top: 76.6%;
-    left: 3.5%;
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 .row:nth-child(1), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 .row:nth-child(1) {
+    top: 70.6%;
+    width: 17%;
+    left: 7%;
   }
-}
-@media screen and (min-width: 40em) and (min-width: 64em) and (max-width: 74.9375em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(1), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(1) {
-    left: 3.4%;
-    width: 15%;
-  }
-}
-@media screen and (min-width: 40em) and (min-width: 75em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(1), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(1) {
-    left: 8.6%;
-    width: 15%;
-  }
-}
-@media screen and (min-width: 40em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(2), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(2) {
-    width: 33%;
-    top: 41.4%;
-    left: 24.6%;
-  }
-}
-@media screen and (min-width: 40em) and (min-width: 64em) and (max-width: 74.9375em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(2), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(2) {
-    left: 21%;
-    width: 23%;
-  }
-}
-@media screen and (min-width: 40em) and (min-width: 75em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(2), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(2) {
-    left: 24.75%;
-    width: 23%;
-  }
-}
-@media screen and (min-width: 40em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(3), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(3) {
-    width: 14.5%;
-    top: 68.1%;
-    left: 37.2%;
-  }
-}
-@media screen and (min-width: 40em) and (min-width: 64em) and (max-width: 74.9375em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(3), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(3) {
-    left: 31.5%;
-    width: 12%;
-  }
-}
-@media screen and (min-width: 40em) and (min-width: 75em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(3), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(3) {
-    left: 34.4%;
-    width: 12%;
-  }
-}
-@media screen and (min-width: 40em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(4), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(4) {
-    top: 63.3%;
-    width: 23%;
-    left: 53.5%;
-  }
-}
-@media screen and (min-width: 40em) and (min-width: 64em) and (max-width: 74.9375em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(4), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(4) {
-    left: 45%;
-  }
-}
-@media screen and (min-width: 40em) and (min-width: 75em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(4), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(4) {
-    left: 47.1%;
-  }
-}
-@media screen and (min-width: 40em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(5), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(5) {
-    top: 64.7%;
-    width: 19%;
-    left: 79.6%;
-  }
-}
-@media screen and (min-width: 40em) and (min-width: 40em) and (max-width: 63.9375em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(5), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(5) {
-    text-align: right;
-  }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(5)::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(5)::before {
-    left: auto;
-    right: -4.9rem;
-  }
-}
-@media screen and (min-width: 40em) and (min-width: 64em) and (max-width: 74.9375em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(5), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(5) {
-    left: 84.1%;
-    width: 16%;
-  }
-}
-@media screen and (min-width: 40em) and (min-width: 75em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data .row:nth-child(5), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data .row:nth-child(5) {
-    left: 83.3%;
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 .row:nth-child(2), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 .row:nth-child(2) {
+    top: 55.8%;
+    left: 25.5%;
     width: 17%;
   }
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 .row:nth-child(3), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 .row:nth-child(3) {
+    top: 50.6%;
+    left: 43.4%;
+    width: 17%;
+  }
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 .row:nth-child(4), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 .row:nth-child(4) {
+    top: 45.4%;
+    width: 19%;
+    left: 63%;
+  }
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 .row:nth-child(5), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 .row:nth-child(5) {
+    top: 40.2%;
+    width: 19%;
+    left: 82.4%;
+  }
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 {
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+  }
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 1440px) and (min-width: 75em) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 {
+    max-width: 1440px;
+    height: 680px;
+  }
+}
+@media (min-width: 1440px) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 .row, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 .row {
+    position: absolute;
+    z-index: 20;
+  }
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 .row > .columns, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 .row > .columns {
+    margin-top: 0;
+    opacity: 0;
+    transition: opacity ease-out .5s .5s;
+  }
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 .row > .columns:nth-child(2), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 .row > .columns:nth-child(2) {
+    order: 3;
+    margin-top: .5rem;
+  }
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 .row:nth-child(1), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 .row:nth-child(1) {
+    top: 71.5%;
+    left: 5.6%;
+    width: 15%;
+  }
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 .row:nth-child(2), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 .row:nth-child(2) {
+    top: 61.8%;
+    left: 25%;
+    width: 20%;
+  }
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 .row:nth-child(3), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 .row:nth-child(3) {
+    top: 42%;
+    left: 30%;
+    width: 17%;
+  }
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 .row:nth-child(4), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 .row:nth-child(4) {
+    top: 31.1%;
+    width: 17%;
+    left: 49.5%;
+  }
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 .row:nth-child(5), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 .row:nth-child(5) {
+    top: 39.4%;
+    width: 19%;
+    left: 75.4%;
+  }
+}
+@media screen and (min-width: 1440px) and (min-width: 75em) and (max-width: 89.9375em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-header, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-header {
+    right: 1.9rem;
+    top: 10rem;
     position: absolute;
     right: 0;
     top: 0rem;
     z-index: 20;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 64em) and (max-width: 74.9375em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-header, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-header {
-    right: 1.9rem;
-    top: 10rem;
-  }
-}
-@media screen and (min-width: 40em) {
+@media (min-width: 1440px) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-header h3, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-header h3 {
     position: absolute;
     width: 50rem;
@@ -1405,25 +1403,25 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     top: 9.2rem;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 40em) and (max-width: 63.9375em) {
+@media screen and (min-width: 1440px) and (min-width: 40em) and (max-width: 63.9375em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-header h3, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-header h3 {
     right: 1rem;
     top: 1rem;
     width: 30rem;
   }
 }
-@media screen and (min-width: 40em) {
+@media (min-width: 1440px) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-header ul, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-header ul {
     padding: 0;
     margin: 0;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 40em) and (max-width: 63.9375em) {
+@media screen and (min-width: 1440px) and (min-width: 40em) and (max-width: 63.9375em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-header ul, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-header ul {
     display: none;
   }
 }
-@media screen and (min-width: 40em) {
+@media (min-width: 1440px) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-header ul li, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-header ul li {
     padding: 0;
     margin: 0;
@@ -1454,13 +1452,13 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     z-index: 40;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 75em) {
+@media screen and (min-width: 1440px) and (min-width: 75em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-subject, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-subject {
     left: 5.1rem;
     top: 7rem;
   }
 }
-@media screen and (min-width: 40em) {
+@media (min-width: 1440px) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-subject .illustration, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-subject .illustration {
     margin: 0;
     width: 15.6rem;
@@ -1483,14 +1481,14 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     left: 16.8rem;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 40em) and (max-width: 63.9375em) {
+@media screen and (min-width: 1440px) and (min-width: 40em) and (max-width: 63.9375em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-subject p:nth-child(4), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-subject p:nth-child(4) {
     line-height: 1.6rem;
     margin-left: 0.5rem;
     width: 15rem;
   }
 }
-@media screen and (min-width: 40em) {
+@media (min-width: 1440px) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-metrics, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-metrics {
     position: absolute;
     z-index: 30;
@@ -1547,13 +1545,13 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     transform: scaleX(-1);
   }
 }
-@media screen and (min-width: 40em) and (min-width: 64em) and (max-width: 74.9375em) {
+@media screen and (min-width: 1440px) and (min-width: 75em) and (max-width: 89.9375em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-header {
     right: auto;
     left: 1.9rem;
   }
 }
-@media screen and (min-width: 40em) {
+@media (min-width: 1440px) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-header h3 {
     text-align: left;
     left: 36.5rem;
@@ -1566,13 +1564,13 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     right: auto;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 40em) and (max-width: 63.9375em) {
+@media screen and (min-width: 1440px) and (min-width: 40em) and (max-width: 63.9375em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-header h3 {
     right: auto;
     left: 1rem;
   }
 }
-@media screen and (min-width: 40em) {
+@media (min-width: 1440px) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-header ul li {
     text-align: left;
     font-size: 1.4rem;
@@ -1596,24 +1594,24 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     right: 2rem;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 75em) {
+@media screen and (min-width: 1440px) and (min-width: 75em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-subject {
     left: auto;
     right: 5rem;
   }
 }
-@media screen and (min-width: 40em) {
+@media (min-width: 1440px) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-subject .illustration {
     left: 11rem;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 40em) and (max-width: 63.9375em) {
+@media screen and (min-width: 1440px) and (min-width: 40em) and (max-width: 63.9375em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-subject .illustration {
     left: auto;
     right: 0;
   }
 }
-@media screen and (min-width: 40em) {
+@media (min-width: 1440px) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-subject p {
     text-align: right;
   }
@@ -1635,7 +1633,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     right: auto;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 40em) and (max-width: 63.9375em) {
+@media screen and (min-width: 1440px) and (min-width: 40em) and (max-width: 63.9375em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-metrics {
     top: 14.8rem;
     left: 9.4rem;
@@ -1657,7 +1655,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     width: 10rem;
   }
 }
-@media screen and (min-width: 40em) and (min-width: 64em) and (max-width: 74.9375em) {
+@media screen and (min-width: 1440px) and (min-width: 64em) and (max-width: 74.9375em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-metrics {
     top: 14.8rem;
     left: 9.4rem;
@@ -1722,30 +1720,31 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     font-size: 1.7rem;
     line-height: 2rem;
   }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 {
     text-align: left;
   }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data div.row, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data div.row {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 div.row, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 div.row, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 div.row, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 div.row {
     margin: 4.7rem -2rem 0;
     padding-bottom: 2.8rem;
   }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data div.row:last-child, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data div.row:last-child {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 div.row:last-child, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 div.row:last-child, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 div.row:last-child, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 div.row:last-child {
     padding-bottom: 1.4rem;
   }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data div.tp_05a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data div.tp_05a {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 div.tp_05a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 div.tp_05a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 div.tp_05a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 div.tp_05a {
     font-size: 1.6rem;
     line-height: 1.6rem;
   }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data div.tp_03a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data div.tp_03a {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 div.tp_03a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 div.tp_03a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 div.tp_03a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 div.tp_03a {
     text-align: right;
     font-size: 1.8rem;
     line-height: 1.6rem;
     font-family: "whitney_scmedium";
   }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data div.tp_27a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data div.tp_27a {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 div.tp_27a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 div.tp_27a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 div.tp_27a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 div.tp_27a {
     font-size: 1.4rem;
     line-height: 2rem;
     margin-top: .9rem;
+    max-width: 40%;
   }
 }
 body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide {
@@ -1791,15 +1790,9 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.vi
   width: 100%;
   position: relative;
   margin-bottom: 1.9rem;
-  margin-top: 1.6rem;
+  margin-top: 0;
   background-color: black;
   overflow: hidden;
-}
-@media screen and (min-width: 40em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns .row .columns .video-container {
-    margin-top: 6.8rem;
-    margin-bottom: 3.7rem;
-  }
 }
 body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns .row .columns .video-container iframe {
   width: 100%;

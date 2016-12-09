@@ -212,6 +212,12 @@
                 $('.share-toggle-content').addClass('active');
 
             });
+
+            $('.share-toggle-close').on('click', function(e) {
+                e.stopPropagation();
+                e.preventDefault();
+                $('.share-toggle-content').toggleClass('active');
+            });
         }
 
         //-----

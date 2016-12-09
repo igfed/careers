@@ -1,4 +1,5 @@
 body.IGv2 {
+
   &[data-areaid="careers"] {
     .section {
       @media #{$small-only} {
@@ -328,7 +329,27 @@ body.IGv2 {
           }
         }
 
+        .profile-data-1, .profile-data-2 {
+          @media (max-width: 1439px) {
+            text-align: center;
+          }
+
+          @media (min-width: 640px) and (max-width: 1439px) {
+
+            .tp_27a {
+              padding: 0 25%;
+            }
+
+          }
+
+        }
+
         .slick-track {
+
+          .row.last {
+            margin-bottom: 60px;
+          }
+
           > .row {
             max-width: none;
             position: relative;
@@ -337,12 +358,33 @@ body.IGv2 {
               padding: 4.1rem 3.7rem 9.2rem;
             }
 
-            @media #{$medium-up} {
-              height: 76.4rem;
-              min-height: 76.4rem;
+            @media #{$xlarge-up} {
+              height: 680px !important;
+              min-height: 680px !important;
             }
 
-            @media #{$medium-up} {
+            .profile-subject > * {
+              @media (min-width: 640px) and (max-width: 1439px) {
+                text-align: center !important;
+              }
+            }
+
+            @media (min-width: 1440px) {
+              &.profile-1-slide {
+                &::before {
+                  background-image: url('../landing/images/careers/timeline-foreground-1.png');
+                  background-repeat: no-repeat;
+                }
+              }
+
+              &.profile-2-slide {
+                &::before {
+                  background-image: url('../landing/images/careers/timeline-foreground-2.png');
+                  background-repeat: no-repeat;
+
+                }
+              }
+
               &.profile-1-slide, &.profile-2-slide {
 
                 &::after {
@@ -356,11 +398,9 @@ body.IGv2 {
                 }
 
                 &::before {
-                  background-image: url('../landing/images/careers/timeline-foreground.png');
-                  background-repeat: no-repeat;
                   content: "";
                   width: 100%;
-                  height: 43.7rem;
+                  height: 680px;
                   bottom: 0;
                   left: 0;
                   position: absolute;
@@ -368,18 +408,8 @@ body.IGv2 {
                   transform: translateY(100%) scaleY(0);
                   transition: transform ease-out .333s;
 
-                  @media #{$medium-only} {
-                    background-position: 26% center;
-                    background-size: 129.5% 100%;
-                  }
-
-                  @media #{$large-only} {
-                    background-size: 108% 100%;
-                    background-position: 75% center;
-                  }
-
-                  @media #{$xlarge-up} {
-                    background-size: 100% 100%;
+                  @media (min-width: 1440px) {
+                    background-size: 1440px 680px;
                     background-position: center center;
                   }
                 }
@@ -387,12 +417,12 @@ body.IGv2 {
                 h3.tp_05a {
                   margin: 0;
                   position: relative;
-                  top: -8rem;
+                  top: 4rem;
                   z-index: 30;
+                }
 
-                  @media #{$large-up} {
-                    top: -5rem;
-                  }
+                .tp_05a {
+                  line-height: 1.2;
                 }
 
                 &.slick-complete {
@@ -407,7 +437,7 @@ body.IGv2 {
                 }
 
                 &.slick-complete {
-                  .profile-data {
+                  .profile-data-1, .profile-data-2 {
                     .row {
                       > .columns {
                         opacity: 1;
@@ -420,11 +450,18 @@ body.IGv2 {
                   }
                 }
 
-                .profile-data {
+                .profile-data-1 {
+                  @media #{$xlarge-up} {
+                    max-width: 1440px;
+                    height: 680px;
+                  }
+
+                  height: auto;
+                  margin: 0 auto;
+                  position: relative;
+
                   .row {
                     position: absolute;
-                    display: flex;
-                    flex-wrap: wrap;
                     z-index: 20;
 
                     > .columns {
@@ -452,103 +489,117 @@ body.IGv2 {
                     }
 
                     &:nth-child(1) {
-                      width: 20%;
-                      top: 76.6%;
-                      left: 3.5%;
-
-                      @media #{$large-only} {
-                        left: 3.4%;
-                        width: 15%;
-                      }
-
-                      @media #{$xlarge-up} {
-                        left: 8.6%;
-                        width: 15%;
-                      }
+                      top: 70.6%;
+                      width: 17%;
+                      left: 7%;
                     }
 
                     &:nth-child(2) {
-                      width: 33%;
-                      top: 41.4%;
-                      left: 24.6%;
-
-                      @media #{$large-only} {
-                        left: 21%;
-                        width: 23%;
-                      }
-
-                      @media #{$xlarge-up} {
-                        left: 24.75%;
-                        width: 23%;
-                      }
+                      top: 55.8%;
+                      left: 25.5%;
+                      width: 17%;
                     }
 
                     &:nth-child(3) {
-                      width: 14.5%;
-                      top: 68.1%;
-                      left: 37.2%;
-
-                      @media #{$large-only} {
-                        left: 31.5%;
-                        width: 12%;
-                      }
-
-                      @media #{$xlarge-up} {
-                        left: 34.4%;
-                        width: 12%;
-                      }
+                      top: 50.6%;
+                      left: 43.4%;
+                      width: 17%;
                     }
 
                     &:nth-child(4) {
-                      top: 63.3%;
-                      width: 23%;
-                      left: 53.5%;
-
-                      @media #{$large-only} {
-                        left: 45%;
-                      }
-
-                      @media #{$xlarge-up} {
-                        left: 47.1%;
-                      }
+                      top: 45.4%;
+                      width: 19%;
+                      left: 63%;
                     }
 
                     &:nth-child(5) {
-                      top: 64.7%;
+                      top: 40.2%;
                       width: 19%;
-                      left: 79.6%;
+                      left: 82.4%;
+                    }
+                  }
+                }
 
-                      @media #{$medium-only} {
-                        text-align: right;
+                .profile-data-2 {
+                  @media #{$xlarge-up} {
+                    max-width: 1440px;
+                    height: 680px;
+                  }
 
-                        &::before {
-                          left: auto;
-                          right: -4.9rem;
-                        }
+                  height: auto;
+                  margin: 0 auto;
+                  position: relative;
+
+                  .row {
+                    position: absolute;
+                    z-index: 20;
+
+                    > .columns {
+                      margin-top: 0;
+                      opacity: 0;
+                      transition: opacity ease-out .5s .5s;
+
+                      &:nth-child(2) {
+                        order: 3;
+                        margin-top: .5rem;
                       }
+                    }
 
-                      @media #{$large-only} {
-                        left: 84.1%;
-                        width: 16%;
-                      }
+                    &::before {
+                      //position: absolute;
+                      //top: -8.2rem;
+                      //left: -4.9rem;
+                      //content: "";
+                      //background-color: $igBlack;
+                      //border-radius: 50%;
+                      //height: 8rem;
+                      //width: 8rem;
+                      //opacity: 0;
+                      //transition: opacity ease-out .5s;
+                    }
 
-                      @media #{$xlarge-up} {
-                        left: 83.3%;
-                        width: 17%;
-                      }
+                    &:nth-child(1) {
+                      top: 71.5%;
+                      left: 5.6%;
+                      width: 15%;
+                    }
+
+                    &:nth-child(2) {
+                      top: 61.8%;
+                      left: 25%;
+                      width: 20%;
+                    }
+
+                    &:nth-child(3) {
+                      top: 42%;
+                      left: 30%;
+                      width: 17%;
+
+                    }
+
+                    &:nth-child(4) {
+                      top: 31.1%;
+                      width: 17%;
+                      left: 49.5%;
+                    }
+
+                    &:nth-child(5) {
+                      top: 39.4%;
+                      width: 19%;
+                      left: 75.4%;
                     }
                   }
                 }
 
                 .profile-header {
-                  position: absolute;
-                  right: 0;
-                  top: 0rem;
-                  z-index: 20;
 
-                  @media #{$large-only} {
+                  @media #{$xlarge-only} {
                     right: 1.9rem;
                     top: 10rem;
+                    position: absolute;
+                    right: 0;
+                    top: 0rem;
+                    z-index: 20;
                   }
 
                   h3 {
@@ -733,7 +784,7 @@ body.IGv2 {
                 }
 
                 .profile-header {
-                  @media #{$large-only} {
+                  @media #{$xlarge-only} {
                     right: auto;
                     left: 1.9rem;
                   }
@@ -932,7 +983,7 @@ body.IGv2 {
                   }
                 }
 
-                .profile-data {
+                .profile-data-1, .profile-data-2 {
                   text-align: left;
 
                   div {
@@ -961,6 +1012,7 @@ body.IGv2 {
                       font-size: 1.4rem;
                       line-height: 2rem;
                       margin-top: .9rem;
+                      max-width: 40%;
                     }
                   }
                 }
@@ -1010,14 +1062,9 @@ body.IGv2 {
                       width: 100%;
                       position: relative;
                       margin-bottom: 1.9rem;
-                      margin-top: 1.6rem;
+                      margin-top: 0;
                       background-color: black;
                       overflow: hidden;
-
-                      @media #{$medium-up} {
-                        margin-top: 6.8rem;
-                        margin-bottom: 3.7rem;
-                      }
 
                       iframe {
                         width: 100%;
