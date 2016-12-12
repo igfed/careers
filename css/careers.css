@@ -883,11 +883,6 @@ header .link-list-horizontal li .fa {
   }
 }
 
-@media screen and (max-width: 39.9375em) {
-  body.IGv2[data-areaid="careers"] .section {
-    padding: 3.9rem 2rem;
-  }
-}
 body.IGv2[data-areaid="careers"] .section.our-business {
   padding-bottom: 3.2rem !important;
 }
@@ -2216,11 +2211,7 @@ body.IGv2[data-areaid="careers"] .section .sticky {
 }
 body.IGv2[data-areaid="careers"] .section > div:first-child .tp_05a {
   letter-spacing: 1px;
-}
-@media screen and (min-width: 40em) {
-  body.IGv2[data-areaid="careers"] .section > div:first-child .tp_05a {
-    margin-top: 2rem;
-  }
+  margin-top: 4rem;
 }
 body.IGv2[data-areaid="careers"] .overlay-repository {
   display: none;

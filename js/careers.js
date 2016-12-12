@@ -15,6 +15,17 @@
                 $(window).on('resize', resizeHandler);
 
                 setRevealContentHeight();
+
+                // Smooth scrolling for anchor links
+                $('a[href^="#"]').on('click', function (e) {
+                    var target = $(this.getAttribute('href'));
+                    if (target.length) {
+                        e.preventDefault();
+                        $('html, body').stop().animate({
+                            scrollTop: target.offset().top
+                        }, 750);
+                    }
+                });
             }
 
             //-----
@@ -164,7 +175,7 @@
     //-----
 
     function GuiModule(overlayReference) {
-    	var multiTabToggleSelector = '[class*="toggle-"]:not([class*="info-toggle"])',
+        var multiTabToggleSelector = '[class*="toggle-"]:not([class*="info-toggle"])',
             multiTabContentSelector = '[class*="content-"]',
             multiTabSelector = '.multi-tab-outline',
             $edgeOverlayLocation = $('#edge-overlay-content'),
@@ -203,17 +214,17 @@
             handleWindowScrolling();
 
             $('.info-toggle').infoToggle();
-            $('.top-bar + .screen').on('click', function() {
+            $('.top-bar + .screen').on('click', function () {
                 $('a[data-toggle]').trigger('click');
             });
 
             // Not pretty - just adding quick and dirty share link action
-            $('.share-toggle-trigger').on('click', function() {
+            $('.share-toggle-trigger').on('click', function () {
                 $('.share-toggle-content').addClass('active');
 
             });
 
-            $('.share-toggle-close').on('click', function(e) {
+            $('.share-toggle-close').on('click', function (e) {
                 e.stopPropagation();
                 e.preventDefault();
                 $('.share-toggle-content').toggleClass('active');
@@ -257,7 +268,7 @@
                 }
                 $profilePanels = $profileSlider.find('.profile-1-slide, .profile-2-slide');
                 $profilePanels.css({height: 'auto'});
-                $profilePanels.each(function (){
+                $profilePanels.each(function () {
                     var current = $(this).outerHeight();
 
                     if (current > profilePanelHeight) {

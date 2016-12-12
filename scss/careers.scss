@@ -3,7 +3,6 @@ body.IGv2 {
   &[data-areaid="careers"] {
     .section {
       @media #{$small-only} {
-        padding: 3.9rem 2rem;
       }
 
       &.our-business {
@@ -1585,10 +1584,7 @@ body.IGv2 {
       > div:first-child {
         .tp_05a {
           letter-spacing: 1px;
-
-          @media #{$medium-up} {
-            margin-top: 2rem;
-          }
+          margin-top: 4rem;
         }
       }
     }
