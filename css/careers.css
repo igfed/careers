@@ -1105,7 +1105,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider p.tp_03a + p.tp_05a {
   }
 }
 body.IGv2[data-areaid="careers"] .section.profiles-slider .carousel-prev, body.IGv2[data-areaid="careers"] .section.profiles-slider .carousel-next {
-  top: 16rem;
+  top: 22rem;
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .carousel-prev, body.IGv2[data-areaid="careers"] .section.profiles-slider .carousel-next {
@@ -1264,15 +1264,6 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
   }
 }
 @media (min-width: 1440px) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide h3.tp_05a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide h3.tp_05a {
-    margin: 0;
-    position: relative;
-    top: 4rem;
-    z-index: 30;
-  }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .tp_05a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .tp_05a {
-    line-height: 1.2;
-  }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide.slick-complete::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide.slick-complete::before {
     transform: translateY(0%) scaleY(1);
   }
@@ -2047,6 +2038,19 @@ body.IGv2[data-areaid="careers"] .section.multi-tab-outline .columns > div, body
     display: block;
   }
 }
+@media screen and (max-width: 39.9375em) {
+  body.IGv2[data-areaid="careers"] .section.multi-tab-outline.multi-tab-outline-medium, body.IGv2[data-areaid="careers"] .section .multi-tab-outline.multi-tab-outline-medium {
+    margin-top: 10px;
+  }
+  body.IGv2[data-areaid="careers"] .section.multi-tab-outline.multi-tab-outline-medium .tp_05a, body.IGv2[data-areaid="careers"] .section .multi-tab-outline.multi-tab-outline-medium .tp_05a {
+    max-width: 60%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 12px !important;
+    /* It's a hack but figuring out the 100 different places that .tp-05a is styled and how they conflict is impossible */
+  }
+}
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.multi-tab-outline.multi-tab-outline-medium .columns[class*="toggle-"], body.IGv2[data-areaid="careers"] .section .multi-tab-outline.multi-tab-outline-medium .columns[class*="toggle-"] {
     border: 1px solid #cfd4d8;
@@ -2333,6 +2337,7 @@ body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline .row .
     width: 60%;
     padding-bottom: 5.9rem;
     text-transform: none;
+    display: block !important;
   }
 }
 @media screen and (max-width: 39.9375em) {
@@ -2376,8 +2381,16 @@ body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline .row .
   }
 }
 @media screen and (max-width: 39.9375em) {
+  body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline .row [class*="toggle-"] {
+    padding: 1.2rem 1rem 0.9rem;
+    margin-bottom: 1.9rem;
+  }
   body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline .row [class*="toggle-"] .tp_05a {
     width: 90%;
+    margin-bottom: 1.4rem;
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    margin: 0;
   }
 }
 @media screen and (min-width: 40em) {

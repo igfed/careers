@@ -252,7 +252,7 @@ body.IGv2 {
         }
 
         .carousel-prev, .carousel-next {
-          top: 16rem;
+          top: 22rem;
 
           @media #{$medium-up} {
             top: 50%;
@@ -429,16 +429,16 @@ body.IGv2 {
                   }
                 }
 
-                h3.tp_05a {
-                  margin: 0;
-                  position: relative;
-                  top: 4rem;
-                  z-index: 30;
-                }
-
-                .tp_05a {
-                  line-height: 1.2;
-                }
+                //h3.tp_05a {
+                //  margin: 0;
+                //  position: relative;
+                //  top: 4rem;
+                //  z-index: 30;
+                //}
+                //
+                //.tp_05a {
+                //  line-height: 1.2;
+                //}
 
                 &.slick-complete {
                   &::before {
@@ -1376,6 +1376,18 @@ body.IGv2 {
         }
 
         &.multi-tab-outline-medium {
+          @media #{$small-only} {
+            margin-top: 10px;
+
+            .tp_05a {
+              max-width: 60%;
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+              margin-bottom: 12px !important; /* It's a hack but figuring out the 100 different places that .tp-05a is styled and how they conflict is impossible */
+            }
+          }
+
           .columns {
             @media #{$medium-up} {
               &[class*="toggle-"] {
@@ -1723,6 +1735,7 @@ body.IGv2 {
                     width: 60%;
                     padding-bottom: 5.9rem;
                     text-transform: none;
+                    display: block !important;
                   }
                 }
               }
@@ -1776,8 +1789,16 @@ body.IGv2 {
 
           @media #{$small-only} {
             [class*="toggle-"] {
+
+              padding: 1.2rem 1rem 0.9rem;
+              margin-bottom: 1.9rem;
               .tp_05a {
                 width: 90%;
+                margin-bottom: 1.4rem;
+                letter-spacing: 1px;
+                font-size: 1.6rem;
+                margin: 0;
+
               }
             }
           }
