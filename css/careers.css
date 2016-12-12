@@ -888,11 +888,6 @@ header .link-list-horizontal li .fa {
     padding: 3.9rem 2rem;
   }
 }
-@media (max-width: 1439px) {
-  body.IGv2[data-areaid="careers"] .section .profile-metrics {
-    display: none;
-  }
-}
 body.IGv2[data-areaid="careers"] .section.our-business {
   padding-bottom: 3.2rem !important;
 }
@@ -1101,6 +1096,11 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider {
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider {
     background-color: #7ec4b9;
+  }
+}
+@media (max-width: 1439px) {
+  body.IGv2[data-areaid="careers"] .section.profiles-slider .profile-metrics {
+    display: none;
   }
 }
 body.IGv2[data-areaid="careers"] .section.profiles-slider .carousel-prev, body.IGv2[data-areaid="careers"] .section.profiles-slider .carousel-next {
@@ -2301,7 +2301,7 @@ body.IGv2[data-areaid="careers"] #edge-overlay-content .carousel-next img {
   height: 2rem;
   position: absolute;
   right: 1.2rem;
-  top: 43%;
+  top: 50%;
   transform: translateY(-50%);
 }
 body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline {
