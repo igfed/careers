@@ -888,6 +888,11 @@ header .link-list-horizontal li .fa {
     padding: 3.9rem 2rem;
   }
 }
+@media (max-width: 1439px) {
+  body.IGv2[data-areaid="careers"] .section .profile-metrics {
+    display: none;
+  }
+}
 body.IGv2[data-areaid="careers"] .section.our-business {
   padding-bottom: 3.2rem !important;
 }
@@ -1695,9 +1700,6 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 1px;
-  }
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-metrics, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-metrics {
-    display: none;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-subject .illustration, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-subject .illustration {
     width: 14.2rem;

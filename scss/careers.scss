@@ -6,6 +6,12 @@ body.IGv2 {
         padding: 3.9rem 2rem;
       }
 
+      .profile-metrics {
+        @media (max-width: 1439px) {
+          display: none;
+        }
+      }
+
       &.our-business {
         padding-bottom: 3.2rem !important;
       }
@@ -948,10 +954,6 @@ body.IGv2 {
                     line-height: 24px;
                     letter-spacing: 1px;
                   }
-                }
-
-                .profile-metrics {
-                  display: none;
                 }
 
                 .profile-subject {
