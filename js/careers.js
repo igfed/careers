@@ -221,7 +221,6 @@
             // Not pretty - just adding quick and dirty share link action
             $('.share-toggle-trigger').on('click', function () {
                 $('.share-toggle-content').addClass('active');
-
             });
 
             $('.share-toggle-close').on('click', function (e) {
