@@ -1204,7 +1204,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider ul.slick-dots li butto
   }
 }
 body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track .row.last {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
   max-width: none;
@@ -1215,7 +1215,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     padding: 4.1rem 3.7rem 9.2rem;
   }
 }
-@media screen and (min-width: 75em) {
+@media (min-width: 1440px) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     height: 680px !important;
     min-height: 680px !important;
