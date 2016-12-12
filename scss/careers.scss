@@ -2,7 +2,7 @@ body.IGv2 {
 
   &[data-areaid="careers"] {
     .section {
-      @media #{$small-only} {
+      @media (max-width: 1439px) {
       }
 
       &.our-business {
@@ -234,9 +234,16 @@ body.IGv2 {
         padding: 0;
         background-color: #e5e8e8;
 
-        @media #{$medium-up} {
-          background-color: #7ec4b9;
+        @media #{$small-only} {
+          p.tp_03a + p.tp_05a {
+            margin-top: 0 !important;
+          }
         }
+
+        p.tp_03a + p.tp_05a {
+          margin-top: -15px;
+        }
+        background-color: #7ec4b9;
 
         .profile-metrics {
           @media (max-width: 1439px) {
@@ -248,7 +255,7 @@ body.IGv2 {
           top: 16rem;
 
           @media #{$medium-up} {
-            top: 43%;
+            top: 50%;
             transform: translateY(-50%);
           }
 
