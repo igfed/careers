@@ -29,26 +29,21 @@ body.IGv2 {
       &.intro-l2 {
         @media (min-width: 1024px) {
           background-image: url('../landing/images/hero/people_1440.png'), url('../landing/images/hero/hero_bg_1440.jpg');
-          background-position: bottom right, center center;
-          background-repeat: no-repeat, no-repeat;
-          background-size: auto, cover;
-          height: 600px;
         }
 
         @media (min-width: 641px) and (max-width: 1023px) {
           background-image: url('../landing/images/hero/people_1024.png'), url('../landing/images/hero/hero_bg_1024.jpg');
-          background-position: bottom right, center center;
-          background-repeat: no-repeat, no-repeat;
-          background-size: auto, cover;
-          height: 600px;
         }
 
         @media (min-width: 480px) and (max-width: 640px) {
           background-image: url('../landing/images/hero/people_640.png'), url('../landing/images/hero/hero_bg_1024.jpg');
+        }
+
+        @media (min-width: 480px) {
+          height: 600px;
           background-position: bottom right, center center;
           background-repeat: no-repeat, no-repeat;
-          background-size: auto, cover;
-          height: 600px;
+          background-size: auto, cover
         }
 
         background-image: none;
