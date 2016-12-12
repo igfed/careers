@@ -904,7 +904,33 @@ body.IGv2[data-areaid="careers"] .section.area-l2 .tp_04a {
 body.IGv2[data-areaid="careers"] .section.intro-l2 {
   background-image: none;
   background-color: #7ec4b9;
-  height: 57.3rem;
+}
+@media (min-width: 1024px) {
+  body.IGv2[data-areaid="careers"] .section.intro-l2 {
+    background-image: url("../landing/images/hero/people_1440.png"), url("../landing/images/hero/hero_bg_1440.jpg");
+    background-position: bottom right, center center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+    height: 600px;
+  }
+}
+@media (min-width: 641px) and (max-width: 1023px) {
+  body.IGv2[data-areaid="careers"] .section.intro-l2 {
+    background-image: url("../landing/images/hero/people_1024.png"), url("../landing/images/hero/hero_bg_1024.jpg");
+    background-position: bottom right, center center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+    height: 600px;
+  }
+}
+@media (min-width: 480px) and (max-width: 640px) {
+  body.IGv2[data-areaid="careers"] .section.intro-l2 {
+    background-image: url("../landing/images/hero/people_640.png"), url("../landing/images/hero/hero_bg_1024.jpg");
+    background-position: bottom right, center center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+    height: 600px;
+  }
 }
 body.IGv2[data-areaid="careers"] .section.intro-l2 > div {
   max-width: 120rem;
@@ -917,12 +943,7 @@ body.IGv2[data-areaid="careers"] .section.intro-l2 > div {
   }
 }
 body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap {
-  top: 60.85%;
-}
-@media screen and (max-width: 39.9375em) {
-  body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap {
-    top: 55%;
-  }
+  top: 48%;
 }
 body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap .sub {
   width: 100%;
@@ -934,7 +955,7 @@ body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap .sub {
   }
 }
 body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap .sub + div {
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 @media screen and (max-width: 39.9375em) {
   body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap .sub + div {
@@ -1762,7 +1783,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.vi
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns:first-child {
-    padding-top: 8.9rem;
+    padding-top: 4rem;
   }
 }
 @media screen and (min-width: 40em) {

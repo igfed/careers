@@ -27,9 +27,32 @@ body.IGv2 {
       }
 
       &.intro-l2 {
+        @media (min-width: 1024px) {
+          background-image: url('../landing/images/hero/people_1440.png'), url('../landing/images/hero/hero_bg_1440.jpg');
+          background-position: bottom right, center center;
+          background-repeat: no-repeat, no-repeat;
+          background-size: auto, cover;
+          height: 600px;
+        }
+
+        @media (min-width: 641px) and (max-width: 1023px) {
+          background-image: url('../landing/images/hero/people_1024.png'), url('../landing/images/hero/hero_bg_1024.jpg');
+          background-position: bottom right, center center;
+          background-repeat: no-repeat, no-repeat;
+          background-size: auto, cover;
+          height: 600px;
+        }
+
+        @media (min-width: 480px) and (max-width: 640px) {
+          background-image: url('../landing/images/hero/people_640.png'), url('../landing/images/hero/hero_bg_1024.jpg');
+          background-position: bottom right, center center;
+          background-repeat: no-repeat, no-repeat;
+          background-size: auto, cover;
+          height: 600px;
+        }
+
         background-image: none;
         background-color: #7ec4b9;
-        height: 57.3rem;
 
         > div {
           max-width: 120rem;
@@ -42,11 +65,7 @@ body.IGv2 {
         }
 
         .copy-wrap {
-          top: 60.85%;
-
-          @media #{$small-only} {
-            top: 55%;
-          }
+          top: 48%;
 
           .sub {
             width: 100%;
@@ -57,7 +76,7 @@ body.IGv2 {
             }
 
             + div {
-              margin-top: 10rem;
+              margin-top: 8rem;
 
               @media #{$small-only} {
                 margin-top: 3rem;
@@ -1049,7 +1068,7 @@ body.IGv2 {
 
                 &:first-child {
                   @media #{$medium-up} {
-                    padding-top: 8.9rem;
+                    padding-top: 4rem;
                   }
                 }
 
