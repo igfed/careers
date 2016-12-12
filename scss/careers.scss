@@ -89,7 +89,9 @@ body.IGv2 {
       }
 
       .mt-80 {
-        margin-top: 80px !important;
+        @media #{$medium-up} {
+          margin-top: 80px !important;
+        }
       }
 
       .mt-30 {

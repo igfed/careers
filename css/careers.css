@@ -964,8 +964,10 @@ body.IGv2[data-areaid="careers"] .section.section-edge > div:first-child .tp_05a
     margin-bottom: .5rem;
   }
 }
-body.IGv2[data-areaid="careers"] .section .mt-80 {
-  margin-top: 80px !important;
+@media screen and (min-width: 40em) {
+  body.IGv2[data-areaid="careers"] .section .mt-80 {
+    margin-top: 80px !important;
+  }
 }
 body.IGv2[data-areaid="careers"] .section .mt-30 {
   margin-top: 30px !important;
