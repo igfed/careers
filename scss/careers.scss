@@ -27,6 +27,10 @@ body.IGv2 {
       }
 
       &.intro-l2 {
+
+        h1.sub {
+          font-size: 6.5rem;
+        }
         @media (min-width: 1024px) {
           background-image: url('../landing/images/hero/people_1440.png'), url('../landing/images/hero/hero_bg_1440.jpg');
         }

@@ -500,9 +500,11 @@ header .utility-bar .menu {
 header .utility-bar .menu .secondary-menu-item {
   float: right;
   position: relative;
+  padding-right: 1px;
 }
 header .utility-bar .menu .secondary-menu-item.info-toggle a {
   border-right: 1px solid #293a44;
+  align-text: right;
 }
 header .utility-bar .menu .secondary-menu-item a {
   font-family: "whitney_bookregular";
@@ -519,8 +521,22 @@ header .utility-bar .menu .secondary-menu-item a .fa-share-alt {
   font-size: 1.5rem;
   margin-top: .3rem;
 }
-header .utility-bar .menu .secondary-menu-item .share-toggle-content.active {
+header .utility-bar .menu .secondary-menu-item.info-toggle {
+  width: auto;
+  overflow: hidden;
+}
+header .utility-bar .menu .secondary-menu-item.info-toggle.active {
+  width: 340px;
+}
+header .utility-bar .menu .secondary-menu-item.info-toggle.active .share-toggle-content {
+  width: 316px;
+  padding-right: 0;
   transform: translate(0, -7px);
+  border-right: 1px solid #293a44;
+}
+header .utility-bar .menu .secondary-menu-item.info-toggle.active a.share-toggle-trigger {
+  color: #091a2a;
+  border-right: none;
 }
 header .utility-bar .menu .secondary-menu-item .share-toggle-close {
   padding-left: 15px;
@@ -535,9 +551,9 @@ header .utility-bar .menu .secondary-menu-item ul {
   background-color: #091a2a;
   position: absolute;
   right: 1px;
-  width: 330px;
+  width: 340px;
   transition: 0.25s all ease-in;
-  transform: translate(0, -40px);
+  transform: translate(340px, -7px);
 }
 header .utility-bar .menu .secondary-menu-item ul li {
   float: left;
@@ -904,6 +920,9 @@ body.IGv2[data-areaid="careers"] .section.area-l2 .tp_04a {
 body.IGv2[data-areaid="careers"] .section.intro-l2 {
   background-image: none;
   background-color: #7ec4b9;
+}
+body.IGv2[data-areaid="careers"] .section.intro-l2 h1.sub {
+  font-size: 6.5rem;
 }
 @media (min-width: 1024px) {
   body.IGv2[data-areaid="careers"] .section.intro-l2 {
