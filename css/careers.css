@@ -920,8 +920,21 @@ body.IGv2[data-areaid="careers"] .section.area-l2 .tp_04a {
 body.IGv2[data-areaid="careers"] .section.intro-l2 {
   background-color: #7ec4b9;
 }
+body.IGv2[data-areaid="careers"] .section.intro-l2 .outline-btn {
+  max-width: 200px;
+}
 body.IGv2[data-areaid="careers"] .section.intro-l2 h1.sub {
   font-size: 6.5rem;
+}
+@media screen and (max-width: 39.9375em) {
+  body.IGv2[data-areaid="careers"] .section.intro-l2 h1.sub {
+    font-size: 4.5rem;
+  }
+}
+body.IGv2[data-areaid="careers"] .section.intro-l2 p {
+  font-size: 2.8rem;
+  font-family: "whitney_lightregular";
+  margin-bottom: 25px;
 }
 @media (min-width: 1024px) {
   body.IGv2[data-areaid="careers"] .section.intro-l2 {
@@ -931,6 +944,12 @@ body.IGv2[data-areaid="careers"] .section.intro-l2 h1.sub {
 @media (min-width: 641px) and (max-width: 1023px) {
   body.IGv2[data-areaid="careers"] .section.intro-l2 {
     background-image: url("../landing/images/hero/people_1024.png"), url("../landing/images/hero/hero_bg_1024.jpg");
+  }
+}
+@media (min-width: 641px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) and (min-resolution: 72dpi) {
+  body.IGv2[data-areaid="careers"] .section.intro-l2 {
+    background-image: url("../landing/images/hero/people_1024.png"), url("../landing/images/hero/hero_bg_1024@2x.jpg");
+    background-size: auto, 1024px 600px;
   }
 }
 @media (min-width: 480px) and (max-width: 640px) {
@@ -956,21 +975,15 @@ body.IGv2[data-areaid="careers"] .section.intro-l2 h1.sub {
   }
 }
 body.IGv2[data-areaid="careers"] .section.intro-l2 > div {
-  max-width: 120rem;
+  width: 92%;
   margin-left: auto;
   margin-right: auto;
 }
 body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap {
-  top: 48%;
+  top: 45%;
 }
 body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap .sub {
   width: 92%;
-}
-@media screen and (max-width: 39.9375em) {
-  body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap .sub {
-    font-size: 2.8rem;
-    line-height: 3.8rem;
-  }
 }
 body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap .sub + div {
   margin-top: 8rem;
