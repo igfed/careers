@@ -701,7 +701,7 @@ header .utility-bar .menu .secondary-menu-item ul li a .fa {
     font-size: 2rem;
     letter-spacing: 0;
     color: white;
-    transition: 0.5s border ease-in;
+    transition: 0.3s border ease-in;
   }
   header .top-bar > div ul.menu.small-10 a:after {
     content: "";
@@ -981,9 +981,6 @@ body.IGv2[data-areaid="careers"] .section.intro-l2 > div {
 }
 body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap {
   top: 45%;
-}
-body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap .sub {
-  width: 92%;
 }
 body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap .sub + div {
   margin-top: 8rem;
