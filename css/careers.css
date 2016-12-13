@@ -917,6 +917,9 @@ body.IGv2[data-areaid="careers"] .section.area-l2 .tp_04a {
     line-height: 2rem;
   }
 }
+body.IGv2[data-areaid="careers"] .section.intro-l2 {
+  background-color: #7ec4b9;
+}
 body.IGv2[data-areaid="careers"] .section.intro-l2 h1.sub {
   font-size: 6.5rem;
 }
@@ -961,7 +964,7 @@ body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap {
   top: 48%;
 }
 body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap .sub {
-  width: 100%;
+  width: 92%;
 }
 @media screen and (max-width: 39.9375em) {
   body.IGv2[data-areaid="careers"] .section.intro-l2 .copy-wrap .sub {

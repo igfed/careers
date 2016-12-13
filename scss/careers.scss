@@ -27,6 +27,8 @@ body.IGv2 {
       }
 
       &.intro-l2 {
+        background-color: #7ec4b9;
+
         h1.sub {
           font-size: 6.5rem;
         }
@@ -74,7 +76,7 @@ body.IGv2 {
           top: 48%;
 
           .sub {
-            width: 100%;
+            width: 92%;
 
             @media #{$small-only} {
               font-size: 2.8rem;
