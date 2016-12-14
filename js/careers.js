@@ -25,6 +25,22 @@
                             scrollTop: target.offset().top
                         }, 750);
                     }
+
+                    if (target.selector !== "#") {
+                        $('#main-menu-anchor').css({'display': 'none'});
+                        $('body').removeClass('is-reveal-open');
+                    }
+                });
+
+                // Mobile menu needs to mimic Foundation reveal - not enough time to implement different navs in a reveal modal properly
+                $('.menu-icon').on('click', function(e) {
+                    $('body').addClass('is-reveal-open');
+                });
+
+                // quick and dirty mobile menu close - not familiar with Foundation pattern to fire this
+                $('.top-bar .close-button.show-for-small-only').on('click', function () {
+                    $('#main-menu-anchor').css({'display': 'none'});
+                    $('body').removeClass('is-reveal-open');
                 });
             }
 
@@ -461,7 +477,7 @@
         return {
             openOverlay: openOverlay,
             isOpen: isOpen
-        }
+        };
 
         function init() {
             $overlay = $('<div></div>');

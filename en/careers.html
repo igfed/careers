@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Investors Group</title>
-    <link href="../useCDNInstead/foundation.css" rel="stylesheet">
+    <link href="../vendor/foundation.css" rel="stylesheet">
     <link href="../css/main_fall_2016.css" rel="stylesheet">
     <link href="../css/warningbox.css" rel="stylesheet">
     <link href="../css/mortgage.css" rel="stylesheet">
-    <link href="../useCDNInstead/font-awesome.min.css" rel="stylesheet">
+    <link href="../vendor/font-awesome.min.css" rel="stylesheet">
     <link href="../css/careers.css" rel="stylesheet">
     <link href="../css/footer.css" rel="stylesheet">
 
@@ -36,17 +36,16 @@
 <!-- IG|SA: START content block -->
 <header class="tp_05a">
     <div class="row large-max-width small-collapse show-for-small-only">
-
-        <div class="small-4 columns ">
-            <div class="title-bar text-center" data-responsive-toggle="main-menu-anchor" data-hide-for="medium">
-                <a class="outline-btn secondary" type="button" data-toggle>Menu</a>
-            </div>
-        </div>
         <div class="small-4 columns">
             <div class="header-logo-tagline">
                 <div class="header-logo">
                     <a class="logo" href="/en/">Investors Group / Groupe Investors</a>
                 </div>
+            </div>
+        </div>
+        <div class="small-4 columns ">
+            <div class="title-bar text-center" data-responsive-toggle="main-menu-anchor" data-hide-for="medium">
+                <button class="menu-icon" data-toggle type="button"></button>
             </div>
         </div>
     </div>
@@ -109,6 +108,9 @@
         <div id="main-menu-anchor"></div>
         <div class="top-bar small-12 columns">
             <div class="row medium-max-width">
+
+                <button data-close="" data-responsive-toggle="main-menu-anchor" class="close-button show-for-small-only" aria-label="Close menu"><span aria-hidden="true">×</span></button>
+
                 <div>
                     <span class="tp_09a">Careers</span>
                 </div>
@@ -121,7 +123,7 @@
                         </div>
                     </li>
                 </ul>
-                <ul class="menu small-10 columns ">
+                <ul class="menu small-12 columns ">
                     <li><a href="#our-business">Our Business</a></li>
                     <li><a href="#our-edge">Our Edge</a></li>
                     <li><a href="#our-people">Our People</a></li>
@@ -165,7 +167,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="secondary-menu-item show-for-small-only"><a href="#">Fran&ccedil;ais</a></li>
+                    <li class="secondary-menu-item show-for-small-only text-center"><a href="#">Fran&ccedil;ais</a></li>
                 </ul>
             </div>
         </div>
@@ -889,8 +891,8 @@
                     </a>
                 </section>
         	</div>
-        </div>  
-        
+        </div>
+
         <!-- Tabs -->
         <div class="tab-row">
         <!-- Show for large -->
@@ -923,7 +925,7 @@
                     </ul>
                 </div>
             </section>
-        
+
             <!-- Show for small -->
             <section class="footer-accordion-section hide-for-large">
                 <ul class="accordion footer-accordion-menu" data-accordion data-allow-all-closed="true">
@@ -957,7 +959,7 @@
                 </ul>
             </section>
         </div>
-        
+
         <!-- Social Media -->
         <div class="social-media-row">
             <div class="large-12 columns"> <!--Check this out-->
@@ -971,7 +973,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Copyright -->
         <div class="footer-copyright">
         	<div class="large-12 columns nopadding show-for-large">
@@ -1010,20 +1012,22 @@
                     </ul>
         		</div>
         	</div>
-        </div>  
+        </div>
     </div>
 
 <!-- IG|SA: END content block -->
 
-<script type="text/javascript" src="../useCDNInstead/jquery.js"></script>
-<script type="text/javascript" src="../useCDNInstead/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="../useCDNInstead/foundation.js"></script>
-<script type="text/javascript" src="../useCDNInstead/slick.min.js"></script>
-<script type="text/javascript" src="../useCDNInstead/mustache.min.js"></script>
+<script type="text/javascript" src="../vendor/jquery.js"></script>
+<script type="text/javascript" src="../vendor/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../vendor/foundation.min.js"></script>
+<script type="text/javascript" src="../vendor/slick.min.js"></script>
+<script type="text/javascript" src="../vendor/mustache.min.js"></script>
+<script type="text/javascript" src="../vendor/typeahead.bundle.min.js"></script>
 <script type="text/javascript" src="../js/languageToggle.js"></script>
 <script language="JavaScript" type="text/javascript"
         src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
 
 <script type="text/javascript" src="../js/careers.js"></script>
+<script type="text/javascript" src="../js/search.js"></script>
 </body>
 </html>
