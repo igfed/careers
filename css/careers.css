@@ -714,6 +714,7 @@ header .utility-bar .menu .secondary-menu-item ul li a .fa {
     width: 70%;
     transition: transform 0.3s ease;
     transform: translate(0, 13px);
+    text-decoration: none;
   }
   header .top-bar > div ul.menu.small-10 a.active {
     text-decoration: none;
@@ -996,7 +997,7 @@ body.IGv2[data-areaid="careers"] .section.section-edge {
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.section-edge {
-    padding-top: 8rem;
+    padding-top: 5rem;
     padding-bottom: 12rem;
   }
 }
@@ -2134,7 +2135,7 @@ body.IGv2[data-areaid="careers"] .section.next-step {
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.next-step {
-    padding-top: 7.8rem;
+    padding-top: 5rem;
     padding-bottom: 7rem;
   }
 }
