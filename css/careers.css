@@ -831,7 +831,7 @@ header .utility-bar .menu .secondary-menu-item ul li a .fa {
   }
   header .top-bar ul.menu + ul.menu li {
     border: none;
-    border-bottom: 1px solid rgba(164, 164, 164, 0.4) !important;
+    border-bottom: 1px solid #314659 !important;
   }
   header .top-bar .secondary-menu-item > li {
     border: none;
@@ -839,7 +839,7 @@ header .utility-bar .menu .secondary-menu-item ul li a .fa {
   header .top-bar ul.menu {
     background-color: transparent;
     font-size: 1.8rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
   }
   header .top-bar ul.menu.small-2 {
     width: 100% !important;
