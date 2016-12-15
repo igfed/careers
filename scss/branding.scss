@@ -237,11 +237,11 @@ header {
           li {
             border: 0 !important;
             float: left;
-            //@include horizontal-separator("&", .1rem, 0, 45%);
+            @include horizontal-separator("&", .1rem, 0, 45%);
 
             &::before {
-              //border-color: rgba(164,164,164,0.5) !important;
-              //top: 31%;
+              border-color: transparent !important;
+              top: 31%;
             }
 
             &:nth-child(2) {

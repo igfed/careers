@@ -623,6 +623,22 @@ header .utility-bar .menu .secondary-menu-item ul li a .fa {
     border: 0 !important;
     float: left;
   }
+  header .top-bar > div ul.menu.small-12 li {
+    position: relative;
+    margin-left: 0;
+  }
+  header .top-bar > div ul.menu.small-12 li::before {
+    border-left: 0.1rem solid #c1cbd0;
+    content: "";
+    height: 45%;
+    left: -0.05rem;
+    position: absolute;
+    top: 27.5%;
+  }
+  header .top-bar > div ul.menu.small-12 li::before {
+    border-color: transparent !important;
+    top: 31%;
+  }
   header .top-bar > div ul.menu.small-12 li:nth-child(2)::before {
     display: none;
   }
