@@ -623,22 +623,6 @@ header .utility-bar .menu .secondary-menu-item ul li a .fa {
     border: 0 !important;
     float: left;
   }
-  header .top-bar > div ul.menu.small-12 li {
-    position: relative;
-    margin-left: 0;
-  }
-  header .top-bar > div ul.menu.small-12 li::before {
-    border-left: 0.1rem solid #c1cbd0;
-    content: "";
-    height: 45%;
-    left: -0.05rem;
-    position: absolute;
-    top: 27.5%;
-  }
-  header .top-bar > div ul.menu.small-12 li::before {
-    border-color: #0d263c;
-    top: 31%;
-  }
   header .top-bar > div ul.menu.small-12 li:nth-child(2)::before {
     display: none;
   }
@@ -774,6 +758,7 @@ header .utility-bar .menu .secondary-menu-item ul li a .fa {
 }
 @media screen and (max-width: 39.9375em) {
   header .top-bar {
+    padding: 1.6rem 4rem;
     position: fixed;
     overflow: hidden;
     width: 100%;
@@ -782,22 +767,23 @@ header .utility-bar .menu .secondary-menu-item ul li a .fa {
     left: 0;
     top: 0;
     z-index: 100;
-    padding: 1.6rem 2.5rem;
-    background-color: #fff;
+    background-color: #0D263C;
     transform: translateX(-100%);
     transition: transform .5s ease 0s;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    color: #fff;
+    /*HOVER*/
   }
-  header .top-bar button.close-button {
-    width: 30px !important;
-    height: 30px !important;
-    top: 1.2rem !important;
-    border: 1px solid #000 !important;
+  header .top-bar .close-button {
+    border: 2px solid #fff !important;
+    right: 30px !important;
   }
-  header .top-bar button.close-button span {
-    font-size: 3rem !important;
-    line-height: 2rem !important;
+  header .top-bar .close-button:before, header .top-bar .close-button:after {
+    background-color: #fff !important;
+  }
+  header .top-bar .close-button:hover {
+    background: #000 !important;
   }
   header .top-bar > div.row > div {
     display: block;
@@ -817,12 +803,30 @@ header .utility-bar .menu .secondary-menu-item ul li a .fa {
     display: none;
   }
   header .top-bar .menu .active > a {
-    background: #e5e8e8;
+    background: rgba(32, 32, 32, 0.4);
+  }
+  header .top-bar .tp_09a {
+    color: #dadada !important;
+    font-size: 2.8rem !important;
+    margin: 5px 0 2px -15px !important;
+  }
+  header .top-bar ul.menu + ul.menu {
+    padding: 0;
+  }
+  header .top-bar ul.menu + ul.menu li {
+    border: none;
+    border-bottom: 1px solid rgba(164, 164, 164, 0.4) !important;
+  }
+  header .top-bar .secondary-menu-item > li {
+    border: none;
   }
   header .top-bar ul.menu {
-    padding: 0 1.2rem;
     background-color: transparent;
     font-size: 1.8rem;
+    border-bottom: 1px solid #ccc;
+  }
+  header .top-bar ul.menu.small-2 {
+    width: 100% !important;
   }
   header .top-bar ul.menu li {
     display: block;
@@ -831,10 +835,10 @@ header .utility-bar .menu .secondary-menu-item ul li a .fa {
     color: #282828;
     padding: 1.6rem 2.5rem;
     margin: 0 -2.5rem;
+    color: #fff;
   }
   header .top-bar ul.menu li a:hover {
     text-decoration: none;
-    background-color: #e5e8e8;
   }
   header .top-bar ul.menu li a .fa-chevron-down {
     margin-top: 1rem;
@@ -930,6 +934,10 @@ header .link-list-horizontal li .fa {
   }
 }
 
+body.IGv2[data-areaid="careers"] {
+  /*CROSS*/
+  /*HOVER*/
+}
 body.IGv2[data-areaid="careers"] .section.our-business {
   padding-bottom: 3.2rem !important;
 }
@@ -1820,8 +1828,8 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     text-align: left;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 div.row, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 div.row, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 div.row, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 div.row {
-    margin: 4.7rem -2rem 0;
-    padding-bottom: 2.8rem;
+    margin: 0 -2rem 0;
+    padding-bottom: 0.5rem;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 div.row:last-child, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 div.row:last-child, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 div.row:last-child, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 div.row:last-child {
     padding-bottom: 1.4rem;
@@ -1835,12 +1843,13 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     font-size: 1.8rem;
     line-height: 1.6rem;
     font-family: "whitney_scmedium";
+    margin-top: -16px;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 div.tp_27a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 div.tp_27a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 div.tp_27a, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 div.tp_27a {
     font-size: 1.4rem;
     line-height: 2rem;
     margin-top: .9rem;
-    max-width: 40%;
+    max-width: 80%;
   }
 }
 body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide {
@@ -2327,31 +2336,64 @@ body.IGv2[data-areaid="careers"] .overlay-repository {
   display: none;
 }
 body.IGv2[data-areaid="careers"] .close-button {
-  border: 2px solid #000;
+  border: 2px solid #07263b;
   border-radius: 50%;
-  height: 4.5rem;
-  width: 4.5rem;
+  height: 36px;
+  width: 36px;
+  display: block;
   position: absolute;
-  right: 2rem;
-  top: 3.8rem;
+  right: 1.5rem;
+  top: 1.5rem;
   font-family: "Helvetica Neue", ΓÇïHelvetica, ΓÇïRoboto, ΓÇïArial, ΓÇïsans-serif;
 }
-body.IGv2[data-areaid="careers"] .close-button:hover {
-  background-color: #0D263C;
-}
-body.IGv2[data-areaid="careers"] .close-button:hover span {
-  color: white;
-}
 body.IGv2[data-areaid="careers"] .close-button span {
-  color: #000;
-  font-size: 4rem;
-  line-height: 4rem;
+  display: none;
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .close-button {
-    right: 11.9rem;
-    top: 5.6rem;
+    top: 2rem;
+    height: 60px;
+    width: 60px;
   }
+}
+body.IGv2[data-areaid="careers"] .close-button:before, body.IGv2[data-areaid="careers"] .close-button:after {
+  top: 7px;
+  position: absolute;
+  right: 15.5px;
+  content: ' ';
+  height: 20px;
+  width: 2px;
+  background-color: #07263b;
+  opacity: 1;
+  text-align: center;
+}
+@media screen and (min-width: 40em) {
+  body.IGv2[data-areaid="careers"] .close-button:before, body.IGv2[data-areaid="careers"] .close-button:after {
+    top: 14px;
+    position: absolute;
+    right: 28px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #07263b;
+    opacity: 1;
+    text-align: center;
+  }
+}
+body.IGv2[data-areaid="careers"] .close-button:before {
+  transform: rotate(45deg);
+}
+body.IGv2[data-areaid="careers"] .close-button:after {
+  transform: rotate(-45deg);
+}
+body.IGv2[data-areaid="careers"] .close-button:hover {
+  background: #07263b;
+}
+body.IGv2[data-areaid="careers"] .close-button:hover:before {
+  background-color: white;
+}
+body.IGv2[data-areaid="careers"] .close-button:hover:after {
+  background-color: white;
 }
 body.IGv2[data-areaid="careers"] #edge-overlay-content {
   padding-top: 14.3rem;
@@ -2364,9 +2406,9 @@ body.IGv2[data-areaid="careers"] #edge-overlay-content {
 }
 body.IGv2[data-areaid="careers"] #edge-overlay-content > img {
   position: absolute;
-  height: 2.7rem;
+  height: 3rem;
   left: .8rem;
-  top: 2.7rem;
+  top: 1rem;
 }
 @media screen and (min-width: 64em) {
   body.IGv2[data-areaid="careers"] #edge-overlay-content > img {
@@ -2547,7 +2589,7 @@ body.IGv2[data-areaid="careers"] .info-toggle-trigger .fa-chevron-down {
   font-size: 2rem;
   transform: rotate(0deg) translateY(-50%);
   margin-top: 1.3rem;
-  right: 1.6rem;
+  right: 2.5rem;
   top: 13px;
   transition: transform .5s ease 0s, margin-top .5s ease 0s;
 }
@@ -2561,6 +2603,88 @@ body.IGv2[data-areaid="careers"] .info-toggle-trigger .fa-chevron-down {
     transform: rotate(-180deg);
     margin-top: .7rem;
   }
+}
+body.IGv2[data-areaid="careers"] .twitter-typeahead {
+  font-size: 1rem;
+  font-style: normal;
+  font-family: "whitney_bookregular";
+  font-weight: 500;
+  text-transform: none;
+  color: #0c273c;
+  width: 100%;
+  vertical-align: top;
+  /*margin-right:20px;*/
+  display: inline-block;
+}
+body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu {
+  margin-left: 0 !important;
+  width: 110%;
+  z-index: 20 !important;
+  margin-top: -3px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+body.IGv2[data-areaid="careers"] input .tt-menu .tt-suggestion, body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu .no-results, body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu .tt-suggestion {
+  width: 100%;
+  padding: .8em 1.2em;
+  text-transform: lowercase;
+  background-color: #fff;
+  cursor: pointer;
+}
+body.IGv2[data-areaid="careers"] input .tt-menu .no-results:hover, body.IGv2[data-areaid="careers"] input .tt-menu .tt-suggestion:hover, body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu .no-results:hover, body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu .tt-suggestion:hover {
+  background-color: #e5e8e8;
+  color: #0c273c;
+}
+body.IGv2[data-areaid="careers"] input .tt-menu .no-results.tt-cursor, body.IGv2[data-areaid="careers"] input .tt-menu .tt-suggestion.tt-cursor, body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu .no-results.tt-cursor, body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu .tt-suggestion.tt-cursor {
+  background-color: #F1FBF8;
+  color: #0ed59a;
+}
+body.IGv2[data-areaid="careers"] input .tt-menu .no-results .tt-highlight, body.IGv2[data-areaid="careers"] input .tt-menu .tt-suggestion .tt-highlight, body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu .no-results .tt-highlight, body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu .tt-suggestion .tt-highlight {
+  background-color: #F1FBF8;
+  font-weight: 900;
+}
+body.IGv2[data-areaid="careers"] input .tt-menu .no-results:hover .tt-highlight, body.IGv2[data-areaid="careers"] input .tt-menu .tt-suggestion:hover .tt-highlight, body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu .no-results:hover .tt-highlight, body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu .tt-suggestion:hover .tt-highlight {
+  color: #e5e8e8;
+}
+body.IGv2[data-areaid="careers"] input .tt-menu .no-results, body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu .no-results {
+  white-space: normal;
+}
+body.IGv2[data-areaid="careers"] .find-an-office {
+  position: relative;
+  overflow: hidden;
+}
+body.IGv2[data-areaid="careers"] #FindAnOffice {
+  width: 100%;
+  box-shadow: none;
+  height: 36px;
+  font-size: 1.5rem;
+  margin-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+}
+@media screen and (max-width: 39.9375em) {
+  body.IGv2[data-areaid="careers"] #FindAnOffice {
+    margin-top: 20px;
+  }
+}
+body.IGv2[data-areaid="careers"] #SearchSubmitButton {
+  position: absolute;
+  height: 31px;
+  width: 28px;
+  z-index: 1000;
+  right: 15px;
+  top: 43px;
+}
+@media screen and (max-width: 39.9375em) {
+  body.IGv2[data-areaid="careers"] #SearchSubmitButton {
+    top: 23px;
+  }
+}
+body.IGv2[data-areaid="careers"] #SearchSubmitButton:hover, body.IGv2[data-areaid="careers"] #SearchSubmitButton:focus {
+  background: #fff;
 }
 
 /*# sourceMappingURL=careers.css.map */

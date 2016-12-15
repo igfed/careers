@@ -237,11 +237,11 @@ header {
           li {
             border: 0 !important;
             float: left;
-            @include horizontal-separator("&", .1rem, 0, 45%);
+            //@include horizontal-separator("&", .1rem, 0, 45%);
 
             &::before {
-              border-color: #0d263c;
-              top: 31%;
+              //border-color: rgba(164,164,164,0.5) !important;
+              //top: 31%;
             }
 
             &:nth-child(2) {
@@ -418,6 +418,7 @@ header {
     }
 
     @media #{$small-only} {
+      padding: 1.6rem 4rem;
       position: fixed;
       overflow: hidden;
       width: 100%;
@@ -426,23 +427,25 @@ header {
       left: 0;
       top: 0;
       z-index: 100;
-      padding: 1.6rem 2.5rem;
-      background-color: #fff;
+      background-color: #0D263C;
       transform: translateX(-100%);
       transition: transform .5s ease 0s;
       overflow-y: auto;
       -webkit-overflow-scrolling: touch;
+      color: #fff;
 
-      button.close-button {
-        width: 30px !important;
-        height: 30px !important;
-        top: 1.2rem !important;
-        border: 1px solid #000 !important;
+      .close-button {
+        border: 2px solid #fff !important;
+        right: 30px !important;
+      }
 
-        span {
-          font-size: 3rem !important;
-          line-height: 2rem !important;
-        }
+      .close-button:before, .close-button:after {
+        background-color: #fff !important;
+      }
+
+      /*HOVER*/
+      .close-button:hover {
+        background: #000 !important;
       }
 
       > div.row {
@@ -469,13 +472,36 @@ header {
       }
 
       .menu .active > a {
-        background: #e5e8e8;
+        background: rgba(32, 32, 32, 0.4);
+      }
+
+      .tp_09a {
+        color: #dadada !important;
+        font-size: 2.8rem !important;
+        margin: 5px 0 2px -15px !important;
+      }
+
+      ul.menu + ul.menu {
+        padding: 0;
+
+        li {
+          border: none;
+          border-bottom: 1px solid rgba(164,164,164, 0.4) !important;
+        }
+      }
+
+      .secondary-menu-item > li  {
+        border: none;
       }
 
       ul.menu {
-        padding: 0 1.2rem;
         background-color: transparent;
         font-size: 1.8rem;
+        border-bottom: 1px solid #ccc;
+
+        &.small-2 {
+          width: 100% !important;
+        }
 
         li {
           display: block;
@@ -484,10 +510,10 @@ header {
             color: $charcoal;
             padding: 1.6rem 2.5rem;
             margin: 0 -2.5rem;
+            color: #fff;
 
             &:hover {
               text-decoration: none;
-              background-color: #e5e8e8;
             }
 
             .fa-chevron-down {

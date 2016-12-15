@@ -1058,8 +1058,8 @@ body.IGv2 {
 
                   div {
                     &.row {
-                      margin: 4.7rem -2rem 0;
-                      padding-bottom: 2.8rem;
+                      margin: 0 -2rem 0;
+                      padding-bottom: 0.5rem;
 
                       &:last-child {
                         padding-bottom: 1.4rem;
@@ -1076,13 +1076,14 @@ body.IGv2 {
                       font-size: 1.8rem;
                       line-height: 1.6rem;
                       font-family: $WMSC;
+                      margin-top: -16px;
                     }
 
                     &.tp_27a {
                       font-size: 1.4rem;
                       line-height: 2rem;
                       margin-top: .9rem;
-                      max-width: 40%;
+                      max-width: 80%;
                     }
                   }
                 }
@@ -1671,34 +1672,103 @@ body.IGv2 {
       display: none;
     }
 
+    //.close-button {
+    //  border: 2px solid #000;
+    //  border-radius: 50%;
+    //  height: 4.5rem;
+    //  width: 4.5rem;
+    //  position: absolute;
+    //  right: 2rem;
+    //  top: 3.8rem;
+    //  font-family: "Helvetica Neue", ​Helvetica, ​Roboto, ​Arial, ​sans-serif;
+    //
+    //  &:hover {
+    //    background-color: $igBlack;
+    //
+    //    span {
+    //      color: white;
+    //    }
+    //  }
+    //
+    //  span {
+    //    color: #000;
+    //    font-size: 4rem;
+    //    line-height: 4rem;
+    //  }
+    //
+    //  @media #{$large-up} {
+    //    right: 11.9rem;
+    //    top: 5.6rem;
+    //  }
+    //}
+
+    /*CROSS*/
+
     .close-button {
-      border: 2px solid #000;
+      border: 2px solid #07263b;
       border-radius: 50%;
-      height: 4.5rem;
-      width: 4.5rem;
+      height: 36px;
+      width: 36px;
+      display: block;
       position: absolute;
-      right: 2rem;
-      top: 3.8rem;
+      right: 1.5rem;
+      top: 1.5rem;
       font-family: "Helvetica Neue", ​Helvetica, ​Roboto, ​Arial, ​sans-serif;
 
-      &:hover {
-        background-color: $igBlack;
-
-        span {
-          color: white;
-        }
-      }
-
       span {
-        color: #000;
-        font-size: 4rem;
-        line-height: 4rem;
+        display: none;
       }
 
-      @media #{$large-up} {
-        right: 11.9rem;
-        top: 5.6rem;
+      @media #{$medium-up} {
+        top: 2rem;
+        height: 60px;
+        width: 60px;
       }
+    }
+
+    .close-button:before, .close-button:after {
+      top: 7px;
+      position: absolute;
+      right: 15.5px;
+      content: ' ';
+      height: 20px;
+      width: 2px;
+      background-color: #07263b;
+      opacity: 1;
+      text-align: center;
+
+      @media #{$medium-up} {
+        top: 14px;
+        position: absolute;
+        right: 28px;
+        content: ' ';
+        height: 33px;
+        width: 2px;
+        background-color: #07263b;
+        opacity: 1;
+        text-align: center;
+      }
+    }
+    .close-button:before {
+      transform: rotate(45deg);
+    }
+    .close-button:after {
+      transform: rotate(-45deg);
+    }
+
+    /*HOVER*/
+
+    .close-button:hover {
+      background: #07263b;
+
+    }
+
+    .close-button:hover:before {
+      background-color: white;
+    }
+
+    .close-button:hover:after {
+      background-color: white;
     }
 
     #edge-overlay-content {
@@ -1711,9 +1781,9 @@ body.IGv2 {
 
       > img {
         position: absolute;
-        height: 2.7rem;
+        height: 3rem;
         left: .8rem;
-        top: 2.7rem;
+        top: 1rem;
 
         @media #{$large-up} {
           left: 11rem;
@@ -1925,7 +1995,7 @@ body.IGv2 {
         font-size: 2rem;
         transform: rotate(0deg) translateY(-50%);
         margin-top: 1.3rem;
-        right: 1.6rem;
+        right: 2.5rem;
         top: 13px;
         transition: transform .5s ease 0s, margin-top .5s ease 0s;
 
@@ -1945,5 +2015,93 @@ body.IGv2 {
         }
       }
     }
+
+    // Search
+
+    .twitter-typeahead {
+      font-size: 1rem;
+      font-style: normal;
+      font-family: "whitney_bookregular";
+      font-weight: 500;
+      text-transform: none;
+      color: #0c273c;
+      width: 100%;
+      vertical-align: top;
+      /*margin-right:20px;*/
+      display: inline-block;
+    }
+    .twitter-typeahead .tt-menu {
+      margin-left: 0 !important;
+      width: 110%;
+      z-index: 20 !important;
+      margin-top: -3px;
+      border-top: 1px solid rgba(0, 0, 0, 0.3);
+      box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    input .tt-menu .tt-suggestion, .twitter-typeahead .tt-menu .no-results, .twitter-typeahead .tt-menu .tt-suggestion {
+      width: 100%;
+      padding: .8em 1.2em;
+      text-transform: lowercase;
+      background-color: #fff;
+      cursor: pointer;
+    }
+    input .tt-menu .no-results:hover, input .tt-menu .tt-suggestion:hover, .twitter-typeahead .tt-menu .no-results:hover, .twitter-typeahead .tt-menu .tt-suggestion:hover {
+      background-color: #e5e8e8;
+      color: #0c273c;
+    }
+    input .tt-menu .no-results.tt-cursor, input .tt-menu .tt-suggestion.tt-cursor, .twitter-typeahead .tt-menu .no-results.tt-cursor, .twitter-typeahead .tt-menu .tt-suggestion.tt-cursor {
+      background-color: #F1FBF8;
+      color: #0ed59a;
+    }
+    input .tt-menu .no-results .tt-highlight, input .tt-menu .tt-suggestion .tt-highlight, .twitter-typeahead .tt-menu .no-results .tt-highlight, .twitter-typeahead .tt-menu .tt-suggestion .tt-highlight {
+      background-color: #F1FBF8;
+      font-weight: 900;
+    }
+    input .tt-menu .no-results:hover .tt-highlight, input .tt-menu .tt-suggestion:hover .tt-highlight, .twitter-typeahead .tt-menu .no-results:hover .tt-highlight, .twitter-typeahead .tt-menu .tt-suggestion:hover .tt-highlight {
+      color: #e5e8e8;
+    }
+    input .tt-menu .no-results, .twitter-typeahead .tt-menu .no-results {
+      white-space: normal;
+    }
+
+    .find-an-office {
+      position: relative;
+      overflow: hidden;
+    }
+
+    #FindAnOffice {
+      width: 100%;
+      box-shadow: none;
+      height: 36px;
+      font-size: 1.5rem;
+      margin-top: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
+      overflow: hidden;
+
+      @media #{$small-only} {
+        margin-top: 20px;
+      }
+    }
+
+    #SearchSubmitButton {
+      position: absolute;
+      height: 31px;
+      width: 28px;
+      z-index: 1000;
+      right: 15px;
+      top: 43px;
+
+      @media #{$small-only} {
+        top: 23px;
+      }
+
+      &:hover, &:focus {
+        background: #fff;
+      }
+    }
+
   }
 }
