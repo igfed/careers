@@ -414,6 +414,18 @@ select, input, .ux-font--input, .tp_24a {
     line-height: 3.8rem;
   }
 }
+.fr header .utility-bar .menu .secondary-menu-item.info-toggle.active {
+  width: 370px;
+}
+.fr header .utility-bar .menu .secondary-menu-item.info-toggle.active .share-toggle-content {
+  width: 380px;
+}
+.fr header .utility-bar .menu .secondary-menu-item ul {
+  width: 380px;
+  transition: 0.25s all ease-in;
+  transform: translate(380px, -7px);
+}
+
 header {
   margin-bottom: 0;
   background-color: #0D263C;

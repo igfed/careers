@@ -159,7 +159,38 @@
         overlay = new OverlayModule();
         gui = new GuiModule(overlay);
         video = new VideoModule();
-        console.log(overlay);
+
+        // Need to have a class to hook onto for French language page
+        if(window.location.pathname.indexOf('/fr/') !== -1) {
+            $('body').addClass('fr');
+        };
+
+        // Smooth scrolling for anchor links
+        $('a[href^="#"]').on('click', function (e) {
+            var target = $(this.getAttribute('href'));
+            if (target.length) {
+                e.preventDefault();
+                $('html, body').stop().animate({
+                    scrollTop: target.offset().top + 52
+                }, 750);
+            }
+
+            if (target.selector !== "#") {
+                $('#main-menu-anchor').css({'display': 'none'});
+                $('body').removeClass('is-reveal-open');
+            }
+        });
+
+        // Mobile menu needs to mimic Foundation reveal - not enough time to implement different navs in a reveal modal properly
+        $('.menu-icon').on('click', function(e) {
+            $('body').addClass('is-reveal-open');
+        });
+
+        // quick and dirty mobile menu close - not familiar with Foundation pattern to fire this
+        $('.top-bar .close-button.show-for-small-only').on('click', function () {
+            $('#main-menu-anchor').css({'display': 'none'});
+            $('body').removeClass('is-reveal-open');
+        })
     }
 
     //-----
@@ -606,32 +637,7 @@
 
     //
 
-    // Smooth scrolling for anchor links
-    $('a[href^="#"]').on('click', function (e) {
-        var target = $(this.getAttribute('href'));
-        if (target.length) {
-            e.preventDefault();
-            $('html, body').stop().animate({
-                scrollTop: target.offset().top
-            }, 750);
-        }
-
-        if (target.selector !== "#") {
-            $('#main-menu-anchor').css({'display': 'none'});
-            $('body').removeClass('is-reveal-open');
-        }
-    });
-
-    // Mobile menu needs to mimic Foundation reveal - not enough time to implement different navs in a reveal modal properly
-    $('.menu-icon').on('click', function(e) {
-        $('body').addClass('is-reveal-open');
-    });
-
-    // quick and dirty mobile menu close - not familiar with Foundation pattern to fire this
-    $('.top-bar .close-button.show-for-small-only').on('click', function () {
-        $('#main-menu-anchor').css({'display': 'none'});
-        $('body').removeClass('is-reveal-open');
-    });
+;
 })();
 
 

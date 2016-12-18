@@ -1,3 +1,26 @@
+.fr header {
+
+  .utility-bar {
+    .menu {
+      .secondary-menu-item {
+        &.info-toggle.active {
+          width: 370px;
+
+          .share-toggle-content {
+            width: 380px;
+          }
+        }
+
+        ul {
+          width: 380px;
+          transition: 0.25s all ease-in;
+          transform: translate(380px, -7px);
+        }
+      }
+    }
+  }
+}
+
 header {
   margin-bottom: 0;
   background-color: #0D263C;
@@ -147,7 +170,6 @@ header {
           .share-toggle-content {
             width: 316px;
             padding-right: 0;
-
             transform: translate(0, -7px);
             border-right: 1px solid #293a44;
           }
@@ -490,7 +512,7 @@ header {
         }
       }
 
-      .secondary-menu-item > li  {
+      .secondary-menu-item > li {
         border: none;
       }
 
