@@ -1,5 +1,5 @@
 // GLOBALS
-var modelUrl = 'http://206.152.35.229:9000/api/cwpsearch?';
+var modelUrl = 'https://search.investorsgroup.com/api/cwpsearch?';
 var $field = $('#FindAnOffice');
 var allConsultants = {};
 var lang = 'en';

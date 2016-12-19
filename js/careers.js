@@ -161,9 +161,9 @@
         video = new VideoModule();
 
         // Need to have a class to hook onto for French language page
-        if(window.location.pathname.indexOf('/fr/') !== -1) {
+        if (window.location.pathname.indexOf('/fr/') !== -1) {
             $('body').addClass('fr');
-        };
+        }
 
         // Smooth scrolling for anchor links
         $('a[href^="#"]').on('click', function (e) {
@@ -177,20 +177,20 @@
 
             if (target.selector !== "#") {
                 $('#main-menu-anchor').css({'display': 'none'});
-                $('body').removeClass('is-reveal-open');
+                $('body').removeClass('is-reveal-open branded');
             }
         });
 
         // Mobile menu needs to mimic Foundation reveal - not enough time to implement different navs in a reveal modal properly
-        $('.menu-icon').on('click', function(e) {
-            $('body').addClass('is-reveal-open');
+        $('.menu-icon').on('click', function (e) {
+            $('body').addClass('is-reveal-open branded');
         });
 
         // quick and dirty mobile menu close - not familiar with Foundation pattern to fire this
         $('.top-bar .close-button.show-for-small-only').on('click', function () {
             $('#main-menu-anchor').css({'display': 'none'});
-            $('body').removeClass('is-reveal-open');
-        })
+            $('body').removeClass('is-reveal-open branded');
+        });
     }
 
     //-----
@@ -634,10 +634,9 @@
     }
 
 
-
     //
 
-;
+
 })();
 
 

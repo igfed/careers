@@ -2,7 +2,98 @@ body.IGv2.fr {
 
 }
 
+body.IGv2.is-reveal-open.branded {
+  .mobile-bottom-bar {
+    .row {
+      position: relative;
+    }
+    .small-6 {
+      height: 70px;
+    }
+    display: block;
+    position: fixed;
+    width: 100%;
+
+    left: 0;
+    bottom: 0;
+    background: #07263b;
+    z-index: 1000;
+    transition: transform 0.2s ease-in 0.3s;
+    transform: translate(0, 0);
+
+    a.lang {
+      position: absolute;
+      right: 32px;
+      top: 20px;
+      color: #fff !important;
+      text-transform: uppercase;
+      float: right;
+      display: inline-block;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: $WMSC;
+    }
+
+    ul.menu {
+      padding-top: 10px;
+      border-top: 1px solid #314659;
+      height: 50px;
+      margin: 0 22px;
+
+      li {
+        float: left;
+        text-align: left;
+        width: 20%;
+        color: #fff;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 33px;
+        font-family: $WMSC;
+
+        a.share {
+          &::after, &::before {
+            display: none;
+          }
+          padding: 0.7rem 0 !important;
+
+          .fa {
+            position: relative;
+            color: #fff;
+            font-size: 1.8rem;
+            float: right;
+            margin: 0;
+          }
+        }
+
+      }
+    }
+
+    .logo {
+      text-indent: 9999em;
+      overflow: hidden;
+      background-size: contain;
+      background-image: url('../landing/images/careers/ig_logo.png');
+      background-repeat: no-repeat;
+      text-indent: -99999px;
+
+      position: absolute;
+      width: 120px;
+      height: 35px;
+      left: 30px;
+      top: 15px;
+    }
+
+  }
+}
+
 body.IGv2 {
+
+  .mobile-bottom-bar {
+    display: none;
+    transform: translate(0, 120px);
+  }
 
   &[data-areaid="careers"] {
     .section {

@@ -7,12 +7,12 @@
           width: 370px;
 
           .share-toggle-content {
-            width: 380px;
+            width: 370px;
           }
         }
 
         ul {
-          width: 380px;
+          width: 370px;
           transition: 0.25s all ease-in;
           transform: translate(380px, -7px);
         }
@@ -109,8 +109,6 @@ header {
     position: absolute;
     width: 120px;
     height: 35px;
-
-    position: absolute;
     left: 10px;
     top: 4px;
 
@@ -519,7 +517,6 @@ header {
       ul.menu {
         background-color: transparent;
         font-size: 1.8rem;
-        border-bottom: 1px solid #fff;
 
         &.small-2 {
           width: 100% !important;
