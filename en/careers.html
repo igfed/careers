@@ -33,6 +33,12 @@
 
 <body class='l2 IGv2' data-areaid="careers" data-lang="en">
 
+
+<div id="searchResultsModal" class="hide">
+
+</div>
+
+
 <!-- IG|SA: START content block -->
 <header class="tp_05a">
     <div class="row large-max-width small-collapse show-for-small-only">
@@ -611,17 +617,48 @@
                     <!--<p class="tp_05a">Get the coaching you need to start your business</p>-->
                     <!--<a class="outline-btn secondary" href="#">Apply to a region office near you</a>-->
                 </div>
+
+
+                <!--<form id="siteSearch" class="search-form">-->
+                <!--<div class="row contact section">-->
+                <!--<div class="small-12 medium-10 small-centered columns">-->
+                <!--<div class="row">-->
+                <!--<img src="images/find-an-advisor-icon.png" class="img__icon">-->
+                <!--<h1 class="text-center">Find an Advisor</h1>-->
+                <!--<p class="text-center">Our advisors can help no matter what financial situation you're in. Use this tool to set up your meeting today.</p>-->
+                <!--</div>-->
+                <!--<div class="row collapse">-->
+                <!--<button type="submit" value="Submit" id="SearchSubmitButton"><img src="images/search-icon-in-search-box.png" /></button>-->
+                <!--&lt;!&ndash; <div class="small-10 columns search-ui"> &ndash;&gt;-->
+                <!--<div class="search-ui&#45;&#45;location search-ui" data-searchtype="location">-->
+                <!--<label class="show-for-sr hide" for="FindAnAdvisor">Find an advisor</label>-->
+                <!--<input class="typeahead itf_location itf_name" type="search" placeholder="Find an advisor" name="Search" autocomplete="off" spellcheck="false" id="FindAnAdvisor">-->
+                <!--</div>-->
+                <!--&lt;!&ndash; <div class="adv-search-right"> &ndash;&gt;-->
+                <!--&lt;!&ndash; </div> &ndash;&gt;-->
+                <!--&lt;!&ndash; </div> &ndash;&gt;-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</form>-->
+                <!---->
+
+
                 <div class="row find-an-office">
                     <div class="small-12 columns">
-                        <button type="submit" value="Submit" id="SearchSubmitButton"><img
-                                src="../landing/images/search-icon-in-search-box.png"/></button>
-                        <div class="search-ui--location search-ui" data-searchtype="location">
-                            <label class="show-for-sr hide" for="FindAnOffice">Find an office</label>
-                            <input class="typeahead itf_location itf_name" type="search" placeholder="Find an office"
-                                   name="Search" autocomplete="off" spellcheck="false" id="FindAnOffice">
-                        </div>
+                        <form id="siteSearch" class="search-form">
+                            <button type="submit" value="Submit" id="SearchSubmitButton"><img
+                                    src="../landing/images/search-icon-in-search-box.png"/></button>
+                            <div class="search-ui--location search-ui" data-searchtype="location">
+                                <label class="show-for-sr hide" for="FindAnOffice">Find an office</label>
+                                <input class="typeahead itf_location itf_name" type="search"
+                                       placeholder="Find an office"
+                                       name="Search" autocomplete="off" spellcheck="false" id="FindAnOffice">
+                            </div>
+                        </form>
                     </div>
                 </div>
+
 
             </div>
             <div class="small-12 medium-6 columns text-center content-team-join">
@@ -1109,8 +1146,87 @@
             <a class="lang" href="#">FR</a>
         </div>
     </div>
-
 </div>
+
+<script id="office-template" type="x-tmpl-mustache">
+              <div class="row">
+
+                <div class="small-6 medium-3 columns">
+                  <p class="tp_08">{{length}} Offices found</p>
+                </div>
+                  <button class="close-button" aria-label="Close menu"></button>
+                <div>
+
+              </div>
+
+              <div class="row">
+              {{#.}}
+                  <div class="small-12 columns">
+                    <div class="row underline">
+                      <div class="small-12 medium-7 large-6 columns map-column">
+                        <div class="maps">
+                          <a class="map-anchor" href="https://www.google.ca/maps/dir//{{Address_Line_1__c}} {{Address_Line_2__c}}, {{City__c}}, {{Province_Territory_State__c}}, {{Postal_Code__c}}">
+                              <div class="map-container">
+                                <img src="https://maps.googleapis.com/maps/api/staticmap?center={{Address_Line_1__c}} {{Address_Line_2__c}}, {{City__c}}, {{Province_Territory_State__c}}, {{Postal_Code__c}}&zoom=17&size=130x130&key=AIzaSyB0n_92iCiJzEB2KBQ19jx88Uu6SWN7aUU" />
+                                <div class="map-icon"></div>
+                                <div class="tp_22">View Map</div>
+                                <div class="clear"></div>
+                              </div>
+                          </a>
+                        </div>
+                        <div class="map-address">
+                         <p class="tp_07">{{Address_Line_1__c}}
+                         {{Address_Line_2__c}}</p>
+                        <p class="tp_09">{{City__c}},
+                        {{Province_Territory_State__c}}, {{Postal_Code__c}}</p>
+                        </div>
+                      </div>
+
+                        <div class="columns contact-buttons buttons-column">
+                            <ul class="dropdown menu phone" data-dropdown-menu="svjkem-dropdown-menu" role="menubar">
+                                <li role="menuitem" class="is-dropdown-submenu-parent opens-right" aria-haspopup="true" aria-expanded="false" aria-label="
+                                        Contact Info
+                                         Phone
+                                    ">
+                                    <a class="outline-btn secondary small-icon phone dropdown-button" type="button" tabindex="0">
+                                        <span class="hide-for-small-only">Contact Info</span>
+                                        <span class="show-for-small-only"><i aria-hidden="true" class="fa fa-phone"></i> Phone</span>
+                                    </a>
+                                    <ul class="menu submenu is-dropdown-submenu first-sub vertical" data-submenu="" aria-hidden="true" role="menu">
+                                        <li class="hide-for-small-only emphasize is-submenu-item is-dropdown-submenu-item" role="menuitem">
+                                            <a href="mailto:{{Director__r.Email}}">Email me</a>
+                                        </li>
+                                        <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item">
+                                            <a href="tel:{{Phone__c}}">
+                                                <strong>Main</strong>
+                                                <span>{{Phone__c}}</span>
+                                            </a>
+                                        </li>
+                                        <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item">
+                                            <a href="tel:{{Fax__c}}">
+                                                <strong>Fax</strong>
+                                                <span>{{Fax__c}}</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                          <a href="mailto:{{Director__r.Email}}" class="outline-btn secondary small-icon email" type="button"><span class="show-for-small-only"><i aria-hidden="true" class="fa fa-envelope"></i> Email</span></a>
+                            <a class="outline-btn constrained" type="button" href="{{prettyURL__c}}">View Details</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                  </div>
+              {{/.}}
+              </div>
+
+
+
+
+
+
+
+</script>
 
 <!-- IG|SA: END content block -->
 
@@ -1126,5 +1242,10 @@
 
 <script type="text/javascript" src="../js/careers.js"></script>
 <script type="text/javascript" src="../js/search.js"></script>
+
+<div class="office-search-results hide" info-toggle-aria="true">
+
+
+</div>
 </body>
 </html>

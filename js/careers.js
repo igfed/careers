@@ -186,7 +186,7 @@
             $('body').addClass('is-reveal-open branded');
         });
 
-        // quick and dirty mobile menu close - not familiar with Foundation pattern to fire this
+        // quick and dirty mobile menu closes - not familiar with Foundation pattern to fire these
         $('.top-bar .close-button.show-for-small-only').on('click', function () {
             $('#main-menu-anchor').css({'display': 'none'});
             $('body').removeClass('is-reveal-open branded');

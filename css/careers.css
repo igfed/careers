@@ -1034,6 +1034,97 @@ body.IGv2.is-reveal-open.branded .mobile-bottom-bar .logo {
   top: 15px;
 }
 
+body.IGv2 body {
+  background: #FFDE16;
+  overflow-x: hidden;
+  font-family: "roboto", sans-serif;
+}
+body.IGv2 #searchResultsModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1005;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+body.IGv2 #searchResultsModal a.map-anchor {
+  width: 22.6rem;
+  display: block;
+  overflow: hidden;
+}
+@media screen and (max-width: 39.9375em) {
+  body.IGv2 #searchResultsModal a.map-anchor {
+    width: 14.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+}
+body.IGv2 #searchResultsModal a.map-anchor .map-container {
+  width: 22.6rem;
+  height: 22.6rem;
+  border-radius: 11.3rem;
+  overflow: hidden;
+  position: relative;
+  float: right;
+}
+@media screen and (max-width: 39.9375em) {
+  body.IGv2 #searchResultsModal a.map-anchor .map-container {
+    width: 14.1rem;
+    height: 14.1rem;
+    border-radius: 7.05rem;
+  }
+}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  body.IGv2 #searchResultsModal a.map-anchor .map-container {
+    width: 19rem;
+    height: 19rem;
+    border-radius: 9.5rem;
+  }
+}
+body.IGv2 #searchResultsModal a.map-anchor .map-container .map-icon {
+  width: 100%;
+  height: 130%;
+  top: -15%;
+}
+body.IGv2 #searchResultsModal a.map-anchor .map-container .map-icon::after {
+  content: "";
+  width: 2.8rem;
+  height: 3.7rem;
+  background-image: url("../images/map-marker-blue.png");
+  background-position-y: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -100%);
+  transform: translate(-50%, -100%);
+}
+body.IGv2 #searchResultsModal a.map-anchor .map-container .map-icon + div {
+  position: absolute;
+  padding-bottom: 1.7rem;
+  padding-top: .5rem;
+  top: 100%;
+  background-color: #0ed59a;
+  text-align: center;
+  width: 100%;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+body.IGv2 #searchResultsModal a.map-anchor:hover .map-container .map-icon + div {
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+body.IGv2 #searchResultsModal .row .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+body.IGv2 #searchResultsModal .row {
+  max-width: 96rem;
+}
 body.IGv2 .mobile-bottom-bar {
   display: none;
   transform: translate(0, 120px);
@@ -2727,6 +2818,7 @@ body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu {
   margin-top: -3px;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.3);
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -2757,7 +2849,6 @@ body.IGv2[data-areaid="careers"] input .tt-menu .no-results, body.IGv2[data-area
 }
 body.IGv2[data-areaid="careers"] .find-an-office {
   position: relative;
-  overflow: hidden;
 }
 body.IGv2[data-areaid="careers"] #FindAnOffice {
   width: 100%;
@@ -2767,7 +2858,6 @@ body.IGv2[data-areaid="careers"] #FindAnOffice {
   margin-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
-  overflow: hidden;
 }
 @media screen and (max-width: 39.9375em) {
   body.IGv2[data-areaid="careers"] #FindAnOffice {
