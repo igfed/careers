@@ -3,7 +3,7 @@ body.IGv2.fr {
 }
 
 body.IGv2.is-reveal-open.branded {
-  .mobile-bottom-bar {
+  .mobile-bottom-bar.small-12 {
     .row {
       position: relative;
     }
@@ -18,8 +18,8 @@ body.IGv2.is-reveal-open.branded {
     bottom: 0;
     background: #07263b;
     z-index: 1000;
-    transition: transform 0.2s ease-in 0.3s;
-    transform: translate(0, 0);
+    transition: all 0.2s ease-in 0.3s;
+    bottom: 0;
 
     a.lang {
       position: absolute;
@@ -93,6 +93,11 @@ body.IGv2 {
     background: #FFDE16;
     overflow-x: hidden;
     font-family: 'roboto', sans-serif
+  }
+
+  .mobile-bottom-bar.small-12 {
+    position: absolute;
+    bottom: -110px;
   }
 
   // Search
@@ -241,14 +246,6 @@ body.IGv2 {
 
     .row {
       max-width: 96rem;
-    }
-
-    .illustration {
-      width: 80px;
-      height: 80px;
-      float: none;
-      margin: 0 auto;
-      margin-bottom: 3rem;
     }
 
     .columns:nth-child(2) p {
@@ -514,11 +511,6 @@ body.IGv2 {
         width: 48.2%;
       }
     }
-  }
-
-  .mobile-bottom-bar {
-    display: none;
-    transform: translate(0, 120px);
   }
 
   &[data-areaid="careers"] {
