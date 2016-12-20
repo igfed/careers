@@ -192,7 +192,6 @@ body.IGv2 {
       max-width: 96rem;
     }
 
-
   }
 
   .mobile-bottom-bar {
@@ -2230,17 +2229,24 @@ body.IGv2 {
       /*margin-right:20px;*/
       display: inline-block;
     }
-    .twitter-typeahead .tt-menu {
+
+    .tt-menu {
       margin-left: 0 !important;
-      width: 110%;
       z-index: 20 !important;
-      margin-top: -3px;
-      border-top: 1px solid rgba(0, 0, 0, 0.3);
+      width: 100%;
+      margin-top: -10px;
       box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.3);
       box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.3);
       border-bottom-right-radius: 5px;
       border-bottom-left-radius: 5px;
+      font-size: 1.6rem;
+      text-align: left;
     }
+
+    .tt-hint {
+      display: none !important;
+    }
+
     input .tt-menu .tt-suggestion, .twitter-typeahead .tt-menu .no-results, .twitter-typeahead .tt-menu .tt-suggestion {
       width: 100%;
       padding: .8em 1.2em;
@@ -2272,16 +2278,16 @@ body.IGv2 {
     }
 
     #FindAnOffice {
-      width: 100%;
       box-shadow: none;
       height: 36px;
       font-size: 1.5rem;
-      margin-top: 40px;
+      margin-top: 20px;
       padding-left: 10px;
       padding-right: 10px;
 
       @media #{$small-only} {
-        margin-top: 20px;
+        margin-left: 2%;
+        width: 96%;
       }
     }
 
@@ -2291,11 +2297,7 @@ body.IGv2 {
       width: 28px;
       z-index: 1000;
       right: 15px;
-      top: 43px;
-
-      @media #{$small-only} {
-        top: 23px;
-      }
+      top: 23px;
 
       &:hover, &:focus {
         background: #fff;

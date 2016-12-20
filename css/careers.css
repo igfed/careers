@@ -2811,16 +2811,20 @@ body.IGv2[data-areaid="careers"] .twitter-typeahead {
   /*margin-right:20px;*/
   display: inline-block;
 }
-body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu {
+body.IGv2[data-areaid="careers"] .tt-menu {
   margin-left: 0 !important;
-  width: 110%;
   z-index: 20 !important;
-  margin-top: -3px;
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  margin-top: -10px;
   box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.3);
   box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.3);
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+  font-size: 1.6rem;
+  text-align: left;
+}
+body.IGv2[data-areaid="careers"] .tt-hint {
+  display: none !important;
 }
 body.IGv2[data-areaid="careers"] input .tt-menu .tt-suggestion, body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu .no-results, body.IGv2[data-areaid="careers"] .twitter-typeahead .tt-menu .tt-suggestion {
   width: 100%;
@@ -2851,17 +2855,17 @@ body.IGv2[data-areaid="careers"] .find-an-office {
   position: relative;
 }
 body.IGv2[data-areaid="careers"] #FindAnOffice {
-  width: 100%;
   box-shadow: none;
   height: 36px;
   font-size: 1.5rem;
-  margin-top: 40px;
+  margin-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
 }
 @media screen and (max-width: 39.9375em) {
   body.IGv2[data-areaid="careers"] #FindAnOffice {
-    margin-top: 20px;
+    margin-left: 2%;
+    width: 96%;
   }
 }
 body.IGv2[data-areaid="careers"] #SearchSubmitButton {
@@ -2870,12 +2874,7 @@ body.IGv2[data-areaid="careers"] #SearchSubmitButton {
   width: 28px;
   z-index: 1000;
   right: 15px;
-  top: 43px;
-}
-@media screen and (max-width: 39.9375em) {
-  body.IGv2[data-areaid="careers"] #SearchSubmitButton {
-    top: 23px;
-  }
+  top: 23px;
 }
 body.IGv2[data-areaid="careers"] #SearchSubmitButton:hover, body.IGv2[data-areaid="careers"] #SearchSubmitButton:focus {
   background: #fff;

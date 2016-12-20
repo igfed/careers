@@ -80,7 +80,7 @@ $(function () {
     );
 
     // Setup the form submission
-    $('#siteSearch').submit(function (e) {
+    $('.search-form').submit(function (e) {
         e.preventDefault();
         var params = parseSearchString();
         getSearchResults(params);
