@@ -1043,6 +1043,11 @@ body.IGv2 .mobile-bottom-bar.small-12 {
   position: absolute;
   bottom: -110px;
 }
+@media screen and (min-width: 40em) {
+  body.IGv2 .mobile-bottom-bar.small-12 {
+    display: none !important;
+  }
+}
 body.IGv2 #searchResultsModal {
   position: fixed;
   top: 0;
