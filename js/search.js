@@ -19,14 +19,19 @@ function getSearchResults(params) {
     params.searchtype = 'office';
     params.name = '';
 
+    // Make sure error message is hidden each time
+    $('.zero-results').addClass('hide');
+
     $.getJSON(modelUrl, params)
         .always()
         .done(function (data) {
             var result = JSON.parse(data);
-            if (result.length > 0) {
+            if (result) {
                 $('#searchResultsModal').removeClass('hide').html('');
                 displaySearchResults('office-template', result);
                 $('body').addClass('is-reveal-open');
+            } else {
+                $('.zero-results').removeClass('hide');
             }
         })
         .fail(function (result) {

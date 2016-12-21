@@ -117,6 +117,14 @@ body.IGv2 {
     overflow: scroll;
   }
 
+  .search-form {
+    .zero-results {
+      color: #e41c1c;
+      text-align: left;
+      display: block;
+    }
+  }
+
   a.map-anchor {
     width: 22.6rem;
     display: block;

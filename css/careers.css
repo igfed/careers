@@ -1058,6 +1058,11 @@ body.IGv2 #searchResultsModal {
   height: 100%;
   overflow: scroll;
 }
+body.IGv2 .search-form .zero-results {
+  color: #e41c1c;
+  text-align: left;
+  display: block;
+}
 body.IGv2 a.map-anchor {
   width: 22.6rem;
   display: block;
