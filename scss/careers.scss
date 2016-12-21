@@ -19,11 +19,10 @@ body.IGv2.is-reveal-open.branded {
     background: #07263b;
     z-index: 1000;
     transition: all 0.2s ease-in 0.3s;
-    bottom: 0;
 
     a.lang {
       position: absolute;
-      right: 32px;
+      right: 40px;
       top: 20px;
       color: #fff !important;
       text-transform: uppercase;
@@ -39,7 +38,7 @@ body.IGv2.is-reveal-open.branded {
       padding-top: 10px;
       border-top: 1px solid #314659;
       height: 50px;
-      margin: 0 22px;
+      margin: 0 30px;
 
       li {
         float: left;
@@ -81,7 +80,7 @@ body.IGv2.is-reveal-open.branded {
       position: absolute;
       width: 120px;
       height: 35px;
-      left: 30px;
+      left: 38px;
       top: 15px;
     }
 
@@ -98,6 +97,7 @@ body.IGv2 {
   .mobile-bottom-bar.small-12 {
     position: absolute;
     bottom: -110px;
+    overflow: hidden;
 
     @media #{$medium-up}{
       display: none !important
@@ -226,10 +226,10 @@ body.IGv2 {
 
       // display: inline-block;
       float: left;
-      margin-right: 3.6rem;
+      margin-right: 3.2rem;
 
       @media #{$small-only}{
-        margin-right: 1rem;
+        margin-right: 1.8rem;
       }
     }
 
@@ -240,13 +240,12 @@ body.IGv2 {
     width: 45%;
     float: left;
 
-    @media #{$medium-only}{
-      margin-top: 4rem;
-
+    @media #{$small-only}{
+      margin-top: 0;
     }
 
-    @media #{$small-only}{
-      margin-top: 1rem;
+    @media #{$medium-only}{
+      margin-top: 0;
     }
 
   }
@@ -256,17 +255,67 @@ body.IGv2 {
     margin-top: 0;
     margin-bottom: 2.5rem;
 
+    .map-container {
+      margin-bottom: 25px;
+    }
+
+    .outline-btn {
+      padding: 0.85rem 2.2rem !important;
+      min-height: 42px !important;
+
+      @media #{$small-only} {
+        padding: 0.85rem 1.7rem !important;
+      }
+    }
+
+    .tp_08 {
+      font-size: 2.8rem;
+    }
+
+    .tp_07 {
+      font-family: $WL !important;
+      font-size: 2.8rem !important;
+    }
+
+    .tp_09 {
+      font-size: 1.8rem !important;
+      margin-top: -5px !important;
+    }
+
+    @media #{$small-only}{
+      .tp_07 {
+        font-size: 1.7rem !important;
+      }
+      .tp_08 {
+        font-size: 1.7rem !important;
+      }
+      .tp_09 {
+        font-size: 1.4rem !important;
+      }
+
+      .buttons-column {
+        margin-bottom: 30px;
+      }
+    }
+
+    @media #{$medium-only}{
+      .tp_07 {
+        font-size: 2.2rem !important;
+      }
+      .tp_08 {
+        font-size: 2.2rem !important;
+      }
+      .tp_09 {
+        font-size: 1.6rem !important;
+      }
+    }
+
+    .outline-btn {
+      border-radius: 5px !important;
+    }
+
     .row {
       max-width: 96rem;
-    }
-
-    .columns:nth-child(2) p {
-      margin-top: 2rem;
-      margin-left: 2rem;
-    }
-
-    .row .columns:nth-child(2) p {
-      margin-bottom: 0;
     }
 
     a.map-anchor {
@@ -285,8 +334,8 @@ body.IGv2 {
 
     @media screen and (max-width: 39.9375em) {
       a.map-anchor .map-container {
-        width: 8rem;
-        height: 8rem;
+        width: 10rem;
+        height: 10rem;
       }
 
       .tp_21 {
@@ -437,51 +486,6 @@ body.IGv2 {
           width: 48.2%;
           display: block;
         }
-      }
-    }
-
-    .map-column {
-
-      // @media #{$medium-up}{
-      //   width: 50%;
-      // }
-
-      @media screen and (min-width: 855px) and (max-width: 1059px) {
-        width: 48%;
-      }
-
-      .maps {
-
-        // display: inline-block;
-        float: left;
-        margin-right: 3.6rem;
-
-        @media #{$small-only}{
-          margin-right: 1rem;
-        }
-      }
-
-    }
-
-    .map-address {
-
-      width: 45%;
-      float: left;
-
-      @media #{$medium-only}{
-        margin-top: 4rem;
-
-      }
-
-      @media #{$small-only}{
-        margin-top: 1rem;
-      }
-
-    }
-
-    .contact-buttons {
-      @media #{$medium-up}{
-        width: auto;
       }
     }
 
@@ -727,7 +731,7 @@ body.IGv2 {
           padding-bottom: 1.3rem;
 
           @media #{$medium-up} {
-            padding-bottom: 2.2rem;
+            padding-bottom: 0;
             margin-top: 2.5rem;
           }
 
@@ -1171,7 +1175,7 @@ body.IGv2 {
 
                     &:nth-child(3) {
                       top: 25.5%;
-                      left: 30%;
+                      left: 29%;
                       width: 17%;
 
                     }
@@ -2560,13 +2564,14 @@ body.IGv2 {
       margin-left: 0 !important;
       z-index: 20 !important;
       width: 100%;
-      margin-top: -10px;
+      margin-top: -11px;
       box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.3);
       box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.3);
-      border-bottom-right-radius: 5px;
-      border-bottom-left-radius: 5px;
+      //border-bottom-right-radius: 5px;
+      //border-bottom-left-radius: 5px;
       font-size: 1.6rem;
       text-align: left;
+      border: 1px solid #aaa;
     }
 
     .tt-hint {
@@ -2612,8 +2617,7 @@ body.IGv2 {
       padding-right: 10px;
 
       @media #{$small-only} {
-        margin-left: 2%;
-        width: 96%;
+
       }
     }
 

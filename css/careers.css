@@ -969,7 +969,6 @@ body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 {
   background: #07263b;
   z-index: 1000;
   transition: all 0.2s ease-in 0.3s;
-  bottom: 0;
 }
 body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 .row {
   position: relative;
@@ -979,7 +978,7 @@ body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 .small-6 {
 }
 body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 a.lang {
   position: absolute;
-  right: 32px;
+  right: 40px;
   top: 20px;
   color: #fff !important;
   text-transform: uppercase;
@@ -994,7 +993,7 @@ body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 ul.menu {
   padding-top: 10px;
   border-top: 1px solid #314659;
   height: 50px;
-  margin: 0 22px;
+  margin: 0 30px;
 }
 body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 ul.menu li {
   float: left;
@@ -1030,7 +1029,7 @@ body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 .logo {
   position: absolute;
   width: 120px;
   height: 35px;
-  left: 30px;
+  left: 38px;
   top: 15px;
 }
 
@@ -1042,6 +1041,7 @@ body.IGv2 body {
 body.IGv2 .mobile-bottom-bar.small-12 {
   position: absolute;
   bottom: -110px;
+  overflow: hidden;
 }
 @media screen and (min-width: 40em) {
   body.IGv2 .mobile-bottom-bar.small-12 {
@@ -1146,25 +1146,25 @@ body.IGv2 .row {
 }
 body.IGv2 .map-column .maps {
   float: left;
-  margin-right: 3.6rem;
+  margin-right: 3.2rem;
 }
 @media screen and (max-width: 39.9375em) {
   body.IGv2 .map-column .maps {
-    margin-right: 1rem;
+    margin-right: 1.8rem;
   }
 }
 body.IGv2 .map-address {
   width: 45%;
   float: left;
 }
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  body.IGv2 .map-address {
-    margin-top: 4rem;
-  }
-}
 @media screen and (max-width: 39.9375em) {
   body.IGv2 .map-address {
-    margin-top: 1rem;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  body.IGv2 .map-address {
+    margin-top: 0;
   }
 }
 body.IGv2 .section.office-search {
@@ -1172,15 +1172,59 @@ body.IGv2 .section.office-search {
   margin-top: 0;
   margin-bottom: 2.5rem;
 }
+body.IGv2 .section.office-search .map-container {
+  margin-bottom: 25px;
+}
+body.IGv2 .section.office-search .outline-btn {
+  padding: 0.85rem 2.2rem !important;
+  min-height: 42px !important;
+}
+@media screen and (max-width: 39.9375em) {
+  body.IGv2 .section.office-search .outline-btn {
+    padding: 0.85rem 1.7rem !important;
+  }
+}
+body.IGv2 .section.office-search .tp_08 {
+  font-size: 2.8rem;
+}
+body.IGv2 .section.office-search .tp_07 {
+  font-family: "whitney_lightregular" !important;
+  font-size: 2.8rem !important;
+}
+body.IGv2 .section.office-search .tp_09 {
+  font-size: 1.8rem !important;
+  margin-top: -5px !important;
+}
+@media screen and (max-width: 39.9375em) {
+  body.IGv2 .section.office-search .tp_07 {
+    font-size: 1.7rem !important;
+  }
+  body.IGv2 .section.office-search .tp_08 {
+    font-size: 1.7rem !important;
+  }
+  body.IGv2 .section.office-search .tp_09 {
+    font-size: 1.4rem !important;
+  }
+  body.IGv2 .section.office-search .buttons-column {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  body.IGv2 .section.office-search .tp_07 {
+    font-size: 2.2rem !important;
+  }
+  body.IGv2 .section.office-search .tp_08 {
+    font-size: 2.2rem !important;
+  }
+  body.IGv2 .section.office-search .tp_09 {
+    font-size: 1.6rem !important;
+  }
+}
+body.IGv2 .section.office-search .outline-btn {
+  border-radius: 5px !important;
+}
 body.IGv2 .section.office-search .row {
   max-width: 96rem;
-}
-body.IGv2 .section.office-search .columns:nth-child(2) p {
-  margin-top: 2rem;
-  margin-left: 2rem;
-}
-body.IGv2 .section.office-search .row .columns:nth-child(2) p {
-  margin-bottom: 0;
 }
 body.IGv2 .section.office-search a.map-anchor {
   width: auto;
@@ -1195,8 +1239,8 @@ body.IGv2 .section.office-search .tp_21 {
 }
 @media screen and (max-width: 39.9375em) {
   body.IGv2 .section.office-search a.map-anchor .map-container {
-    width: 8rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
   }
   body.IGv2 .section.office-search .tp_21 {
     color: #0d263c;
@@ -1312,39 +1356,6 @@ body.IGv2 .section.office-search .buttons-column .email {
     float: right;
     width: 48.2%;
     display: block;
-  }
-}
-@media screen and (min-width: 855px) and (max-width: 1059px) {
-  body.IGv2 .section.office-search .map-column {
-    width: 48%;
-  }
-}
-body.IGv2 .section.office-search .map-column .maps {
-  float: left;
-  margin-right: 3.6rem;
-}
-@media screen and (max-width: 39.9375em) {
-  body.IGv2 .section.office-search .map-column .maps {
-    margin-right: 1rem;
-  }
-}
-body.IGv2 .section.office-search .map-address {
-  width: 45%;
-  float: left;
-}
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  body.IGv2 .section.office-search .map-address {
-    margin-top: 4rem;
-  }
-}
-@media screen and (max-width: 39.9375em) {
-  body.IGv2 .section.office-search .map-address {
-    margin-top: 1rem;
-  }
-}
-@media screen and (min-width: 40em) {
-  body.IGv2 .section.office-search .contact-buttons {
-    width: auto;
   }
 }
 body.IGv2 .section.office-search .columns .row.underline:after {
@@ -1552,7 +1563,7 @@ body.IGv2[data-areaid="careers"] .section .feature-grid .columns {
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section .feature-grid .columns {
-    padding-bottom: 2.2rem;
+    padding-bottom: 0;
     margin-top: 2.5rem;
   }
 }
@@ -1911,7 +1922,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 .row:nth-child(3), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 .row:nth-child(3) {
     top: 25.5%;
-    left: 30%;
+    left: 29%;
     width: 17%;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 .row:nth-child(4), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 .row:nth-child(4) {
@@ -3055,13 +3066,12 @@ body.IGv2[data-areaid="careers"] .tt-menu {
   margin-left: 0 !important;
   z-index: 20 !important;
   width: 100%;
-  margin-top: -10px;
+  margin-top: -11px;
   box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.3);
   box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.3);
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
   font-size: 1.6rem;
   text-align: left;
+  border: 1px solid #aaa;
 }
 body.IGv2[data-areaid="careers"] .tt-hint {
   display: none !important;
@@ -3101,12 +3111,6 @@ body.IGv2[data-areaid="careers"] #FindAnOffice {
   margin-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
-}
-@media screen and (max-width: 39.9375em) {
-  body.IGv2[data-areaid="careers"] #FindAnOffice {
-    margin-left: 2%;
-    width: 96%;
-  }
 }
 body.IGv2[data-areaid="careers"] #SearchSubmitButton {
   position: absolute;
