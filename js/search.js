@@ -27,9 +27,9 @@ function getSearchResults(params) {
         .done(function (data) {
             var result = JSON.parse(data);
             if (result) {
-                $('#searchResultsModal').removeClass('hide').html('');
-                displaySearchResults('office-template', result);
                 $('body').addClass('is-reveal-open');
+                $('#searchResultsModal').removeClass('closed').html('');
+                displaySearchResults('office-template', result);
             } else {
                 $('.zero-results').removeClass('hide');
             }
@@ -93,8 +93,10 @@ $(function () {
 
     // Fake modal - Adding handler on document so it fires despite the button not being rendered yet
     $(document).on("click", "#searchResultsModal .close-button", function () {
-        $('#searchResultsModal').addClass('hide');
-        $('body').removeClass('is-reveal-open');
+        $('#searchResultsModal').addClass('closed');
+        setTimeout( function() {
+            $('body').removeClass('is-reveal-open');
+        }, 400 );
     });
 });
 
