@@ -503,6 +503,7 @@ header {
 
       ul.menu + ul.menu {
         padding: 0;
+        margin-bottom: 110px; // Make sure it's scrollable when mobile-bottom-bar is present
 
         li {
           border: none;

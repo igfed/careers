@@ -70,7 +70,7 @@ function displaySearchResults(templateID, json) {
     Mustache.parse(template);
     var rendered = Mustache.render(template, json);
     $('#searchResultsModal').append(rendered);
-
+    $(document).foundation();
     // attachComponents();
 }
 

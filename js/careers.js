@@ -191,6 +191,13 @@
             $('#main-menu-anchor').css({'display': 'none'});
             $('body').removeClass('is-reveal-open branded');
         });
+
+
+        $(window).resize(function(){
+            if ($( window ).width() > 640) {
+                $('body').removeClass('branded');
+            }
+        });
     }
 
     //-----
