@@ -980,20 +980,6 @@ header .link-list-horizontal li .fa {
   }
 }
 
-body.IGv2.fr .mobile-bottom-bar.small-12 .logo {
-  text-indent: 9999em;
-  overflow: hidden;
-  background-size: contain;
-  background-image: url("../landing/images/IG-logo-fr.svg") !important;
-  background-repeat: no-repeat;
-  text-indent: -99999px;
-  position: absolute;
-  width: 120px;
-  height: 35px;
-  left: 38px;
-  top: 15px;
-}
-
 body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 {
   display: block;
   position: fixed;
@@ -1142,7 +1128,7 @@ body.IGv2 a.map-anchor .map-container .map-icon::after {
   content: "";
   width: 2.8rem;
   height: 3.7rem;
-  background-image: url("../images/map-marker-blue.png");
+  background-image: url("../landing/images/map-marker-blue.png");
   background-position-y: 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3350,6 +3336,49 @@ body.IGv2[data-areaid="careers"] #SearchSubmitButton {
 }
 body.IGv2[data-areaid="careers"] #SearchSubmitButton:hover, body.IGv2[data-areaid="careers"] #SearchSubmitButton:focus {
   background: #fff;
+}
+
+body.IGv2.fr .mobile-bottom-bar.small-12 .logo {
+  text-indent: 9999em;
+  overflow: hidden;
+  background-size: contain;
+  background-image: url("../landing/images/IG-logo-fr.svg") !important;
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+  position: absolute;
+  width: 120px;
+  height: 35px;
+  left: 38px;
+  top: 15px;
+}
+body.IGv2.fr .slick-track .profile-data-1 .row:nth-child(1) {
+  top: 44.9% !important;
+  width: 14.5% !important;
+}
+body.IGv2.fr .slick-track .profile-data-1 .row:nth-child(2) {
+  top: 32.3% !important;
+  left: 25.3% !important;
+  width: 16% !important;
+}
+body.IGv2.fr .slick-track .profile-data-1 .row:nth-child(3) {
+  top: 28.1% !important;
+}
+body.IGv2.fr .slick-track .profile-data-1 .row:nth-child(4) {
+  width: 16% !important;
+}
+body.IGv2.fr .slick-track .profile-data-1 .row:nth-child(5) {
+  width: 12.5% !important;
+}
+body.IGv2.fr .slick-track .profile-data-2 .row:nth-child(2) {
+  width: 18% !important;
+}
+body.IGv2.fr .slick-track .profile-data-2 .row:nth-child(3) {
+  top: 17.5% !important;
+  width: 15% !important;
+}
+body.IGv2.fr .slick-track .profile-data-2 .row:nth-child(5) {
+  top: 14.5% !important;
+  width: 18.5% !important;
 }
 
 /*# sourceMappingURL=careers.css.map */
