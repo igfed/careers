@@ -425,6 +425,25 @@ select, input, .ux-font--input, .tp_24a {
   transition: 0.25s all ease-in;
   transform: translate(380px, -7px);
 }
+.fr header .logo {
+  text-indent: 9999em;
+  overflow: hidden;
+  background-size: contain;
+  background-image: url("../landing/images/IG-logo-fr.svg");
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+  position: absolute;
+  width: 120px;
+  height: 35px;
+  left: 10px;
+  top: 4px;
+}
+@media screen and (min-width: 40em) {
+  .fr header .logo {
+    left: 10px;
+    top: 17px;
+  }
+}
 
 header {
   margin-bottom: 0;
@@ -501,7 +520,7 @@ header .logo {
   text-indent: 9999em;
   overflow: hidden;
   background-size: contain;
-  background-image: url("../landing/images/careers/ig_logo.png");
+  background-image: url("../landing/images/IG-logo-en.png");
   background-repeat: no-repeat;
   text-indent: -99999px;
   position: absolute;
@@ -961,6 +980,20 @@ header .link-list-horizontal li .fa {
   }
 }
 
+body.IGv2.fr .mobile-bottom-bar.small-12 .logo {
+  text-indent: 9999em;
+  overflow: hidden;
+  background-size: contain;
+  background-image: url("../landing/images/IG-logo-fr.svg") !important;
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+  position: absolute;
+  width: 120px;
+  height: 35px;
+  left: 38px;
+  top: 15px;
+}
+
 body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 {
   display: block;
   position: fixed;
@@ -1024,7 +1057,7 @@ body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 .logo {
   text-indent: 9999em;
   overflow: hidden;
   background-size: contain;
-  background-image: url("../landing/images/careers/ig_logo.png");
+  background-image: url("../landing/images/IG-logo-en.png");
   background-repeat: no-repeat;
   text-indent: -99999px;
   position: absolute;
