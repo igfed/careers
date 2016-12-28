@@ -26,7 +26,7 @@ function getSearchResults(params) {
         .always()
         .done(function (data) {
             var result = JSON.parse(data);
-            if (result) {
+            if (result.length) {
                 $('body').addClass('is-reveal-open');
                 $('#searchResultsModal').removeClass('closed').html('');
                 displaySearchResults('office-template', result);
@@ -40,6 +40,7 @@ function getSearchResults(params) {
 
 }
 
+// Because we are only searching for cities, this function is slightly redundant - leaving it in place for now
 function parseSearchString() {
     var result = {};
     var search = $field.val();
@@ -60,6 +61,10 @@ function parseSearchString() {
             result.city = city[0];
             words.splice(i, 1);
         }
+    }
+
+    if (!result.city) {
+        result.city = words.join(' ');
     }
 
     return result;
@@ -94,9 +99,9 @@ $(function () {
     // Fake modal - Adding handler on document so it fires despite the button not being rendered yet
     $(document).on("click", "#searchResultsModal .close-button", function () {
         $('#searchResultsModal').addClass('closed');
-        setTimeout( function() {
+        setTimeout(function () {
             $('body').removeClass('is-reveal-open');
-        }, 400 );
+        }, 400);
     });
 });
 
