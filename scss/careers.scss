@@ -2884,47 +2884,49 @@ body.IGv2.fr {
   }
 
   .slick-track {
-    .profile-data-1 {
-      .row {
-        &:nth-child(1) {
-          top: 44.9% !important;
-          width: 14.5% !important;
-        }
+    @media (min-width: 1440px) {
+      .profile-data-1 {
+        .row {
+          &:nth-child(1) {
+            top: 44.9% !important;
+            width: 14.5% !important;
+          }
 
-        &:nth-child(2) {
-          top: 32.3% !important;
-          left: 25.3% !important;
-          width: 16% !important;
-        }
+          &:nth-child(2) {
+            top: 32.3% !important;
+            left: 25.3% !important;
+            width: 16% !important;
+          }
 
-        &:nth-child(3) {
-          top: 28.1% !important;
-        }
+          &:nth-child(3) {
+            top: 28.1% !important;
+          }
 
-        &:nth-child(4) {
-          width: 16% !important;
-        }
+          &:nth-child(4) {
+            width: 16% !important;
+          }
 
-        &:nth-child(5) {
-          width: 12.5% !important;
+          &:nth-child(5) {
+            width: 12.5% !important;
+          }
         }
       }
-    }
 
-    .profile-data-2 {
-      .row {
-        &:nth-child(2) {
-          width: 18% !important;
-        }
+      .profile-data-2 {
+        .row {
+          &:nth-child(2) {
+            width: 18% !important;
+          }
 
-        &:nth-child(3) {
-          top: 17.5% !important;
-          width: 15% !important;
-        }
+          &:nth-child(3) {
+            top: 17.5% !important;
+            width: 15% !important;
+          }
 
-        &:nth-child(5) {
-          top: 14.5% !important;
-          width: 18.5% !important;
+          &:nth-child(5) {
+            top: 14.5% !important;
+            width: 18.5% !important;
+          }
         }
       }
     }
