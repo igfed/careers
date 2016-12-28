@@ -192,9 +192,20 @@
             $('body').removeClass('is-reveal-open branded');
         });
 
+        // Ugh - we need to modify the height of the video slider
+        $("span[class^='carousel-']").on('click', function (event) {
+            console.log('carousel click');
+            if ($(".video-slide.slick-active").length) {
+                $('.slick-list.draggable').css({height: '680px'});
+                $('.section.profiles-slider').css({backgroundColor: '#e5e8e8'});
+            } else {
+                $('.slick-list.draggable').css({height: 'auto'});
+                $('.section.profiles-slider').css({backgroundColor: '#7ec4b9'});
+            }
+        });
 
-        $(window).resize(function(){
-            if ($( window ).width() > 640) {
+        $(window).resize(function () {
+            if ($(window).width() > 640) {
                 $('body').removeClass('branded');
             }
         });
@@ -228,6 +239,15 @@
                 event.preventDefault();
                 $overlaySlider.slick('slickNext');
             });
+
+            if ($(".video-slide.slick-active").length) {
+                $('.slick-list.draggable').css({height: '660px'});
+                $('.section.profiles-slider').css({backgroundColor: '#e5e8e8'});
+            } else {
+                $('.slick-list.draggable').css({height: 'auto'});
+                $('.section.profiles-slider').css({backgroundColor: '#7ec4b9'});
+            }
+
             $('.profile-counter').each(function () {
                 var $this = $(this);
 
@@ -394,6 +414,7 @@
             if ($overlaySlider.is('.slick-initialized')) {
                 changeSliderState($overlaySlider, !newIsResponsiveState);
             }
+
             if (isResponsiveState != newIsResponsiveState) {
                 isResponsiveState = newIsResponsiveState;
                 rebuildProfileSlider(isResponsiveState);
