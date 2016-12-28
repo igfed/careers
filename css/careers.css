@@ -1193,6 +1193,21 @@ body.IGv2 .section.office-search {
   margin-top: 0;
   margin-bottom: 2.5rem;
 }
+@media (max-width: 480px) {
+  body.IGv2 .section.office-search .buttons-column .phone {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+}
+body.IGv2 .section.office-search .outline-btn.email, body.IGv2 .section.office-search .outline-btn.phone {
+  min-width: 50% !important;
+  text-align: center !important;
+}
+@media (max-width: 480px) {
+  body.IGv2 .section.office-search .outline-btn.email, body.IGv2 .section.office-search .outline-btn.phone {
+    width: 100% !important;
+  }
+}
 body.IGv2 .section.office-search .map-container {
   margin-bottom: 25px;
 }
