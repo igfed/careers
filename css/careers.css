@@ -1067,6 +1067,7 @@ body.IGv2 .mobile-bottom-bar.small-12 {
   }
 }
 body.IGv2 #searchResultsModal {
+  padding-top: 75px;
   position: fixed;
   z-index: 1005;
   background: #fff;
@@ -1078,6 +1079,17 @@ body.IGv2 #searchResultsModal {
 }
 body.IGv2 #searchResultsModal.closed {
   transform: translate(0, -1500px);
+}
+body.IGv2 #searchResultsModal .logo {
+  left: 8%;
+  position: absolute;
+  height: 3rem;
+  top: 1.8rem;
+}
+@media screen and (max-width: 39.9375em) {
+  body.IGv2 #searchResultsModal .logo {
+    left: 2rem;
+  }
 }
 body.IGv2 .search-form .zero-results {
   color: #e41c1c;

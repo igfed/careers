@@ -101,6 +101,7 @@ body.IGv2 {
   // Search
 
   #searchResultsModal {
+    padding-top: 75px;
     position: fixed;
     z-index: 1005;
     background: #fff;
@@ -111,6 +112,18 @@ body.IGv2 {
     transform: translate(0, 0);
     &.closed {
       transform: translate(0, -1500px);
+    }
+
+    .logo {
+      left: 8%;
+      position: absolute;
+      height: 3rem;
+      top: 1.8rem;
+
+      @media #{$small-only} {
+        left: 2rem;
+      }
+
     }
   }
 
