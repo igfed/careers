@@ -1011,6 +1011,7 @@ body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 a.lang {
 }
 body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 ul.menu {
   padding-top: 10px;
+  border-bottom: 1px solid #314659;
   border-top: 1px solid #314659;
   height: 50px;
   margin: 0 30px;
@@ -1023,7 +1024,7 @@ body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 ul.menu li {
   font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: bold;
-  line-height: 33px;
+  line-height: 30px;
   font-family: "whitney_scmedium";
 }
 body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 ul.menu li a.share {
@@ -1035,7 +1036,7 @@ body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 ul.menu li a.share:
 body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 ul.menu li a.share .fa {
   position: relative;
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   float: right;
   margin: 0;
 }
