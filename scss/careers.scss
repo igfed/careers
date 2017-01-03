@@ -93,9 +93,16 @@ body.IGv2 {
   .mobile-bottom-bar.small-12 {
     position: absolute;
     left: -600px;
+    bottom: 0;
 
     @media #{$medium-up}{
       display: none !important
+    }
+  }
+
+  .small-12 columns content-edge-career-progression-2, .content-team-join {
+    .outline-btn.secondary {
+      display: block !important;
     }
   }
 
@@ -2672,7 +2679,7 @@ body.IGv2 {
               + [class*="content-"] {
                 .outline-btn {
                   @media #{$small-only} {
-                    display: none;
+
                   }
 
                   + .outline-btn {

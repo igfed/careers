@@ -746,12 +746,24 @@ header .utility-bar .menu .secondary-menu-item ul li a .fa {
     display: none;
   }
   header .top-bar > div ul.menu.small-12 a {
-    padding: 2.5rem 2.75rem 2.4rem;
-    font-size: 2rem;
     letter-spacing: 0;
     color: white;
     transition: 0.3s border ease-in;
   }
+}
+@media screen and (min-width: 40em) and (min-width: 1024px) {
+  header .top-bar > div ul.menu.small-12 a {
+    padding: 2.5rem 2.4rem 2.4rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 40em) and (max-width: 1023px) {
+  header .top-bar > div ul.menu.small-12 a {
+    padding: 2.5rem 1.5rem 2.4rem;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 40em) {
   header .top-bar > div ul.menu.small-12 a:after {
     content: "";
     height: 3px;
@@ -1061,11 +1073,15 @@ body.IGv2 body {
 body.IGv2 .mobile-bottom-bar.small-12 {
   position: absolute;
   left: -600px;
+  bottom: 0;
 }
 @media screen and (min-width: 40em) {
   body.IGv2 .mobile-bottom-bar.small-12 {
     display: none !important;
   }
+}
+body.IGv2 .small-12 columns content-edge-career-progression-2 .outline-btn.secondary, body.IGv2 .content-team-join .outline-btn.secondary {
+  display: block !important;
 }
 body.IGv2 #searchResultsModal {
   padding-top: 75px;
@@ -3197,11 +3213,6 @@ body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline .row .
     padding-left: 7.8rem;
     padding-right: 7.8rem;
     width: auto;
-  }
-}
-@media screen and (max-width: 39.9375em) {
-  body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline .row .columns[class*="content-"] + [class*="content-"] .outline-btn {
-    display: none;
   }
 }
 body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline .row .columns[class*="content-"] + [class*="content-"] .outline-btn + .outline-btn {
