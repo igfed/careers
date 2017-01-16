@@ -1187,7 +1187,7 @@ body.IGv2 .row .row {
   margin-right: 0;
 }
 body.IGv2 .row {
-  max-width: 96rem;
+  max-width: 120rem;
 }
 @media screen and (min-width: 855px) and (max-width: 1059px) {
   body.IGv2 .map-column {
@@ -1783,6 +1783,9 @@ body.IGv2[data-areaid="careers"] .section .mt-30 {
 }
 body.IGv2[data-areaid="careers"] .section .mb-0 {
   margin-bottom: 0 !important;
+}
+body.IGv2[data-areaid="careers"] .section.our-business .small-12 .tp_09a {
+  margin: 30px 0 -15px 0;
 }
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.our-business h3 {
@@ -3364,6 +3367,7 @@ body.IGv2[data-areaid="careers"] #FindAnOffice {
   margin-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
+  text-transform: capitalize;
 }
 body.IGv2[data-areaid="careers"] #SearchSubmitButton {
   position: absolute;

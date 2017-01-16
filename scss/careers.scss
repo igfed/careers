@@ -227,7 +227,7 @@ body.IGv2 {
   }
 
   .row {
-    max-width: 96rem;
+    max-width: 120rem;
   }
 
   .map-column {
@@ -952,6 +952,10 @@ body.IGv2 {
       }
 
       &.our-business {
+
+        .small-12 .tp_09a {
+          margin: 30px 0 -15px 0;
+        }
 
         h3 {
           @media #{$medium-up} {
@@ -2864,7 +2868,7 @@ body.IGv2 {
       margin-top: 20px;
       padding-left: 10px;
       padding-right: 10px;
-
+      text-transform: capitalize;
       @media #{$small-only} {
 
       }
