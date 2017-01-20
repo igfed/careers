@@ -1220,14 +1220,44 @@
                   </div>
               {{/.}}
               </div>
+</script>
 
-
-
-
-
-
-
-
+<script id="video-template" type="x-tmpl-mustache">
+           <div class="row">
+              {{#.}}
+                    <div class="medium-4 columns video-subsection">
+                        <div class="video-container">
+                            <div class="video-container-responsive">
+                                <!-- Start of Brightcove Player -->
+                                <div style="display:none"></div>
+                                <!--
+                                By use of this code snippet, I agree to the Brightcove Publisher T and C
+                                found at https://accounts.brightcove.com/en/terms-and-conditions/.
+                                -->
+                                <object id="myExperience4692154245001" class="BrightcoveExperience">
+                                    <param name="htmlFallback" value="true"/>
+                                    <param name="bgcolor" value="#FFFFFF "/>
+                                    <param name="width" value="100%"/>
+                                    <param name="height" value="100%"/>
+                                    <param name="playerID" value="4721138328001"/>
+                                    <param name="playerKey" value="AQ~~,AAADjafw_sk~,383Vbs13HVAXHnb_e-BAb9SMMY6kMHnV"/>
+                                    <param name="isVid" value="true"/>
+                                    <param name="isUI" value="true"/>
+                                    <param name="dynamicStreaming" value="true"/>
+                                    <param name="wmode" value="opaque"/>
+                                    <param name="@videoPlayer" value="{{id}}"/>
+                                    <param name="includeAPI" value="true"/>
+                                    <param name="templateLoadHandler" value="onTemplateLoad"/>
+                                    <param name="templateReadyHandler" value="onTemplateReady"/>
+                                </object>
+                                <!-- End of Brightcove Player -->
+                            </div>
+                        </div>
+                        <div class="header tp_03a">{{ title }}</div>
+                        <p class="tp_09a">{{ text }}</p>
+                        </div>
+              {{/.}}
+              </div>
 </script>
 
 <!-- IG|SA: END content block -->
