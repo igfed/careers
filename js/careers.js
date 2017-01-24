@@ -570,6 +570,7 @@
       }
     }
 
+
     function openOverlayWithAjax(url) {
       $.ajax(url).done(openOverlayWithMarkup);
     }
@@ -607,6 +608,8 @@
       APIModules,
       videoPlayer,
       experienceModule,
+      apiInterval,
+      templateInterval,
       $resizeWrapper = $('.video-container-responsive'),
       $spinner = $('.video-spinner-container'),
       $placeholder = $('.js-video-play'),
@@ -615,6 +618,26 @@
     init();
 
     function init() {
+
+      // Only way I could get Video's to load in combination with Mustache templates was to create 2 intervals
+      //
+      // Check for the HTML template for video(s) and attach handlers
+      templateInterval = setInterval(function() {
+        if ($('.video-container')) {
+          window.onTemplateLoad = onTemplateLoad;
+          window.onTemplateReady = onTemplateReady;
+          clearInterval(templateInterval);
+        }
+      }, 200);
+
+      // Once Brightcove API's are loaded, create the experience
+      apiInterval = setInterval(function() {
+        if (window.brightcove) {
+          brightcove.createExperiences();
+          clearInterval(apiInterval);
+        }
+      }, 200);
+
       loadVideoMeta();
     }
 
@@ -647,18 +670,14 @@
       } else {
         list.video = data.video;
       }
-      console.log(list.video);
       renderVideoTemplates(list.video);
     }
 
     function renderVideoTemplates(json) {
-      console.log(json);
       var template = document.getElementById('video-template').innerHTML;
       Mustache.parse(template);
       var rendered = Mustache.render(template, json);
       $('#video-placeholder').append(rendered);
-      window.onTemplateLoad = onTemplateLoad;
-      window.onTemplateReady = onTemplateReady;
     }
 
     function handleResize() {
@@ -670,16 +689,15 @@
     }
 
     function onTemplateLoad(experienceID) {
-      player = brightcove.api.getExperience(experienceID);
-      APIModules = brightcove.api.modules.APIModules;
+        player = brightcove.api.getExperience(experienceID);
+        APIModules = brightcove.api.modules.APIModules;
     }
 
     function onTemplateReady(evt) {
       $spinner.hide();
       $placeholder.show();
-      $playAnchor.on('click', playVideo)
+      $playAnchor.on('click', playVideo);
       $(window).on('resize', handleResize);
-      window.brightcove.createExperiences();
     }
 
     function playVideo(event) {
@@ -689,6 +707,7 @@
       experienceModule = player.getModule(APIModules.EXPERIENCE);
       videoPlayer.play();
     }
+
   }
 
 
