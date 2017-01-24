@@ -397,7 +397,7 @@
 
     function handleWindowSizing(init) {
       var windowWidth = $(window).width(),
-        responsiveLimit = 640,
+        responsiveLimit = 0,
         newIsResponsiveState = windowWidth < responsiveLimit;
 
       if ($overlaySlider.is('.slick-initialized')) {
@@ -619,8 +619,6 @@
 
     function init() {
 
-      // Only way I could get Video's to load in combination with Mustache templates was to create 2 intervals.
-      //
       // Check for the HTML template for video(s) and attach handlers
       templateInterval = setInterval(function() {
         if ($('.video-container')) {
