@@ -459,31 +459,31 @@
     }
 
     function rebuildProfileSlider(isResponsive) {
-      var $tempPartsHolder = $('<div></div>'),
-        $videos;
-
-      if ($profileSlider.is('.slick-initialized')) {
-        $profileSlider.slick('unslick');
-      }
-      if (isResponsive) {
-        $profileSliderVideoSectionHolder
-          .append($profileSlider.find('.video-slide'));
-        $videos = $profileSliderVideoSectionHolder.find('.video-subsection');
-        $tempPartsHolder.append($videos);
-        $videos.each(function () {
-          var $container = $profileSliderVideoSectionHolder.find('.video-slide').clone();
-
-          $container.find('.row').append($(this));
-          $profileSlider.append($container);
-        });
-      } else {
-        $profileSliderVideoSectionHolder.find('.video-slide .row')
-          .append($profileSlider.find('.video-subsection'));
-        $profileSlider.find('.video-slide').remove();
-        $profileSlider.append($profileSliderVideoSectionHolder.find('.video-slide'));
-      }
-
-      initProfileSlider();
+      // var $tempPartsHolder = $('<div></div>'),
+      //   $videos;
+      //
+      // if ($profileSlider.is('.slick-initialized')) {
+      //   $profileSlider.slick('unslick');
+      // }
+      // if (isResponsive) {
+      //   // $profileSliderVideoSectionHolder
+      //   //   .append($profileSlider.find('.video-slide'));
+      //   // $videos = $profileSliderVideoSectionHolder.find('.video-subsection');
+      //   // $tempPartsHolder.append($videos);
+      //   // $videos.each(function () {
+      //   //   var $container = $profileSliderVideoSectionHolder.find('.video-slide').clone();
+      //   //
+      //   //   $container.find('.row').append($(this));
+      //   //   $profileSlider.append($container);
+      //   // });
+      // } else {
+      //   $profileSliderVideoSectionHolder.find('.video-slide .row')
+      //     .append($profileSlider.find('.video-subsection'));
+      //   $profileSlider.find('.video-slide').remove();
+      //   $profileSlider.append($profileSliderVideoSectionHolder.find('.video-slide'));
+      // }
+      //
+      // initProfileSlider();
     }
   }
 
@@ -618,64 +618,20 @@
     init();
 
     function init() {
-
-      // Check for the HTML template for video(s) and attach handlers
-      templateInterval = setInterval(function() {
-        if ($('.video-container')) {
-          window.onTemplateLoad = onTemplateLoad;
-          window.onTemplateReady = onTemplateReady;
-          clearInterval(templateInterval);
-        }
-      }, 200);
-
-      // Once Brightcove API's are loaded, create the experience
-      apiInterval = setInterval(function() {
-        if (window.brightcove) {
-          brightcove.createExperiences();
-          clearInterval(apiInterval);
-        }
-      }, 200);
-
-      loadVideoMeta();
-    }
-
-    //-----
-
-    function loadVideoMeta() {
-      $.getJSON('./data/videos.json')
-        .always()
-        .done(function (data) {
-          if (data.video) {
-            createPlayList(data);
-          } else {
-            console.log('Videos.json not found');
-          }
-        })
-        .fail(function (result) {
-          console.log('Videos could not be retrieved, please try again', result.status + ' ' + result.statusText);
-        });
-    }
-
-    // Decide how many to show based on screen size
-    function createPlayList(data) {
-      var list = {},
-        rnd;
-      list.video = [];
-
       if ($(window).width() < 640) {
-        rnd = Math.floor(Math.random() * 3);
-        list.video.push(data.video[rnd]);
-      } else {
-        list.video = data.video;
+        mobileVideoLayout();
       }
-      renderVideoTemplates(list.video);
+      window.onTemplateLoad = onTemplateLoad;
+      window.onTemplateReady = onTemplateReady;
+
     }
 
-    function renderVideoTemplates(json) {
-      var template = document.getElementById('video-template').innerHTML;
-      Mustache.parse(template);
-      var rendered = Mustache.render(template, json);
-      $('#video-placeholder').append(rendered);
+    function mobileVideoLayout() {
+      var i, rnd;
+      rnd = Math.floor((Math.random() * 3));
+      var $clone = $('.video-wrapper .video-subsection').eq(rnd);
+      $('.video-wrapper .video-subsection').remove();
+      $('.video-wrapper').append($clone);
     }
 
     function handleResize() {
@@ -687,8 +643,8 @@
     }
 
     function onTemplateLoad(experienceID) {
-        player = brightcove.api.getExperience(experienceID);
-        APIModules = brightcove.api.modules.APIModules;
+      player = brightcove.api.getExperience(experienceID);
+      APIModules = brightcove.api.modules.APIModules;
     }
 
     function onTemplateReady(evt) {
