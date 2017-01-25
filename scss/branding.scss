@@ -14,6 +14,9 @@
         ul {
           width: 370px;
           transition: 0.25s all ease-in;
+          -webkit-transform: translate(380px, -7px);
+          -moz-transform: translate(380px, -7px);
+          -ms-transform: translate(380px, -7px);
           transform: translate(380px, -7px);
         }
       }
@@ -189,6 +192,9 @@ header {
           .share-toggle-content {
             width: 316px;
             padding-right: 0;
+            -webkit-transform: translate(0, -7px);
+            -moz-transform: translate(0, -7px);
+            -ms-transform: translate(0, -7px);
             transform: translate(0, -7px);
             border-right: 1px solid #293a44;
           }
@@ -215,6 +221,9 @@ header {
           right: 1px;
           width: 340px;
           transition: 0.25s all ease-in;
+          -webkit-transform: translate(340px, -7px);
+          -moz-transform: translate(340px, -7px);
+          -ms-transform: translate(340px, -7px);
           transform: translate(340px, -7px);
 
           li {
@@ -410,6 +419,9 @@ header {
               left: 15%;
               width: 70%;
               transition: transform 0.3s ease;
+              -webkit-transform: translate(0, 13px);
+              -moz-transform: translate(0, 13px);
+              -ms-transform: translate(0, 13px);
               transform: translate(0, 13px);
               text-decoration: none;
             }
@@ -421,6 +433,9 @@ header {
 
             &:hover:after {
               position: absolute;
+              -webkit-transform: translate(0, 10px);
+              -moz-transform: translate(0, 10px);
+              -ms-transform: translate(0, 10px);
               transform: translate(0, 10px);
             }
           }
@@ -477,6 +492,9 @@ header {
       top: 0;
       z-index: 100;
       background-color: #0D263C;
+      -webkit-transform: translateX(-100%);
+      -moz-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
       transform: translateX(-100%);
       transition: transform .5s ease 0s;
       overflow-y: auto;
@@ -609,6 +627,9 @@ header {
 
   #main-menu-anchor[style*=block] {
     + .top-bar {
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
       transform: translateX(0);
 
       @media #{$small-only} {

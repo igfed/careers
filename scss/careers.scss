@@ -117,7 +117,17 @@ body.IGv2 {
     height: 100%;
     overflow: scroll;
     transition: transform 0.6s ease-in;
+    -ms-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
     transform: translate(0, 0);
+    &.closed {
+      -ms-transform: translate(0, -1500px);
+      -webkit-transform: translate(0, -1500px);
+      -moz-transform: translate(0, -1500px);
+      transform: translate(0, -1500px);
+    }
+
     &.closed {
       transform: translate(0, -1500px);
     }
@@ -212,11 +222,15 @@ body.IGv2 {
     background-color: #0ed59a;
     text-align: center;
     width: 100%;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
 
   a.map-anchor:hover .map-container .map-icon + div {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
     -ms-transform: translateY(-100%);
     transform: translateY(-100%);
   }
@@ -335,6 +349,9 @@ body.IGv2 {
       }
       .dropdown.menu a.outline-btn.small-icon + ul {
         left: 50% !important;
+
+        -webkit-transform: translateX(-50%) !important;
+        -moz-transform: translateX(-50%) !important;
         -ms-transform: translateX(-50%) !important;
         transform: translateX(-50%) !important;
       }
