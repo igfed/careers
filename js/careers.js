@@ -166,6 +166,10 @@
       $('body').addClass('fr');
     }
 
+    $('.js-prevent').on('click', function(e) {
+      e.preventDefault();
+    });
+
     // Smooth scrolling for anchor links
     $('a[href^="#"]').on('click', function (e) {
       var target = $(this.getAttribute('href'));
@@ -350,6 +354,7 @@
     }
 
     function handleOverlayOpen(event) {
+      event.preventDefault();
       var initialIndex;
 
       initSlider($overlaySlider, {
