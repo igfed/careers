@@ -256,7 +256,8 @@
       });
 
       // Not pretty - just adding quick and dirty share link action
-      $('.share-toggle-trigger').on('click', function () {
+      $('.share-toggle-trigger').on('click', function (e) {
+        e.preventDefault();
         $('.info-toggle').addClass('active');
       });
 
@@ -535,6 +536,7 @@
     }
 
     function handleOverlayOpen(event) {
+      event.preventDefault();
       isOpenFlag = true;
       $('body').addClass('is-reveal-open');
       $overlay.find('*').foundation();
