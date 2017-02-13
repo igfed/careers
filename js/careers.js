@@ -127,7 +127,7 @@
     this.each(function () {
       var $blockLink = $(this),
         destination = $blockLink.find('a').attr('href');
-
+		destination = '4442.aspx/' + destination;
       init();
 
       function init() {
@@ -137,6 +137,7 @@
       //-----
 
       function handleClick() {
+		  //event.stopPropagation();
         location = destination;
       }
     });
@@ -165,10 +166,10 @@
     if (window.location.pathname.indexOf('/fr/') !== -1) {
       $('body').addClass('fr');
     }
-
-    $('.js-prevent').on('click', function(e) {
-      e.preventDefault();
-    });
+	
+	$('.block-link .js-prevent').on('click', function (e) {
+		e.preventDefault();
+	});
 
     // Smooth scrolling for anchor links
     $('a[href^="#"]').on('click', function (e) {
@@ -345,7 +346,10 @@
 
     function handleOverlayFromHash(event) {
       var fullHashFragment = '#our-edge-';
-
+	  //event.stopPropagation();
+		console.log('event ', event);
+		console.log('location.hash ', location.hash);
+		console.log('location.hash.indexOf ', location.hash.indexOf(fullHashFragment));
       if (!overlayOpen && location.hash.indexOf(fullHashFragment) === 0) {
         overlay.openOverlay(
           $edgeOverlayLocation,
@@ -354,7 +358,6 @@
     }
 
     function handleOverlayOpen(event) {
-      event.preventDefault();
       var initialIndex;
 
       initSlider($overlaySlider, {
@@ -362,6 +365,7 @@
         slidesToShow: 1,
         slidesToScroll: 1
       });
+
       initialIndex = $overlaySlider
         .find('.' + location.hash.replace('#our-', '') + ':not(.slick-cloned)')
         .attr('data-slick-index');
@@ -435,8 +439,8 @@
         adaptiveHeight: true,
         // prevArrow: '<span type="button" class="carousel-prev"><img src="../landing/images/Arrow-MainArticle-Carousel-' + (isResponsiveState ? 'Black' : 'Green') + '-L.svg"></span>',
         // nextArrow: '<span type="button" class="carousel-next"><img src="../landing/images/Arrow-MainArticle-Carousel-' + (isResponsiveState ? 'Black' : 'Green') + '-R.svg"></span>'
-        prevArrow: '<span type="button" class="carousel-prev"><img src="../landing/images/Arrow-MainArticle-Carousel-Black-L.svg"></span>',
-        nextArrow: '<span type="button" class="carousel-next"><img src="../landing/images/Arrow-MainArticle-Carousel-Black-R.svg"></span>'
+        prevArrow: '<span type="button" class="carousel-prev"><img src="/external/careers-master/landing/images/Arrow-MainArticle-Carousel-Black-L.svg"></span>',
+        nextArrow: '<span type="button" class="carousel-next"><img src="/external/careers-master/landing/images/Arrow-MainArticle-Carousel-Black-R.svg"></span>'
       });
       animateProfileSlider();
       $profileSlider.on('afterChange', animateProfileSlider);
