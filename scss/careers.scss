@@ -1231,6 +1231,23 @@ body.IGv2 {
 
         }
 
+        .video-container span {
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          position: absolute;
+          content: "";
+          z-index: 100;
+          width: 478px;
+          height: 270px;
+        }
+
+        .video-container span {
+          background-image: url('../landing/images/video_mask_1.jpg');
+          background-repeat: no-repeat;
+        }
+
         .slick-track {
 
           .row.last {

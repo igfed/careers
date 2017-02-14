@@ -347,9 +347,6 @@
     function handleOverlayFromHash(event) {
       var fullHashFragment = '#our-edge-';
 	  //event.stopPropagation();
-		console.log('event ', event);
-		console.log('location.hash ', location.hash);
-		console.log('location.hash.indexOf ', location.hash.indexOf(fullHashFragment));
       if (!overlayOpen && location.hash.indexOf(fullHashFragment) === 0) {
         overlay.openOverlay(
           $edgeOverlayLocation,
@@ -634,7 +631,6 @@
       }
       window.onTemplateLoad = onTemplateLoad;
       window.onTemplateReady = onTemplateReady;
-
     }
 
     function mobileVideoLayout() {
@@ -663,6 +659,7 @@
       $placeholder.show();
       $playAnchor.on('click', playVideo);
       $(window).on('resize', handleResize);
+      $('.video-container span').delay(2000).fadeOut('slow');
     }
 
     function playVideo(event) {

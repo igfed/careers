@@ -2057,6 +2057,21 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider ul.slick-dots li butto
     padding: 0 25%;
   }
 }
+body.IGv2[data-areaid="careers"] .section.profiles-slider .video-container span {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  z-index: 100;
+  width: 478px;
+  height: 270px;
+}
+body.IGv2[data-areaid="careers"] .section.profiles-slider .video-container span {
+  background-image: url("../landing/images/video_mask_1.jpg");
+  background-repeat: no-repeat;
+}
 body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track .row.last {
   margin-bottom: 50px;
 }
