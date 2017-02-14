@@ -1,0 +1,44 @@
+{
+  "name": "iglib",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "jquery-validation": "^1.16.0",
+    "foundation-sites": "^6.2.4",
+    "slick-carousel": "slick.js#^1.6.0",
+    "typeahead.js": "^0.11.1",
+    "eventemitter3": "^2.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  },
+  "resolutions": {
+    "jquery": "~2.2.0",
+    "what-input": "~4.0.3"
+  },
+  "overrides": {
+    "jquery-validation": {
+      "main": [
+        "dist/jquery.validate.js",
+        "dist/additional-methods.js"
+      ]
+    },
+    "foundation-sites": {
+      "main": [
+        "dist/js/foundation.js",
+        "dist/css/foundation.css"
+      ]
+    },
+    "typeahead.js": {
+      "main": [
+        "dist/typeahead.bundle.js"
+      ]
+    },
+    "eventemitter3": {
+      "main": [
+        "index.js"
+      ]
+    }
+  }
+}
