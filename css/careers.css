@@ -422,6 +422,7 @@ select, input, .ux-font--input, .tp_24a {
 }
 .fr header .utility-bar .menu .secondary-menu-item ul {
   width: 370px;
+  -webkit-transition: 0.25s all ease-in;
   transition: 0.25s all ease-in;
   -webkit-transform: translate(380px, -7px);
   -moz-transform: translate(380px, -7px);
@@ -607,6 +608,7 @@ header .utility-bar .menu .secondary-menu-item ul {
   position: absolute;
   right: 1px;
   width: 340px;
+  -webkit-transition: 0.25s all ease-in;
   transition: 0.25s all ease-in;
   -webkit-transform: translate(340px, -7px);
   -moz-transform: translate(340px, -7px);
@@ -757,6 +759,7 @@ header .utility-bar .menu .secondary-menu-item ul li a .fa {
   header .top-bar > div ul.menu.small-12 a {
     letter-spacing: 0;
     color: white;
+    -webkit-transition: 0.3s border ease-in;
     transition: 0.3s border ease-in;
   }
 }
@@ -782,7 +785,8 @@ header .utility-bar .menu .secondary-menu-item ul li a .fa {
     bottom: 10px;
     left: 15%;
     width: 70%;
-    transition: transform 0.3s ease;
+    -webkit-transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in;
     -webkit-transform: translate(0, 13px);
     -moz-transform: translate(0, 13px);
     -ms-transform: translate(0, 13px);
@@ -845,7 +849,8 @@ header .utility-bar .menu .secondary-menu-item ul li a .fa {
     -moz-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
     transform: translateX(-100%);
-    transition: transform .5s ease 0s;
+    -webkit-transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     color: #fff;
@@ -1021,6 +1026,7 @@ body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 {
   bottom: 0;
   background: #07263b;
   z-index: 1000;
+  -webkit-transition: all 0.2s ease-in 0.2s;
   transition: all 0.2s ease-in 0.2s;
 }
 body.IGv2.is-reveal-open.branded .mobile-bottom-bar.small-12 .row {
@@ -1112,6 +1118,7 @@ body.IGv2 #searchResultsModal {
   width: 100%;
   height: 100%;
   overflow: scroll;
+  -webkit-transition: transform 0.6s ease-in;
   transition: transform 0.6s ease-in;
   -ms-transform: translate(0, 0);
   -webkit-transform: translate(0, 0);
@@ -1122,9 +1129,6 @@ body.IGv2 #searchResultsModal.closed {
   -ms-transform: translate(0, -1500px);
   -webkit-transform: translate(0, -1500px);
   -moz-transform: translate(0, -1500px);
-  transform: translate(0, -1500px);
-}
-body.IGv2 #searchResultsModal.closed {
   transform: translate(0, -1500px);
 }
 body.IGv2 #searchResultsModal .logo {
@@ -1195,6 +1199,7 @@ body.IGv2 a.map-anchor .map-container .map-icon::after {
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -100%);
+  -webkit-transform: translate(-50%, -100%);
   transform: translate(-50%, -100%);
 }
 body.IGv2 a.map-anchor .map-container .map-icon + div {
@@ -1421,6 +1426,7 @@ body.IGv2 .section.office-search .dropdown.menu .is-dropdown-submenu li + li {
     background: transparent none repeat scroll 0 0 !important;
     box-shadow: none !important;
     -ms-transform: none !important;
+    -webkit-transform: none !important;
     transform: none !important;
   }
   body.IGv2 .section.office-search .dropdown.menu.small-grid > li.is-dropdown-submenu-parent .submenu li {
@@ -1963,6 +1969,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .carousel-prev, body.I
 @media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .carousel-prev, body.IGv2[data-areaid="careers"] .section.profiles-slider .carousel-next {
     top: 50%;
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
   }
 }
@@ -2005,6 +2012,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider ul.slick-dots {
   bottom: 4.6rem;
   left: 50%;
   position: absolute;
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 @media screen and (min-width: 40em) {
@@ -2119,7 +2127,9 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
     left: 0;
     position: absolute;
     z-index: 10;
+    -webkit-transform: translateY(100%) scaleY(0);
     transform: translateY(100%) scaleY(0);
+    -webkit-transition: transform ease-out .333s;
     transition: transform ease-out .333s;
   }
 }
@@ -2131,6 +2141,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
 }
 @media (min-width: 1440px) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide.slick-complete::before, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide.slick-complete::before {
+    -webkit-transform: translateY(0%) scaleY(1);
     transform: translateY(0%) scaleY(1);
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide > .columns, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide > .columns {
@@ -2163,6 +2174,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 .row > .columns, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 .row > .columns {
     margin-top: 0;
     opacity: 0;
+    -webkit-transition: opacity ease-out .5s .5s;
     transition: opacity ease-out .5s .5s;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-1 .row > .columns:nth-child(2), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-1 .row > .columns:nth-child(2) {
@@ -2214,6 +2226,7 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 .row > .columns, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 .row > .columns {
     margin-top: 0;
     opacity: 0;
+    -webkit-transition: opacity ease-out .5s .5s;
     transition: opacity ease-out .5s .5s;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide .profile-data-2 .row > .columns:nth-child(2), body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide .profile-data-2 .row > .columns:nth-child(2) {
@@ -2848,6 +2861,7 @@ body.IGv2[data-areaid="careers"] .section.multi-tab-outline .tp_05a, body.IGv2[d
     position: absolute;
     bottom: 0;
     left: 50%;
+    -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
   }
 }
@@ -2913,6 +2927,7 @@ body.IGv2[data-areaid="careers"] .section.multi-tab-outline .columns > div, body
     max-width: 60%;
     position: absolute;
     left: 50%;
+    -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     margin-bottom: 12px !important;
     /* It's a hack but figuring out the 100 different places that .tp-05a is styled and how they conflict is impossible */
@@ -2985,6 +3000,7 @@ body.IGv2[data-areaid="careers"] .section.next-step .divider-content {
   position: absolute;
   top: 50%;
   left: 0;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background-color: white;
   line-height: 0rem;
@@ -3082,6 +3098,7 @@ body.IGv2[data-areaid="careers"] .section .sticky {
   bottom: 0;
   left: 50%;
   position: absolute;
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 body.IGv2[data-areaid="careers"] .section > div:first-child .tp_05a {
@@ -3137,9 +3154,11 @@ body.IGv2[data-areaid="careers"] .close-button:before, body.IGv2[data-areaid="ca
   }
 }
 body.IGv2[data-areaid="careers"] .close-button:before {
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 body.IGv2[data-areaid="careers"] .close-button:after {
+  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 body.IGv2[data-areaid="careers"] .close-button:hover {
@@ -3203,6 +3222,7 @@ body.IGv2[data-areaid="careers"] #edge-overlay-content .carousel-next img {
   position: absolute;
   right: 1.2rem;
   top: 50%;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 body.IGv2[data-areaid="careers"] #edge-overlay-content .multi-tab-outline {
@@ -3330,6 +3350,7 @@ body.IGv2[data-areaid="careers"] .reveal-overlay {
 body.IGv2[data-areaid="careers"] .info-toggle-content {
   height: 0;
   overflow: hidden;
+  -webkit-transition: height .5s ease 0s;
   transition: height .5s ease 0s;
 }
 body.IGv2[data-areaid="careers"] .info-toggle-trigger {
@@ -3338,10 +3359,12 @@ body.IGv2[data-areaid="careers"] .info-toggle-trigger {
 body.IGv2[data-areaid="careers"] .info-toggle-trigger .fa-chevron-down {
   position: absolute;
   font-size: 2rem;
+  -webkit-transform: rotate(0deg) translateY(-50%);
   transform: rotate(0deg) translateY(-50%);
   margin-top: 1.3rem;
   right: 2.5rem;
   top: 13px;
+  -webkit-transition: transform .5s ease 0s, margin-top .5s ease 0s;
   transition: transform .5s ease 0s, margin-top .5s ease 0s;
 }
 @media screen and (min-width: 40em) {
@@ -3351,6 +3374,7 @@ body.IGv2[data-areaid="careers"] .info-toggle-trigger .fa-chevron-down {
 }
 @media screen and (max-width: 39.9375em) {
   body.IGv2[data-areaid="careers"] .active .info-toggle-trigger .fa.fa-chevron-down {
+    -webkit-transform: rotate(-180deg);
     transform: rotate(-180deg);
     margin-top: .7rem;
   }
