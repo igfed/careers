@@ -54,72 +54,6 @@
 
 }(jQuery));
 
-
-(function ($) {
-  'use strict';
-
-  $.fn.circleAnimation = function (maxValue) {
-    this.each(function () {
-      var canvas = this,
-        $canvas = $(this),
-        context,
-        d = canvas.width / 2,
-        percentStroke = 7,
-        remainingStroke = 1,
-        radius = d - percentStroke,
-        curPerc = 0,
-        circ = Math.PI * 2,
-        quart = Math.PI / 2,
-        delegateID = new Date().getTime() + 'CA';
-
-      if (!$canvas.is('canvas')) {
-        return;
-      }
-
-      context = canvas.getContext('2d');
-      context.strokeStyle = '#0d263c';
-      context.fillStyle = '#e5e8e8';
-      // context.shadowOffsetX = 0;
-      // context.shadowOffsetY = 0;
-      // context.shadowBlur = 1;
-      // context.shadowColor = '#656565';
-
-      $canvas.attr('circle-animation-id', delegateID);
-      $('body').delegate('[circle-animation-id=' + delegateID + ']', 'startAnimate', function () {
-        curPerc = 0;
-        animate();
-      });
-      $('body').delegate('[circle-animation-id=' + delegateID + ']', 'clearAnimate', clear);
-
-      function animate(current) {
-        current = current ? current : 0;
-        clear();
-        context.lineWidth = percentStroke;
-        context.beginPath();
-        context.arc(d, d, radius, -(quart), ((circ) * -Math.min(current, maxValue / 100)) - quart, true);
-        context.stroke();
-        context.lineWidth = remainingStroke;
-        context.beginPath();
-        context.arc(d, d, radius, -(quart), ((circ) * -current) - quart, true);
-        context.stroke();
-        curPerc++;
-        if (curPerc < 110) {
-          window.requestAnimationFrame(function () {
-            animate(curPerc / 100)
-          });
-        }
-      }
-
-      function clear() {
-        context.fillRect(0, 0, canvas.width, canvas.width);
-      }
-    });
-
-    return this;
-  };
-
-}(jQuery));
-
 (function ($) {
   'use strict';
 
@@ -242,11 +176,6 @@
         $('.section.profiles-slider').css({ backgroundColor: '#7ec4b9' });
       }
 
-      $('.profile-counter').each(function () {
-        var $this = $(this);
-
-        $this.find('canvas').circleAnimation(parseInt($this.find('p').html()));
-      });
       $profileSlider = $('.profiles-slider');
       $(window).on('hashchange', handleOverlayFromHash);
       handleOverlayFromHash();
@@ -297,11 +226,9 @@
         $profileSlider.find('.slick-active').addClass('slick-complete');
         $profileSlider
           .find('.slick-slide:not(.slick-complete)')
-          .find('.profile-counter canvas')
           .trigger('clearAnimate');
         $profileSlider
           .find('.slick-complete')
-          .find('.profile-counter canvas')
           .trigger('startAnimate');
         if ($profileSlider.find('.slick-active').is('[class*=profile-]') || isResponsiveState) {
           $profileSlider.addClass('contrast-arrow');
@@ -662,33 +589,16 @@
       videoPlayer.getCurrentVideo(function (video) {
         if (video && video.id) {
           if (video.id === 4219153214001 || video.id === 4228888626001) {
-              $('.video-container.one span').delay(1500).fadeOut('slow');
-            }
-            if (video.id === 4193078404001 || video.id === 4226046989001) {
-              $('.video-container.two span').delay(1500).fadeOut('slow');
-            }
-            if (video.id === 4193078348001 || video.id === 4219568841001) {
-              $('.video-container.three span').delay(1500).fadeOut('slow');
-            }
+            $('.video-container.one span').delay(1500).fadeOut('slow');
+          }
+          if (video.id === 4193078404001 || video.id === 4226046989001) {
+            $('.video-container.two span').delay(1500).fadeOut('slow');
+          }
+          if (video.id === 4193078348001 || video.id === 4219568841001) {
+            $('.video-container.three span').delay(1500).fadeOut('slow');
+          }
         }
       });
-
-      // $('.video-container').each(function(){
-      //
-      //   if ($(this).find('object')) {
-      //
-      //     $(this).children('span').delay().hide();
-      //   }
-      // });
-      // if (evt.target.experience.id === 'bcExperienceObj0') {
-      //   $('.video-container.one span').delay().fadeOut('slow');
-      // }
-      // if (evt.target.experience.id === 'bcExperienceObj1') {
-      //   $('.video-container.two span').delay().fadeOut('slow');
-      // }
-      // if (evt.target.experience.id === 'bcExperienceObj2') {
-      //   $('.video-container.three span').delay().fadeOut('slow');
-      // }
     }
 
     function playVideo(event) {
@@ -701,10 +611,4 @@
 
   }
 
-
-  //
-
-
 })();
-
-
