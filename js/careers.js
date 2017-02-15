@@ -434,8 +434,6 @@
         slidesToShow: 1,
         slidesToScroll: 1,
         adaptiveHeight: true,
-        // prevArrow: '<span type="button" class="carousel-prev"><img src="../landing/images/Arrow-MainArticle-Carousel-' + (isResponsiveState ? 'Black' : 'Green') + '-L.svg"></span>',
-        // nextArrow: '<span type="button" class="carousel-next"><img src="../landing/images/Arrow-MainArticle-Carousel-' + (isResponsiveState ? 'Black' : 'Green') + '-R.svg"></span>'
         prevArrow: '<span type="button" class="carousel-prev"><img src="/external/careers-master/landing/images/Arrow-MainArticle-Carousel-Black-L.svg"></span>',
         nextArrow: '<span type="button" class="carousel-next"><img src="/external/careers-master/landing/images/Arrow-MainArticle-Carousel-Black-R.svg"></span>'
       });
