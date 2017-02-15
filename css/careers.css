@@ -2067,8 +2067,6 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .video-container span 
   z-index: 100;
   width: 478px;
   height: 270px;
-}
-body.IGv2[data-areaid="careers"] .section.profiles-slider .video-container span {
   background-image: url("../landing/images/video_mask_1.jpg");
   background-repeat: no-repeat;
 }
