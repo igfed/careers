@@ -127,7 +127,7 @@
     this.each(function () {
       var $blockLink = $(this),
         destination = $blockLink.find('a').attr('href');
-		destination = '4442.aspx/' + destination;
+      destination = '4442.aspx/' + destination;
       init();
 
       function init() {
@@ -137,7 +137,7 @@
       //-----
 
       function handleClick() {
-		  //event.stopPropagation();
+        //event.stopPropagation();
         location = destination;
       }
     });
@@ -166,10 +166,10 @@
     if (window.location.pathname.indexOf('/fr/') !== -1) {
       $('body').addClass('fr');
     }
-	
-	$('.block-link .js-prevent').on('click', function (e) {
-		e.preventDefault();
-	});
+
+    $('.block-link .js-prevent').on('click', function (e) {
+      e.preventDefault();
+    });
 
     // Smooth scrolling for anchor links
     $('a[href^="#"]').on('click', function (e) {
@@ -346,7 +346,7 @@
 
     function handleOverlayFromHash(event) {
       var fullHashFragment = '#our-edge-';
-	  //event.stopPropagation();
+      //event.stopPropagation();
       if (!overlayOpen && location.hash.indexOf(fullHashFragment) === 0) {
         overlay.openOverlay(
           $edgeOverlayLocation,
@@ -643,7 +643,7 @@
       if (player.getModule(APIModules.EXPERIENCE).experience.type == "html") {
         var resizeWidth = resizeWrapper.innerWidth();
         var resizeHeight = resizeWrapper.innerHeight();
-        player.getModule(APIModules.EXPERIENCE).setSize(resizeWidth, resizeHeight)
+        player.getModule(APIModules.EXPERIENCE).setSize(resizeWidth, resizeHeight);
       }
     }
 
@@ -657,7 +657,38 @@
       $placeholder.show();
       $playAnchor.on('click', playVideo);
       $(window).on('resize', handleResize);
-      $('.video-container span').delay(2000).fadeOut('slow');
+
+      videoPlayer = player.getModule(APIModules.VIDEO_PLAYER);
+      videoPlayer.getCurrentVideo(function (video) {
+        if (video && video.id) {
+          if (video.id === 4219153214001 || video.id === 4228888626001) {
+              $('.video-container.one span').delay(1500).fadeOut('slow');
+            }
+            if (video.id === 4193078404001 || video.id === 4226046989001) {
+              $('.video-container.two span').delay(1500).fadeOut('slow');
+            }
+            if (video.id === 4193078348001 || video.id === 4219568841001) {
+              $('.video-container.three span').delay(1500).fadeOut('slow');
+            }
+        }
+      });
+
+      // $('.video-container').each(function(){
+      //
+      //   if ($(this).find('object')) {
+      //
+      //     $(this).children('span').delay().hide();
+      //   }
+      // });
+      // if (evt.target.experience.id === 'bcExperienceObj0') {
+      //   $('.video-container.one span').delay().fadeOut('slow');
+      // }
+      // if (evt.target.experience.id === 'bcExperienceObj1') {
+      //   $('.video-container.two span').delay().fadeOut('slow');
+      // }
+      // if (evt.target.experience.id === 'bcExperienceObj2') {
+      //   $('.video-container.three span').delay().fadeOut('slow');
+      // }
     }
 
     function playVideo(event) {
