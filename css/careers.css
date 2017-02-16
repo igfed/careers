@@ -2630,11 +2630,6 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.vi
   }
 }
 @media screen and (min-width: 40em) {
-  body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns:first-child {
-    padding-top: 4rem;
-  }
-}
-@media screen and (min-width: 40em) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.video-slide .columns:last-child {
     padding-bottom: 10.4rem;
   }

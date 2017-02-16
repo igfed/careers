@@ -1928,12 +1928,6 @@ body.IGv2 {
                   padding-right: 14.5rem;
                 }
 
-                &:first-child {
-                  @media #{$medium-up} {
-                    padding-top: 4rem;
-                  }
-                }
-
                 &:last-child {
                   @media #{$medium-up} {
                     padding-bottom: 10.4rem;

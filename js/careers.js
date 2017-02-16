@@ -127,7 +127,7 @@
     this.each(function () {
       var $blockLink = $(this),
         destination = $blockLink.find('a').attr('href');
-      destination = '4442.aspx/' + destination;
+      // destination = '4442.aspx/' + destination;
       init();
 
       function init() {
@@ -434,10 +434,8 @@
         slidesToShow: 1,
         slidesToScroll: 1,
         adaptiveHeight: true,
-        // prevArrow: '<span type="button" class="carousel-prev"><img src="../landing/images/Arrow-MainArticle-Carousel-' + (isResponsiveState ? 'Black' : 'Green') + '-L.svg"></span>',
-        // nextArrow: '<span type="button" class="carousel-next"><img src="../landing/images/Arrow-MainArticle-Carousel-' + (isResponsiveState ? 'Black' : 'Green') + '-R.svg"></span>'
-        prevArrow: '<span type="button" class="carousel-prev"><img src="/external/careers-master/landing/images/Arrow-MainArticle-Carousel-Black-L.svg"></span>',
-        nextArrow: '<span type="button" class="carousel-next"><img src="/external/careers-master/landing/images/Arrow-MainArticle-Carousel-Black-R.svg"></span>'
+        prevArrow: '<span type="button" class="carousel-prev"><img src="../app/images/Arrow-MainArticle-Carousel-Black-L.svg"></span>',
+        nextArrow: '<span type="button" class="carousel-next"><img src="../app/images/Arrow-MainArticle-Carousel-Black-R.svg"></span>'
       });
       animateProfileSlider();
       $profileSlider.on('afterChange', animateProfileSlider);
@@ -664,14 +662,14 @@
       videoPlayer.getCurrentVideo(function (video) {
         if (video && video.id) {
           if (video.id === 4219153214001 || video.id === 4228888626001) {
-              $('.video-container.one span').delay(1500).fadeOut('slow');
-            }
-            if (video.id === 4193078404001 || video.id === 4226046989001) {
-              $('.video-container.two span').delay(1500).fadeOut('slow');
-            }
-            if (video.id === 4193078348001 || video.id === 4219568841001) {
-              $('.video-container.three span').delay(1500).fadeOut('slow');
-            }
+            $('.video-container.one span').delay(1500).fadeOut('slow');
+          }
+          if (video.id === 4193078404001 || video.id === 4226046989001) {
+            $('.video-container.two span').delay(1500).fadeOut('slow');
+          }
+          if (video.id === 4193078348001 || video.id === 4219568841001) {
+            $('.video-container.three span').delay(1500).fadeOut('slow');
+          }
         }
       });
 
