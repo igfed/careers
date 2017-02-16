@@ -599,6 +599,7 @@
           }
         }
       });
+
     }
 
     function playVideo(event) {
