@@ -76,7 +76,6 @@ function displaySearchResults(templateID, json) {
     var rendered = Mustache.render(template, json);
     $('#searchResultsModal').append(rendered);
     $(document).foundation();
-    // attachComponents();
 }
 
 //Init everything
@@ -104,11 +103,3 @@ $(function () {
         }, 400);
     });
 });
-
-//Lowercase text
-// $(function textTransformLowercase(){
-//      $('.search-ui').text(function (_, val) {
-// 	    return val.toLowerCase();
-// 	    $('.search-ui').addClass('capitalize');
-//     });
-// }());

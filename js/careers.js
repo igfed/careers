@@ -413,7 +413,6 @@
 
       if (isResponsiveState != newIsResponsiveState) {
         isResponsiveState = newIsResponsiveState;
-        rebuildProfileSlider(isResponsiveState);
       } else if (init) {
         initProfileSlider();
       }
@@ -461,34 +460,6 @@
       };
 
       target.slick($.extend(defaults, options));
-    }
-
-    function rebuildProfileSlider(isResponsive) {
-      // var $tempPartsHolder = $('<div></div>'),
-      //   $videos;
-      //
-      // if ($profileSlider.is('.slick-initialized')) {
-      //   $profileSlider.slick('unslick');
-      // }
-      // if (isResponsive) {
-      //   // $profileSliderVideoSectionHolder
-      //   //   .append($profileSlider.find('.video-slide'));
-      //   // $videos = $profileSliderVideoSectionHolder.find('.video-subsection');
-      //   // $tempPartsHolder.append($videos);
-      //   // $videos.each(function () {
-      //   //   var $container = $profileSliderVideoSectionHolder.find('.video-slide').clone();
-      //   //
-      //   //   $container.find('.row').append($(this));
-      //   //   $profileSlider.append($container);
-      //   // });
-      // } else {
-      //   $profileSliderVideoSectionHolder.find('.video-slide .row')
-      //     .append($profileSlider.find('.video-subsection'));
-      //   $profileSlider.find('.video-slide').remove();
-      //   $profileSlider.append($profileSliderVideoSectionHolder.find('.video-slide'));
-      // }
-      //
-      // initProfileSlider();
     }
   }
 
