@@ -71,7 +71,7 @@ body.IGv2.is-reveal-open.branded {
       text-indent: 9999em;
       overflow: hidden;
       background-size: contain;
-      background-image: url('../app/images/IG-logo-en.png');
+      background-image: url('../landing/images/IG-logo-en.png');
       background-repeat: no-repeat;
       text-indent: -99999px;
 
@@ -201,7 +201,7 @@ body.IGv2 {
     content: "";
     width: 2.8rem;
     height: 3.7rem;
-    background-image: url("../app/images/map-marker-blue.png");
+    background-image: url("../landing/images/map-marker-blue.png");
     background-position-y: 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -881,20 +881,20 @@ body.IGv2 {
         }
 
         @media (min-width: 1024px) {
-          background-image: url('../app/images/hero/people_1440.png'), url('../app/images/hero/hero_bg_1440.jpg');
+          background-image: url('../landing/images/hero/people_1440.png'), url('../landing/images/hero/hero_bg_1440.jpg');
         }
 
         @media (min-width: 641px) and (max-width: 1023px) {
-          background-image: url('../app/images/hero/people_1024.png'), url('../app/images/hero/hero_bg_1024.jpg');
+          background-image: url('../landing/images/hero/people_1024.png'), url('../landing/images/hero/hero_bg_1024.jpg');
         }
 
         @media (min-width: 641px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) and (min-resolution: 72dpi) {
-          background-image: url('../app/images/hero/people_1024.png'), url('../app/images/hero/hero_bg_1024@2x.jpg');
+          background-image: url('../landing/images/hero/people_1024.png'), url('../landing/images/hero/hero_bg_1024@2x.jpg');
           background-size: auto, 1024px 600px;
         }
 
         @media (min-width: 480px) and (max-width: 640px) {
-          background-image: url('../app/images/hero/people_640.png'), url('../app/images/hero/hero_bg_1024.jpg');
+          background-image: url('../landing/images/hero/people_640.png'), url('../landing/images/hero/hero_bg_1024.jpg');
         }
 
         @media (min-width: 480px) {
@@ -907,7 +907,7 @@ body.IGv2 {
         // Usineg Retina by default
         @media (max-width: 479px) {
           height: 320px;
-          background-image: url('../app/images/hero/people_640.png'), url('../app/images/hero/hero_bg_640@2x.jpg');
+          background-image: url('../landing/images/hero/people_640.png'), url('../landing/images/hero/hero_bg_640@2x.jpg');
           background-position: bottom right, center center;
           background-repeat: no-repeat, no-repeat;
           background-size: auto, cover;
@@ -1243,7 +1243,7 @@ body.IGv2 {
           z-index: 100;
           width: 478px;
           height: 270px;
-          background-image: url('../app/images/video_mask_1.jpg');
+          background-image: url('../landing/images/video_mask_1.jpg');
           background-repeat: no-repeat;
         }
 
@@ -1275,14 +1275,14 @@ body.IGv2 {
             @media (min-width: 1440px) {
               &.profile-1-slide {
                 &::before {
-                  background-image: url('../app/images/careers/timeline-foreground-1.png');
+                  background-image: url('../landing/images/careers/timeline-foreground-1.png');
                   background-repeat: no-repeat;
                 }
               }
 
               &.profile-2-slide {
                 &::before {
-                  background-image: url('../app/images/careers/timeline-foreground-2.png');
+                  background-image: url('../landing/images/careers/timeline-foreground-2.png');
                   background-repeat: no-repeat;
 
                 }
@@ -1291,7 +1291,7 @@ body.IGv2 {
               &.profile-1-slide, &.profile-2-slide {
 
                 &::after {
-                  background-image: url('../app/images/careers/grey-edge-background.png');
+                  background-image: url('../landing/images/careers/grey-edge-background.png');
                   background-repeat: no-repeat;
                   content: "";
                   width: 48rem;
@@ -1510,6 +1510,22 @@ body.IGv2 {
                       top: 1rem;
                       width: 30rem;
                     }
+
+                    //&::after {
+                    //  background-image: url('../landing/images/careers/blades.png');
+                    //  background-repeat: no-repeat;
+                    //  content: "";
+                    //  width: 24.5rem;
+                    //  height: 3.9rem;
+                    //  bottom: -4.7rem;
+                    //  right: -1rem;
+                    //  position: absolute;
+                    //  display: none;
+                    //
+                    //  @media #{$large-up} {
+                    //    display: block;
+                    //  }
+                    //}
                   }
 
                   ul {
@@ -2105,52 +2121,52 @@ body.IGv2 {
         }
 
         &.financial-advisor {
-          background: url('../app/images/careers/careers_ouradvisors_compass_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_ouradvisors_compass_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.employee {
-          background: url('../app/images/careers/careers_ourpeople_pindrop_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_ourpeople_pindrop_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.training {
-          background: url('../app/images/careers/careers_trainingmentorship_2carabiner_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_trainingmentorship_2carabiner_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.career {
-          background: url('../app/images/careers/careers_careerprogression_pick_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_careerprogression_pick_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.diverse {
-          background: url('../app/images/careers/careers_diversework_ring_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_diversework_ring_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.network {
-          background: url('../app/images/careers/careers_powerfulnetwork_carabiner_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_powerfulnetwork_carabiner_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.national {
-          background: url('../app/images/careers/careers_ouradvisors_natfootprint_boots_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_ouradvisors_natfootprint_boots_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.community {
-          background: url('../app/images/careers/careers_community_mapleleaf_icon.png') no-repeat;
+          background: url('../landing/images/careers/careers_community_mapleleaf_icon.png') no-repeat;
           background-size: 100%;
         }
 
         &.profile-1-placeholder {
           left: 0.75rem;
-          background-image: url('../app/images/careers/amy-guenther.png');
+          background-image: url('../landing/images/careers/amy-guenther.png');
         }
 
         &.profile-2-placeholder {
-          background: url('../app/images/careers/girish-agrawal.png') no-repeat;
+          background: url('../landing/images/careers/girish-agrawal.png') no-repeat;
           background-size: 100%;
         }
       }
@@ -2930,7 +2946,7 @@ body.IGv2.fr {
       text-indent: 9999em;
       overflow: hidden;
       background-size: contain;
-      background-image: url('../app/images/IG-logo-fr.svg') !important;
+      background-image: url('../landing/images/IG-logo-fr.svg') !important;
       background-repeat: no-repeat;
       text-indent: -99999px;
 
