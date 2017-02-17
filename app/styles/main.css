@@ -4508,15 +4508,15 @@ body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row {
 
 @media (min-width: 1440px) {
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide::before {
-    background-image: url("../images/careers/timeline-foreground-1.png");
+    background-image: url("../images/timeline-foreground-1.png");
     background-repeat: no-repeat;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide::before {
-    background-image: url("../images/careers/timeline-foreground-2.png");
+    background-image: url("../images/timeline-foreground-2.png");
     background-repeat: no-repeat;
   }
   body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-1-slide::after, body.IGv2[data-areaid="careers"] .section.profiles-slider .slick-track > .row.profile-2-slide::after {
-    background-image: url("../images/careers/grey-edge-background.png");
+    background-image: url("../images/grey-edge-background.png");
     background-repeat: no-repeat;
     content: "";
     width: 48rem;

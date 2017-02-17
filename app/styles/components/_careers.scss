@@ -2984,14 +2984,14 @@ body.IGv2 {
             @media (min-width: 1440px) {
               &.profile-1-slide {
                 &::before {
-                  background-image: url('../images/careers/timeline-foreground-1.png');
+                  background-image: url('../images/timeline-foreground-1.png');
                   background-repeat: no-repeat;
                 }
               }
 
               &.profile-2-slide {
                 &::before {
-                  background-image: url('../images/careers/timeline-foreground-2.png');
+                  background-image: url('../images/timeline-foreground-2.png');
                   background-repeat: no-repeat;
 
                 }
@@ -3000,7 +3000,7 @@ body.IGv2 {
               &.profile-1-slide, &.profile-2-slide {
 
                 &::after {
-                  background-image: url('../images/careers/grey-edge-background.png');
+                  background-image: url('../images/grey-edge-background.png');
                   background-repeat: no-repeat;
                   content: "";
                   width: 48rem;
@@ -3221,7 +3221,7 @@ body.IGv2 {
                     }
 
                     //&::after {
-                    //  background-image: url('../images/careers/blades.png');
+                    //  background-image: url('../images/blades.png');
                     //  background-repeat: no-repeat;
                     //  content: "";
                     //  width: 24.5rem;
