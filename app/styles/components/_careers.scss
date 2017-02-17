@@ -7,7 +7,7 @@ html, body {
   padding: 0;
   font-size: 62.5%;
   font-style: normal;
-  font-family: "whitney_bookregular";
+  font-family: "WhitneyBook";
   background-color: #faf7e6
 }
 
@@ -512,7 +512,7 @@ a, a:active, a:hover, a:visited {
 
 h3 {
   font-style: normal;
-  font-family: "whitney_bookscregular";
+  font-family: "WhitneySC";
   font-weight: 400;
   font-size: 1.6rem;
   text-transform: lowercase;
@@ -561,7 +561,7 @@ button:hover {
   border-radius: 5px;
   padding: calc(6px - 0.3em) 6px 6px 6px;
   font-style: normal;
-  font-family: "whitney_scmedium";
+  font-family: "WhitneySCMedium";
   font-size: 2.4rem;
   text-align: center;
   text-decoration: none;
@@ -644,7 +644,7 @@ button:hover {
   position: relative;
   text-transform: lowercase;
   font-style: normal;
-  font-family: "whitney_scmedium";
+  font-family: "WhitneySCMedium";
   font-weight: 500;
   color: #0c273c;
   font-size: 18px;
@@ -701,66 +701,18 @@ input:focus::-webkit-input-placeholder, input:focus:-moz-placeholder, input:focu
   color: transparent;
 }
 
-@font-face {
-  font-family: 'whitney_lightregular';
-  src: url("../fonts/whitney-light-webfont.eot");
-  src: url("../fonts/whitney-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/whitney-light-webfont.woff2") format("woff2"), url("../fonts/whitney-light-webfont.woff") format("woff"), url("../fonts/whitney-light-webfont.ttf") format("truetype"), url("../fonts/whitney-light-webfont.svg#whitney_lightregular") format("svg");
-  font-weight: normal;
-  font-style: normal
-}
-
-@font-face {
-  font-family: 'whitney_bookregular';
-  src: url("../fonts/whitney-book-webfont.eot");
-  src: url("../fonts/whitney-book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/whitney-book-webfont.woff2") format("woff2"), url("../fonts/whitney-book-webfont.woff") format("woff"), url("../fonts/whitney-book-webfont.ttf") format("truetype"), url("../fonts/whitney-book-webfont.svg#whitney_bookregular") format("svg");
-  font-weight: normal;
-  font-style: normal
-}
-
-@font-face {
-  font-family: 'whitney_bookscregular';
-  src: url("../fonts/whitney-booksc-webfont.eot");
-  src: url("../fonts/whitney-booksc-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/whitney-booksc-webfont.woff2") format("woff2"), url("../fonts/whitney-booksc-webfont.woff") format("woff"), url("../fonts/whitney-booksc-webfont.ttf") format("truetype"), url("../fonts/whitney-booksc-webfont.svg#whitney_bookscregular") format("svg");
-  font-weight: normal;
-  font-style: normal
-}
-
-@font-face {
-  font-family: "whitney_medium";
-  src: url("../fonts/whitney-medium.eot");
-  src: url("../fonts/whitney-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/whitney-medium.woff") format("woff"), url("../fonts/whitney-medium.ttf") format("truetype"), url("../fonts/whitney-medium.svg#false") format("svg");
-  font-weight: normal;
-  font-style: normal
-}
-
-@font-face {
-  font-family: 'whitney_scmedium';
-  src: url("../fonts/whitney-mediumsc-webfont.eot");
-  src: url("../fonts/whitney-mediumsc-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/whitney-mediumsc-webfont.woff2") format("woff2"), url("../fonts/whitney-mediumsc-webfont.woff") format("woff"), url("../fonts/whitney-mediumsc-webfont.ttf") format("truetype"), url("../fonts/whitney-mediumsc-webfont.svg#whitney_scmedium") format("svg");
-  font-weight: normal;
-  font-style: normal
-}
-
-@font-face {
-  font-family: 'whitney_semiboldregular';
-  src: url("../fonts/whitney-semibold-webfont.eot");
-  src: url("../fonts/whitney-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/whitney-semibold-webfont.woff2") format("woff2"), url("../fonts/whitney-semibold-webfont.woff") format("woff"), url("../fonts/whitney-semibold-webfont.ttf") format("truetype"), url("../fonts/whitney-semibold-webfont.svg#whitney_semiboldregular") format("svg");
-  font-weight: normal;
-  font-style: normal
-}
-
 html, body {
   margin: 0;
   padding: 0;
   font-size: 62.5%;
   font-style: normal;
-  font-family: "whitney_bookregular";
+  font-family: "WhitneyBook";
 }
 
 .contact .container .search-ui .search-ui--location input::placeholder {
   font-size: 1.8rem;
   font-style: normal;
-  font-family: "whitney_scmedium";
+  font-family: "WhitneySCMedium";
   font-weight: 500;
   text-transform: lowercase;
   color: rgba(0, 0, 0, 0.7);
@@ -769,7 +721,7 @@ html, body {
 .contact .container .search-ui .search-ui--name .itf_name_wrap .itf_name::placeholder {
   font-size: 1.8rem;
   font-style: normal;
-  font-family: "whitney_scmedium";
+  font-family: "WhitneySCMedium";
   font-weight: 500;
   text-transform: lowercase;
   color: rgba(0, 0, 0, 0.7);
@@ -811,7 +763,7 @@ html, body {
   display: inline-block;
   width: 65%;
   font-style: normal;
-  font-family: "whitney_lightregular";
+  font-family: "WhitneyLight";
   font-weight: 300;
   font-size: 6rem;
   line-height: 1;
@@ -1218,7 +1170,7 @@ header {
         }
 
         a {
-          font-family: "whitney_bookregular";
+          font-family: "WhitneyBook";
           font-size: 1.4rem;
           text-transform: none;
           line-height: 2rem;
@@ -1289,7 +1241,7 @@ header {
 
             a {
               padding: 0 5px;
-              font-family: $WMSC;
+              font-family: "WhitneySCMedium";
               font-size: 1.2rem;
               text-transform: lowercase;
               text-align: right;
@@ -1369,7 +1321,7 @@ header {
               right: 0;
 
               a {
-                font-family: "whitney_bookregular";
+                font-family: "WhitneyBook";
                 font-size: 1.4rem;
                 text-transform: none;
                 line-height: 2rem;
@@ -1421,7 +1373,7 @@ header {
 
                   a {
                     padding: 1.3rem 3.2rem 1.3rem 0;
-                    font-family: $WMSC;
+                    font-family: "WhitneySCMedium";
                     font-size: 1.2rem;
                     text-transform: lowercase;
                     text-align: right;
@@ -1783,7 +1735,7 @@ body.IGv2.is-reveal-open.branded {
       font-size: 1.3rem;
       text-transform: uppercase;
       font-weight: bold;
-      font-family: $WMSC;
+      font-family: "WhitneySCMedium";
     }
 
     ul.menu {
@@ -1802,7 +1754,7 @@ body.IGv2.is-reveal-open.branded {
         text-transform: uppercase;
         font-weight: bold;
         line-height: 30px;
-        font-family: $WMSC;
+        font-family: "WhitneySCMedium";
 
         a.share {
           &::after, &::before {
@@ -2077,7 +2029,7 @@ body.IGv2 {
     }
 
     .tp_07 {
-      font-family: $WL !important;
+      font-family: "WhitneyLight" !important;
       font-size: 2.8rem !important;
     }
 
@@ -2160,7 +2112,7 @@ body.IGv2 {
       width: 100% !important;
       height: 100% !important;
       padding: 1rem 22.25% .7rem !important;
-      font-family: "whitney_scmedium" !important;
+      font-family: "WhitneySCMedium" !important;
       font-size: 1.4rem !important;
       color: white !important;
       text-transform: lowercase !important;
@@ -2184,7 +2136,7 @@ body.IGv2 {
     }
 
     .dropdown.menu .is-dropdown-submenu li a span {
-      font-family: "whitney_bookregular" !important;
+      font-family: "WhitneyBook" !important;
       font-size: 1.6rem !important;
       color: #0d263c !important;
       display: block !important;
@@ -2272,7 +2224,7 @@ body.IGv2 {
         padding-right: 0 !important;
       }
       .dropdown.menu.small-grid > li.is-dropdown-submenu-parent .submenu li a span {
-        font-family: "whitney_bookregular" !important;
+        font-family: "WhitneyBook" !important;
         font-size: 1.6rem !important;
         color: #0d263c !important;
       }
@@ -2633,7 +2585,7 @@ body.IGv2 {
 
         p {
           font-size: 2.8rem;
-          font-family: $WL;
+          font-family: "WhitneyLight";
           margin-bottom: 25px;
         }
 
@@ -2840,7 +2792,7 @@ body.IGv2 {
                 margin-bottom: 0;
 
                 @media screen and (max-width: 640px) {
-                  font-family: $WMSC;
+                  font-family: "WhitneySCMedium";
                   font-size: 1.8rem;
                   line-height: 2rem;
                   text-transform: lowercase;
@@ -3414,7 +3366,7 @@ body.IGv2 {
                       transform: translate(-50%, -50%);
                       z-index: 40;
                       margin: 0;
-                      font-family: $WSB;
+                      font-family: "WhitneySemibold";
                       font-size: 1.2rem;
                       margin-left: 0.2rem;
                       margin-top: -0.2rem;
@@ -3613,7 +3565,7 @@ body.IGv2 {
                   p {
                     &.tp_03a {
                       font-size: 2.4rem;
-                      font-family: $WL;
+                      font-family: "WhitneyLight";
                       margin-bottom: 0;
                     }
 
@@ -3653,7 +3605,7 @@ body.IGv2 {
                       text-align: right;
                       font-size: 1.8rem;
                       line-height: 1.6rem;
-                      font-family: $WMSC;
+                      font-family: "WhitneySCMedium";
                       margin-top: -16px;
                     }
 
@@ -3747,7 +3699,7 @@ body.IGv2 {
       }
 
       .social {
-        font-family: $WBKSC;
+        font-family: "WhitneySC";
         text-transform: lowercase;
         font-size: 1.7rem;
         text-align: right;
@@ -3810,7 +3762,7 @@ body.IGv2 {
           padding: 0rem;
           border-radius: .2rem;
           margin-left: .6rem;
-          font-family: $WBKSC;
+          font-family: "WhitneySC";
           letter-spacing: 0px;
 
           &::after, &::before {
@@ -4434,7 +4386,7 @@ body.IGv2 {
                   }
 
                   &.tp_05a {
-                    font-family: "whitney_bookregular";
+                    font-family: "WhitneyBook";
                     font-size: 2.8rem;
                     line-height: 3.6rem;
                     position: static;
@@ -4604,7 +4556,7 @@ body.IGv2 {
     .twitter-typeahead {
       font-size: 1rem;
       font-style: normal;
-      font-family: "whitney_bookregular";
+      font-family: "WhitneyBook";
       font-weight: 500;
       text-transform: none;
       color: #0c273c;

@@ -70,7 +70,7 @@ gulp.task('lint:test', () => {
 });
 
 gulp.task('html', ['styles', 'bundle'], () => {
-  return gulp.src('app/*.html')
+  return gulp.src(['app/en/*.html', 'app/fr/*.html'])
     .pipe($.useref({ searchPath: ['.tmp', 'app', '.'] }))
     .pipe($.if('*.js', $.uglify()))
     .pipe($.if('*.css', $.cssnano({ safe: true, autoprefixer: false })))
