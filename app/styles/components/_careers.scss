@@ -1363,7 +1363,7 @@ header {
                   width: 100%;
 
                   &:first-child {
-                    border-top: 3px solid $igGreen;
+                    border-top: 3px solid #0ed59a;
                     padding-top: .7rem;
                   }
 
@@ -1436,7 +1436,7 @@ header {
 
             &.active {
               text-decoration: none;
-              color: $igGreen;
+              color: #0ed59a;
             }
 
             &:hover:after {
@@ -1456,7 +1456,7 @@ header {
 
           &.active {
             a {
-              color: $igGreen;
+              color: #0ed59a;
             }
           }
 
@@ -1475,7 +1475,7 @@ header {
                 text-decoration: none;
 
                 &::after {
-                  border-bottom: .3rem solid $igDarkerBlue;
+                  border-bottom: .3rem solid #0d0c11;
                   content: "";
                   width: calc(100% - 5.5rem);
                   top: calc(100% - 1rem);
@@ -1528,7 +1528,7 @@ header {
 
           span {
             display: block;
-            color: $charcoal;
+            color: $darkest-color;
 
             &:first-child {
               font-size: 2.2rem;
@@ -1579,7 +1579,7 @@ header {
           display: block;
 
           a {
-            color: $charcoal;
+            color: $darkest-color;
             padding: 1.6rem 2.5rem;
             margin: 0 -2.5rem;
             color: #fff;
@@ -2761,7 +2761,7 @@ body.IGv2 {
                 position: absolute;
                 right: 0;
                 top: 1.9rem;
-                color: $igGreen;
+                color: #0ed59a;
                 font-size: 1.6rem;
               }
 
@@ -2894,7 +2894,7 @@ body.IGv2 {
 
             &.slick-active {
               button {
-                background-color: $igBlack;
+                background-color: #0d263c;
 
                 @media screen and (min-width: 641px) {
                   background-color: #3b666f;
@@ -2909,7 +2909,7 @@ body.IGv2 {
               width: 1rem;
               height: 1rem;
               text-indent: -9999rem;
-              border: 1px solid $igBlack;
+              border: 1px solid #0d263c;
               background-color: transparent;
 
               @media screen and (min-width: 641px) {
@@ -3096,7 +3096,7 @@ body.IGv2 {
                       //top: -8.2rem;
                       //left: -4.9rem;
                       //content: "";
-                      //background-color: $igBlack;
+                      //background-color: #0d263c;
                       //border-radius: 50%;
                       //height: 8rem;
                       //width: 8rem;
@@ -3713,8 +3713,8 @@ body.IGv2 {
         padding-top: 0.9rem;
 
         &.dominant {
-          background-color: $igBlack;
-          border-color: $igBlack;
+          background-color: #0d263c;
+          border-color: #0d263c;
           color: white;
           line-height: 1.55rem;
 
@@ -3724,7 +3724,7 @@ body.IGv2 {
 
           &:hover {
             background-color: transparent;
-            color: $igBlack;
+            color: #0d263c;
           }
 
           @media screen and (max-width: 640px) {
@@ -3735,8 +3735,8 @@ body.IGv2 {
         }
         &.secondary {
           background-color: transparent;
-          border-color: $igBlack;
-          color: $igBlack;
+          border-color: #0d263c;
+          color: #0d263c;
           width: auto;
 
           &::after, &::before {
@@ -3744,7 +3744,7 @@ body.IGv2 {
           }
 
           &:hover {
-            background-color: $igBlack;
+            background-color: #0d263c;
             color: white;
           }
 
@@ -3771,7 +3771,7 @@ body.IGv2 {
 
           &:hover {
             background-color: white;
-            color: $igBlack;
+            color: #0d263c;
           }
 
           .fa {
@@ -3794,7 +3794,7 @@ body.IGv2 {
         &:hover {
           .outline-btn {
             &.secondary {
-              background-color: $igBlack;
+              background-color: #0d263c;
               color: white;
             }
           }
@@ -3929,7 +3929,7 @@ body.IGv2 {
 
           @media screen and (max-width: 640px) {
             &[class*="toggle-"] {
-              border-bottom: 2px solid $igBlack;
+              border-bottom: 2px solid #0d263c;
               cursor: pointer;
 
               &::after {
@@ -3944,7 +3944,7 @@ body.IGv2 {
 
               &.active {
                 &::after {
-                  border-color: $igGreen;
+                  border-color: #0ed59a;
                 }
               }
             }
@@ -4211,7 +4211,7 @@ body.IGv2 {
     //  font-family: "Helvetica Neue", ​Helvetica, ​Roboto, ​Arial, ​sans-serif;
     //
     //  &:hover {
-    //    background-color: $igBlack;
+    //    background-color: #0d263c;
     //
     //    span {
     //      color: white;
@@ -4321,7 +4321,7 @@ body.IGv2 {
       }
 
       .carousel-next {
-        background-color: $igBlack;
+        background-color: #0d263c;
         border-bottom-left-radius: 0.5rem;
         border-top-left-radius: 0.5rem;
         bottom: 2rem;
