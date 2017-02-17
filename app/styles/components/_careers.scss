@@ -1090,7 +1090,7 @@ body.IGv2 .area-l2.section .row:not(.width-limited) {
     left: 10px;
     top: 4px;
 
-    @media #{$medium-up} {
+    @include breakpoint(medium up) {
       left: 10px;
       top: 17px;
     }
@@ -1129,7 +1129,7 @@ header {
     width: 100%;
   }
 
-  @media #{$small-only} {
+  @include breakpoint(small only) {
     height: 7rem;
   }
 
@@ -1137,7 +1137,7 @@ header {
     max-width: 262px;
     text-indent: 9999em;
 
-    @media #{$small-only} {
+    @include breakpoint(small only) {
       height: 3.3rem;
       position: relative;
       top: -.5rem;
@@ -1150,7 +1150,7 @@ header {
     width: 75%;
     max-width: 262px;
 
-    @media #{$small-only} {
+    @include breakpoint(small only) {
       margin-top: 0;
       width: auto;
     }
@@ -1169,7 +1169,7 @@ header {
     font-size: 1.6rem;
     text-transform: none;
 
-    @media #{$small-only} {
+    @include breakpoint(small only) {
       position: absolute;
       left: -9999px;
     }
@@ -1189,7 +1189,7 @@ header {
     left: 10px;
     top: 4px;
 
-    @media #{$medium-up} {
+    @include breakpoint(medium up) {
       left: 10px;
       top: 17px;
     }
@@ -1314,7 +1314,7 @@ header {
 
   .top-bar {
 
-    @media #{$medium-up} {
+    @include breakpoint(medium up) {
       float: none;
       padding: 0;
       background-color: transparent;
@@ -1537,7 +1537,7 @@ header {
       }
     }
 
-    @media #{$small-only} {
+    @include breakpoint(small only) {
       padding: 1.6rem 4rem;
       position: fixed;
       overflow: hidden;
@@ -1682,7 +1682,7 @@ header {
     + .top-bar {
       left: 0;
 
-      @media #{$small-only} {
+      @include breakpoint(small only) {
         + .screen {
           background-color: rgba(0, 0, 0, 0.2);
           bottom: 0;
@@ -1705,7 +1705,7 @@ header {
   > div.row:first-child {
     padding: 0;
 
-    @media #{$small-only} {
+    @include breakpoint(small only) {
       padding-top: 2rem;
       padding-bottom: 1.6rem;
     }
@@ -1714,13 +1714,13 @@ header {
   .link-list-horizontal {
     margin-top: 1.1rem;
 
-    @media #{$small-only} {
+    @include breakpoint(small only) {
       padding-right: 0;
       margin-top: .3rem;
     }
 
     li {
-      @media #{$small-only} {
+      @include breakpoint(small only) {
         display: none;
       }
 
@@ -1731,7 +1731,7 @@ header {
           margin-left: -5px;
         }
 
-        @media #{$small-only} {
+        @include breakpoint(small only) {
           display: block;
 
           &::before {
@@ -1745,7 +1745,7 @@ header {
         top: .2rem;
         margin-right: .55rem;
 
-        @media #{$small-only} {
+        @include breakpoint(small only) {
           display: none;
         }
       }
@@ -1855,7 +1855,7 @@ body.IGv2 {
     left: -600px;
     bottom: 0;
 
-    @media #{$medium-up}{
+    @include breakpoint(medium up){
       display: none !important
     }
   }
@@ -1893,7 +1893,7 @@ body.IGv2 {
       height: 3rem;
       top: 1.8rem;
 
-      @media #{$small-only} {
+      @include breakpoint(small only) {
         left: 2rem;
       }
 
@@ -2002,7 +2002,7 @@ body.IGv2 {
 
   .map-column {
 
-    // @media #{$medium-up}{
+    // @include breakpoint(medium up){
     //   width: 50%;
     // }
 
@@ -2016,7 +2016,7 @@ body.IGv2 {
       float: left;
       margin-right: 3.2rem;
 
-      @media #{$small-only}{
+      @include breakpoint(small only){
         margin-right: 1.8rem;
       }
     }
@@ -2028,11 +2028,11 @@ body.IGv2 {
     width: 45%;
     float: left;
 
-    @media #{$small-only}{
+    @include breakpoint(small only){
       margin-top: 0;
     }
 
-    @media #{$medium-only}{
+    @include breakpoint(medium only){
       margin-top: 0;
     }
 
@@ -2067,7 +2067,7 @@ body.IGv2 {
       padding: 0.85rem 2.2rem !important;
       min-height: 42px !important;
 
-      @media #{$small-only} {
+      @include breakpoint(small only) {
         padding: 0.85rem 1.7rem !important;
       }
     }
@@ -2318,7 +2318,7 @@ body.IGv2 {
       border-color: #0ed59a !important;
     }
 
-    @media #{$small-only}{
+    @include breakpoint(small only){
       .tp_07 {
         font-size: 1.7rem !important;
       }
@@ -2334,7 +2334,7 @@ body.IGv2 {
       }
     }
 
-    @media #{$medium-only}{
+    @include breakpoint(medium only){
       .tp_07 {
         font-size: 2.2rem !important;
       }
@@ -2409,7 +2409,7 @@ body.IGv2 {
         top: 4rem !important;
       }
 
-      @media #{$medium-only}{
+      @include breakpoint(medium only){
         padding-left: 5rem;
 
         .phone {
@@ -2423,7 +2423,7 @@ body.IGv2 {
         }
       }
 
-      @media #{$medium-up}{
+      @include breakpoint(medium up){
         margin-top: 4.8rem;
         float: right;
         width: auto;
@@ -2471,7 +2471,7 @@ body.IGv2 {
         }
       }
 
-      @media #{$small-only}{
+      @include breakpoint(small only){
         margin-top: 0;
 
         .phone {
@@ -2494,7 +2494,7 @@ body.IGv2 {
 
       a {
         &:last-child {
-          @media #{$small-only}{
+          @include breakpoint(small only){
             margin-top: 1rem;
 
             width: 100%;
@@ -2517,7 +2517,7 @@ body.IGv2 {
 
       .email {
         display: none;
-        @media #{$small-only}{
+        @include breakpoint(small only){
           float: right;
           width: 48.2%;
           display: block;
@@ -2551,14 +2551,14 @@ body.IGv2 {
     }
 
     .phone {
-      @media #{$small-only}{
+      @include breakpoint(small only){
         float: left;
         width: 48.2%;
       }
     }
 
     .email {
-      @media #{$small-only}{
+      @include breakpoint(small only){
         float: right;
         width: 48.2%;
       }
@@ -2583,7 +2583,7 @@ body.IGv2 {
         .tp_04a {
           line-height: 1.6rem;
 
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             font-size: 2.2rem;
             line-height: 2rem;
           }
@@ -2610,7 +2610,7 @@ body.IGv2 {
         p {
           font-size: 1.4rem;
           color: #646464;
-          @media #{$small-only} {
+          @include breakpoint(small only) {
             text-align: left;
           }
         }
@@ -2626,7 +2626,7 @@ body.IGv2 {
         h1.sub {
           font-size: 6.5rem;
 
-          @media #{$small-only} {
+          @include breakpoint(small only) {
             font-size: 4.5rem;
           }
         }
@@ -2683,7 +2683,7 @@ body.IGv2 {
             + div {
               margin-top: 8rem;
 
-              @media #{$small-only} {
+              @include breakpoint(small only) {
                 margin-top: 3rem;
                 padding: 0 1rem;
               }
@@ -2695,7 +2695,7 @@ body.IGv2 {
       &.section-edge {
         background-color: #f1f7f7;
 
-        @media #{$medium-up} {
+        @include breakpoint(medium up) {
           padding-top: 5rem;
           padding-bottom: 12rem;
         }
@@ -2704,7 +2704,7 @@ body.IGv2 {
           .tp_05a {
             margin-bottom: .2rem;
 
-            @media #{$medium-up} {
+            @include breakpoint(medium up) {
               margin-bottom: .5rem;
             }
           }
@@ -2712,7 +2712,7 @@ body.IGv2 {
       }
 
       .mt-80 {
-        @media #{$medium-up} {
+        @include breakpoint(medium up) {
           margin-top: 80px !important;
         }
       }
@@ -2732,19 +2732,19 @@ body.IGv2 {
         }
 
         h3 {
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             padding-bottom: 1.5rem;
           }
         }
 
         .feature-grid {
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             margin-top: 0.2rem;
           }
         }
 
         + .section.area-l2 {
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             padding-top: 3rem;
             padding-bottom: 9.9rem;
           }
@@ -2760,7 +2760,7 @@ body.IGv2 {
         display: flex;
         flex-wrap: wrap;
 
-        @media #{$small-only} {
+        @include breakpoint(small only) {
           margin-top: 1.7rem;
           margin-bottom: -4.6rem;
         }
@@ -2770,12 +2770,12 @@ body.IGv2 {
           margin-bottom: 2rem;
           padding-bottom: 1.3rem;
 
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             padding-bottom: 0;
             margin-top: 2.5rem;
           }
 
-          @media #{$large-up} {
+          @include breakpoint(large up) {
             padding-left: 6rem;
             padding-right: 6rem;
           }
@@ -2790,7 +2790,7 @@ body.IGv2 {
         }
 
         &.feature-grid-small-collapse {
-          @media #{$small-only} {
+          @include breakpoint(small only) {
             margin-bottom: 1.1rem;
             display: block;
           }
@@ -2798,7 +2798,7 @@ body.IGv2 {
           .columns {
             padding-bottom: 4.4rem;
 
-            @media #{$small-only} {
+            @include breakpoint(small only) {
               border-top: 1px solid #e5eced;
               margin: 0;
               padding: 1.7rem 0 2rem 2rem;
@@ -2818,7 +2818,7 @@ body.IGv2 {
               }
             }
 
-            @media #{$large-up} {
+            @include breakpoint(large up) {
               padding-left: 2rem;
               padding-right: 2rem;
             }
@@ -2826,7 +2826,7 @@ body.IGv2 {
             .illustration {
               margin-bottom: 3.3rem;
 
-              @media #{$small-only} {
+              @include breakpoint(small only) {
                 position: absolute;
                 left: 0;
                 top: .9rem;
@@ -2839,7 +2839,7 @@ body.IGv2 {
                 font-size: 2.4rem;
                 margin-bottom: 0;
 
-                @media #{$small-only} {
+                @include breakpoint(small only) {
                   font-family: $WMSC;
                   font-size: 1.8rem;
                   line-height: 2rem;
@@ -2862,7 +2862,7 @@ body.IGv2 {
         padding: 0;
         background-color: #e5e8e8;
 
-        @media #{$small-only} {
+        @include breakpoint(small only) {
           p.tp_03a + p.tp_05a {
             margin-top: 0 !important;
           }
@@ -2882,7 +2882,7 @@ body.IGv2 {
         .carousel-prev, .carousel-next {
           top: 22rem;
 
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             top: 50%;
 
             -webkit-transform: translateY(-50%);
@@ -2892,7 +2892,7 @@ body.IGv2 {
           img {
             height: 2.9rem;
 
-            @media #{$medium-up} {
+            @include breakpoint(medium up) {
               height: 3.5rem;
             }
           }
@@ -2901,11 +2901,11 @@ body.IGv2 {
         .carousel-prev {
           left: 2rem;
 
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             left: 4.4rem;
           }
 
-          @media #{$xlarge-up} {
+          @include breakpoint(xlarge up) {
             left: 8.8rem;
           }
         }
@@ -2913,11 +2913,11 @@ body.IGv2 {
         .carousel-next {
           right: 2rem;
 
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             right: 4.4rem;
           }
 
-          @media #{$xlarge-up} {
+          @include breakpoint(xlarge up) {
             right: 8.8rem;
           }
         }
@@ -2930,7 +2930,7 @@ body.IGv2 {
           -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             bottom: 2.3rem;
           }
 
@@ -2944,7 +2944,7 @@ body.IGv2 {
               button {
                 background-color: $igBlack;
 
-                @media #{$medium-up} {
+                @include breakpoint(medium up) {
                   background-color: #3b666f;
                 }
               }
@@ -2960,7 +2960,7 @@ body.IGv2 {
               border: 1px solid $igBlack;
               background-color: transparent;
 
-              @media #{$medium-up} {
+              @include breakpoint(medium up) {
                 margin: 0 .5rem;
                 border: 2px solid #3b666f;
                 width: 1.4rem;
@@ -3014,7 +3014,7 @@ body.IGv2 {
             max-width: none;
             position: relative;
 
-            @media #{$small-only} {
+            @include breakpoint(small only) {
               padding: 4.1rem 3.7rem 9.2rem;
             }
 
@@ -3114,7 +3114,7 @@ body.IGv2 {
                 }
 
                 .profile-data-1 {
-                  @media #{$xlarge-up} {
+                  @include breakpoint(xlarge up) {
                     max-width: 1440px;
                     height: 680px;
                   }
@@ -3185,7 +3185,7 @@ body.IGv2 {
                 }
 
                 .profile-data-2 {
-                  @media #{$xlarge-up} {
+                  @include breakpoint(xlarge up) {
                     max-width: 1440px;
                     height: 680px;
                   }
@@ -3245,7 +3245,7 @@ body.IGv2 {
 
                 .profile-header {
 
-                  @media #{$xlarge-only} {
+                  @include breakpoint(xlarge only) {
                     right: 1.9rem;
                     top: 10rem;
                     position: absolute;
@@ -3262,7 +3262,7 @@ body.IGv2 {
                     right: 36.5rem;
                     top: 9.2rem;
 
-                    @media #{$medium-only} {
+                    @include breakpoint(medium only) {
                       right: 1rem;
                       top: 1rem;
                       width: 30rem;
@@ -3279,7 +3279,7 @@ body.IGv2 {
                     //  position: absolute;
                     //  display: none;
                     //
-                    //  @media #{$large-up} {
+                    //  @include breakpoint(large up) {
                     //    display: block;
                     //  }
                     //}
@@ -3289,7 +3289,7 @@ body.IGv2 {
                     padding: 0;
                     margin: 0;
 
-                    @media #{$medium-only} {
+                    @include breakpoint(medium only) {
                       display: none;
                     }
 
@@ -3328,7 +3328,7 @@ body.IGv2 {
                   padding: 0;
                   z-index: 40;
 
-                  @media #{$xlarge-up} {
+                  @include breakpoint(xlarge up) {
                     left: 5.1rem;
                     top: 7rem;
                   }
@@ -3357,7 +3357,7 @@ body.IGv2 {
                     &:nth-child(4) {
                       left: 16.8rem;
 
-                      @media #{$medium-only} {
+                      @include breakpoint(medium only) {
                         line-height: 1.6rem;
                         margin-left: 0.5rem;
                         width: 15rem;
@@ -3436,7 +3436,7 @@ body.IGv2 {
                 }
 
                 .profile-header {
-                  @media #{$xlarge-only} {
+                  @include breakpoint(xlarge only) {
                     right: auto;
                     left: 1.9rem;
                   }
@@ -3453,7 +3453,7 @@ body.IGv2 {
                       right: auto;
                     }
 
-                    @media #{$medium-only} {
+                    @include breakpoint(medium only) {
                       right: auto;
                       left: 1rem;
                     }
@@ -3488,7 +3488,7 @@ body.IGv2 {
                   left: auto;
                   right: 2rem;
 
-                  @media #{$xlarge-up} {
+                  @include breakpoint(xlarge up) {
                     left: auto;
                     right: 5rem;
                   }
@@ -3496,7 +3496,7 @@ body.IGv2 {
                   .illustration {
                     left: 11rem;
 
-                    @media #{$medium-only} {
+                    @include breakpoint(medium only) {
                       left: auto;
                       right: 0;
                     }
@@ -3527,7 +3527,7 @@ body.IGv2 {
                   left: 6.4rem;
                   right: auto;
 
-                  @media #{$medium-only} {
+                  @include breakpoint(medium only) {
                     top: 14.8rem;
                     left: 9.4rem;
 
@@ -3552,7 +3552,7 @@ body.IGv2 {
                     }
                   }
 
-                  @media #{$large-only} {
+                  @include breakpoint(large only) {
                     top: 14.8rem;
                     left: 9.4rem;
 
@@ -3580,7 +3580,7 @@ body.IGv2 {
               }
             }
 
-            @media #{$small-only} {
+            @include breakpoint(small only) {
               &.profile-1-slide, &.profile-2-slide {
                 background-color: #7ec4b9;
 
@@ -3675,18 +3675,18 @@ body.IGv2 {
                 padding-left: 1.1rem;
                 padding-right: 1.1rem;
 
-                @media #{$medium-up} {
+                @include breakpoint(medium up) {
                   padding-left: 8.1rem;
                   padding-right: 8.1rem;
                 }
 
-                @media #{$xlarge-up} {
+                @include breakpoint(xlarge up) {
                   padding-left: 14.5rem;
                   padding-right: 14.5rem;
                 }
 
                 &:last-child {
-                  @media #{$medium-up} {
+                  @include breakpoint(medium up) {
                     padding-bottom: 10.4rem;
                   }
                 }
@@ -3696,7 +3696,7 @@ body.IGv2 {
                     text-align: left;
                     padding: 0 1.1rem 0;
 
-                    @media #{$large-up} {
+                    @include breakpoint(large up) {
                       padding-left: 2.9375rem;
                       padding-right: 2.9375rem;
                     }
@@ -3775,7 +3775,7 @@ body.IGv2 {
             color: $igBlack;
           }
 
-          @media #{$small-only} {
+          @include breakpoint(small only) {
             padding-top: 1rem;
             padding-bottom: 1rem;
             font-size: 1.4rem;
@@ -3796,7 +3796,7 @@ body.IGv2 {
             color: white;
           }
 
-          @media #{$small-only} {
+          @include breakpoint(small only) {
           }
         }
         &.share {
@@ -3856,7 +3856,7 @@ body.IGv2 {
         border-radius: 50%;
         margin: 0 auto;
 
-        @media #{$medium-up} {
+        @include breakpoint(medium up) {
           width: 24rem;
           height: 24rem;
         }
@@ -3865,7 +3865,7 @@ body.IGv2 {
           width: 3.8rem;
           height: 3.8rem;
 
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             width: 14rem;
             height: 14rem;
           }
@@ -3928,7 +3928,7 @@ body.IGv2 {
         .illustration {
           margin-bottom: 6.7rem;
 
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             margin-bottom: 4.9rem;
           }
         }
@@ -3936,7 +3936,7 @@ body.IGv2 {
         .tp_05a {
           margin-bottom: 1.1rem;
 
-          @media #{$small-only} {
+          @include breakpoint(small only) {
             font-size: 1.5rem;
             line-height: 1.4rem;
             position: absolute;
@@ -3946,7 +3946,7 @@ body.IGv2 {
             transform: translateX(-50%);
           }
 
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             margin-bottom: 2.3rem;
           }
         }
@@ -3954,17 +3954,17 @@ body.IGv2 {
         .tp_08a {
           margin-bottom: .6rem;
 
-          @media #{$small-only} {
+          @include breakpoint(small only) {
             font-size: 2.4rem;
             line-height: 3.4rem;
           }
 
-          @media #{$medium-only} {
+          @include breakpoint(medium only) {
             font-size: 2.4rem;
             line-height: 3.4rem;
           }
 
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             margin-bottom: 1.1rem;
           }
         }
@@ -3975,7 +3975,7 @@ body.IGv2 {
             margin: 0 auto;
           }
 
-          @media #{$small-only} {
+          @include breakpoint(small only) {
             &[class*="toggle-"] {
               border-bottom: 2px solid $igBlack;
               cursor: pointer;
@@ -4009,7 +4009,7 @@ body.IGv2 {
         }
 
         &.multi-tab-outline-medium {
-          @media #{$small-only} {
+          @include breakpoint(small only) {
             margin-top: 10px;
 
             .tp_05a {
@@ -4023,7 +4023,7 @@ body.IGv2 {
           }
 
           .columns {
-            @media #{$medium-up} {
+            @include breakpoint(medium up) {
               &[class*="toggle-"] {
                 border: 1px solid #cfd4d8;
                 cursor: pointer;
@@ -4064,7 +4064,7 @@ body.IGv2 {
         padding-top: 4.2rem;
         padding-bottom: 10.1rem;
 
-        @media #{$medium-up} {
+        @include breakpoint(medium up) {
           padding-top: 5rem;
           padding-bottom: 7rem;
         }
@@ -4078,7 +4078,7 @@ body.IGv2 {
             .tp_05a {
               margin-bottom: 3.9rem;
 
-              @media #{$small-only} {
+              @include breakpoint(small only) {
                 position: static;
                 transform: none;
               }
@@ -4086,7 +4086,7 @@ body.IGv2 {
           }
 
           + div {
-            @media #{$small-only} {
+            @include breakpoint(small only) {
               display: flex;
               flex-flow: row wrap;
             }
@@ -4125,7 +4125,7 @@ body.IGv2 {
             display: inline-block;
           }
 
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             margin-top: 4.2rem;
             padding-left: 7.8rem;
             padding-right: 7.8rem;
@@ -4139,7 +4139,7 @@ body.IGv2 {
 
         p {
           &.tp_05a {
-            @media #{$small-only} {
+            @include breakpoint(small only) {
               position: static;
               transform: none;
             }
@@ -4147,13 +4147,13 @@ body.IGv2 {
         }
 
         [class*="toggle-"] {
-          @media #{$small-only} {
+          @include breakpoint(small only) {
 
           }
         }
 
         [class*="content-"] {
-          @media #{$small-only} {
+          @include breakpoint(small only) {
             > div {
               display: flex;
               flex-direction: column;
@@ -4180,7 +4180,7 @@ body.IGv2 {
             }
           }
 
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             padding-right: 8rem;
 
             &::before {
@@ -4272,7 +4272,7 @@ body.IGv2 {
     //    line-height: 4rem;
     //  }
     //
-    //  @media #{$large-up} {
+    //  @include breakpoint(large up) {
     //    right: 11.9rem;
     //    top: 5.6rem;
     //  }
@@ -4295,7 +4295,7 @@ body.IGv2 {
         display: none;
       }
 
-      @media #{$medium-up} {
+      @include breakpoint(medium up) {
         top: 2rem;
         height: 60px;
         width: 60px;
@@ -4313,7 +4313,7 @@ body.IGv2 {
       opacity: 1;
       text-align: center;
 
-      @media #{$medium-up} {
+      @include breakpoint(medium up) {
         top: 14px;
         position: absolute;
         right: 28px;
@@ -4353,7 +4353,7 @@ body.IGv2 {
       padding-top: 14.3rem;
       position: relative;
 
-      @media #{$small-only} {
+      @include breakpoint(small only) {
         padding: 6.6rem 1rem;
       }
 
@@ -4363,7 +4363,7 @@ body.IGv2 {
         left: .8rem;
         top: 1rem;
 
-        @media #{$large-up} {
+        @include breakpoint(large up) {
           left: 11rem;
         }
       }
@@ -4381,7 +4381,7 @@ body.IGv2 {
         z-index: 99;
         width: 26.5rem;
 
-        @media #{$small-only} {
+        @include breakpoint(small only) {
           display: none;
         }
 
@@ -4414,7 +4414,7 @@ body.IGv2 {
           max-width: 87.6rem;
 
           .columns {
-            @media #{$small-only} {
+            @include breakpoint(small only) {
               padding: 0;
             }
 
@@ -4423,7 +4423,7 @@ body.IGv2 {
             }
 
             &:first-child {
-              @media #{$small-only} {
+              @include breakpoint(small only) {
                 .illustration {
                   display: none;
                 }
@@ -4450,7 +4450,7 @@ body.IGv2 {
             }
 
             .tp_08a {
-              @media #{$small-only} {
+              @include breakpoint(small only) {
                 line-height: 2.8rem;
                 margin-bottom: 1.9rem;
               }
@@ -4469,7 +4469,7 @@ body.IGv2 {
                 white-space: normal;
                 margin-top: 2rem;
 
-                @media #{$medium-up} {
+                @include breakpoint(medium up) {
                   margin-top: 1rem;
                   padding-left: 7.8rem;
                   padding-right: 7.8rem;
@@ -4479,14 +4479,14 @@ body.IGv2 {
 
               + [class*="content-"] {
                 .outline-btn {
-                  @media #{$small-only} {
+                  @include breakpoint(small only) {
 
                   }
 
                   + .outline-btn {
                     display: none;
 
-                    @media #{$small-only} {
+                    @include breakpoint(small only) {
                       display: inline-block;
                     }
                   }
@@ -4495,7 +4495,7 @@ body.IGv2 {
             }
           }
 
-          @media #{$small-only} {
+          @include breakpoint(small only) {
             [class*="toggle-"] {
 
               padding: 1.2rem 1rem 0.9rem;
@@ -4511,7 +4511,7 @@ body.IGv2 {
             }
           }
 
-          @media #{$medium-up} {
+          @include breakpoint(medium up) {
             .tp_05a {
               margin-bottom: 1.4rem;
               letter-spacing: 1px;
@@ -4544,14 +4544,14 @@ body.IGv2 {
     }
 
     .columns.medium-4 {
-      @media #{$medium-up} {
+      @include breakpoint(medium up) {
         flex: 30%;
       }
       flex: 49%;
     }
 
     .columns.small-6 {
-      @media #{$small-only} {
+      @include breakpoint(small only) {
         flex: 49%;
       }
     }
@@ -4581,14 +4581,14 @@ body.IGv2 {
         -webkit-transition: transform .5s ease 0s, margin-top .5s ease 0s;
         transition: transform .5s ease 0s, margin-top .5s ease 0s;
 
-        @media #{$medium-up} {
+        @include breakpoint(medium up) {
           display: none;
         }
       }
     }
 
     .active {
-      @media #{$small-only} {
+      @include breakpoint(small only) {
         .info-toggle-trigger {
           .fa.fa-chevron-down {
             -webkit-transform: rotate(-180deg);
@@ -4670,7 +4670,7 @@ body.IGv2 {
       padding-left: 10px;
       padding-right: 10px;
       text-transform: capitalize;
-      @media #{$small-only} {
+      @include breakpoint(small only) {
 
       }
     }
