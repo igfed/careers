@@ -76,63 +76,6 @@
   }
 }
 
-button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  border-radius: 0;
-  border-style: solid;
-  border-width: 0;
-  cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
-  line-height: normal;
-  margin: 0 0 1.25rem;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  padding: 1rem 2rem 1.0625rem 2rem;
-  font-size: 1rem;
-  background-color: #008CBA;
-  border-color: #007095;
-  color: #fff;
-  -webkit-transition: background-color 300ms ease-out;
-  transition: background-color 300ms ease-out;
-}
-
-button:hover, button:focus {
-  background-color: #007095;
-}
-
-button:hover, button:focus {
-  color: #fff;
-}
-
-button::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-@media only screen and (min-width: 40.0625em) {
-  button {
-    display: inline-block;
-  }
-}
-
-form {
-  margin: 0 0 1rem;
-}
-
-label {
-  color: #4d4d4d;
-  cursor: pointer;
-  display: block;
-  font-size: .875rem;
-  font-weight: normal;
-  line-height: 1.5;
-  margin-bottom: 0;
-}
-
 input[type="search"] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -280,6 +223,11 @@ h3.tp_05a {
   text-align: center;
 }
 
+.our-business .tp_09a, .content-team .tp_09a, .content-advisor .tp_09a {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
 em, i {
   font-style: italic;
   line-height: inherit;
@@ -420,99 +368,16 @@ h3 {
   }
 }
 
-.outline-btn, .underline-link {
+.button, .underline-link {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
 }
 
-button {
-  padding: 0;
-  margin: 0;
-  background: transparent;
-}
-
-button:hover {
-  background-color: transparent;
-}
-
 @media print {
   .wpr {
     display: none;
-  }
-}
-
-.outline-btn {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  z-index: 0;
-  background: #0ed59a;
-  border: 3px solid #0ed59a;
-  border-radius: 5px;
-  padding: calc(6px - 0.3em) 6px 6px 6px;
-  font-style: normal;
-  font-family: "WhitneySCMedium";
-  font-size: 2.4rem;
-  text-align: center;
-  text-decoration: none;
-  text-transform: lowercase;
-  color: #0c273c;
-  -webkit-transition: color .3s;
-  transition: color .3s;
-  border-width: 2px;
-  white-space: nowrap;
-}
-
-.outline-btn:hover {
-  color: #fff;
-}
-
-.outline-btn:hover:before {
-  bottom: 100%;
-  -webkit-transition-delay: .15s;
-  transition-delay: .15s;
-  z-index: -2;
-}
-
-.outline-btn:hover:after {
-  bottom: 0;
-  z-index: -1;
-}
-
-.outline-btn:before, .outline-btn:after {
-  display: block;
-  content: '';
-  position: absolute;
-  width: 100%;
-  left: 0;
-  z-index: -1;
-  -webkit-transition: bottom .15s ease, background .15s ease .1s;
-  transition: bottom .15s ease, background .15s ease .1s;
-}
-
-.outline-btn:before {
-  bottom: 0;
-  top: 0;
-  z-index: -1;
-}
-
-.outline-btn:after {
-  bottom: 100%;
-  top: 0;
-  background: #0ed59a;
-  z-index: -2;
-  -webkit-transition-delay: .15s;
-  transition-delay: .15s;
-}
-
-@media only screen and (min-width: 1440px) {
-  .outline-btn {
-    text-align: center;
-    width: 180px;
-    font-size: 1.8rem;
   }
 }
 
@@ -565,24 +430,6 @@ button:hover {
 
 *, *:before, *:after {
   box-sizing: border-box;
-}
-
-button, input {
-  color: inherit;
-  font: inherit;
-  margin: 0;
-}
-
-button {
-  overflow: visible;
-  text-transform: none;
-  cursor: pointer;
-  -moz-appearance: none;
-  line-height: 1;
-  padding: 0;
-  background: transparent none repeat scroll 0 0;
-  border: 0 none;
-  border-radius: 0;
 }
 
 [type="submit"], [type="button"] {
@@ -1399,20 +1246,6 @@ header {
       -webkit-overflow-scrolling: touch;
       color: #fff;
 
-      .close-button {
-        border: 2px solid #fff !important;
-        right: 30px !important;
-      }
-
-      .close-button:before, .close-button:after {
-        background-color: #fff !important;
-      }
-
-      /*HOVER*/
-      .close-button:hover {
-        background: #000 !important;
-      }
-
       > div.row {
         > div {
           display: block;
@@ -1700,13 +1533,13 @@ body.IGv2 {
     left: -600px;
     bottom: 0;
 
-    @media screen and (min-width: 641px){
+    @media screen and (min-width: 641px) {
       display: none !important
     }
   }
 
   .small-12 columns content-edge-career-progression-2, .content-team-join {
-    .outline-btn.secondary {
+    .button.secondary {
       display: block !important;
     }
   }
@@ -1726,6 +1559,7 @@ body.IGv2 {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
     transform: translate(0, 0);
+
     &.closed {
       -ms-transform: translate(0, -1500px);
       -webkit-transform: translate(0, -1500px);
@@ -1742,6 +1576,20 @@ body.IGv2 {
         left: 2rem;
       }
 
+    }
+
+    button.close-button {
+      top: 10px;
+      right: 15px;
+      width: 48px;
+      height: 48px;
+
+      &::before {
+        left: 2px;
+      }
+    }
+    button.close-button span {
+      display: none;
     }
   }
 
@@ -1861,7 +1709,7 @@ body.IGv2 {
       float: left;
       margin-right: 3.2rem;
 
-      @media screen and (max-width: 640px){
+      @media screen and (max-width: 640px) {
         margin-right: 1.8rem;
       }
     }
@@ -1873,11 +1721,11 @@ body.IGv2 {
     width: 45%;
     float: left;
 
-    @media screen and (max-width: 640px){
+    @media screen and (max-width: 640px) {
       margin-top: 0;
     }
 
-    @media screen and (min-width: 641px) and (max-width: 1024px){
+    @media screen and (min-width: 641px) and (max-width: 1024px) {
       margin-top: 0;
     }
 
@@ -1895,7 +1743,7 @@ body.IGv2 {
       }
     }
 
-    .outline-btn.email, .outline-btn.phone {
+    .button.email, .button.phone {
       min-width: 50% !important;
       text-align: center !important;
 
@@ -1906,15 +1754,6 @@ body.IGv2 {
 
     .map-container {
       margin-bottom: 25px;
-    }
-
-    .outline-btn {
-      padding: 0.85rem 2.2rem !important;
-      min-height: 42px !important;
-
-      @media screen and (max-width: 640px) {
-        padding: 0.85rem 1.7rem !important;
-      }
     }
 
     .tp_08 {
@@ -1939,16 +1778,16 @@ body.IGv2 {
     }
 
     @media screen and (max-width: 39.9375em) {
-      .dropdown.menu a.outline-btn.small-icon {
+      .dropdown.menu a.button.small-icon {
         padding-right: 0 !important;
       }
     }
 
     @media screen and (max-width: 39.9375em) {
-      .dropdown.menu a.outline-btn.small-icon::before, .dropdown.menu a.outline-btn.small-icon::after {
+      .dropdown.menu a.button.small-icon::before, .dropdown.menu a.button.small-icon::after {
         display: none !important;
       }
-      .dropdown.menu a.outline-btn.small-icon + ul {
+      .dropdown.menu a.button.small-icon + ul {
         left: 50% !important;
 
         -webkit-transform: translateX(-50%) !important;
@@ -2078,7 +1917,7 @@ body.IGv2 {
     }
 
     @media screen and (max-width: 39.9375em) {
-      .dropdown.menu.small-grid > li.is-dropdown-submenu-parent a.outline-btn {
+      .dropdown.menu.small-grid > li.is-dropdown-submenu-parent a.button {
         display: none !important;
       }
       .dropdown.menu.small-grid > li.is-dropdown-submenu-parent .submenu {
@@ -2163,7 +2002,7 @@ body.IGv2 {
       border-color: #0ed59a !important;
     }
 
-    @media screen and (max-width: 640px){
+    @media screen and (max-width: 640px) {
       .tp_07 {
         font-size: 1.7rem !important;
       }
@@ -2179,7 +2018,7 @@ body.IGv2 {
       }
     }
 
-    @media screen and (min-width: 641px) and (max-width: 1024px){
+    @media screen and (min-width: 641px) and (max-width: 1024px) {
       .tp_07 {
         font-size: 2.2rem !important;
       }
@@ -2191,7 +2030,7 @@ body.IGv2 {
       }
     }
 
-    .outline-btn {
+    .button {
       border-radius: 5px !important;
     }
 
@@ -2228,17 +2067,17 @@ body.IGv2 {
         padding-top: 3rem;
       }
 
-      .section.office-search a.outline-btn.secondary.email:hover i.fa, .section.office-search .phone a.outline-btn.secondary:hover i.fa {
+      .section.office-search a.button.secondary.email:hover i.fa, .section.office-search .phone a.button.secondary:hover i.fa {
         background-color: transparent;
         border: none;
         color: #0d263c;
       }
-      .section.office-search a.outline-btn.small-icon.email, .section.office-search .phone a.outline-btn.small-icon {
+      .section.office-search a.button.small-icon.email, .section.office-search .phone a.button.small-icon {
         padding-right: 4rem;
         padding-left: 4.5rem;
         border: 2px solid #0d263c;
       }
-      .section.office-search a.outline-btn.small-icon.email i.fa, .section.office-search .phone a.outline-btn.small-icon i.fa {
+      .section.office-search a.button.small-icon.email i.fa, .section.office-search .phone a.button.small-icon i.fa {
         border: none;
         left: 2rem;
         position: absolute;
@@ -2254,7 +2093,7 @@ body.IGv2 {
         top: 4rem !important;
       }
 
-      @media screen and (min-width: 641px) and (max-width: 1024px){
+      @media screen and (min-width: 641px) and (max-width: 1024px) {
         padding-left: 5rem;
 
         .phone {
@@ -2268,7 +2107,7 @@ body.IGv2 {
         }
       }
 
-      @media screen and (min-width: 641px){
+      @media screen and (min-width: 641px) {
         margin-top: 4.8rem;
         float: right;
         width: auto;
@@ -2277,7 +2116,7 @@ body.IGv2 {
           display: none;
         }
 
-        .outline-btn {
+        .button {
           // width: 15rem;
           width: auto;
         }
@@ -2316,7 +2155,7 @@ body.IGv2 {
         }
       }
 
-      @media screen and (max-width: 640px){
+      @media screen and (max-width: 640px) {
         margin-top: 0;
 
         .phone {
@@ -2339,7 +2178,7 @@ body.IGv2 {
 
       a {
         &:last-child {
-          @media screen and (max-width: 640px){
+          @media screen and (max-width: 640px) {
             margin-top: 1rem;
 
             width: 100%;
@@ -2362,7 +2201,7 @@ body.IGv2 {
 
       .email {
         display: none;
-        @media screen and (max-width: 640px){
+        @media screen and (max-width: 640px) {
           float: right;
           width: 48.2%;
           display: block;
@@ -2396,14 +2235,14 @@ body.IGv2 {
     }
 
     .phone {
-      @media screen and (max-width: 640px){
+      @media screen and (max-width: 640px) {
         float: left;
         width: 48.2%;
       }
     }
 
     .email {
-      @media screen and (max-width: 640px){
+      @media screen and (max-width: 640px) {
         float: right;
         width: 48.2%;
       }
@@ -2430,7 +2269,9 @@ body.IGv2 {
 
           @media screen and (min-width: 641px) {
             font-size: 2.2rem;
-            line-height: 2rem;
+            line-height: 2.2rem;
+            text-transform: lowercase;
+            font-family: WhitneySCMedium;
           }
         }
       }
@@ -2464,7 +2305,7 @@ body.IGv2 {
       &.intro-l2 {
         background-color: #7ec4b9;
 
-        .outline-btn {
+        .button {
           max-width: 200px;
         }
 
@@ -2682,7 +2523,6 @@ body.IGv2 {
             p {
               &.tp_07a {
                 font-size: 2.4rem;
-                margin-bottom: 0;
 
                 @media screen and (max-width: 640px) {
                   font-family: "WhitneySCMedium";
@@ -2695,7 +2535,7 @@ body.IGv2 {
               }
             }
           }
-          .outline-btn.sticky {
+          .button.sticky {
             padding-left: 2.7rem;
             padding-right: 2.7rem;
             line-height: .5rem;
@@ -3601,7 +3441,7 @@ body.IGv2 {
         visibility: hidden;
       }
 
-      .outline-btn {
+      .button {
         padding-bottom: 1.1rem;
         padding-top: 0.9rem;
 
@@ -3685,7 +3525,7 @@ body.IGv2 {
         cursor: pointer;
 
         &:hover {
-          .outline-btn {
+          .button {
             &.secondary {
               background-color: #0d263c;
               color: white;
@@ -3942,7 +3782,7 @@ body.IGv2 {
           margin-bottom: 3.9rem;
         }
 
-        .outline-btn {
+        .button {
           margin-top: 4.3rem;
           white-space: normal;
         }
@@ -3959,14 +3799,14 @@ body.IGv2 {
           margin-top: .3rem;
         }
 
-        .outline-btn {
+        .button {
           line-height: 1.2rem;
           padding-left: .6rem;
           padding-right: .6rem;
           margin-top: 0;
           display: none;
 
-          + .outline-btn {
+          + .button {
             display: inline-block;
           }
 
@@ -3976,7 +3816,7 @@ body.IGv2 {
             padding-right: 7.8rem;
             display: inline-block;
 
-            + .outline-btn {
+            + .button {
               display: none;
             }
           }
@@ -4006,7 +3846,7 @@ body.IGv2 {
               .tp_09a {
                 order: 10;
 
-                + .outline-btn, + .outline-btn + .outline-btn {
+                + .button, + .button + .button {
                   margin: .8rem -0.9375rem 3.2rem;
                   width: auto;
                 }
@@ -4016,7 +3856,7 @@ body.IGv2 {
                 font-size: 1.7rem;
                 margin-top: .4rem;
 
-                + .outline-btn {
+                + .button {
                   display: inline-block;
                   margin-top: .9rem;
                   margin-bottom: 1.3rem;
@@ -4061,7 +3901,7 @@ body.IGv2 {
                   margin-bottom: 0.9rem;
                   line-height: 2rem;
 
-                  + .outline-btn {
+                  + .button {
                     margin-top: 0;
                     padding-left: .6rem;
                     padding-right: .6rem;
@@ -4093,105 +3933,20 @@ body.IGv2 {
       display: none;
     }
 
-    //.close-button {
-    //  border: 2px solid #000;
-    //  border-radius: 50%;
-    //  height: 4.5rem;
-    //  width: 4.5rem;
-    //  position: absolute;
-    //  right: 2rem;
-    //  top: 3.8rem;
-    //  font-family: "Helvetica Neue", ​Helvetica, ​Roboto, ​Arial, ​sans-serif;
-    //
-    //  &:hover {
-    //    background-color: #0d263c;
-    //
-    //    span {
-    //      color: white;
-    //    }
-    //  }
-    //
-    //  span {
-    //    color: #000;
-    //    font-size: 4rem;
-    //    line-height: 4rem;
-    //  }
-    //
-    //  @media screen and (min-width: 1025px) {
-    //    right: 11.9rem;
-    //    top: 5.6rem;
-    //  }
-    //}
+    #modalOverlay {
+      button.close-button {
+        top: 10px;
+        right: 15px;
+        width: 48px;
+        height: 48px;
 
-    /*CROSS*/
-
-    .close-button {
-      border: 2px solid #07263b;
-      border-radius: 50%;
-      height: 36px;
-      width: 36px;
-      display: block;
-      position: absolute;
-      right: 1.5rem;
-      top: 1.5rem;
-      font-family: "Helvetica Neue", ​Helvetica, ​Roboto, ​Arial, ​sans-serif;
-
-      span {
+        &::before {
+          left: 2px;
+        }
+      }
+      button.close-button span {
         display: none;
       }
-
-      @media screen and (min-width: 641px) {
-        top: 2rem;
-        height: 60px;
-        width: 60px;
-      }
-    }
-
-    .close-button:before, .close-button:after {
-      top: 7px;
-      position: absolute;
-      right: 15.5px;
-      content: ' ';
-      height: 20px;
-      width: 2px;
-      background-color: #07263b;
-      opacity: 1;
-      text-align: center;
-
-      @media screen and (min-width: 641px) {
-        top: 14px;
-        position: absolute;
-        right: 28px;
-        content: ' ';
-        height: 33px;
-        width: 2px;
-        background-color: #07263b;
-        opacity: 1;
-        text-align: center;
-      }
-    }
-    .close-button:before {
-      -webkit-transform: rotate(45deg);
-      transform: rotate(45deg);
-    }
-    .close-button:after {
-      -webkit-transform: rotate(-45deg);
-      transform: rotate(-45deg);
-    }
-
-    /*HOVER*/
-
-    .close-button:hover {
-      background: #07263b;
-
-    }
-
-    .close-button:hover:before {
-      background-color: white;
-    }
-
-    .close-button:hover:after {
-      background-color: white;
     }
 
     #edge-overlay-content {
@@ -4304,7 +4059,7 @@ body.IGv2 {
             &[class*="content-"] {
               padding: 0;
 
-              .outline-btn {
+              .button {
                 line-height: 1.2rem;
                 padding-left: .6rem;
                 padding-right: .6rem;
@@ -4323,12 +4078,12 @@ body.IGv2 {
               }
 
               + [class*="content-"] {
-                .outline-btn {
+                .button {
                   @media screen and (max-width: 640px) {
 
                   }
 
-                  + .outline-btn {
+                  + .button {
                     display: none;
 
                     @media screen and (max-width: 640px) {

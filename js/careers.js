@@ -147,7 +147,7 @@
 
 }(jQuery));
 
-(function () {
+(function ($) {
   'use strict';
 
   var gui,
@@ -167,9 +167,9 @@
       $('body').addClass('fr');
     }
 
-    $('.block-link .js-prevent').on('click', function (e) {
-      e.preventDefault();
-    });
+    // $('.block-link .js-prevent').on('click', function (e) {
+    //   e.preventDefault();
+    // });
 
     // Smooth scrolling for anchor links
     $('a[href^="#"]').on('click', function (e) {
@@ -676,6 +676,6 @@
   //
 
 
-})();
+})(jQuery);
 
 
