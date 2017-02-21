@@ -200,17 +200,6 @@ p {
   text-rendering: optimizeLegibility;
 }
 
-h1, h3 {
-  color: #222;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1.4;
-  margin-bottom: .5rem;
-  margin-top: .2rem;
-  text-rendering: optimizeLegibility;
-}
-
 h1 {
   font-size: 2.125rem;
 }
@@ -221,6 +210,10 @@ h3 {
 
 h3.tp_05a {
   text-align: center;
+}
+
+.tp_09a {
+  font-size: 1.8rem;
 }
 
 .our-business .tp_09a, .content-team .tp_09a, .content-advisor .tp_09a {
@@ -351,7 +344,7 @@ a, a:active, a:hover, a:visited {
   }
 }
 
-h3 {
+h3, p.tp_05a {
   font-style: normal;
   font-family: "WhitneySC";
   font-weight: 400;
@@ -2761,17 +2754,6 @@ body.IGv2 {
                   }
                 }
 
-                //h3.tp_05a {
-                //  margin: 0;
-                //  position: relative;
-                //  top: 4rem;
-                //  z-index: 30;
-                //}
-                //
-                //.tp_05a {
-                //  line-height: 1.2;
-                //}
-
                 &.slick-complete {
                   &::before {
                     -webkit-transform: translateY(0%) scaleY(1);
@@ -2822,19 +2804,6 @@ body.IGv2 {
                         order: 3;
                         margin-top: .5rem;
                       }
-                    }
-
-                    &::before {
-                      //position: absolute;
-                      //top: -8.2rem;
-                      //left: -4.9rem;
-                      //content: "";
-                      //background-color: #0d263c;
-                      //border-radius: 50%;
-                      //height: 8rem;
-                      //width: 8rem;
-                      //opacity: 0;
-                      //transition: opacity ease-out .5s;
                     }
 
                     &:nth-child(1) {
@@ -2952,22 +2921,6 @@ body.IGv2 {
                       top: 1rem;
                       width: 30rem;
                     }
-
-                    //&::after {
-                    //  background-image: url('../images/blades.png');
-                    //  background-repeat: no-repeat;
-                    //  content: "";
-                    //  width: 24.5rem;
-                    //  height: 3.9rem;
-                    //  bottom: -4.7rem;
-                    //  right: -1rem;
-                    //  position: absolute;
-                    //  display: none;
-                    //
-                    //  @media screen and (min-width: 1025px) {
-                    //    display: block;
-                    //  }
-                    //}
                   }
 
                   ul {
@@ -3310,8 +3263,9 @@ body.IGv2 {
                     }
 
                     &.tp_05a {
-                      font-size: 1.7rem;
+                      font-size: 1.8rem;
                       line-height: 2rem;
+                      font-weight: 500;
                     }
                   }
                 }
@@ -3319,19 +3273,11 @@ body.IGv2 {
                 .profile-data-1, .profile-data-2 {
                   text-align: left;
 
-                  div {
-                    &.row {
-                      margin: 0 -2rem 0;
-                      padding-bottom: 0.5rem;
-
-                      &:last-child {
-                        padding-bottom: 1.4rem;
-                      }
-                    }
-
+                  p {
                     &.tp_05a {
-                      font-size: 1.6rem;
+                      font-size: 1.7rem;
                       line-height: 1.6rem;
+                      font-weight: 500;
                     }
 
                     &.tp_03a {
@@ -3347,6 +3293,17 @@ body.IGv2 {
                       line-height: 2rem;
                       margin-top: .9rem;
                       max-width: 80%;
+                    }
+                  }
+
+                  div {
+                    &.row {
+                      margin: 0 -2rem 0;
+                      padding-bottom: 0.5rem;
+
+                      &:last-child {
+                        padding-bottom: 1.4rem;
+                      }
                     }
                   }
                 }
