@@ -216,6 +216,21 @@ h3.tp_05a {
   font-size: 1.8rem;
 }
 
+@media only screen and (max-width: 959px) {
+  .tp_27a {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .tp_27a {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+}
+
+
 .our-business .tp_09a, .content-team .tp_09a, .content-advisor .tp_09a {
   font-size: 1.8rem;
   line-height: 2.8rem;
@@ -351,6 +366,7 @@ h3, p.tp_05a {
   font-size: 1.6rem;
   text-transform: lowercase;
   padding: 0 0 0.3em;
+  color: #0D263C;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -2561,9 +2577,14 @@ body.IGv2 {
           }
         }
 
-        p.tp_03a + p.tp_05a {
-          margin-top: -15px;
+        p.tp_05a {
+          margin-bottom: 0;
         }
+
+        p.tp_27a {
+          margin-top: 0;
+        }
+
         background-color: #7ec4b9;
 
         .profile-metrics {
@@ -3040,6 +3061,10 @@ body.IGv2 {
                     line-height: 15.5rem;
                     letter-spacing: -.7rem;
                     margin: -1.9rem 0 1.5rem -1.5rem;
+                    font-family: "whitneySCMedium";
+                    color: #0D263C;
+                    text-transform: lowercase;
+                    text-shadow: 1px 1px #818c91, 2px 2px #818c91, 3px 3px #818c91, 4px 4px #818c91, 5px 5px #818c91, 6px 6px #818c91;
                   }
 
                   .profile-counter {
@@ -3897,6 +3922,7 @@ body.IGv2 {
         .tp_05a {
           letter-spacing: 1px;
           margin-top: 4rem;
+          color: #282828;
         }
       }
     }
