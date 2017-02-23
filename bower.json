@@ -40,6 +40,11 @@
       "main": [
         "index.js"
       ]
+    },
+    "mustache.js": {
+      "main": [
+        "mustache.js"
+      ]
     }
   }
 }

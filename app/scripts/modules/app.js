@@ -19,7 +19,7 @@ import * as ig from './global.js';
 import evt1 from './event-test-1.js';
 import evt2 from './event-test-2.js';
 
-const app = (function () {
+const app = (() => {
   function init() {
 
     // Initialize Foundation
@@ -46,8 +46,7 @@ const app = (function () {
   return {
     init
   }
-
-})()
+})();
 
 // Bootstrap app
 $(document).ready(function () {
