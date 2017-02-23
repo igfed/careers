@@ -1168,8 +1168,10 @@ header {
             color: white;
             -webkit-transition: 0.3s border ease-in;
             transition: 0.3s border ease-in;
+            font-family: "WhitneySCMedium";
+            text-transform: lowercase;
 
-            @media (min-width: 1024px) {
+            @media (min-width: 1025px) {
               padding: 2.5rem 2.4rem 2.4rem;
               font-size: 2rem;
             }
@@ -2345,7 +2347,7 @@ header {
         margin-bottom: 25px;
       }
 
-      @media (min-width: 1024px) {
+      @media (min-width: 1025px) {
         background-image: url('../images/people_1440.png'), url('../images/hero_bg_1440.jpg');
       }
 
@@ -4283,7 +4285,6 @@ header {
       background: #fff;
     }
   }
-
 }
 
 .ig-careers.fr {
