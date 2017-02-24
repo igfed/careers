@@ -411,7 +411,7 @@
         changeSliderState($overlaySlider, !newIsResponsiveState);
       }
 
-      if (isResponsiveState != newIsResponsiveState) {
+      if (isResponsiveState !== newIsResponsiveState) {
         isResponsiveState = newIsResponsiveState;
       } else if (init) {
         initProfileSlider();
