@@ -2844,6 +2844,20 @@ header {
         background-repeat: no-repeat;
       }
 
+      .video-subsection {
+        .tp_03a {
+          font-size: 3.6rem;
+          line-height: 4.6rem;
+        }
+
+        @media screen and (max-width: 1440px) {
+          .tp_03a {
+            font-size: 2.4rem;
+            line-height: 3.4rem;
+          }
+        }
+      }
+
       .slick-track {
 
         .row.last {
