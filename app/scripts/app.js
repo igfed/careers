@@ -11,8 +11,8 @@
  styles for each language.
  */
 
-import forms from './forms.js';
-import carousel from './carousel.js';
+// import forms from './forms.js';
+// import carousel from './carousel.js';
 import careers from './careers.js';
 import search from './search.js';
 import * as ig from './global.js';
@@ -28,8 +28,8 @@ const app = (() => {
     $(document).foundation();
 
     // Check for components
-    if ($('.ig-form').length) forms.init();
-    if ($('.ig-carousel').length) carousel.init();
+    // if ($('.ig-form').length) forms.init();
+    // if ($('.ig-carousel').length) carousel.init();
     if ($('.ig-search').length) search.init();
     if ($('.ig-careers').length) careers.init();
 

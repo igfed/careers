@@ -4,12 +4,12 @@
   "dependencies": {
     "jquery": "~2.2.0",
     "jquery-validation": "^1.16.0",
+    "foundation-sites": "^6.2.4",
     "slick-carousel": "slick.js#^1.6.0",
     "typeahead.js": "^0.11.1",
     "eventemitter3": "^2.0.2",
     "what-input": "~4.0.3",
-    "components-font-awesome": "^4.7.0",
-    "foundation": "^5.5.3"
+    "components-font-awesome": "^4.7.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -25,10 +25,10 @@
         "dist/additional-methods.js"
       ]
     },
-    "foundation": {
+    "foundation-sites": {
       "main": [
-        "js/foundation.js",
-        "css/foundation.css"
+        "dist/js/foundation.js",
+        "dist/css/foundation.css"
       ]
     },
     "typeahead.js": {
