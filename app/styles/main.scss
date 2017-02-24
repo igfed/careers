@@ -6,13 +6,10 @@
 
 // Generic - reset and/or normalize styles, box-sizing definition, etc. This is the first layer which generates actual CSS. This is our vendor.css file
 
-/*
-Elements
+// Elements
+//
+// Styling for bare HTML elements (like H1, A, etc.). These come with default styling from the browser so we can redefine them here.
 
-Styling for bare HTML elements (like H1, A, etc.). These come with default styling from the browser so we can redefine them here.
-
-Styleguide 1.
-*/
 @import "elements/grid";
 @import "elements/typography";
 @import "elements/color";
@@ -24,16 +21,15 @@ Styleguide 1.
 // Components
 //
 // class-based selectors which define undecorated design patterns
-//
-// Styleguide 2.
+
 @import "components/careers";
 
 // Modules
 //
 // specific UI components. This is where majority of our work takes place and our UI components are often composed of Objects and Components
 //
-// Styleguide 3.
 
+@import "modules/footer";
 
 @import "settings/overrides";
 

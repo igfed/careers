@@ -706,6 +706,16 @@ html, body {
   height: 100%;
   min-height: 1px;
   display: none;
+
+  .tp_05a {
+    margin-top: 5.6rem;
+    padding-bottom: 0;
+    margin-bottom: 0 !important;
+
+    @media (max-width: 640px) {
+      margin-top: 1.5rem;
+    }
+  }
 }
 
 [dir="rtl"] .slick-slide {
@@ -758,6 +768,10 @@ html, body {
 
 .video-slide h3.tp_05a {
   margin-bottom: 40px;
+}
+
+.video-wrapper {
+  margin-top: 45px;
 }
 
 .ig-careers .area-l2.section .row:not(.width-limited) {
@@ -2681,6 +2695,7 @@ header {
 
       .carousel-prev, .carousel-next {
         top: 22rem;
+        z-index: 1001;
 
         @media screen and (min-width: 641px) {
           top: 50%;
