@@ -237,7 +237,6 @@ export default (() => {
         initGui();
 
         function initGui() {
-          $(document).foundation();
           addMultiTabToggleHandlers();
           $('.block-link').blockLink();
           $overlaySlider = $('.our-business-slider');
