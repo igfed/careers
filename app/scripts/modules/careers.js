@@ -8,8 +8,6 @@ export default (() => {
   }
 
   function _careersLegacyCode() {
-
-
     (function ($) {
 
       $.fn.infoToggle = function () {
@@ -91,10 +89,6 @@ export default (() => {
           context = canvas.getContext('2d');
           context.strokeStyle = '#0d263c';
           context.fillStyle = '#e5e8e8';
-          // context.shadowOffsetX = 0;
-          // context.shadowOffsetY = 0;
-          // context.shadowBlur = 1;
-          // context.shadowColor = '#656565';
 
           $canvas.attr('circle-animation-id', delegateID);
           $('body').delegate('[circle-animation-id=' + delegateID + ']', 'startAnimate', function () {
@@ -178,10 +172,6 @@ export default (() => {
         if (window.location.pathname.indexOf('/fr/') !== -1) {
           $('body').addClass('fr');
         }
-
-        // $('.block-link .js-prevent').on('click', function (e) {
-        //   e.preventDefault();
-        // });
 
         // Smooth scrolling for anchor links
         $('a[href^="#"]').on('click', function (e) {
@@ -655,22 +645,6 @@ export default (() => {
             }
           });
 
-          // $('.video-container').each(function(){
-          //
-          //   if ($(this).find('object')) {
-          //
-          //     $(this).children('span').delay().hide();
-          //   }
-          // });
-          // if (evt.target.experience.id === 'bcExperienceObj0') {
-          //   $('.video-container.one span').delay().fadeOut('slow');
-          // }
-          // if (evt.target.experience.id === 'bcExperienceObj1') {
-          //   $('.video-container.two span').delay().fadeOut('slow');
-          // }
-          // if (evt.target.experience.id === 'bcExperienceObj2') {
-          //   $('.video-container.three span').delay().fadeOut('slow');
-          // }
         }
 
         function playVideo(event) {
@@ -682,10 +656,6 @@ export default (() => {
         }
 
       }
-
-
-      //
-
 
     })(jQuery);
 

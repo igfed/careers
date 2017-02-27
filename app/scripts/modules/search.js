@@ -99,7 +99,7 @@ export default (() => {
       );
 
       // Setup the form submission
-      $('.search-form').submit(function (e) {
+      $('.ig-search').submit(function (e) {
         e.preventDefault();
         var params = parseSearchString();
         getSearchResults(params);
