@@ -3433,7 +3433,7 @@ body.IGv2[data-areaid="careers"] #FindAnOffice {
   margin-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  text-transform: capitalize;
+  text-transform: inherit;
 }
 body.IGv2[data-areaid="careers"] #SearchSubmitButton {
   position: absolute;
