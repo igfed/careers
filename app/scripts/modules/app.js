@@ -14,6 +14,7 @@
 import forms from './forms.js';
 import carousel from './carousel.js';
 import careers from './careers.js';
+import video from './video.js';
 import search from './search.js';
 import * as ig from './global.js';
 
@@ -32,6 +33,7 @@ const app = (() => {
     if ($('.ig-carousel').length) carousel.init();
     if ($('.ig-search').length) search.init();
     if ($('.ig-careers').length) careers.init();
+    if ($('.ig-video-group').length) video.init();
 
     // Components can also be setup to receive an HTML 'scope' (.ig-evt1... .ig-evt2.... etc)
     // if ($('.ig-evt1').length) evt1.init('.ig-evt1');

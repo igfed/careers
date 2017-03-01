@@ -166,7 +166,7 @@ export default (() => {
         // This is weird - not going to touch it
         overlay = new OverlayModule();
         gui = new GuiModule(overlay);
-        video = new VideoModule();
+        // video = new VideoModule(); // Replace with video.js module
 
         // Need to have a class to hook onto for French language page
         if (window.location.pathname.indexOf('/fr/') !== -1) {
@@ -581,84 +581,7 @@ export default (() => {
         }
       }
 
-      function VideoModule() {
-        var player,
-          APIModules,
-          videoPlayer,
-          experienceModule,
-          apiInterval,
-          templateInterval,
-          $resizeWrapper = $('.video-container-responsive'),
-          $spinner = $('.video-spinner-container'),
-          $placeholder = $('.js-video-play'),
-          $playAnchor = $('.js-video-play-btn');
-
-        initVideo();
-
-        function initVideo() {
-          if ($(window).width() < 640) {
-            mobileVideoLayout();
-          }
-          window.onTemplateLoad = onTemplateLoad;
-          window.onTemplateReady = onTemplateReady;
-        }
-
-        function mobileVideoLayout() {
-          var i, rnd;
-          rnd = Math.floor((Math.random() * 3));
-          var $clone = $('.video-wrapper .video-subsection').eq(rnd);
-          $('.video-wrapper .video-subsection').remove();
-          $('.video-wrapper').append($clone);
-        }
-
-        function handleResize() {
-          if (player.getModule(APIModules.EXPERIENCE).experience.type === "html") {
-            var resizeWidth = $resizeWrapper.innerWidth();
-            var resizeHeight = $resizeWrapper.innerHeight();
-            player.getModule(APIModules.EXPERIENCE).setSize(resizeWidth, resizeHeight);
-          }
-        }
-
-        function onTemplateLoad(experienceID) {
-          player = brightcove.api.getExperience(experienceID);
-          APIModules = brightcove.api.modules.APIModules;
-        }
-
-        function onTemplateReady(evt) {
-          $spinner.hide();
-          $placeholder.show();
-          $playAnchor.on('click', playVideo);
-          $(window).on('resize', handleResize);
-
-          videoPlayer = player.getModule(APIModules.VIDEO_PLAYER);
-          videoPlayer.getCurrentVideo(function (videoData) {
-            if (videoData && videoData.id) {
-              if (videoData.id === 4219153214001 || videoData.id === 4228888626001) {
-                $('.video-container.one span').delay(1500).fadeOut('slow');
-              }
-              if (videoData.id === 4193078404001 || videoData.id === 4226046989001) {
-                $('.video-container.two span').delay(1500).fadeOut('slow');
-              }
-              if (videoData.id === 4193078348001 || videoData.id === 4219568841001) {
-                $('.video-container.three span').delay(1500).fadeOut('slow');
-              }
-            }
-          });
-
-        }
-
-        function playVideo(event) {
-          event.preventDefault ? event.preventDefault() : (event.returnValue = false);
-          $placeholder.hide();
-          videoPlayer = player.getModule(APIModules.VIDEO_PLAYER);
-          experienceModule = player.getModule(APIModules.EXPERIENCE);
-          videoPlayer.play();
-        }
-
-      }
-
     })(jQuery);
-
 
   }
 
