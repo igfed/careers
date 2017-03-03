@@ -46,7 +46,7 @@ const app = (() => {
   // Let's use a global variable (global as in available to all our components - not the window object!)
   // to add a class to the body tag
   function _language() {
-    $('div.body-wrapper').addClass(ig.lang);
+    $('body').addClass(ig.lang);
   }
 
   return {
