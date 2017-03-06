@@ -25,7 +25,6 @@ export default (() => {
     // Each group can effectively use a different player which will only be loaded once
     $('.ig-video-group').each(function () {
       $group = $(this);
-      console.log($(this));
       data.account = $group.data('account');
       data.player = $group.data('player');
 
