@@ -40,7 +40,7 @@ const app = (() => {
     // if ($('.ig-evt2').length) evt2.init('.ig-evt2');
 
     // Add language class to body
-    _language();
+    // _language();
   }
 
   // Let's use a global variable (global as in available to all our components - not the window object!)
