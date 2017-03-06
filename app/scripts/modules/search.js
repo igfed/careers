@@ -319,9 +319,8 @@ export default (() => {
     suggestions.locations = new Bloodhound({
       datumTokenizer: Bloodhound.tokenizers.whitespace,
       queryTokenizer: Bloodhound.tokenizers.whitespace,
+      local: cities
     });
-
-    suggestions.locations.add(cities);
 
 // Get the results
     function getSearchResults(params) {
