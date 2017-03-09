@@ -124,6 +124,7 @@ it doesnt work for me maybe we need to update to the latest version of foundatio
     padding-left: 22px;
     padding-right: 22px;
     margin-bottom: 40px;
+    font-size: 16px;
 
     .columns{
       border-bottom: 1px solid $lightest-color;
@@ -132,6 +133,7 @@ it doesnt work for me maybe we need to update to the latest version of foundatio
       a{
 
         font-family: $font-whitney-sc;
+        margin-bottom: 15px; // added for careers only
 
         &::before{
           content: '';
@@ -265,6 +267,7 @@ it doesnt work for me maybe we need to update to the latest version of foundatio
                 padding: 0.9rem 0;
                 padding-left: 1.8rem;
                 position: relative;
+                font-size: 16px; // added for careers only
 
                 &:before{
                   content: "\00a0";
