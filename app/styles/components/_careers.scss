@@ -679,6 +679,7 @@ html, body {
   height: 100%;
   min-height: 1px;
   display: none;
+  outline: none !important;
 
   .tp_05a {
     margin-top: 5.6rem;
@@ -1547,7 +1548,7 @@ header {
   }
 
   a.button.secondary {
-    min-width: 180px;
+    min-width: 140px;
   }
 
   @media screen and (max-width: 640px) {
@@ -3685,6 +3686,7 @@ header {
 
     &.multi-tab-outline, .multi-tab-outline {
       background-color: white;
+      outline: none !important;
 
       .illustration {
         margin-bottom: 6.7rem;
