@@ -682,6 +682,18 @@ html, body {
   outline: none !important;
 
   .tp_05a {
+    margin-top: 2rem;
+  }
+
+  .profile-data-1, .profile-data-2 {
+    @media (min-width: 1440px) {
+      .tp_05a {
+        margin-top: 5.6rem;
+      }
+    }
+  }
+
+  h3.tp_05a {
     margin-top: 5.6rem;
     padding-bottom: 0;
 
@@ -1588,6 +1600,7 @@ header {
       .tp_03a {
         font-size: 3.6rem;
         line-height: 4.6rem;
+        margin-bottom: 0;
       }
       .tp_05a {
         font-size: 1.7rem;
@@ -1603,6 +1616,8 @@ header {
       .tp_03a {
         font-size: 2.4rem;
         line-height: 3.4rem;
+        text-align: center;
+        margin-bottom: 0;
       }
       .tp_05a {
         font-size: 1.4rem;
@@ -1614,6 +1629,7 @@ header {
 
       .tp_03a + .tp_05a {
         margin-top: 0 !important;
+        text-align: center;
       }
     }
 
@@ -3469,35 +3485,6 @@ header {
                     padding-right: 2.9375rem;
                   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                   .header {
                     margin-bottom: .6rem;
                   }
@@ -4083,7 +4070,7 @@ header {
       span {
         display: block;
         color: white;
-        margin-bottom: -0.4rem;
+        margin-top: 0.5rem;
       }
 
       .underline-link {

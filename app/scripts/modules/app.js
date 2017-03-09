@@ -23,38 +23,38 @@ import * as ig from './global.js';
 // import evt2 from './event-test-2.js';
 
 const app = (() => {
-  function init() {
+    function init() {
 
-    // Initialize Foundation
-    $(document).foundation();
+        // Initialize Foundation
+        $(document).foundation();
 
-    // Check for components
-    if ($('.ig-form').length) forms.init();
-    if ($('.ig-carousel').length) carousel.init();
-    if ($('.ig-search').length) search.init();
-    if ($('.ig-careers').length) careers.init();
-    if ($('.ig-video-group').length) video.init();
+        // Check for components
+        if ($('.ig-form').length) forms.init();
+        if ($('.ig-carousel').length) carousel.init();
+        if ($('.ig-search').length) search.init();
+        if ($('.ig-careers').length) careers.init();
+        if ($('.ig-video-group').length) video.init();
 
-    // Components can also be setup to receive an HTML 'scope' (.ig-evt1... .ig-evt2.... etc)
-    // if ($('.ig-evt1').length) evt1.init('.ig-evt1');
-    // if ($('.ig-evt2').length) evt2.init('.ig-evt2');
+        // Components can also be setup to receive an HTML 'scope' (.ig-evt1... .ig-evt2.... etc)
+        if ($('.ig-evt1').length) evt1.init('.ig-evt1');
+        if ($('.ig-evt2').length) evt2.init('.ig-evt2');
 
-    // Add language class to body
-    // _language();
-  }
+        // Add language class to body
+        _language();
+    }
 
-  // Let's use a global variable (global as in available to all our components - not the window object!)
-  // to add a class to the body tag
-  // function _language() {
-  //   $('body').addClass(ig.lang);
-  // }
+    // Let's use a global variable (global as in available to all our components - not the window object!)
+    // to add a class to the body tag
+    function _language() {
+        $('body').addClass(ig.lang);
+    }
 
-  return {
-    init
-  }
+    return {
+        init
+    }
 })();
 
 // Bootstrap app
 $(document).ready(function () {
-  app.init();
+    app.init();
 });

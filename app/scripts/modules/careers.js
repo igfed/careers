@@ -434,8 +434,8 @@ export default (() => {
             slidesToShow: 1,
             slidesToScroll: 1,
             adaptiveHeight: true,
-            prevArrow: '<span type="button" class="carousel-prev"><img src="/content/dam/investorsgroup/app/careers/images/Arrow-MainArticle-Carousel-Black-L.png"></span>',
-            nextArrow: '<span type="button" class="carousel-next"><img src="/content/dam/investorsgroup/app/careers/images/Arrow-MainArticle-Carousel-Black-R.png"></span>'
+            prevArrow: '<span type="button" class="carousel-prev"><img src="/images/Arrow-MainArticle-Carousel-Black-L.png"></span>',
+            nextArrow: '<span type="button" class="carousel-next"><img src="/images/Arrow-MainArticle-Carousel-Black-R.png"></span>'
           });
           animateProfileSlider();
           $profileSlider.on('afterChange', animateProfileSlider);
