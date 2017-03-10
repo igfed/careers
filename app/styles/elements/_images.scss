@@ -1,0 +1,25 @@
+// Icons and Imagery
+//
+// Images
+//
+// Styleguide 1.4
+
+.image-logo { height: 35px; width: 120px; }
+.image-responsive {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.image-rounded { border-radius: $border-radius; }
+.image-circle { border-radius: 50%; }
+.image-thumbnail {
+	display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: $border-radius;
+    line-height: 1.42857143;
+    background-color: $lightest-color;
+    border: 1px solid $grey;
+    border-radius: $border-radius;
+    transition: all .2s ease-in-out;
+}
