@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d4426c1-34c5-4294-b647-3f34d0ad74e6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_breakpoint.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_color.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_flex.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_mixins.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_selector.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_unit.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_util.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_value.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/5c89b488e78057708cdec7c6d1a2355bf52ea5bd/_breakpoints.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/5c89b488e78057708cdec7c6d1a2355bf52ea5bd/_mixins.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/5c89b488e78057708cdec7c6d1a2355bf52ea5bd/_typography.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/5c89b488e78057708cdec7c6d1a2355bf52ea5bd/branding.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/5c89b488e78057708cdec7c6d1a2355bf52ea5bd/careers.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/5c89b488e78057708cdec7c6d1a2355bf52ea5bd/main.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/bc2fa792a2a2f7bb6cc63bc27fd78f9ac8c78725/_breakpoints.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/bc2fa792a2a2f7bb6cc63bc27fd78f9ac8c78725/_mixins.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/bc2fa792a2a2f7bb6cc63bc27fd78f9ac8c78725/_typography.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/bc2fa792a2a2f7bb6cc63bc27fd78f9ac8c78725/branding.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/bc2fa792a2a2f7bb6cc63bc27fd78f9ac8c78725/careers.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/bc2fa792a2a2f7bb6cc63bc27fd78f9ac8c78725/main.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/beec3d396e4246af438502f8720a11e5f1c64adf/_breakpoint.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/beec3d396e4246af438502f8720a11e5f1c64adf/_color.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/beec3d396e4246af438502f8720a11e5f1c64adf/_flex.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/beec3d396e4246af438502f8720a11e5f1c64adf/_mixins.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/beec3d396e4246af438502f8720a11e5f1c64adf/_selector.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/beec3d396e4246af438502f8720a11e5f1c64adf/_unit.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/beec3d396e4246af438502f8720a11e5f1c64adf/_util.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/beec3d396e4246af438502f8720a11e5f1c64adf/_value.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GruntFile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/careers.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/careers.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/05518C9D6EC8F6622.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/11AE153C0F6AE14A3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/1AA5B64FA5A91F3BA.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/1C8C28CAF1BBECD0F.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/2CCFDD0BABC47A174.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/36C8AB534ABE6D5ED.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/3E3B173246AF2F836.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/4852CC80C1EB93AE4.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/493FB8DB84CF2677A.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/4C5F23783CDA1D8C5.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/55A627A378EBB8D01.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/5BBFF5EBB7C40531B.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/5C8A716F52C493464.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/70D47EE4767C12A4D.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/71021F0E46188CE8F.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/80DDE9877DE890EFB.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/8434DFC903990A114.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/85C7E398EBE218460.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/86D5E67AC03939787.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/8821AA753BFAB56E2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/8EC2A0FC771FEC382.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/8FF3DEE95E2546BB8.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/9173DF0E3DDF429DE.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/9D16F3BE12E41E523.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/A2F7D95AA5B143EEF.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/B8832A43E04A2A0B4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/B8B562DA214D2BADA.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/BB09A575715A8F57B.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/BEA09405119A63129.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/C07BA00B57FC3575F.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/C28CC947C0C34E317.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/C52A398D31FF48D4F.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/CDFFF3CCD74ACC6BA.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/CF4A2E4A5A46BF7A8.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/DC3A641189625D299.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/DE4B6CDC7FCC18F2E.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/E19DFD5F89AFDF926.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/E58472A488B768677.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/E5A883FC7DE7E9900.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/379012/EC0FA6E085701149F.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/Whitney-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-book-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-book-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-book-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-book-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-book-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-booksc-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-booksc-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-booksc-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-booksc-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-booksc-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-light-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-light-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-light-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-light-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-light-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-medium.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-medium.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-mediumsc-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-mediumsc-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-mediumsc-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-mediumsc-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-mediumsc-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-semibold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-semibold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-semibold-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-semibold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fonts/whitney-semibold-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main_fall_2016.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/mortgage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/warningbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/careers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/data/cities.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/data/names.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/data/postal-code.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/data/suggestions.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/data/videos.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/faq-old.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/mortgage-all-in-one.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/mortgage-faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/mortgage-rates.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/mortgage-rates_orig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/mortgage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/en/mortgage_orig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/external/data/rates/igadr_prices_rates_mortgage.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/.github/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/.scss-lint.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/assets/foundation-flex.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/assets/foundation-rtl.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/assets/foundation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/code-of-conduct.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/customizer/complete.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/customizer/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/customizer/essential.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/customizer/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/docslink.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.abide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.accordionMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.drilldown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.dropdownMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.equalizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.interchange.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.magellan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.offcanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.orbit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.responsiveMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.responsiveToggle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.reveal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.sticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.tabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.toggler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.util.box.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.util.keyboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.util.mediaQuery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.util.motion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.util.nest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.util.timerAndImageLoader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.util.touch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/js/foundation.util.triggers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/_global.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_accordion-menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_accordion.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_breadcrumbs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_button-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_callout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_close-button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_drilldown.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_dropdown-menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_dropdown.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_flex-video.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_flex.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_float.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_label.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_media-object.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_menu-icon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_off-canvas.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_orbit.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_progress-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_reveal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_slider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_sticky.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_switch.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_table.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_thumbnail.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_title-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_top-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/components/_visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/forms/_checkbox.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/forms/_error.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/forms/_fieldset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/forms/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/forms/_help-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/forms/_input-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/forms/_label.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/forms/_meter.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/forms/_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/forms/_range.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/forms/_select.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/forms/_text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/foundation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/grid/_classes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/grid/_column.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/grid/_flex-grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/grid/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/grid/_gutter.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/grid/_layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/grid/_position.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/grid/_row.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/grid/_size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/settings/_settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/typography/_alignment.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/typography/_base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/typography/_helpers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/typography/_print.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/typography/_typography.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/util/_breakpoint.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/util/_color.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/util/_flex.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/util/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/util/_selector.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/util/_unit.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/util/_util.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/foundation-sites/scss/util/_value.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fr/careers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fr/data/cities.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fr/data/names.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fr/data/postal-code.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fr/data/suggestions.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fr/data/videos.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/careers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/languageToggle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/05518C9D6EC8F6622.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/11AE153C0F6AE14A3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/1AA5B64FA5A91F3BA.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/1C8C28CAF1BBECD0F.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/2CCFDD0BABC47A174.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/36C8AB534ABE6D5ED.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/3E3B173246AF2F836.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/4852CC80C1EB93AE4.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/493FB8DB84CF2677A.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/4C5F23783CDA1D8C5.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/55A627A378EBB8D01.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/5BBFF5EBB7C40531B.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/5C8A716F52C493464.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/70D47EE4767C12A4D.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/71021F0E46188CE8F.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/80DDE9877DE890EFB.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/8434DFC903990A114.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/85C7E398EBE218460.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/86D5E67AC03939787.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/8821AA753BFAB56E2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/8EC2A0FC771FEC382.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/8FF3DEE95E2546BB8.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/9173DF0E3DDF429DE.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/9D16F3BE12E41E523.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/A2F7D95AA5B143EEF.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/B8832A43E04A2A0B4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/B8B562DA214D2BADA.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/BB09A575715A8F57B.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/BEA09405119A63129.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/C07BA00B57FC3575F.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/C28CC947C0C34E317.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/C52A398D31FF48D4F.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/CDFFF3CCD74ACC6BA.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/CF4A2E4A5A46BF7A8.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/DC3A641189625D299.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/DE4B6CDC7FCC18F2E.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/E19DFD5F89AFDF926.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/E58472A488B768677.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/E5A883FC7DE7E9900.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/379012/EC0FA6E085701149F.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/Whitney-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-book-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-book-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-book-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-book-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-book-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-booksc-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-booksc-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-booksc-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-booksc-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-booksc-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-light-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-light-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-light-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-light-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-light-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-medium.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-medium.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-mediumsc-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-mediumsc-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-mediumsc-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-mediumsc-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-mediumsc-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-semibold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-semibold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-semibold-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-semibold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/fonts/whitney-semibold-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/foundation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/foundation.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/main.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/mortgage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/css/mortgage.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/data/QuizData-en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/data/QuizData-fr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/data/SiteData-en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/data/SiteData-fr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/data/cities-en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/data/cities-fr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Arrow-MainArticle-Carousel-Black-L.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Arrow-MainArticle-Carousel-Black-R.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Arrow-MainArticle-Carousel-Green-L.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Arrow-MainArticle-Carousel-Green-R.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Career-strategies-no-glasses.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Career-strategies-retirement_vig.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Career-strategies-sabbatical-vigg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Compact-Cruising-gray-whale-calf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Family_First-CREDIT_Illustration_by_Vigg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Fresh-start-Curtis-Burns.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Fresh-start-hockey-Haiti.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/HERO_CREDIT-Courtesy_Four-Season-Nevis.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/IG-logo-en.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/IG-logo-fr.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/IG_BW_EN.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/IG_BW_FR.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Ireland-Travels-Colcannon-on-Burren-FULL.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--estate-planning-A.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--estate-planning-B.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--estate-planning-C.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--estate-planning.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--insurance-A.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--insurance-B.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--insurance-C.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--insurance.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--investments-A.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--investments-B.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--investments-C.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--investments.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--mortgage-A.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--mortgage-B.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--mortgage-C.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--mortgage-all-in-one.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--mortgage-rates.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--mortgage.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--retirement-A.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--retirement-B.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--retirement-C.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--retirement.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--tax-planning-A.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--tax-planning-B.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--tax-planning-C.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/L2-highlights/HL--tax-planning.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Life-Perfect-House.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Logo_IG90_combined_TopLeft_E_RGB.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Logo_IG90_combined_TopLeft_E_RGB.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Logo_IG90_combined_TopLeft_F_RGB.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Logo_IG90_combined_TopLeft_F_RGB.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/MORE_04-16_IQ-illustration.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/MORE_04-16_good-travel-deal-illustration-no-credit-needed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/NEW-image-MORE_04-16_May-long-weekend-illustration-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/People-who-care-Cast-of-Annie.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Places-to-visit-yoga-Jamaica-GoldenEye.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/QA-hourglass-flipped.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/QA-money-tree.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Retirement_Income-CREDIT_Illustration_by_Vigg-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Retirement_Income-CREDIT_Illustration_by_Vigg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Sig-Lives-Kathy-Knowles-1-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/The-payoff-Nest-Egg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/The-payoff-legacy-flt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/TriggsFamily-CREDIT_Lionel_Trudel.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/TriggsFamily-CREDIT_Lionel_Trudel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/Work-Cut-Email-Clutter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/accessability.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/arrow-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/Logo_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/amy-guenther.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/blades.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/careers_careerprogression_pick_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/careers_community_mapleleaf_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/careers_diversework_ring_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/careers_ouradvisors_compass_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/careers_ouradvisors_natfootprint_boots_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/careers_ourpeople_pindrop_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/careers_powerfulnetwork_carabiner_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/careers_trainingmentorship_2carabiner_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/girish-agrawal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/green-paint-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/grey-edge-background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/timeline-foreground-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/timeline-foreground-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/careers/timeline-foreground.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/close-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/close-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/consultant_webpage_open_icon_3C_191016.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/fr-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/hero/hero_bg_1024.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/hero/hero_bg_1024@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/hero/hero_bg_1440.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/hero/hero_bg_640@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/hero/people_1024.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/hero/people_1440.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/hero/people_640.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/icons/estate-planning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/icons/info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/icons/insurance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/icons/investments.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/icons/mortgage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/icons/retirement.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/icons/tax-planning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/ig-social-header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/ill-contact.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/intro-bg-0-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/intro-bg-0-fg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/intro-bg-0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/intro-bg-1-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/intro-bg-1-fg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/intro-bg-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/intro-bg-2-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/intro-bg-2-bg_2000.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/intro-bg-2-fg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/intro-bg-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/lead-a-fuller-life.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/left-arrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/logo-ig-e.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/logo-ig-f.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/m-nav.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/map-marker-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/more_advice.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/quiz-checkmark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/quiz/quiz-q1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/quiz/quiz-q2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/quiz/quiz-q3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/quiz/quiz-q4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/quiz/quiz-q5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/quiz/quiz-q6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/right-arrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp-enough.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp/en_estate-planning_370.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp/en_insurance_370.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp/en_investments_370.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp/en_mortgage_370.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp/en_retirement_370.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp/en_rrsp_370.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp/en_tax-planning_370.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp/fr_estate-planning_370.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp/fr_insurance_370.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp/fr_investments_370.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp/fr_mortgage_370.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp/fr_retirement_370.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp/fr_rrsp_370.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/rrsp/fr_tax-planning_370.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/search-icon-in-search-box.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/images/video_mask_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/js/IG_UTILS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/js/bundle-landing-1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/js/bundle-landing-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/js/bundle-quiz.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/js/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/js/globalSummer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/js/jquery.dotdotdot.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/js/landing1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/js/landing2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/js/mortgage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/js/retirement-records.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/js/vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/pdf/Contribute to RRSPs Regularly en.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/pdf/Contribute to RRSPs Regularly fr.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/pdf/RRSP or TFSA en.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/pdf/RRSP or TFSA fr.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/pdf/Retirement Paycheque en.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/landing/pdf/Retirement Paycheque fr.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_breakpoints.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/_typography.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/branding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/careers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/mortgage-additional.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/mortgage.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/foundation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/foundation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/foundation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery-migrate-1.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/mustache.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/slick.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/typeahead.bundle.min.js" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="careers" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sharer</find>
+      <find>data</find>
+      <find>modelUrl</find>
+      <find>model</find>
+      <find>console</find>
+      <find>/content/dam/investorsgroup/app/careers</find>
+      <find>dam</find>
+      <find>illustration</find>
+      <find>tp_03a +</find>
+      <find>immig</find>
+      <find>5.6re</find>
+      <find>-0.4</find>
+      <find>named one</find>
+      <find>/images</find>
+      <find>&quot;/images</find>
+      <find>access</find>
+      <find>top-button</find>
+      <find>top</find>
+      <find>footer</find>
+      <find>clientvu</find>
+      <find>client</find>
+      <find>href=</find>
+      <find>MainArticle</find>
+      <find>src=</find>
+      <find>src=&quot;</find>
+      <find>main.css</find>
+      <find>vendor.js</find>
+      <find>text-transform: in</find>
+      <find>findan</find>
+      <find>find</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;../fonts</replace>
+      <replace>@include</replace>
+      <replace>@media screen and (min-width: 1441px) and (max-width: 1920px)</replace>
+      <replace>../</replace>
+      <replace>&quot;WhitneySemibold&quot;</replace>
+      <replace>#0d263c</replace>
+      <replace>$darkest-color</replace>
+      <replace>#0d0c11</replace>
+      <replace>#0ed59a</replace>
+      <replace>max-width</replace>
+      <replace>button</replace>
+      <replace>max-width: 639</replace>
+      <replace>min-width: 1440</replace>
+      <replace>639px</replace>
+      <replace>url('/</replace>
+      <replace>.body-wrapper</replace>
+      <replace>/</replace>
+      <replace>'div.body-wrapper'</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\ernyd\Documents\development\ig\careers\scss</dir>
+      <dir>C:\Users\ernyd\Documents\development\ig\careers\app\styles\elements</dir>
+      <dir>C:\Users\ernyd\Documents\development\ig\careers\app\styles</dir>
+      <dir>C:\Users\ernyd\Documents\development\ig\careers\app\scripts</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/styles/tools/_mixins.scss" />
+        <option value="$PROJECT_DIR$/app/careers.html" />
+        <option value="$PROJECT_DIR$/regular_html_index.html" />
+        <option value="$PROJECT_DIR$/open_text_index.html" />
+        <option value="$PROJECT_DIR$/scss/branding.scss" />
+        <option value="$PROJECT_DIR$/en/careers.html" />
+        <option value="$PROJECT_DIR$/fr/careers.html" />
+        <option value="$PROJECT_DIR$/scss/careers.scss" />
+        <option value="$PROJECT_DIR$/.bower.json" />
+        <option value="$PROJECT_DIR$/app/fr/careers.html" />
+        <option value="$PROJECT_DIR$/app/scripts/modules/forms.js" />
+        <option value="$PROJECT_DIR$/.tmp/scripts/main.js" />
+        <option value="$PROJECT_DIR$/app/scripts/modules/global.js" />
+        <option value="$PROJECT_DIR$/app/en/careers.html" />
+        <option value="$PROJECT_DIR$/.eslintrc" />
+        <option value="$PROJECT_DIR$/app/scripts/careers.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/app/scripts/global.js" />
+        <option value="$PROJECT_DIR$/app/scripts/carousel.js" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/styles/settings/_settings.scss" />
+        <option value="$PROJECT_DIR$/js/search.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/js/careers.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/styles/main.scss" />
+        <option value="$PROJECT_DIR$/app/styles/modules/_video.scss" />
+        <option value="$USER_HOME$/Downloads/cataclysmdda-0.C-6289/config/options.json" />
+        <option value="$PROJECT_DIR$/../../../ADOM/adom_steam/adom.kbd" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/scripts/modules/video.js" />
+        <option value="$PROJECT_DIR$/app/scripts/modules/search.js" />
+        <option value="$PROJECT_DIR$/app/scripts/modules/app.js" />
+        <option value="$PROJECT_DIR$/dist/scripts/main.js" />
+        <option value="$PROJECT_DIR$/app/styles/modules/_footer.scss" />
+        <option value="$PROJECT_DIR$/app/fr-footer" />
+        <option value="$PROJECT_DIR$/app/en-footer.html" />
+        <option value="$PROJECT_DIR$/app/fr-footer.html" />
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
+        <option value="$PROJECT_DIR$/app/scripts/modules/careers.js" />
+        <option value="$PROJECT_DIR$/app/careers-en.html" />
+        <option value="$PROJECT_DIR$/app/careers-fr.html" />
+        <option value="$PROJECT_DIR$/app/scripts/modules/carousel.js" />
+        <option value="$PROJECT_DIR$/dist/careers-fr.html" />
+        <option value="$PROJECT_DIR$/dist/careers-en.html" />
+        <option value="$PROJECT_DIR$/dist/en/careers.html" />
+        <option value="$PROJECT_DIR$/dist/fr/careers.html" />
+        <option value="$PROJECT_DIR$/app/styles/components/_careers.scss" />
+        <option value="$PROJECT_DIR$/dist/styles/main.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="C:\Users\ernyd\Documents\development\ig\careers\node_modules\eslint" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="js.eslint.nodeInterpreter" value="project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pattern-library" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ernyd\Documents\development\ig\careers\dist\fr" />
+      <recent name="C:\Users\ernyd\Documents\development\ig\careers\dist\en" />
+      <recent name="C:\Users\ernyd\Documents\development\ig\careers\app\styles\modules" />
+      <recent name="C:\Users\ernyd\Documents\development\ig\careers\app\images" />
+      <recent name="C:\Users\ernyd\Documents\development\ig\careers\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ernyd\Documents\ADOM\adom_steam" />
+      <recent name="C:\Users\ernyd\Documents\development\ig\careers\app\images" />
+      <recent name="C:\Users\ernyd\Documents\development\ig\careers\app\styles\modules" />
+      <recent name="C:\Users\ernyd\Documents\development\ig\careers\app\scripts\modules" />
+      <recent name="C:\Users\ernyd\Documents\development\ig\careers\app\fonts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.English">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="English" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:9000/careers-en.html">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.English" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d4426c1-34c5-4294-b647-3f34d0ad74e6" name="Default" comment="" />
+      <created>1487267825675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1487267825675</updated>
+      <workItem from="1487267838591" duration="12288000" />
+      <workItem from="1487341199877" duration="18987000" />
+      <workItem from="1487683952408" duration="15624000" />
+      <workItem from="1487773086059" duration="11931000" />
+      <workItem from="1487863345978" duration="9844000" />
+      <workItem from="1487877554543" duration="8874000" />
+      <workItem from="1487948125397" duration="1570000" />
+      <workItem from="1487951138031" duration="4746000" />
+      <workItem from="1487955923083" duration="12277000" />
+      <workItem from="1488207634338" duration="2601000" />
+      <workItem from="1488211850732" duration="761000" />
+      <workItem from="1488291545183" duration="2069000" />
+      <workItem from="1488381107490" duration="1256000" />
+      <workItem from="1488386474625" duration="7000" />
+      <workItem from="1488393859049" duration="4970000" />
+      <workItem from="1488399525562" duration="3862000" />
+      <workItem from="1488464822794" duration="11472000" />
+      <workItem from="1488507228477" duration="48000" />
+      <workItem from="1488507362895" duration="24000" />
+      <workItem from="1488507521763" duration="31000" />
+      <workItem from="1488512709370" duration="7183000" />
+      <workItem from="1488548728501" duration="1498000" />
+      <workItem from="1488550452808" duration="1056000" />
+      <workItem from="1488553152607" duration="9546000" />
+      <workItem from="1488562726828" duration="8000" />
+      <workItem from="1488573250778" duration="2113000" />
+      <workItem from="1488810221435" duration="16047000" />
+      <workItem from="1488895871284" duration="606000" />
+      <workItem from="1488925350595" duration="605000" />
+      <workItem from="1488980742241" duration="9000" />
+      <workItem from="1489002873809" duration="2642000" />
+      <workItem from="1489025634513" duration="1884000" />
+      <workItem from="1489077113829" duration="24000" />
+      <workItem from="1489077154345" duration="46000" />
+      <workItem from="1489077214630" duration="55000" />
+      <workItem from="1489077283217" duration="529000" />
+      <workItem from="1489077905281" duration="29000" />
+      <workItem from="1489078211817" duration="4396000" />
+      <workItem from="1489085420479" duration="407000" />
+      <workItem from="1489086224547" duration="227000" />
+      <workItem from="1489086576673" duration="285000" />
+      <workItem from="1489087248328" duration="1150000" />
+      <workItem from="1489088428627" duration="7210000" />
+      <workItem from="1489156384944" duration="320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="181289000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16167024" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2710496" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995381" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26789838" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22878624" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33025405" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995381" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/data/cities.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/search.js" />
+    <entry file="file://$PROJECT_DIR$/app/scripts/global.js" />
+    <entry file="file://$PROJECT_DIR$/app/scripts/carousel.js" />
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js" />
+    <entry file="file://$PROJECT_DIR$/app/scripts/event-test-1.js" />
+    <entry file="file://$PROJECT_DIR$/app/scripts/event-test-2.js" />
+    <entry file="file://$PROJECT_DIR$/rollup.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_callout.scss" />
+    <entry file="file://$PROJECT_DIR$/app/styles/modules/_accordion.scss" />
+    <entry file="file://$PROJECT_DIR$/app/templates/content/homepage.md" />
+    <entry file="file://$PROJECT_DIR$/app/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/app/styles/settings/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/search.js" />
+    <entry file="file://$PROJECT_DIR$/js/careers.js" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/modules/_video.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="65" column="12" lean-forward="false" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/foundation-sites/dist/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23496">
+          <caret line="1068" column="19" lean-forward="false" selection-start-line="1068" selection-start-column="19" selection-end-line="1068" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/adom.kbd" />
+    <entry file="file://$PROJECT_DIR$/../../../ADOM/adom_steam/adom.kbd.txt" />
+    <entry file="file://$USER_HOME$/Downloads/cataclysmdda-0.C-6289/config/options.json" />
+    <entry file="file://$PROJECT_DIR$/../../../ADOM/adom_steam/adom.kbd.0" />
+    <entry file="file://$PROJECT_DIR$/../../../ADOM/adom_steam/adom.kbd" />
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2830">
+          <caret line="5857" column="21" lean-forward="false" selection-start-line="5857" selection-start-column="21" selection-end-line="5857" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/elements/_forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8712">
+          <caret line="396" column="23" lean-forward="false" selection-start-line="396" selection-start-column="23" selection-end-line="396" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/modules/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/modules/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/data/cities.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="297" column="1" lean-forward="false" selection-start-line="297" selection-start-column="1" selection-end-line="297" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/modules/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="0" column="8155" lean-forward="true" selection-start-line="0" selection-start-column="8155" selection-end-line="0" selection-end-column="8155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/modules/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr/careers.html" />
+    <entry file="file://$PROJECT_DIR$/en/careers.html" />
+    <entry file="file://$PROJECT_DIR$/app/styles/modules/footer_old.css" />
+    <entry file="file://$PROJECT_DIR$/app/fr-footer.html" />
+    <entry file="file://$PROJECT_DIR$/app/en-footer.html" />
+    <entry file="file://$USER_HOME$/Desktop/careers-fr-old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="1112" column="43" lean-forward="true" selection-start-line="1112" selection-start-column="43" selection-end-line="1112" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/modules/careers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/modules/carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/en/careers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1870">
+          <caret line="0" column="256" lean-forward="false" selection-start-line="0" selection-start-column="256" selection-end-line="0" selection-end-column="256" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/fr/careers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="7" column="2145" lean-forward="false" selection-start-line="7" selection-start-column="2145" selection-end-line="7" selection-end-column="2145" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13596">
+          <caret line="618" column="79" lean-forward="false" selection-start-line="618" selection-start-column="79" selection-end-line="618" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/modules/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="189" column="23" lean-forward="true" selection-start-line="189" selection-start-column="23" selection-end-line="189" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/careers-fr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1151" column="27" lean-forward="false" selection-start-line="1151" selection-start-column="27" selection-end-line="1151" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/careers-en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21450">
+          <caret line="1071" column="55" lean-forward="false" selection-start-line="1071" selection-start-column="55" selection-end-line="1071" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/careers.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="3430" column="15" lean-forward="true" selection-start-line="3430" selection-start-column="15" selection-end-line="3430" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="0" column="120475" lean-forward="true" selection-start-line="0" selection-start-column="120475" selection-end-line="0" selection-end-column="120475" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_careers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="4346" column="1" lean-forward="false" selection-start-line="4346" selection-start-column="1" selection-end-line="4346" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
