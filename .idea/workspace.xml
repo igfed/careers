@@ -2,289 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d4426c1-34c5-4294-b647-3f34d0ad74e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/39085432704640db00c763a44309f76285eddf2a/_breakpoints.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/39085432704640db00c763a44309f76285eddf2a/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/39085432704640db00c763a44309f76285eddf2a/_typography.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/39085432704640db00c763a44309f76285eddf2a/branding.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/39085432704640db00c763a44309f76285eddf2a/careers.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/39085432704640db00c763a44309f76285eddf2a/main.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_breakpoint.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_color.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_flex.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_selector.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_unit.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_util.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/4465f97fc76a927183580f69825afcf700f9f6ca/_value.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/47292726b0a749c31c2624042581f80e89af97c2/_breakpoints.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/47292726b0a749c31c2624042581f80e89af97c2/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/47292726b0a749c31c2624042581f80e89af97c2/_typography.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/47292726b0a749c31c2624042581f80e89af97c2/branding.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/47292726b0a749c31c2624042581f80e89af97c2/careers.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/47292726b0a749c31c2624042581f80e89af97c2/main.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/59f42c85e1a284b26354ab042a530d15f07fdae8/_breakpoint.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/59f42c85e1a284b26354ab042a530d15f07fdae8/_color.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/59f42c85e1a284b26354ab042a530d15f07fdae8/_flex.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/59f42c85e1a284b26354ab042a530d15f07fdae8/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/59f42c85e1a284b26354ab042a530d15f07fdae8/_selector.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/59f42c85e1a284b26354ab042a530d15f07fdae8/_unit.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/59f42c85e1a284b26354ab042a530d15f07fdae8/_util.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/59f42c85e1a284b26354ab042a530d15f07fdae8/_value.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/5ba05845b5ae621c656b212625482bde011c05ed/_breakpoints.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/5ba05845b5ae621c656b212625482bde011c05ed/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/5ba05845b5ae621c656b212625482bde011c05ed/_typography.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/5ba05845b5ae621c656b212625482bde011c05ed/branding.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/5ba05845b5ae621c656b212625482bde011c05ed/careers.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/5ba05845b5ae621c656b212625482bde011c05ed/main.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bc2fa792a2a2f7bb6cc63bc27fd78f9ac8c78725/_breakpoints.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bc2fa792a2a2f7bb6cc63bc27fd78f9ac8c78725/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bc2fa792a2a2f7bb6cc63bc27fd78f9ac8c78725/_typography.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bc2fa792a2a2f7bb6cc63bc27fd78f9ac8c78725/branding.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bc2fa792a2a2f7bb6cc63bc27fd78f9ac8c78725/careers.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bc2fa792a2a2f7bb6cc63bc27fd78f9ac8c78725/main.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ebd86f079543c7971613eddb9a89352c991094ae/_breakpoint.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ebd86f079543c7971613eddb9a89352c991094ae/_color.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ebd86f079543c7971613eddb9a89352c991094ae/_flex.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ebd86f079543c7971613eddb9a89352c991094ae/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ebd86f079543c7971613eddb9a89352c991094ae/_selector.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ebd86f079543c7971613eddb9a89352c991094ae/_unit.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ebd86f079543c7971613eddb9a89352c991094ae/_util.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ebd86f079543c7971613eddb9a89352c991094ae/_value.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f91ed7fa2e476ae6c2f220a5db61128492344967/_breakpoint.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f91ed7fa2e476ae6c2f220a5db61128492344967/_color.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f91ed7fa2e476ae6c2f220a5db61128492344967/_flex.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f91ed7fa2e476ae6c2f220a5db61128492344967/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f91ed7fa2e476ae6c2f220a5db61128492344967/_selector.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f91ed7fa2e476ae6c2f220a5db61128492344967/_unit.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f91ed7fa2e476ae6c2f220a5db61128492344967/_util.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/f91ed7fa2e476ae6c2f220a5db61128492344967/_value.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/whitney-medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/Arrow-MainArticle-Carousel-Black-L.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/Arrow-MainArticle-Carousel-Black-R.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/Arrow-MainArticle-Carousel-Green-L.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/Arrow-MainArticle-Carousel-Green-R.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/error-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/spinner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/throbber.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/video-overlay.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/whitney-medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Black-L.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Black-R.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Green-L.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Green-R.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/IG-logo-en.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/Logo_small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/amy-guenther.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/blades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/careers_careerprogression_pick_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/careers_community_mapleleaf_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/careers_diversework_ring_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/careers_ouradvisors_compass_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/careers_ouradvisors_natfootprint_boots_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/careers_ourpeople_pindrop_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/careers_powerfulnetwork_carabiner_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/careers_trainingmentorship_2carabiner_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/error-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/fr-top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/girish-agrawal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/green-paint-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/grey-edge-background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hero_bg_1024.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hero_bg_1024@2x.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hero_bg_1440.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/hero_bg_640@2x.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/ig-social-header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/map-marker-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/people_1024.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/people_1440.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/people_640.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/search-icon-in-search-box.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/spinner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/throbber.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/timeline-foreground-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/timeline-foreground-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/timeline-foreground.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/video-overlay.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.eslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/careers-en.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/careers-fr.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logo-en-bw.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logo-en-color.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logo-fr-bw.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/logo-fr-color.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/share-email-green.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/share-facebook-green.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/share-green.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/share-linkedin-green.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/share-twitter-green.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/socialfacebook.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/sociallinkedin.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/socialtwitter.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/socialyoutube.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/modules/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/modules/careers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/modules/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/modules/forms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/modules/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/modules/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/modules/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/components/_careers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/elements/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/elements/_color.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/elements/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/elements/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/elements/_images.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/elements/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/elements/_typography.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/modules/_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/modules/_video.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/settings/_overrides.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/settings/_settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/tools/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/en/careers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/fr/careers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Black-L.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Black-R.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Green-L.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Green-R.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/IG-logo-fr.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/IG_BW_EN.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/IG_BW_FR.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo-en-bw.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo-en-color.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo-fr-bw.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo-fr-color.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/share-email-green.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/share-facebook-green.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/share-green.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/share-linkedin-green.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/share-twitter-green.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/socialfacebook.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/sociallinkedin.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/socialtwitter.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/socialyoutube.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/vendor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/styles/vendor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rollup.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/Whitney-medium.ttf" afterPath="$PROJECT_DIR$/app/fonts/Whitney-medium.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-book-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/whitney-book-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-book-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/whitney-book-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-book-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/whitney-book-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-book-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/whitney-book-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-booksc-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/whitney-booksc-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-booksc-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/whitney-booksc-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-booksc-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/whitney-booksc-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-booksc-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/whitney-booksc-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-light-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/whitney-light-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-light-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/whitney-light-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-light-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/whitney-light-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-light-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/whitney-light-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-medium.woff" afterPath="$PROJECT_DIR$/app/fonts/whitney-medium.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-mediumsc-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/whitney-mediumsc-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-mediumsc-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/whitney-mediumsc-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-mediumsc-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/whitney-mediumsc-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-mediumsc-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/whitney-mediumsc-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-mediumsc.ttf" afterPath="$PROJECT_DIR$/app/fonts/whitney-mediumsc.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-semibold-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/whitney-semibold-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-semibold-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/whitney-semibold-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-semibold-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/whitney-semibold-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-semibold-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/whitney-semibold-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/IG-logo-en.png" afterPath="$PROJECT_DIR$/app/images/IG-logo-en.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/Logo_small.png" afterPath="$PROJECT_DIR$/app/images/Logo_small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/amy-guenther.png" afterPath="$PROJECT_DIR$/app/images/amy-guenther.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/blades.png" afterPath="$PROJECT_DIR$/app/images/blades.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/careers_careerprogression_pick_icon.png" afterPath="$PROJECT_DIR$/app/images/careers_careerprogression_pick_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/careers_community_mapleleaf_icon.png" afterPath="$PROJECT_DIR$/app/images/careers_community_mapleleaf_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/careers_diversework_ring_icon.png" afterPath="$PROJECT_DIR$/app/images/careers_diversework_ring_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/careers_ouradvisors_compass_icon.png" afterPath="$PROJECT_DIR$/app/images/careers_ouradvisors_compass_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/careers_ouradvisors_natfootprint_boots_icon.png" afterPath="$PROJECT_DIR$/app/images/careers_ouradvisors_natfootprint_boots_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/careers_ourpeople_pindrop_icon.png" afterPath="$PROJECT_DIR$/app/images/careers_ourpeople_pindrop_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/careers_powerfulnetwork_carabiner_icon.png" afterPath="$PROJECT_DIR$/app/images/careers_powerfulnetwork_carabiner_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/careers_trainingmentorship_2carabiner_icon.png" afterPath="$PROJECT_DIR$/app/images/careers_trainingmentorship_2carabiner_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/fr-top.png" afterPath="$PROJECT_DIR$/app/images/fr-top.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/girish-agrawal.png" afterPath="$PROJECT_DIR$/app/images/girish-agrawal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/green-paint-background.jpg" afterPath="$PROJECT_DIR$/app/images/green-paint-background.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/grey-edge-background.png" afterPath="$PROJECT_DIR$/app/images/grey-edge-background.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/hero_bg_1024.jpg" afterPath="$PROJECT_DIR$/app/images/hero_bg_1024.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/hero_bg_1024@2x.jpg" afterPath="$PROJECT_DIR$/app/images/hero_bg_1024@2x.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/hero_bg_1440.jpg" afterPath="$PROJECT_DIR$/app/images/hero_bg_1440.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/hero_bg_640@2x.jpg" afterPath="$PROJECT_DIR$/app/images/hero_bg_640@2x.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/ig-social-header.jpg" afterPath="$PROJECT_DIR$/app/images/ig-social-header.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/map-marker-blue.png" afterPath="$PROJECT_DIR$/app/images/map-marker-blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/people_1024.png" afterPath="$PROJECT_DIR$/app/images/people_1024.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/people_1440.png" afterPath="$PROJECT_DIR$/app/images/people_1440.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/people_640.png" afterPath="$PROJECT_DIR$/app/images/people_640.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/search-icon-in-search-box.png" afterPath="$PROJECT_DIR$/app/images/search-icon-in-search-box.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/timeline-foreground-1.png" afterPath="$PROJECT_DIR$/app/images/timeline-foreground-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/timeline-foreground-2.png" afterPath="$PROJECT_DIR$/app/images/timeline-foreground-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/timeline-foreground.png" afterPath="$PROJECT_DIR$/app/images/timeline-foreground.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/Whitney-medium.ttf" afterPath="$PROJECT_DIR$/dist/fonts/Whitney-medium.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.eot" afterPath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.ttf" afterPath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.woff" afterPath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.woff2" afterPath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.eot" afterPath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.ttf" afterPath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.woff" afterPath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.woff2" afterPath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.eot" afterPath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.ttf" afterPath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.woff" afterPath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.woff2" afterPath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-medium.woff" afterPath="$PROJECT_DIR$/dist/fonts/whitney-medium.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc-webfont.eot" afterPath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc-webfont.woff" afterPath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc-webfont.woff2" afterPath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.eot" afterPath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.ttf" afterPath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.woff" afterPath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.woff2" afterPath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="$PROJECT_DIR$/.bowerrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data/cities.json" afterPath="$PROJECT_DIR$/app/data/cities.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/app/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-book-webfont.svg" afterPath="$PROJECT_DIR$/app/fonts/whitney-book-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-booksc-webfont.svg" afterPath="$PROJECT_DIR$/app/fonts/whitney-booksc-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-light-webfont.svg" afterPath="$PROJECT_DIR$/app/fonts/whitney-light-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-medium.svg" afterPath="$PROJECT_DIR$/app/fonts/whitney-medium.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-mediumsc-webfont.svg" afterPath="$PROJECT_DIR$/app/fonts/whitney-mediumsc-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/fonts/whitney-semibold-webfont.svg" afterPath="$PROJECT_DIR$/app/fonts/whitney-semibold-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/IG-logo-fr.svg" afterPath="$PROJECT_DIR$/app/images/IG-logo-fr.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/IG_BW_EN.svg" afterPath="$PROJECT_DIR$/app/images/IG_BW_EN.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/IG_BW_FR.svg" afterPath="$PROJECT_DIR$/app/images/IG_BW_FR.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/data/cities.json" afterPath="$PROJECT_DIR$/dist/data/cities.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.svg" afterPath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.svg" afterPath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.svg" afterPath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-medium.svg" afterPath="$PROJECT_DIR$/dist/fonts/whitney-medium.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc-webfont.svg" afterPath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.svg" afterPath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -304,7 +22,7 @@
     <favorites_list name="careers" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -464,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -480,6 +197,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -633,12 +351,13 @@
       <workItem from="1489086576673" duration="285000" />
       <workItem from="1489087248328" duration="1150000" />
       <workItem from="1489088428627" duration="7210000" />
-      <workItem from="1489156384944" duration="431000" />
+      <workItem from="1489156384944" duration="774000" />
+      <workItem from="1489157293952" duration="66000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181400000" />
+    <option name="totallyTimeSpent" value="181809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -654,13 +373,12 @@
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16167024" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19111349" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2710496" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2710496" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -670,6 +388,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995381" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -762,13 +481,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/foundation-sites/dist/css/foundation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23496">
-          <caret line="1068" column="19" lean-forward="false" selection-start-line="1068" selection-start-column="19" selection-end-line="1068" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/foundation-sites/dist/css/foundation.css" />
     <entry file="file://$USER_HOME$/Desktop/adom.kbd" />
     <entry file="file://$PROJECT_DIR$/../../../ADOM/adom_steam/adom.kbd.txt" />
     <entry file="file://$USER_HOME$/Downloads/cataclysmdda-0.C-6289/config/options.json" />
@@ -849,18 +562,11 @@
     <entry file="file://$PROJECT_DIR$/app/styles/modules/footer_old.css" />
     <entry file="file://$PROJECT_DIR$/app/fr-footer.html" />
     <entry file="file://$PROJECT_DIR$/app/en-footer.html" />
-    <entry file="file://$USER_HOME$/Desktop/careers-fr-old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="1112" column="43" lean-forward="true" selection-start-line="1112" selection-start-column="43" selection-end-line="1112" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/careers-fr-old.html" />
     <entry file="file://$PROJECT_DIR$/app/scripts/modules/careers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,7 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1870">
           <caret line="0" column="256" lean-forward="false" selection-start-line="0" selection-start-column="256" selection-end-line="0" selection-end-column="256" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="7" column="2145" lean-forward="false" selection-start-line="7" selection-start-column="2145" selection-end-line="7" selection-end-column="2145" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13596">
           <caret line="618" column="79" lean-forward="false" selection-start-line="618" selection-start-column="79" selection-end-line="618" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="189" column="23" lean-forward="true" selection-start-line="189" selection-start-column="23" selection-end-line="189" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1151" column="27" lean-forward="false" selection-start-line="1151" selection-start-column="27" selection-end-line="1151" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,23 +616,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21450">
           <caret line="1071" column="55" lean-forward="false" selection-start-line="1071" selection-start-column="55" selection-end-line="1071" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/careers.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="3430" column="15" lean-forward="true" selection-start-line="3430" selection-start-column="15" selection-end-line="3430" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/careers.css" />
     <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="0" column="120475" lean-forward="true" selection-start-line="0" selection-start-column="120475" selection-end-line="0" selection-end-column="120475" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -940,7 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="4346" column="1" lean-forward="false" selection-start-line="4346" selection-start-column="1" selection-end-line="4346" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
