@@ -217,6 +217,7 @@ h3.tp_05a {
 
   strong {
     font-size: 1.7rem;
+    font-family: "WhitneyBook" !important;
   }
 }
 
@@ -2359,7 +2360,7 @@ header {
   }
 
   .section {
-    @media (max-width: 1439px) {
+    @media (max-width: 1440px) {
     }
 
     &.our-business {
@@ -2678,7 +2679,7 @@ header {
       background-color: #7ec4b9;
 
       .profile-metrics {
-        @media (max-width: 1439px) {
+        @media (max-width: 1440px) {
           display: none;
         }
       }
@@ -2781,7 +2782,7 @@ header {
 
       .profile-data-1, .profile-data-2 {
 
-        @media (max-width: 1439px) {
+        @media (max-width: 1440px) {
           text-align: center;
         }
 
