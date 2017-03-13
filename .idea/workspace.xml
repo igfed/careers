@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d4426c1-34c5-4294-b647-3f34d0ad74e6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/en/careers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fr/careers.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/main.js" afterPath="$PROJECT_DIR$/app/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/modules/video.js" afterPath="$PROJECT_DIR$/app/scripts/modules/video.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/components/_careers.scss" afterPath="$PROJECT_DIR$/app/styles/components/_careers.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/elements/_buttons.scss" afterPath="$PROJECT_DIR$/app/styles/elements/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/main.js" afterPath="$PROJECT_DIR$/dist/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/vendor.js" afterPath="$PROJECT_DIR$/dist/scripts/vendor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/vendor.css" afterPath="$PROJECT_DIR$/dist/styles/vendor.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,36 +33,162 @@
     <favorites_list name="careers" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="video.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/modules/video.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/scripts/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="9872" lean-forward="false" selection-start-line="0" selection-start-column="9872" selection-end-line="0" selection-end-column="9872" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="827" column="0" lean-forward="false" selection-start-line="827" selection-start-column="0" selection-end-line="827" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="careers.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/en/careers.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="753" column="48" lean-forward="true" selection-start-line="753" selection-start-column="48" selection-end-line="753" selection-end-column="48" />
+              <folding>
+                <element signature="e#2612#2620#0" expanded="true" />
+                <element signature="e#16869#16874#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="careers.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/fr/careers.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5280">
+              <caret line="808" column="32" lean-forward="false" selection-start-line="808" selection-start-column="31" selection-end-line="808" selection-end-column="32" />
+              <folding>
+                <element signature="e#5517#5525#0" expanded="true" />
+                <element signature="e#6540#6548#0" expanded="true" />
+                <element signature="e#6590#6598#0" expanded="true" />
+                <element signature="e#6601#6609#0" expanded="true" />
+                <element signature="e#6624#6631#0" expanded="true" />
+                <element signature="e#7424#7432#0" expanded="true" />
+                <element signature="e#7468#7476#0" expanded="true" />
+                <element signature="e#7569#7577#0" expanded="true" />
+                <element signature="e#7589#7597#0" expanded="true" />
+                <element signature="e#7616#7624#0" expanded="true" />
+                <element signature="e#7847#7855#0" expanded="true" />
+                <element signature="e#8025#8033#0" expanded="true" />
+                <element signature="e#8380#8388#0" expanded="true" />
+                <element signature="e#8395#8403#0" expanded="true" />
+                <element signature="e#8410#8417#0" expanded="true" />
+                <element signature="e#8584#8592#0" expanded="true" />
+                <element signature="e#8607#8614#0" expanded="true" />
+                <element signature="e#8699#8707#0" expanded="true" />
+                <element signature="e#8739#8747#0" expanded="true" />
+                <element signature="e#8864#8872#0" expanded="true" />
+                <element signature="e#8906#8914#0" expanded="true" />
+                <element signature="e#8939#8947#0" expanded="true" />
+                <element signature="e#8948#8956#0" expanded="true" />
+                <element signature="e#9546#9554#0" expanded="true" />
+                <element signature="e#9730#9738#0" expanded="true" />
+                <element signature="e#9820#9827#0" expanded="true" />
+                <element signature="e#9892#9900#0" expanded="true" />
+                <element signature="e#10004#10012#0" expanded="true" />
+                <element signature="e#10221#10229#0" expanded="true" />
+                <element signature="e#10262#10270#0" expanded="true" />
+                <element signature="e#10323#10331#0" expanded="true" />
+                <element signature="e#10407#10415#0" expanded="true" />
+                <element signature="e#10515#10523#0" expanded="true" />
+                <element signature="e#10555#10562#0" expanded="true" />
+                <element signature="e#10582#10590#0" expanded="true" />
+                <element signature="e#10632#10639#0" expanded="true" />
+                <element signature="e#13187#13195#0" expanded="true" />
+                <element signature="e#14684#14692#0" expanded="true" />
+                <element signature="e#14693#14701#0" expanded="true" />
+                <element signature="e#14904#14912#0" expanded="true" />
+                <element signature="e#15011#15019#0" expanded="true" />
+                <element signature="e#15434#15442#0" expanded="true" />
+                <element signature="e#15451#15459#0" expanded="true" />
+                <element signature="e#15460#15468#0" expanded="true" />
+                <element signature="e#15730#15738#0" expanded="true" />
+                <element signature="e#15855#15863#0" expanded="true" />
+                <element signature="e#15923#15931#0" expanded="true" />
+                <element signature="e#16280#16288#0" expanded="true" />
+                <element signature="e#16627#16635#0" expanded="true" />
+                <element signature="e#16678#16686#0" expanded="true" />
+                <element signature="e#16772#16780#0" expanded="true" />
+                <element signature="e#17158#17166#0" expanded="true" />
+                <element signature="e#18220#18228#0" expanded="true" />
+                <element signature="e#18501#18509#0" expanded="true" />
+                <element signature="e#18558#18566#0" expanded="true" />
+                <element signature="e#18567#18575#0" expanded="true" />
+                <element signature="e#18664#18672#0" expanded="true" />
+                <element signature="e#18700#18708#0" expanded="true" />
+                <element signature="e#18709#18717#0" expanded="true" />
+                <element signature="e#18757#18765#0" expanded="true" />
+                <element signature="e#19090#19098#0" expanded="true" />
+                <element signature="e#19103#19111#0" expanded="true" />
+                <element signature="e#19117#19125#0" expanded="true" />
+                <element signature="e#19263#19270#0" expanded="true" />
+                <element signature="e#19271#19279#0" expanded="true" />
+                <element signature="e#19294#19302#0" expanded="true" />
+                <element signature="e#19813#19821#0" expanded="true" />
+                <element signature="e#19823#19831#0" expanded="true" />
+                <element signature="e#19871#19879#0" expanded="true" />
+                <element signature="e#19904#19911#0" expanded="true" />
+                <element signature="e#20057#20065#0" expanded="true" />
+                <element signature="e#20324#20332#0" expanded="true" />
+                <element signature="e#20333#20341#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_careers.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/components/_careers.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58696">
+              <caret line="2668" column="0" lean-forward="false" selection-start-line="2668" selection-start-column="0" selection-end-line="2668" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sharer</find>
-      <find>data</find>
-      <find>modelUrl</find>
-      <find>model</find>
-      <find>console</find>
-      <find>/content/dam/investorsgroup/app/careers</find>
-      <find>dam</find>
-      <find>illustration</find>
-      <find>tp_03a +</find>
-      <find>immig</find>
-      <find>5.6re</find>
-      <find>-0.4</find>
       <find>named one</find>
       <find>/images</find>
       <find>&quot;/images</find>
       <find>access</find>
       <find>top-button</find>
       <find>top</find>
-      <find>footer</find>
       <find>clientvu</find>
       <find>client</find>
       <find>href=</find>
@@ -63,6 +200,19 @@
       <find>text-transform: in</find>
       <find>findan</find>
       <find>find</find>
+      <find>footer</find>
+      <find>top:</find>
+      <find>close-b</find>
+      <find>left: 2px</find>
+      <find>top:10px</find>
+      <find>line-height: 0.</find>
+      <find>2.7rem</find>
+      <find>left:2px</find>
+      <find>1.3px</find>
+      <find>margin-left: 3px;</find>
+      <find>line-height:.5</find>
+      <find>data-vid</find>
+      <find>data-a</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;../fonts</replace>
@@ -88,8 +238,8 @@
     <dirStrings>
       <dir>C:\Users\ernyd\Documents\development\ig\careers\scss</dir>
       <dir>C:\Users\ernyd\Documents\development\ig\careers\app\styles\elements</dir>
-      <dir>C:\Users\ernyd\Documents\development\ig\careers\app\styles</dir>
       <dir>C:\Users\ernyd\Documents\development\ig\careers\app\scripts</dir>
+      <dir>C:\Users\ernyd\Documents\development\ig\careers\app\styles</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -98,12 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/styles/tools/_mixins.scss" />
-        <option value="$PROJECT_DIR$/app/careers.html" />
-        <option value="$PROJECT_DIR$/regular_html_index.html" />
-        <option value="$PROJECT_DIR$/open_text_index.html" />
-        <option value="$PROJECT_DIR$/scss/branding.scss" />
-        <option value="$PROJECT_DIR$/en/careers.html" />
         <option value="$PROJECT_DIR$/fr/careers.html" />
         <option value="$PROJECT_DIR$/scss/careers.scss" />
         <option value="$PROJECT_DIR$/.bower.json" />
@@ -129,26 +273,32 @@
         <option value="$USER_HOME$/Downloads/cataclysmdda-0.C-6289/config/options.json" />
         <option value="$PROJECT_DIR$/../../../ADOM/adom_steam/adom.kbd" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/styles/main.css" />
-        <option value="$PROJECT_DIR$/app/scripts/modules/video.js" />
         <option value="$PROJECT_DIR$/app/scripts/modules/search.js" />
         <option value="$PROJECT_DIR$/app/scripts/modules/app.js" />
-        <option value="$PROJECT_DIR$/dist/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/styles/modules/_footer.scss" />
         <option value="$PROJECT_DIR$/app/fr-footer" />
         <option value="$PROJECT_DIR$/app/en-footer.html" />
         <option value="$PROJECT_DIR$/app/fr-footer.html" />
-        <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/scripts/modules/careers.js" />
         <option value="$PROJECT_DIR$/app/careers-en.html" />
         <option value="$PROJECT_DIR$/app/careers-fr.html" />
         <option value="$PROJECT_DIR$/app/scripts/modules/carousel.js" />
         <option value="$PROJECT_DIR$/dist/careers-fr.html" />
         <option value="$PROJECT_DIR$/dist/careers-en.html" />
-        <option value="$PROJECT_DIR$/dist/en/careers.html" />
-        <option value="$PROJECT_DIR$/dist/fr/careers.html" />
+        <option value="$PROJECT_DIR$/app/styles/elements/_buttons.scss" />
+        <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/styles/components/_careers.scss" />
         <option value="$PROJECT_DIR$/dist/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/chrome-video.html" />
+        <option value="$PROJECT_DIR$/app/styles/bc-sample-ie.html" />
+        <option value="$PROJECT_DIR$/dist/scripts/main.js" />
+        <option value="$PROJECT_DIR$/app/ie-11-video.html" />
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
+        <option value="$PROJECT_DIR$/dist/fr/careers.html" />
+        <option value="$PROJECT_DIR$/dist/en/careers.html" />
+        <option value="$PROJECT_DIR$/app/scripts/modules/video.js" />
+        <option value="$PROJECT_DIR$/dist/en/careers-en.html" />
+        <option value="$PROJECT_DIR$/dist/fr/careers-fr.html" />
       </list>
     </option>
   </component>
@@ -158,9 +308,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-2" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -182,7 +334,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,9 +347,149 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="careers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,6 +506,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -353,11 +646,15 @@
       <workItem from="1489088428627" duration="7210000" />
       <workItem from="1489156384944" duration="774000" />
       <workItem from="1489157293952" duration="66000" />
+      <workItem from="1489161797522" duration="11285000" />
+      <workItem from="1489202286518" duration="340000" />
+      <workItem from="1489411538829" duration="3566000" />
+      <workItem from="1489417938112" duration="700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181809000" />
+    <option name="totallyTimeSpent" value="197700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,16 +666,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="false" />
+    <frame x="-2" y="0" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19111349" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2012848" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2710496" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2710496" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -388,7 +685,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17993079" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995381" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -427,18 +724,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/data/cities.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/search.js" />
-    <entry file="file://$PROJECT_DIR$/app/scripts/global.js" />
-    <entry file="file://$PROJECT_DIR$/app/scripts/carousel.js" />
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js" />
-    <entry file="file://$PROJECT_DIR$/app/scripts/event-test-1.js" />
     <entry file="file://$PROJECT_DIR$/app/scripts/event-test-2.js" />
     <entry file="file://$PROJECT_DIR$/rollup.config.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -494,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2830">
-          <caret line="5857" column="21" lean-forward="false" selection-start-line="5857" selection-start-column="21" selection-end-line="5857" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/elements/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8712">
@@ -512,13 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/modules/video.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -540,13 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="0" column="8155" lean-forward="true" selection-start-line="0" selection-start-column="8155" selection-end-line="0" selection-end-column="8155" />
         </state>
       </provider>
     </entry>
@@ -577,27 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/en/careers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1870">
-          <caret line="0" column="256" lean-forward="false" selection-start-line="0" selection-start-column="256" selection-end-line="0" selection-end-column="256" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/fr/careers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="7" column="2145" lean-forward="false" selection-start-line="7" selection-start-column="2145" selection-end-line="7" selection-end-column="2145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13596">
-          <caret line="618" column="79" lean-forward="false" selection-start-line="618" selection-start-column="79" selection-end-line="618" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/modules/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -620,17 +863,184 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/careers.css" />
+    <entry file="file://$PROJECT_DIR$/app/styles/elements/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5214">
+          <caret line="237" column="0" lean-forward="true" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91322">
+          <caret line="4151" column="22" lean-forward="false" selection-start-line="4151" selection-start-column="22" selection-end-line="4151" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="0" column="120475" lean-forward="true" selection-start-line="0" selection-start-column="120475" selection-end-line="0" selection-end-column="120475" />
+        <state relative-caret-position="0">
+          <caret line="0" column="72965" lean-forward="false" selection-start-line="0" selection-start-column="72965" selection-end-line="0" selection-end-column="72965" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/_careers.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="4346" column="1" lean-forward="false" selection-start-line="4346" selection-start-column="1" selection-end-line="4346" selection-end-column="15" />
+        <state relative-caret-position="58696">
+          <caret line="2668" column="0" lean-forward="false" selection-start-line="2668" selection-start-column="0" selection-end-line="2668" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bc-sample-ie.html" />
+    <entry file="file://$PROJECT_DIR$/dist/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9872" lean-forward="false" selection-start-line="0" selection-start-column="9872" selection-end-line="0" selection-end-column="9872" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ie-11-video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/en/careers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16500">
+          <caret line="750" column="37" lean-forward="false" selection-start-line="750" selection-start-column="37" selection-end-line="750" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/fr/careers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17754">
+          <caret line="807" column="17" lean-forward="false" selection-start-line="807" selection-start-column="17" selection-end-line="807" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/chrome-video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3542">
+          <caret line="161" column="51" lean-forward="false" selection-start-line="161" selection-start-column="51" selection-end-line="161" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/modules/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="827" column="0" lean-forward="false" selection-start-line="827" selection-start-column="0" selection-end-line="827" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/fr/careers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5280">
+          <caret line="808" column="32" lean-forward="false" selection-start-line="808" selection-start-column="31" selection-end-line="808" selection-end-column="32" />
+          <folding>
+            <element signature="e#5517#5525#0" expanded="true" />
+            <element signature="e#6540#6548#0" expanded="true" />
+            <element signature="e#6590#6598#0" expanded="true" />
+            <element signature="e#6601#6609#0" expanded="true" />
+            <element signature="e#6624#6631#0" expanded="true" />
+            <element signature="e#7424#7432#0" expanded="true" />
+            <element signature="e#7468#7476#0" expanded="true" />
+            <element signature="e#7569#7577#0" expanded="true" />
+            <element signature="e#7589#7597#0" expanded="true" />
+            <element signature="e#7616#7624#0" expanded="true" />
+            <element signature="e#7847#7855#0" expanded="true" />
+            <element signature="e#8025#8033#0" expanded="true" />
+            <element signature="e#8380#8388#0" expanded="true" />
+            <element signature="e#8395#8403#0" expanded="true" />
+            <element signature="e#8410#8417#0" expanded="true" />
+            <element signature="e#8584#8592#0" expanded="true" />
+            <element signature="e#8607#8614#0" expanded="true" />
+            <element signature="e#8699#8707#0" expanded="true" />
+            <element signature="e#8739#8747#0" expanded="true" />
+            <element signature="e#8864#8872#0" expanded="true" />
+            <element signature="e#8906#8914#0" expanded="true" />
+            <element signature="e#8939#8947#0" expanded="true" />
+            <element signature="e#8948#8956#0" expanded="true" />
+            <element signature="e#9546#9554#0" expanded="true" />
+            <element signature="e#9730#9738#0" expanded="true" />
+            <element signature="e#9820#9827#0" expanded="true" />
+            <element signature="e#9892#9900#0" expanded="true" />
+            <element signature="e#10004#10012#0" expanded="true" />
+            <element signature="e#10221#10229#0" expanded="true" />
+            <element signature="e#10262#10270#0" expanded="true" />
+            <element signature="e#10323#10331#0" expanded="true" />
+            <element signature="e#10407#10415#0" expanded="true" />
+            <element signature="e#10515#10523#0" expanded="true" />
+            <element signature="e#10555#10562#0" expanded="true" />
+            <element signature="e#10582#10590#0" expanded="true" />
+            <element signature="e#10632#10639#0" expanded="true" />
+            <element signature="e#13187#13195#0" expanded="true" />
+            <element signature="e#14684#14692#0" expanded="true" />
+            <element signature="e#14693#14701#0" expanded="true" />
+            <element signature="e#14904#14912#0" expanded="true" />
+            <element signature="e#15011#15019#0" expanded="true" />
+            <element signature="e#15434#15442#0" expanded="true" />
+            <element signature="e#15451#15459#0" expanded="true" />
+            <element signature="e#15460#15468#0" expanded="true" />
+            <element signature="e#15730#15738#0" expanded="true" />
+            <element signature="e#15855#15863#0" expanded="true" />
+            <element signature="e#15923#15931#0" expanded="true" />
+            <element signature="e#16280#16288#0" expanded="true" />
+            <element signature="e#16627#16635#0" expanded="true" />
+            <element signature="e#16678#16686#0" expanded="true" />
+            <element signature="e#16772#16780#0" expanded="true" />
+            <element signature="e#17158#17166#0" expanded="true" />
+            <element signature="e#18220#18228#0" expanded="true" />
+            <element signature="e#18501#18509#0" expanded="true" />
+            <element signature="e#18558#18566#0" expanded="true" />
+            <element signature="e#18567#18575#0" expanded="true" />
+            <element signature="e#18664#18672#0" expanded="true" />
+            <element signature="e#18700#18708#0" expanded="true" />
+            <element signature="e#18709#18717#0" expanded="true" />
+            <element signature="e#18757#18765#0" expanded="true" />
+            <element signature="e#19090#19098#0" expanded="true" />
+            <element signature="e#19103#19111#0" expanded="true" />
+            <element signature="e#19117#19125#0" expanded="true" />
+            <element signature="e#19263#19270#0" expanded="true" />
+            <element signature="e#19271#19279#0" expanded="true" />
+            <element signature="e#19294#19302#0" expanded="true" />
+            <element signature="e#19813#19821#0" expanded="true" />
+            <element signature="e#19823#19831#0" expanded="true" />
+            <element signature="e#19871#19879#0" expanded="true" />
+            <element signature="e#19904#19911#0" expanded="true" />
+            <element signature="e#20057#20065#0" expanded="true" />
+            <element signature="e#20324#20332#0" expanded="true" />
+            <element signature="e#20333#20341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/en/careers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="753" column="48" lean-forward="true" selection-start-line="753" selection-start-column="48" selection-end-line="753" selection-end-column="48" />
+          <folding>
+            <element signature="e#2612#2620#0" expanded="true" />
+            <element signature="e#16869#16874#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

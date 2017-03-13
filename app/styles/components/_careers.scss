@@ -1686,13 +1686,13 @@ header {
     }
 
     button.close-button {
-      top: 10px;
+      top: 11px;
       right: 15px;
       width: 48px;
       height: 48px;
 
       &::before {
-        left: 2px;
+        left: 1px;
       }
     }
 
@@ -2652,7 +2652,7 @@ header {
         .button.sticky {
           padding-left: 2.7rem;
           padding-right: 2.7rem;
-          line-height: .5rem;
+          line-height: 1.2rem;
         }
       }
     }
@@ -4015,15 +4015,17 @@ header {
     display: none;
   }
 
+
+
   #modalOverlay {
     button.close-button {
-      top: 10px;
+      top: 11px;
       right: 15px;
       width: 48px;
       height: 48px;
 
       &::before {
-        left: 2px;
+        left: 1px;
       }
     }
     button.close-button span {
