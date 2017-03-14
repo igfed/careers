@@ -793,7 +793,7 @@ a:hover .tertiary-cta:before {
   background: black;
   height: 1.3px;
   margin-top: -2px;
-  margin-left: 3px;
+  margin-left: 4px;
 }
 
 .close-button::before {
@@ -3215,14 +3215,14 @@ header .link-list-horizontal li .fa {
 }
 
 .ig-careers #searchResultsModal button.close-button {
-  top: 10px;
+  top: 11px;
   right: 15px;
   width: 48px;
   height: 48px;
 }
 
 .ig-careers #searchResultsModal button.close-button::before {
-  left: 2px;
+  left: 1px;
 }
 
 .ig-careers #searchResultsModal button.close-button span {
@@ -4149,7 +4149,7 @@ header .link-list-horizontal li .fa {
 .ig-careers .section .feature-grid.feature-grid-small-collapse .button.sticky {
   padding-left: 2.7rem;
   padding-right: 2.7rem;
-  line-height: .5rem;
+  line-height: 1.2rem;
 }
 
 .ig-careers .section.profiles-slider {
@@ -5521,14 +5521,14 @@ header .link-list-horizontal li .fa {
 }
 
 .ig-careers #modalOverlay button.close-button {
-  top: 10px;
+  top: 11px;
   right: 15px;
   width: 48px;
   height: 48px;
 }
 
 .ig-careers #modalOverlay button.close-button::before {
-  left: 2px;
+  left: 1px;
 }
 
 .ig-careers #modalOverlay button.close-button span {
