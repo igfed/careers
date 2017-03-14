@@ -133,7 +133,7 @@ export default (() => {
         this.each(function () {
           var $blockLink = $(this),
             destination = $blockLink.find('a').attr('href');
-          // destination = '4442.aspx/' + destination;
+            destination = '4442.aspx/' + destination;
           initBlock();
 
           function initBlock() {
