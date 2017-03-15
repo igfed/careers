@@ -2,10 +2,114 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d4426c1-34c5-4294-b647-3f34d0ad74e6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/careers-en.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/careers-fr.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/data/cities.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/en/careers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/Whitney-medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-book-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-booksc-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-light-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-medium.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-medium.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-mediumsc.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/whitney-semibold-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fr/careers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Black-L.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Black-L.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Black-R.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Black-R.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Green-L.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Green-L.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Green-R.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Arrow-MainArticle-Carousel-Green-R.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/IG-logo-en.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/IG-logo-fr.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/IG_BW_EN.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/IG_BW_FR.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/Logo_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/amy-guenther.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/blades.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/careers_careerprogression_pick_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/careers_community_mapleleaf_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/careers_diversework_ring_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/careers_ouradvisors_compass_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/careers_ouradvisors_natfootprint_boots_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/careers_ourpeople_pindrop_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/careers_powerfulnetwork_carabiner_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/careers_trainingmentorship_2carabiner_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/error-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/fr-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/girish-agrawal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/green-paint-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/grey-edge-background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/hero_bg_1024.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/hero_bg_1024@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/hero_bg_1440.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/hero_bg_640@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/ig-social-header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/logo-en-bw.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/logo-en-color.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/logo-fr-bw.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/logo-fr-color.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/map-marker-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/people_1024.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/people_1440.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/people_640.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/search-icon-in-search-box.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/share-email-green.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/share-facebook-green.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/share-green.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/share-linkedin-green.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/share-twitter-green.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/socialfacebook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/sociallinkedin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/socialtwitter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/socialyoutube.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/throbber.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/timeline-foreground-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/timeline-foreground-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/timeline-foreground.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/video-overlay.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/vendor.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/careers-en.html" afterPath="$PROJECT_DIR$/app/careers-en.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/careers-fr.html" afterPath="$PROJECT_DIR$/app/careers-fr.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/main.js" afterPath="$PROJECT_DIR$/app/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/modules/app.js" afterPath="$PROJECT_DIR$/app/scripts/modules/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/modules/careers.js" afterPath="$PROJECT_DIR$/app/scripts/modules/careers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/main.js" afterPath="$PROJECT_DIR$/dist/scripts/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,58 +133,147 @@
       <file leaf-file-name="careers-en.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/careers-en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22418">
-              <caret line="1019" column="69" lean-forward="false" selection-start-line="1019" selection-start-column="69" selection-end-line="1019" selection-end-column="69" />
+            <state relative-caret-position="12826">
+              <caret line="583" column="69" lean-forward="false" selection-start-line="583" selection-start-column="22" selection-end-line="583" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="careers-fr.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/careers-fr.html">
+      <file leaf-file-name="careers-en.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/careers-en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25410">
-              <caret line="1155" column="27" lean-forward="false" selection-start-line="1155" selection-start-column="27" selection-end-line="1155" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="16786">
+              <caret line="763" column="42" lean-forward="false" selection-start-line="763" selection-start-column="42" selection-end-line="763" selection-end-column="42" />
+              <folding>
+                <element signature="e#2647#2655#0" expanded="true" />
+                <element signature="e#16904#16909#0" expanded="true" />
+                <element signature="e#25254#25262#0" expanded="true" />
+                <element signature="e#25265#25273#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_careers.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/components/_careers.scss">
+      <file leaf-file-name="careers-fr.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/careers-fr.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49038">
-              <caret line="2229" column="9" lean-forward="false" selection-start-line="2229" selection-start-column="9" selection-end-line="2229" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="220">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <element signature="e#5552#5560#0" expanded="true" />
+                <element signature="e#6575#6583#0" expanded="true" />
+                <element signature="e#6625#6633#0" expanded="true" />
+                <element signature="e#6636#6644#0" expanded="true" />
+                <element signature="e#6659#6666#0" expanded="true" />
+                <element signature="e#7459#7467#0" expanded="true" />
+                <element signature="e#7503#7511#0" expanded="true" />
+                <element signature="e#7604#7612#0" expanded="true" />
+                <element signature="e#7624#7632#0" expanded="true" />
+                <element signature="e#7651#7659#0" expanded="true" />
+                <element signature="e#7882#7890#0" expanded="true" />
+                <element signature="e#8060#8068#0" expanded="true" />
+                <element signature="e#8415#8423#0" expanded="true" />
+                <element signature="e#8430#8438#0" expanded="true" />
+                <element signature="e#8445#8452#0" expanded="true" />
+                <element signature="e#8619#8627#0" expanded="true" />
+                <element signature="e#8642#8649#0" expanded="true" />
+                <element signature="e#8734#8742#0" expanded="true" />
+                <element signature="e#8774#8782#0" expanded="true" />
+                <element signature="e#8899#8907#0" expanded="true" />
+                <element signature="e#8941#8949#0" expanded="true" />
+                <element signature="e#8974#8982#0" expanded="true" />
+                <element signature="e#8983#8991#0" expanded="true" />
+                <element signature="e#9581#9589#0" expanded="true" />
+                <element signature="e#9765#9773#0" expanded="true" />
+                <element signature="e#9855#9862#0" expanded="true" />
+                <element signature="e#9927#9935#0" expanded="true" />
+                <element signature="e#10039#10047#0" expanded="true" />
+                <element signature="e#10256#10264#0" expanded="true" />
+                <element signature="e#10297#10305#0" expanded="true" />
+                <element signature="e#10358#10366#0" expanded="true" />
+                <element signature="e#10442#10450#0" expanded="true" />
+                <element signature="e#10550#10558#0" expanded="true" />
+                <element signature="e#10590#10597#0" expanded="true" />
+                <element signature="e#10617#10625#0" expanded="true" />
+                <element signature="e#10667#10674#0" expanded="true" />
+                <element signature="e#13222#13230#0" expanded="true" />
+                <element signature="e#14719#14727#0" expanded="true" />
+                <element signature="e#14728#14736#0" expanded="true" />
+                <element signature="e#14939#14947#0" expanded="true" />
+                <element signature="e#15046#15054#0" expanded="true" />
+                <element signature="e#15469#15477#0" expanded="true" />
+                <element signature="e#15486#15494#0" expanded="true" />
+                <element signature="e#15495#15503#0" expanded="true" />
+                <element signature="e#15765#15773#0" expanded="true" />
+                <element signature="e#15890#15898#0" expanded="true" />
+                <element signature="e#15958#15966#0" expanded="true" />
+                <element signature="e#16315#16323#0" expanded="true" />
+                <element signature="e#16662#16670#0" expanded="true" />
+                <element signature="e#16713#16721#0" expanded="true" />
+                <element signature="e#16807#16815#0" expanded="true" />
+                <element signature="e#17193#17201#0" expanded="true" />
+                <element signature="e#18255#18263#0" expanded="true" />
+                <element signature="e#18536#18544#0" expanded="true" />
+                <element signature="e#18593#18601#0" expanded="true" />
+                <element signature="e#18602#18610#0" expanded="true" />
+                <element signature="e#18699#18707#0" expanded="true" />
+                <element signature="e#18735#18743#0" expanded="true" />
+                <element signature="e#18744#18752#0" expanded="true" />
+                <element signature="e#18792#18800#0" expanded="true" />
+                <element signature="e#19125#19133#0" expanded="true" />
+                <element signature="e#19138#19146#0" expanded="true" />
+                <element signature="e#19152#19160#0" expanded="true" />
+                <element signature="e#19298#19305#0" expanded="true" />
+                <element signature="e#19306#19314#0" expanded="true" />
+                <element signature="e#19329#19337#0" expanded="true" />
+                <element signature="e#19848#19856#0" expanded="true" />
+                <element signature="e#19858#19866#0" expanded="true" />
+                <element signature="e#19906#19914#0" expanded="true" />
+                <element signature="e#19939#19946#0" expanded="true" />
+                <element signature="e#20092#20100#0" expanded="true" />
+                <element signature="e#20359#20367#0" expanded="true" />
+                <element signature="e#20368#20376#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="careers.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/en/careers.html">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16764">
-              <caret line="762" column="16" lean-forward="false" selection-start-line="762" selection-start-column="16" selection-end-line="762" selection-end-column="16" />
+            <state relative-caret-position="22022">
+              <caret line="1001" column="0" lean-forward="false" selection-start-line="1001" selection-start-column="0" selection-end-line="1001" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="careers.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/fr/careers.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/modules/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="594">
+              <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="global.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/modules/global.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/modules/video.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            <state relative-caret-position="550">
+              <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -89,18 +282,18 @@
       <file leaf-file-name="careers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/modules/careers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="108" column="26" lean-forward="false" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
+            <state relative-caret-position="9724">
+              <caret line="442" column="0" lean-forward="false" selection-start-line="442" selection-start-column="0" selection-end-line="442" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/scripts/main.js">
+      <file leaf-file-name="forms.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/modules/forms.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="0" column="4043" lean-forward="false" selection-start-line="0" selection-start-column="4043" selection-end-line="0" selection-end-column="4043" />
+            <state relative-caret-position="176">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -118,15 +311,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>src=</find>
-      <find>src=&quot;</find>
-      <find>main.css</find>
-      <find>vendor.js</find>
-      <find>text-transform: in</find>
-      <find>findan</find>
-      <find>find</find>
-      <find>footer</find>
-      <find>top:</find>
       <find>close-b</find>
       <find>left: 2px</find>
       <find>top:10px</find>
@@ -147,7 +331,16 @@
       <find>p.tp_05a</find>
       <find>feature-grid</find>
       <find>.buttons-column</find>
+      <find>twitter</find>
       <find>4442</find>
+      <find>../im</find>
+      <find>data-tra</find>
+      <find>../</find>
+      <find>lang</find>
+      <find>da</find>
+      <find>image</find>
+      <find>src=</find>
+      <find>dam</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;../fonts</replace>
@@ -208,16 +401,11 @@
         <option value="$PROJECT_DIR$/../../../ADOM/adom_steam/adom.kbd" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/scripts/modules/search.js" />
-        <option value="$PROJECT_DIR$/app/scripts/modules/app.js" />
         <option value="$PROJECT_DIR$/app/styles/modules/_footer.scss" />
         <option value="$PROJECT_DIR$/app/fr-footer" />
         <option value="$PROJECT_DIR$/app/en-footer.html" />
         <option value="$PROJECT_DIR$/app/fr-footer.html" />
-        <option value="$PROJECT_DIR$/app/careers-en.html" />
-        <option value="$PROJECT_DIR$/app/careers-fr.html" />
         <option value="$PROJECT_DIR$/app/scripts/modules/carousel.js" />
-        <option value="$PROJECT_DIR$/dist/careers-fr.html" />
-        <option value="$PROJECT_DIR$/dist/careers-en.html" />
         <option value="$PROJECT_DIR$/app/styles/elements/_buttons.scss" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/dist/styles/main.css" />
@@ -225,15 +413,20 @@
         <option value="$PROJECT_DIR$/app/styles/bc-sample-ie.html" />
         <option value="$PROJECT_DIR$/dist/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/ie-11-video.html" />
-        <option value="$PROJECT_DIR$/app/scripts/main.js" />
-        <option value="$PROJECT_DIR$/app/scripts/modules/video.js" />
         <option value="$PROJECT_DIR$/dist/en/careers-en.html" />
         <option value="$PROJECT_DIR$/dist/fr/careers-fr.html" />
         <option value="$PROJECT_DIR$/app/styles/components/_careers.scss" />
         <option value="$PROJECT_DIR$/dist/en/careers.html" />
         <option value="$PROJECT_DIR$/dist/fr/careers.html" />
-        <option value="$PROJECT_DIR$/app/scripts/modules/careers.js" />
         <option value="$PROJECT_DIR$/dist/scripts/temp.html" />
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
+        <option value="$PROJECT_DIR$/app/scripts/modules/app.js" />
+        <option value="$PROJECT_DIR$/app/careers-fr.html" />
+        <option value="$PROJECT_DIR$/app/careers-en.html" />
+        <option value="$PROJECT_DIR$/app/scripts/modules/video.js" />
+        <option value="$PROJECT_DIR$/app/scripts/modules/careers.js" />
+        <option value="$PROJECT_DIR$/dist/careers-en.html" />
+        <option value="$PROJECT_DIR$/dist/careers-fr.html" />
       </list>
     </option>
   </component>
@@ -270,7 +463,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,117 +525,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="careers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -608,11 +693,13 @@
       <workItem from="1489425376540" duration="7000" />
       <workItem from="1489425544690" duration="3497000" />
       <workItem from="1489498645147" duration="4199000" />
+      <workItem from="1489513333662" duration="7283000" />
+      <workItem from="1489586785484" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208828000" />
+    <option name="totallyTimeSpent" value="216125000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -624,28 +711,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21199143" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21734476" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2710496" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995381" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17993079" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17993079" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995381" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -682,9 +769,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/styles/modules/_accordion.scss" />
-    <entry file="file://$PROJECT_DIR$/app/templates/content/homepage.md" />
-    <entry file="file://$PROJECT_DIR$/app/templates/index.html" />
     <entry file="file://$PROJECT_DIR$/app/styles/settings/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -735,13 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/modules/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/data/cities.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -760,13 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/modules/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -814,30 +884,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/bc-sample-ie.html" />
     <entry file="file://$PROJECT_DIR$/app/ie-11-video.html" />
-    <entry file="file://$PROJECT_DIR$/dist/en/careers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16500">
-          <caret line="750" column="37" lean-forward="false" selection-start-line="750" selection-start-column="37" selection-end-line="750" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/fr/careers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17754">
-          <caret line="807" column="17" lean-forward="false" selection-start-line="807" selection-start-column="17" selection-end-line="807" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/en/careers.html" />
+    <entry file="file://$PROJECT_DIR$/dist/fr/careers.html" />
     <entry file="file://$PROJECT_DIR$/app/chrome-video.html" />
-    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18194">
-          <caret line="827" column="0" lean-forward="false" selection-start-line="827" selection-start-column="0" selection-end-line="827" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/scripts/vendor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -845,38 +894,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/careers-en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22418">
-          <caret line="1019" column="69" lean-forward="false" selection-start-line="1019" selection-start-column="69" selection-end-line="1019" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/careers-fr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25410">
-          <caret line="1155" column="27" lean-forward="false" selection-start-line="1155" selection-start-column="27" selection-end-line="1155" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/_careers.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="49038">
           <caret line="2229" column="9" lean-forward="false" selection-start-line="2229" selection-start-column="9" selection-end-line="2229" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/en/careers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16764">
-          <caret line="762" column="16" lean-forward="false" selection-start-line="762" selection-start-column="16" selection-end-line="762" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/en/careers.html" />
     <entry file="file://$PROJECT_DIR$/../../AEM/docs/Develop Websites/Lab Files/Chapter 5 Introduction to Content Rendering/Lab Acitivity - II/Task - Create a Page-rendering Component/contentpage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -884,43 +909,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/fr/careers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/modules/careers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="108" column="26" lean-forward="false" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/fr/careers.html" />
     <entry file="file://$PROJECT_DIR$/dist/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="0">
           <caret line="0" column="4043" lean-forward="false" selection-start-line="0" selection-start-column="4043" selection-end-line="0" selection-end-column="4043" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scripts/temp.html" />
+    <entry file="file://$PROJECT_DIR$/app/scripts/modules/forms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/scripts/temp.html">
+    <entry file="file://$PROJECT_DIR$/app/scripts/modules/global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="446" lean-forward="false" selection-start-line="2" selection-start-column="433" selection-end-line="2" selection-end-column="446" />
+        <state relative-caret-position="264">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/modules/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/careers-en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12826">
+          <caret line="583" column="69" lean-forward="false" selection-start-line="583" selection-start-column="22" selection-end-line="583" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/modules/video.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="550">
+          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/modules/careers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9724">
+          <caret line="442" column="0" lean-forward="false" selection-start-line="442" selection-start-column="0" selection-end-line="442" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/careers-en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16786">
+          <caret line="763" column="42" lean-forward="false" selection-start-line="763" selection-start-column="42" selection-end-line="763" selection-end-column="42" />
+          <folding>
+            <element signature="e#2647#2655#0" expanded="true" />
+            <element signature="e#16904#16909#0" expanded="true" />
+            <element signature="e#25254#25262#0" expanded="true" />
+            <element signature="e#25265#25273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/careers-fr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="1169" column="0" lean-forward="true" selection-start-line="1169" selection-start-column="0" selection-end-line="1169" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22022">
+          <caret line="1001" column="0" lean-forward="false" selection-start-line="1001" selection-start-column="0" selection-end-line="1001" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/careers-fr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#5552#5560#0" expanded="true" />
+            <element signature="e#6575#6583#0" expanded="true" />
+            <element signature="e#6625#6633#0" expanded="true" />
+            <element signature="e#6636#6644#0" expanded="true" />
+            <element signature="e#6659#6666#0" expanded="true" />
+            <element signature="e#7459#7467#0" expanded="true" />
+            <element signature="e#7503#7511#0" expanded="true" />
+            <element signature="e#7604#7612#0" expanded="true" />
+            <element signature="e#7624#7632#0" expanded="true" />
+            <element signature="e#7651#7659#0" expanded="true" />
+            <element signature="e#7882#7890#0" expanded="true" />
+            <element signature="e#8060#8068#0" expanded="true" />
+            <element signature="e#8415#8423#0" expanded="true" />
+            <element signature="e#8430#8438#0" expanded="true" />
+            <element signature="e#8445#8452#0" expanded="true" />
+            <element signature="e#8619#8627#0" expanded="true" />
+            <element signature="e#8642#8649#0" expanded="true" />
+            <element signature="e#8734#8742#0" expanded="true" />
+            <element signature="e#8774#8782#0" expanded="true" />
+            <element signature="e#8899#8907#0" expanded="true" />
+            <element signature="e#8941#8949#0" expanded="true" />
+            <element signature="e#8974#8982#0" expanded="true" />
+            <element signature="e#8983#8991#0" expanded="true" />
+            <element signature="e#9581#9589#0" expanded="true" />
+            <element signature="e#9765#9773#0" expanded="true" />
+            <element signature="e#9855#9862#0" expanded="true" />
+            <element signature="e#9927#9935#0" expanded="true" />
+            <element signature="e#10039#10047#0" expanded="true" />
+            <element signature="e#10256#10264#0" expanded="true" />
+            <element signature="e#10297#10305#0" expanded="true" />
+            <element signature="e#10358#10366#0" expanded="true" />
+            <element signature="e#10442#10450#0" expanded="true" />
+            <element signature="e#10550#10558#0" expanded="true" />
+            <element signature="e#10590#10597#0" expanded="true" />
+            <element signature="e#10617#10625#0" expanded="true" />
+            <element signature="e#10667#10674#0" expanded="true" />
+            <element signature="e#13222#13230#0" expanded="true" />
+            <element signature="e#14719#14727#0" expanded="true" />
+            <element signature="e#14728#14736#0" expanded="true" />
+            <element signature="e#14939#14947#0" expanded="true" />
+            <element signature="e#15046#15054#0" expanded="true" />
+            <element signature="e#15469#15477#0" expanded="true" />
+            <element signature="e#15486#15494#0" expanded="true" />
+            <element signature="e#15495#15503#0" expanded="true" />
+            <element signature="e#15765#15773#0" expanded="true" />
+            <element signature="e#15890#15898#0" expanded="true" />
+            <element signature="e#15958#15966#0" expanded="true" />
+            <element signature="e#16315#16323#0" expanded="true" />
+            <element signature="e#16662#16670#0" expanded="true" />
+            <element signature="e#16713#16721#0" expanded="true" />
+            <element signature="e#16807#16815#0" expanded="true" />
+            <element signature="e#17193#17201#0" expanded="true" />
+            <element signature="e#18255#18263#0" expanded="true" />
+            <element signature="e#18536#18544#0" expanded="true" />
+            <element signature="e#18593#18601#0" expanded="true" />
+            <element signature="e#18602#18610#0" expanded="true" />
+            <element signature="e#18699#18707#0" expanded="true" />
+            <element signature="e#18735#18743#0" expanded="true" />
+            <element signature="e#18744#18752#0" expanded="true" />
+            <element signature="e#18792#18800#0" expanded="true" />
+            <element signature="e#19125#19133#0" expanded="true" />
+            <element signature="e#19138#19146#0" expanded="true" />
+            <element signature="e#19152#19160#0" expanded="true" />
+            <element signature="e#19298#19305#0" expanded="true" />
+            <element signature="e#19306#19314#0" expanded="true" />
+            <element signature="e#19329#19337#0" expanded="true" />
+            <element signature="e#19848#19856#0" expanded="true" />
+            <element signature="e#19858#19866#0" expanded="true" />
+            <element signature="e#19906#19914#0" expanded="true" />
+            <element signature="e#19939#19946#0" expanded="true" />
+            <element signature="e#20092#20100#0" expanded="true" />
+            <element signature="e#20359#20367#0" expanded="true" />
+            <element signature="e#20368#20376#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
