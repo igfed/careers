@@ -18,10 +18,6 @@ import video from './video.js';
 import search from './search.js';
 import * as ig from './global.js';
 
-// Event Emitter test modules
-// import evt1 from './event-test-1.js';
-// import evt2 from './event-test-2.js';
-
 const app = (() => {
     function init() {
 
@@ -35,19 +31,9 @@ const app = (() => {
         if ($('.ig-careers').length) careers.init();
         if ($('.ig-video-group').length) video.init();
 
-        // Components can also be setup to receive an HTML 'scope' (.ig-evt1... .ig-evt2.... etc)
-        if ($('.ig-evt1').length) evt1.init('.ig-evt1');
-        if ($('.ig-evt2').length) evt2.init('.ig-evt2');
-
         // Add language class to body
         //_language();
     }
-
-    // Let's use a global variable (global as in available to all our components - not the window object!)
-    // to add a class to the body tag
-    // function _language() {
-    //     $('body').addClass(ig.lang);
-    // }
 
     return {
         init
