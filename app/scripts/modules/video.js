@@ -22,7 +22,7 @@ export default (() => {
       }, 500);
 
       // Function for checking if video's have scrolled off screen and need to be paused
-      //_viewStatus();
+      _viewStatus();
     }
   }
 
