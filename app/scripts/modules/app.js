@@ -16,31 +16,34 @@ import carousel from './carousel.js';
 import careers from './careers.js';
 import video from './video.js';
 import search from './search.js';
+import modal from './modal.js';
 import * as ig from './global.js';
 
 const app = (() => {
-    function init() {
+  function init() {
 
-        // Initialize Foundation
-        $(document).foundation();
+    // Initialize Foundation
+    $(document).foundation();
 
-        // Check for components
-        if ($('.ig-form').length) forms.init();
-        if ($('.ig-carousel').length) carousel.init();
-        if ($('.ig-search').length) search.init();
-        if ($('.ig-careers').length) careers.init();
-        if ($('.ig-video-group').length) video.init();
+    // Check for components
+    if ($('.ig-form').length) forms.init();
+    if ($('.ig-carousel').length) carousel.init();
+    if ($('.ig-search').length) search.init();
+    if ($('.ig-careers').length) careers.init();
+    if ($('.ig-video-group').length) video.init();
+    // Following is only for Adobe Analytics
+    modal.init();
 
-        // Add language class to body
-        //_language();
-    }
+    // Add language class to body
+    //_language();
+  }
 
-    return {
-        init
-    }
+  return {
+    init
+  }
 })();
 
 // Bootstrap app
 $(document).ready(function () {
-    app.init();
+  app.init();
 });
