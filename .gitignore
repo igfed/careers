@@ -7,3 +7,5 @@ debug.log
 .DS_Store
 gh-pages
 .idea
+.history
+.vscode

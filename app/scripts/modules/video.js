@@ -1,6 +1,6 @@
 import * as ig from './global.js';
 
-export default (() => {
+export default ((window) => {
 
   var videoIDs = [],
     players = [],
@@ -8,7 +8,6 @@ export default (() => {
     $video;
 
   function init() {
-
     _parseVideos();
 
     if (!ig.oldIE) {
@@ -51,9 +50,9 @@ export default (() => {
         } else {
 
           // Capture options that are used with modern browsers
-          data.overlay = $video.data('overlay')
-            ? $video.data('overlay')
-            : '';
+          data.overlay = $video.data('overlay') ?
+            $video.data('overlay') :
+            '';
           data.auto = $video.data('autoplay') ? 'autoplay' : '';
           data.preload = (preloadOptions.indexOf($video.data('preload')) > -1) ? $video.data('preload') : 'auto';
           data.transcript = $video.data('transcript') ? $video.data(
@@ -62,7 +61,9 @@ export default (() => {
             'ctaTemplate') : '';
 
           // Store ID's for all video's on the page - in case we want to run a post-load process on each
-          videoIDs.push(data.id);
+          if (videoIDs.indexOf(data.id) === -1) {
+            videoIDs.push(data.id);
+          }
 
           // Let's replace the ig-video-js 'directive' with the necessary Brightcove code
           _injectTemplate(data, index);
@@ -78,7 +79,10 @@ export default (() => {
   }
 
   function _injectTemplate(data, index) {
-    var transcriptText = { 'en': 'Transcript', 'fr': 'Transcription' },
+    var transcriptText = {
+        'en': 'Transcript',
+        'fr': 'Transcription'
+      },
       html = `<div class="video-container ${data.id}"><div class="video-container-responsive">`;
 
     if (data.ctaTemplate.length > 0) {
@@ -91,7 +95,7 @@ export default (() => {
     if (data.transcript.length > 0) {
       html += `<div class="video-transcript"><a target="_blank" href="${data.transcript}">${transcriptText[ig.lang]}</a></div>`;
     }
-    html += `</div><h2 class="video-title">${data.title}</h2><p class="video-description">${data.description}</p>`;
+    html += `</div><h2 class="video-title ${data.id}">${data.title}</h2><p class="video-description">${data.description}</p>`;
     $video = $video.replaceWith(html);
 
     if (data.overlay) {
@@ -107,7 +111,7 @@ export default (() => {
       <iframe class="video-js" src='//players.brightcove.net/3906942861001/${data.player}_default/index.html?videoId=${data.id}'
     allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
     </div>
-    </div><h2 class="video-title">${data.title}</h2><p class="video-description">${data.description}</p>`;
+    </div><h2 class="video-title ${data.id}">${data.title}</h2><p class="video-description">${data.description}</p>`;
     $video = $video.replaceWith(html);
   }
 
@@ -133,6 +137,14 @@ export default (() => {
   }
 
   function _onPlay(e) {
+    // Adobe Analytics
+    if (!$('.' + e.target.id).hasClass('played')) {
+      $('.' + e.target.id).addClass('played');
+      window.digitalData.event.id = e.target.id;
+      window.digitalData.event.title = _retrieveTitle(e.target.id);
+      _satellite.track('video_start');
+    }
+
     // determine which player the event is coming from
     var id = e.target.id;
     // go through players
@@ -145,6 +157,11 @@ export default (() => {
   }
 
   function _onComplete(e) {
+    // Adobe Analytics
+    window.digitalData.event.id = e.target.id;
+    window.digitalData.event.title = _retrieveTitle(e.target.id);
+    _satellite.track('video_end');
+
     $('.' + e.target.id).addClass('complete');
   }
 
@@ -158,7 +175,11 @@ export default (() => {
     });
   }
 
+  function _retrieveTitle(id) {
+    return $('.video-title.' + id).first().text();
+  }
+
   return {
     init,
   };
-})();
+})(window);

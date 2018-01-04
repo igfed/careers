@@ -11,6 +11,11 @@
  styles for each language.
  */
 
+// Init Satellite and event object
+window._satellite = window._satellite || {};
+window._satellite.track = window._satellite.track || function () {};
+window.digitalData.event = {};
+
 import forms from './forms.js';
 import carousel from './carousel.js';
 import careers from './careers.js';
@@ -33,9 +38,6 @@ const app = (() => {
     if ($('.ig-video-group').length) video.init();
     // Following is only for Adobe Analytics
     modal.init();
-
-    // Add language class to body
-    //_language();
   }
 
   return {

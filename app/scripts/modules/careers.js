@@ -1,6 +1,6 @@
 import * as ig from './global.js';
 
-export default (() => {
+export default ((window) => {
 
     function init() {
 
@@ -233,6 +233,9 @@ export default (() => {
                     $('#edge-overlay-content').find('.carousel-next').on('click', function (event) {
                         event.preventDefault();
                         $overlaySlider.slick('slickNext');
+
+                        _satellite.track('carousel_scroll');
+
                     });
 
                     if ($(".video-slide.slick-active").length) {
@@ -589,4 +592,4 @@ export default (() => {
     return {
         init
     };
-})()
+})(window)

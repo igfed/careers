@@ -8,7 +8,7 @@ export default (() => {
 
   function _searchLegacyCode() {
 
-// GLOBALS
+    // GLOBALS
     var modelUrl = 'https://search.investorsgroup.com/api/cwpsearch?';
     var $field = $('#FindAnOffice');
     var lang = 'en';
@@ -16,7 +16,7 @@ export default (() => {
       lang = 'fr';
     }
 
-// Process the local prefetched data
+    // Process the local prefetched data
     var suggestions = {};
     var cities = [
       "athabasca",
@@ -322,7 +322,7 @@ export default (() => {
       local: cities
     });
 
-// Get the results
+    // Get the results
     function getSearchResults(params) {
       params.searchtype = 'office';
       params.name = '';
@@ -334,6 +334,13 @@ export default (() => {
         .always()
         .done(function (data) {
           var result = JSON.parse(data);
+
+          // Adobe Analytics
+          window.digitalData.event.searchResults = result.length > 0 ? result.length : 0;
+          window.digitalData.event.searchType = 'careers';
+          window.digitalData.event.searchTerm = $field.val();
+          _satellite.track('search_careers');
+
           if (result.length) {
             $('body').addClass('is-reveal-open');
             $('#searchResultsModal').removeClass('closed').html('');
@@ -348,7 +355,7 @@ export default (() => {
 
     }
 
-// Because we are only searching for cities, this function is slightly redundant - leaving it in place for now
+    // Because we are only searching for cities, this function is slightly redundant - leaving it in place for now
     function parseSearchString() {
       var result = {};
       var search = $field.val();
@@ -386,15 +393,17 @@ export default (() => {
       $(document).foundation();
     }
 
-//Init everything
+    //Init everything
     $(function () {
       // Try to predetermine what results should show
       // Setup the typeahead
       $('.typeahead').typeahead({
-          highlight: true
-        },
-        {name: 'locations', source: suggestions.locations, limit: 2}
-      );
+        highlight: true
+      }, {
+        name: 'locations',
+        source: suggestions.locations,
+        limit: 2
+      });
 
       // Setup the form submission
       $('.ig-search').submit(function (e) {
