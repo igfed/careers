@@ -6,4 +6,5 @@ styleguide
 debug.log
 .DS_Store
 gh-pages
+.history
 .idea
